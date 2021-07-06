@@ -1,0 +1,30 @@
+// =============================================================================
+// > LAYOUTS: SITE HEADER
+// =============================================================================
+
+.site-header
+    z-index: 999
+    +fixed(left 0)
+    padding: spacing(sm)
+    +font(12px white regular uppercase)
+    letter-spacing: 1px
+
+
+    &--top
+        top: 0
+    &--bottom
+        bottom: 0
+
+
+    // ==================================================
+    // > BRAND
+    // ==================================================
+    &__item
+        display: block
+
+        &__lighter
+            opacity: .4
+            padding-right: 5px
+
+        &__smaller
+            +font(10px white)

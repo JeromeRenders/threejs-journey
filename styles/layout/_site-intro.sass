@@ -1,0 +1,40 @@
+// =============================================================================
+// > LAYOUTS : SITE INTRO
+// =============================================================================
+
+.site-intro
+    position: relative
+    height: 100vh
+    +flex(row wrap, center, center)
+
+    +screen(sm)
+        height: auto
+
+    .container
+        margin: inherit
+
+
+    &__wrapper
+        +flex(row-reverse wrap, center, center)
+
+        +screen(sm)
+            flex-direction: column
+
+    &__visual
+        flex: 0 0 600px
+        +size(600px)
+        background: rgba(white, .1)
+        cursor: pointer
+
+        +screen(sm)
+            flex: 1
+
+    &__desc
+        flex: 1
+        padding-right: 50px
+
+    &__title
+        +font(60px 0.9)
+
+        +screen(sm)
+            +font(40px 1)

@@ -1,0 +1,88 @@
+// =============================================================================
+// > ASSETS: VARIABLES
+// =============================================================================
+
+// ==================================================
+// > COLORS
+// ==================================================
+// Usage : color(primary)
+$colors: (
+    // Project
+    primary:     #8abd90,
+    secondary:   #ca3a3d,
+
+    // Texts
+    text:        #ffffff,
+
+    // Greys
+    light-grey:  #f8f7f7,
+    medium-grey: #b3b3b3,
+    dark-grey:   #111111,
+    white:       #fff,
+    black:       #111
+);
+
+
+// ==================================================
+// > FONTS
+// ==================================================
+$fonts: (
+    "EBGaramond-Regular",
+    "EBGaramond-Bold",
+
+    "Poppins-Bold",
+    "Poppins-ExtraBold",
+);
+
+// Usage : font(regular)
+$fonts-stacks: (
+    regular:         ("EBGaramond-Regular", "EBGaramond-Light", "Times New Roman", serif),
+    bold:            ("EBGaramond-Bold", "EBGaramond-Regular", "Times New Roman", serif),
+
+    title-bold:      ("Poppins-Bold", "Arial", sans-serif),
+    title-extrabold: ("Poppins-ExtraBold", "Poppins-Bold", "Arial", sans-serif),
+);
+
+
+// ==================================================
+// > BREAKPOINTS
+// ==================================================
+// Usage : breakpoint(md) / container(sm)
+$responsive: (
+    md: (
+        breakpoint: null,
+        container: 960px
+    ),
+    sm: (
+        breakpoint: 1040px,
+        container: 600px
+    ),
+    xs: (
+        breakpoint: 640px,
+        container: 300px
+    )
+);
+
+
+// ==================================================
+// > SPACING
+// ==================================================
+// Usage : spacing(xs)
+$spacing: (
+    no: 0px,
+    xs: 12px,
+    sm: 24px,
+    ms: 30px,
+    md: 60px,
+    lg: 120px,
+    xl: 240px
+);
+
+
+// ==================================================
+// > EASINGS
+// ==================================================
+// Usage : easing(bounce)
+$easing: (
+    bounce: cubic-bezier(0.680, -0.550, 0.265, 1.550)
+)

@@ -1,0 +1,75 @@
+doctype html
+
+//- ==================================================
+//- > VARIABLES
+//- ==================================================
+block vars
+    - var body_classes = "page"
+
+html(lang="en")
+
+    //- =============================================================================
+    //- > HEAD
+    //- =============================================================================
+    head
+        base(href=baseurl)
+
+        meta(charset="UTF-8")
+        meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+        title Index | THREE.JS Journey
+        meta(name="description" content="")
+        meta(name="robots" content="noindex")
+
+        link(href="build/css/bundle.css?v="+version, rel="stylesheet")
+
+        block head
+
+
+    //- =============================================================================
+    //- > BODY
+    //- =============================================================================
+    body(class=body_classes)
+
+        //- ==================================================
+        //- > SITE
+        //- ==================================================
+        block site
+            .site
+
+                //- ==================================================
+                //- > HEADER
+                //- ==================================================
+                block header
+
+
+                //- ==================================================
+                //- > CONTENT
+                //- ==================================================
+                block main
+                    main.site-main(role="main")
+
+                        block intro
+
+                        block content
+
+
+                //- ==================================================
+                //- > FOOTER
+                //- ==================================================
+                block footer
+                    //- footer.site-footer(role="contentinfo"): .container
+                    //-     p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum doloribus alias esse fugiat laborum amet nam consequatur, vitae enim dolore provident commodi nostrum ex laboriosam optio perferendis error suscipit quidem.
+
+
+                //- ==================================================
+                //- > CURSOR
+                //- ==================================================
+                block cursor
+                    .site-cursor.site-cursor--point
+                    .site-cursor.site-cursor--circle
+
+
+        script(src="build/js/bundle.js?v="+version type="text/javascript")

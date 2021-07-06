@@ -1,0 +1,17 @@
+// =============================================================================
+// > LAYOUTS: MODULES - GUI: BACKGROUNDS
+// =============================================================================
+
+.particles
+    @extend %cover
+
+    &__wrapper
+        position: relative
+        +flex(row wrap, center, center)
+        +size(100%, 100vh)
+
+        .container
+            margin: inherit
+
+    &__map
+        display: none

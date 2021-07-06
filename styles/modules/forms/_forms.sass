@@ -1,0 +1,160 @@
+// =============================================================================
+// > LAYOUTS: MODULES - FORMS
+// =============================================================================
+
+$input-height: 48px
+$input-background: white
+$input-border-radius: 0
+$input-border: 1px solid lighten(color(dark-grey), 50%)
+$input-padding: 20px
+$input-color: color(text)
+
+// ==================================================
+// > FORM
+// ==================================================
+form,
+.form
+
+    .hidden-wrap
+        display: none
+
+
+// ==================================================
+// > FIELDSET
+// ==================================================
+fieldset,
+.form__fieldset
+    margin-bottom: spacing(sm)
+
+
+// ==================================================
+// > ERRORS
+// ==================================================
+.form__error
+    +font(12px right error bold)
+    margin: 0
+
+
+
+// ==================================================
+// > LABEL
+// ==================================================
+label,
+.form__label
+    +font(15px bold)
+    cursor: pointer
+    margin-bottom: 5px
+    display: inline-block
+    &.is-required::after
+        content: " *"
+        +font(error)
+
+// ==================================================
+// > PLACEHOLDERS
+// ==================================================
+%input
+    +placeholder
+        +font(light rgba(color(text), .3))
+
+// ==================================================
+// > INPUT
+// ==================================================
+%input
+    +size(100%, $input-height)
+    +font(16px $input-height $input-color)
+    background: $input-background
+    border: $input-border
+    padding: 0 $input-padding
+    border-radius: $input-border-radius
+    resize: none
+    &.no-border
+        border: 0
+    &.has-error
+        border-color: color(error)
+
+input
+    @extend %input
+
+// ==================================================
+// > TEXTAREA
+// ==================================================
+textarea
+    @extend %input
+    min-height: 200px
+    padding: 10px $input-padding
+    line-height: 1.2
+    display: block
+    margin: 0
+
+
+// ==================================================
+// > RADIO / CHECKBOX
+// ==================================================
+input[type="radio"],
+input[type="checkbox"]
+    +size(18px)
+    appearance: none
+    position: relative
+    margin: 0 5px 0 0
+    padding: 0
+    background: none
+    // border: 2px solid color(primary)
+    background: white
+    border-radius: 0
+    vertical-align: middle
+    cursor: pointer
+
+    &::before
+        +fa(check)
+        +absolute(top 0 left 0)
+        +font(18px 18px primary)
+        opacity: 0
+        transform: scale(2)
+        transition: all .25s ease
+
+    &:checked::before
+        opacity: 1
+        transform: scale(1)
+
+input[type="radio"]
+    border-radius: 50%
+    &::before
+        content: ""
+        border-radius: 50%
+        +size(12px)
+        +absolute(top 50% left 50%)
+        opacity: 0
+        background: color(primary)
+        margin-top: -6px
+        margin-left: -6px
+
+
+// ==================================================
+// > SUBMIT
+// ==================================================
+input[type="submit"],
+input[type="button"]
+    @extend %button
+    padding: 0 $input-padding
+    min-height: $input-height
+    margin-top: 28px // label lh + label mb
+    clear: both
+    float: right
+    background: color(primary)
+    width: auto
+    position: relative
+    &:hover
+        background: none
+        +font(primary)
+
+    +screen(xs)
+        max-width: 100%
+        white-space: pre-wrap
+        height: auto
+
+
+    .loading &,
+    .is-loading &,
+    &.is-loading
+        opacity: .5
+        pointer-events: none

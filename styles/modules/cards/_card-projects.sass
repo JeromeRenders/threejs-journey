@@ -1,0 +1,94 @@
+// =============================================================================
+// > MODULE : CARD - PROJECTS
+// =============================================================================
+
+.card-projects
+
+    // ==================================================
+    // > WRAPPER
+    // ==================================================
+    &__wrapper
+        +flex(row wrap, flex-start, center)
+        cursor: auto
+
+        .is-odd &
+            flex-direction: row-reverse
+
+        +screen(sm)
+            flex-direction: column-reverse !important
+
+    // ==================================================
+    // > DESC
+    // ==================================================
+    &__desc
+        flex: 1
+
+        .is-odd &
+            padding-right: 50px
+        .is-even &
+            padding-left: 50px
+
+        +screen(sm)
+            padding: 0 20px 50px !important
+        +screen(xs)
+            padding: 0 10px 20px !important
+
+    // ==================================================
+    // > VISUAL
+    // ==================================================
+    &__visual
+        flex: 0 0 600px
+        position: relative
+        border-radius: 2px
+        cursor: pointer
+        transition: all .6s ease
+
+        +screen(sm)
+            flex: 1
+
+        &__inner
+            display: inline-block
+            vertical-align: middle
+
+        &__helper
+            +absolute(left 50% bottom 20px)
+            transform: translate(-50%)
+            padding: 4px 20px 5px
+            background: rgba(white, .2)
+            border-radius: 20px
+            +font(10px title-bold white)
+            pointer-events: none
+
+    // ==================================================
+    // > UI
+    // ==================================================
+    &__title
+        margin: 0 0 0
+
+    &__subtitle
+        margin: .2em 0
+        +font(primary)
+
+    &__excerpt
+        margin-bottom: 2em
+
+    &__example
+        li
+            padding: 0 5px
+            &::before
+                +fa(arrow-right)
+                display: inline-block
+                vertical-align: middle
+                padding: 0 10px 0 0
+                +font(11px white)
+                opacity: .2
+        a
+            display: inline-block
+            +font(16px white)
+            transition: all .4s ease
+
+            &::after
+                background: rgba(white, .2)
+
+
+

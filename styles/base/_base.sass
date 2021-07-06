@@ -1,0 +1,45 @@
+// =============================================================================
+// > BASE
+// =============================================================================
+
+@import "assets/vendors/gridle/reset"
+
+// ==================================================
+// > ALL ELEMENTS
+// ==================================================
+*
+    outline: none
+    box-sizing: border-box
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+::selection
+    background: color(primary)
+    color: color(white)
+
+// ==================================================
+// > ROOTS
+// ==================================================
+html, body
+    // overflow-x: hidden
+    overflow: hidden
+
+
+html
+    font-size: 17px
+    background: color(dark-grey)
+
+body
+    position: relative
+    min-height: 100vh
+    +font(16px 1.5 text regular)
+
+
+
+
+[data-component="trackable"]
+    opacity: 0
+
+.dg, .tp-dfwv
+    z-index: 9999 !important
+    width: 300px !important
