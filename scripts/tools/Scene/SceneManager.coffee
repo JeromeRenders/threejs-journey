@@ -8,7 +8,10 @@ import { RenderPass }     from 'three/examples/jsm/postprocessing/RenderPass.js'
 import { GlitchPass }     from 'three/examples/jsm/postprocessing/GlitchPass.js'
 
 import AxesHelper         from "./Components/AxesHelper.coffee"
-import Cube               from "./Components/Cube.coffee"
+import Lights             from "./Components/Lights.coffee"
+import Door               from "./Components/Door.coffee"
+import Font               from "./Components/Font.coffee"
+import LightsScene        from "./Components/LightsScene.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -54,7 +57,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(0, 0, 10)
+        camera.position.set(0, 5, 10)
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
         return camera
@@ -85,7 +88,12 @@ export default class
 
         components = {
             # axesHelper: new AxesHelper(options)
-            cube:       new Cube(options)
+
+            # lights:     new Lights(options)
+            # door:       new Door(options)
+            # font:       new Font(options)
+            lightScene: new LightsScene(options)
+
             # example:    new ExampleController(options)
         }
 
@@ -106,10 +114,7 @@ export default class
     createDebug: ->
         unless @options.debug then return false
 
-        debug = new Tweakpane({
-            title: "CONTROLS"
-            expanded: false
-        })
+        debug = new Tweakpane({ title: "CONTROLS", expanded: true })
         debug.addSeparator()
 
         return debug
@@ -142,6 +147,7 @@ export default class
         loaders = {}
 
         loaders["texture"] = new THREE.TextureLoader()
+        loaders["font"]    = new THREE.FontLoader()
 
         return loaders
 
