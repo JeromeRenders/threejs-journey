@@ -12,6 +12,7 @@ import Lights             from "./Components/Lights.coffee"
 import Door               from "./Components/Door.coffee"
 import Font               from "./Components/Font.coffee"
 import Shadows            from "./Components/Shadows.coffee"
+import HauntedHouse       from "./Components/HauntedHouse.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -48,6 +49,8 @@ export default class
     createScene: ->
         scene = new THREE.Scene()
 
+        scene.fog = new THREE.Fog("#262837", 1, 15)
+
         return scene
 
     createCamera: ->
@@ -57,7 +60,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(0, 5, 10)
+        camera.position.set(4, 2, 5)
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
         return camera
@@ -66,6 +69,7 @@ export default class
         renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
         renderer.setSize @getViewport().width, @getViewport().height
         renderer.setPixelRatio = Math.min window.devicePixelRatio, 2
+        renderer.setClearColor("#262837")
 
         # Shadows setup
         # renderer.shadowMap.enabled = true
@@ -96,7 +100,8 @@ export default class
             # lights:     new Lights(options)
             # door:       new Door(options)
             # font:       new Font(options)
-            shadows:    new Shadows(options)
+            # shadows:    new Shadows(options)
+            hauntedHouse: new HauntedHouse(options)
 
             # example:    new ExampleController(options)
         }
