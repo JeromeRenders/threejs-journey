@@ -11,7 +11,7 @@ import AxesHelper         from "./Components/AxesHelper.coffee"
 import Lights             from "./Components/Lights.coffee"
 import Door               from "./Components/Door.coffee"
 import Font               from "./Components/Font.coffee"
-import LightsScene        from "./Components/LightsScene.coffee"
+import Shadows            from "./Components/Shadows.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -67,6 +67,10 @@ export default class
         renderer.setSize @getViewport().width, @getViewport().height
         renderer.setPixelRatio = Math.min window.devicePixelRatio, 2
 
+        # Shadows setup
+        # renderer.shadowMap.enabled = true
+        # renderer.shadowMap.type = THREE.PCFSoftShadowMap
+        
         @options.container.appendChild(renderer.domElement)
 
         renderer.domElement.style.position      = "fixed"
@@ -92,7 +96,7 @@ export default class
             # lights:     new Lights(options)
             # door:       new Door(options)
             # font:       new Font(options)
-            lightScene: new LightsScene(options)
+            shadows:    new Shadows(options)
 
             # example:    new ExampleController(options)
         }
