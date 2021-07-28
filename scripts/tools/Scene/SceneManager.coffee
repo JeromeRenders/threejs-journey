@@ -49,7 +49,7 @@ export default class
     createScene: ->
         scene = new THREE.Scene()
 
-        scene.fog = new THREE.Fog("#262837", 1, 15)
+        scene.fog = new THREE.Fog("#262837", 1, 25) # HauntedHouse
 
         return scene
 
@@ -60,7 +60,8 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(4, 2, 5)
+        # camera.position.set(4, 2, 5) # Default
+        camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
         return camera
@@ -72,9 +73,9 @@ export default class
         renderer.setClearColor("#262837")
 
         # Shadows setup
-        # renderer.shadowMap.enabled = true
+        renderer.shadowMap.enabled = true
         # renderer.shadowMap.type = THREE.PCFSoftShadowMap
-        
+
         @options.container.appendChild(renderer.domElement)
 
         renderer.domElement.style.position      = "fixed"
@@ -125,6 +126,11 @@ export default class
 
         debug = new Tweakpane({ title: "CONTROLS", expanded: true })
         debug.addSeparator()
+
+        camera = debug.addFolder({ title: "Camera", expanded: false })
+        camera.addInput(@camera.position, "x", { min: -20, max: 20, step: .01 })
+        camera.addInput(@camera.position, "y", { min: -20, max: 20, step: .01 })
+        camera.addInput(@camera.position, "z", { min: -20, max: 20, step: .01 })
 
         return debug
 
