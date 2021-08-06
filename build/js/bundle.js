@@ -116,7 +116,7 @@
 /* unused harmony export BoxGeometry */
 /* unused harmony export BoxHelper */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return BufferAttribute; });
-/* unused harmony export BufferGeometry */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return BufferGeometry; });
 /* unused harmony export BufferGeometryLoader */
 /* unused harmony export ByteType */
 /* unused harmony export Cache */
@@ -129,13 +129,13 @@
 /* unused harmony export CircleBufferGeometry */
 /* unused harmony export CircleGeometry */
 /* unused harmony export ClampToEdgeWrapping */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return Clock; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return Clock; });
 /* unused harmony export ClosedSplineCurve3 */
 /* unused harmony export Color */
 /* unused harmony export ColorKeyframeTrack */
 /* unused harmony export CompressedTexture */
 /* unused harmony export CompressedTextureLoader */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return ConeBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return ConeBufferGeometry; });
 /* unused harmony export ConeGeometry */
 /* unused harmony export CubeCamera */
 /* unused harmony export CubeGeometry */
@@ -158,7 +158,7 @@
 /* unused harmony export CylinderBufferGeometry */
 /* unused harmony export CylinderGeometry */
 /* unused harmony export Cylindrical */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return DataTexture; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return DataTexture; });
 /* unused harmony export DataTexture2DArray */
 /* unused harmony export DataTexture3D */
 /* unused harmony export DataTextureLoader */
@@ -166,7 +166,7 @@
 /* unused harmony export DepthFormat */
 /* unused harmony export DepthStencilFormat */
 /* unused harmony export DepthTexture */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return DirectionalLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return DirectionalLight; });
 /* unused harmony export DirectionalLightHelper */
 /* unused harmony export DirectionalLightShadow */
 /* unused harmony export DiscreteInterpolant */
@@ -196,8 +196,8 @@
 /* unused harmony export Float32BufferAttribute */
 /* unused harmony export Float64Attribute */
 /* unused harmony export Float64BufferAttribute */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return FloatType; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return Fog; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return FloatType; });
+/* unused harmony export Fog */
 /* unused harmony export FogExp2 */
 /* unused harmony export Font */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return FontLoader; });
@@ -340,8 +340,8 @@
 /* unused harmony export PointCloudMaterial */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return PointLight; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return PointLightHelper; });
-/* unused harmony export Points */
-/* unused harmony export PointsMaterial */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return Points; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return PointsMaterial; });
 /* unused harmony export PolarGridHelper */
 /* unused harmony export PolyhedronBufferGeometry */
 /* unused harmony export PolyhedronGeometry */
@@ -356,7 +356,7 @@
 /* unused harmony export QuaternionLinearInterpolant */
 /* unused harmony export REVISION */
 /* unused harmony export RGBADepthPacking */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return RGBAFormat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return RGBAFormat; });
 /* unused harmony export RGBA_ASTC_10x10_Format */
 /* unused harmony export RGBA_ASTC_10x5_Format */
 /* unused harmony export RGBA_ASTC_10x6_Format */
@@ -379,7 +379,7 @@
 /* unused harmony export RGBDEncoding */
 /* unused harmony export RGBEEncoding */
 /* unused harmony export RGBEFormat */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return RGBFormat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return RGBFormat; });
 /* unused harmony export RGBM16Encoding */
 /* unused harmony export RGBM7Encoding */
 /* unused harmony export RGB_ETC1_Format */
@@ -393,15 +393,15 @@
 /* unused harmony export RectAreaLightHelper */
 /* unused harmony export RedFormat */
 /* unused harmony export ReinhardToneMapping */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return RepeatWrapping; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return RepeatWrapping; });
 /* unused harmony export ReverseSubtractEquation */
 /* unused harmony export RingBufferGeometry */
 /* unused harmony export RingGeometry */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return Scene; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return Scene; });
 /* unused harmony export SceneUtils */
 /* unused harmony export ShaderChunk */
 /* unused harmony export ShaderLib */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return ShaderMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return ShaderMaterial; });
 /* unused harmony export ShadowMaterial */
 /* unused harmony export Shape */
 /* unused harmony export ShapeBufferGeometry */
@@ -414,7 +414,7 @@
 /* unused harmony export SkinnedMesh */
 /* unused harmony export SmoothShading */
 /* unused harmony export Sphere */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return SphereBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return SphereBufferGeometry; });
 /* unused harmony export SphereGeometry */
 /* unused harmony export Spherical */
 /* unused harmony export SphericalHarmonics3 */
@@ -437,10 +437,10 @@
 /* unused harmony export TangentSpaceNormalMap */
 /* unused harmony export TetrahedronBufferGeometry */
 /* unused harmony export TetrahedronGeometry */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return TextBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return TextBufferGeometry; });
 /* unused harmony export TextGeometry */
 /* unused harmony export Texture */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return TextureLoader; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return TextureLoader; });
 /* unused harmony export TorusBufferGeometry */
 /* unused harmony export TorusGeometry */
 /* unused harmony export TorusKnotBufferGeometry */
@@ -463,7 +463,7 @@
 /* unused harmony export Uncharted2ToneMapping */
 /* unused harmony export Uniform */
 /* unused harmony export UniformsLib */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return UniformsUtils; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return UniformsUtils; });
 /* unused harmony export UnsignedByteType */
 /* unused harmony export UnsignedInt248Type */
 /* unused harmony export UnsignedIntType */
@@ -471,8 +471,8 @@
 /* unused harmony export UnsignedShort5551Type */
 /* unused harmony export UnsignedShort565Type */
 /* unused harmony export UnsignedShortType */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return Vector2; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return Vector3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return Vector2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return Vector3; });
 /* unused harmony export Vector4 */
 /* unused harmony export VectorKeyframeTrack */
 /* unused harmony export Vertex */
@@ -480,9 +480,9 @@
 /* unused harmony export VertexNormalsHelper */
 /* unused harmony export VideoTexture */
 /* unused harmony export WebGLMultisampleRenderTarget */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return WebGLRenderTarget; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return WebGLRenderTarget; });
 /* unused harmony export WebGLRenderTargetCube */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return WebGLRenderer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return WebGLRenderer; });
 /* unused harmony export WebGLUtils */
 /* unused harmony export WireframeGeometry */
 /* unused harmony export WireframeHelper */
@@ -64498,8 +64498,8 @@ Object.assign( ClearMaskPass.prototype, {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
-__webpack_require__(38);
-module.exports = __webpack_require__(39);
+__webpack_require__(39);
+module.exports = __webpack_require__(40);
 
 
 /***/ }),
@@ -64522,7 +64522,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_locomotive_scroll__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tools_Scene_SceneManager_coffee__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_ScrollAnimations_coffee__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_ScrollAnimations_coffee__ = __webpack_require__(37);
 
 
 
@@ -68676,7 +68676,10 @@ module.exports = g;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Components_Font_coffee__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Components_Shadows_coffee__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Components_HauntedHouse_coffee__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Components_Dom_Example_Controller_coffee__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Components_Particles_coffee__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Components_Dom_Example_Controller_coffee__ = __webpack_require__(31);
+
+
 
 
 
@@ -68708,7 +68711,7 @@ module.exports = g;
 /* harmony default export */ __webpack_exports__["a"] = ((function() {
   function _Class(options1) {
     this.options = options1;
-    this.clock = new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* Clock */]();
+    this.clock = new __WEBPACK_IMPORTED_MODULE_0_three__["f" /* Clock */]();
     this.scene = this.createScene();
     this.camera = this.createCamera();
     this.renderer = this.createRenderer();
@@ -68739,8 +68742,7 @@ module.exports = g;
 
   _Class.prototype.createScene = function() {
     var scene;
-    scene = new __WEBPACK_IMPORTED_MODULE_0_three__["A" /* Scene */]();
-    scene.fog = new __WEBPACK_IMPORTED_MODULE_0_three__["j" /* Fog */]("#262837", 1, 25);
+    scene = new __WEBPACK_IMPORTED_MODULE_0_three__["C" /* Scene */]();
     return scene;
   };
 
@@ -68752,20 +68754,19 @@ module.exports = g;
     farPlane = 100;
     camera = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* PerspectiveCamera */](fieldOfView, aspectRatio, nearPlane, farPlane);
     camera.position.set(6.5, 2.6, 6.5);
-    camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* Vector3 */](0, 0, 0));
+    camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["J" /* Vector3 */](0, 0, 0));
     return camera;
   };
 
   _Class.prototype.createRenderer = function() {
     var renderer;
-    renderer = new __WEBPACK_IMPORTED_MODULE_0_three__["J" /* WebGLRenderer */]({
+    renderer = new __WEBPACK_IMPORTED_MODULE_0_three__["L" /* WebGLRenderer */]({
       antialias: true,
       alpha: true
     });
     renderer.setSize(this.getViewport().width, this.getViewport().height);
     renderer.setPixelRatio = Math.min(window.devicePixelRatio, 2);
-    renderer.setClearColor("#262837");
-    renderer.shadowMap.enabled = true;
+    renderer.setClearColor("#000000");
     this.options.container.appendChild(renderer.domElement);
     renderer.domElement.style.position = "fixed";
     renderer.domElement.style.top = "0px";
@@ -68783,7 +68784,7 @@ module.exports = g;
       renderer: this.renderer
     };
     components = {
-      hauntedHouse: new __WEBPACK_IMPORTED_MODULE_12__Components_HauntedHouse_coffee__["a" /* default */](options)
+      particles: new __WEBPACK_IMPORTED_MODULE_13__Components_Particles_coffee__["a" /* default */](options)
     };
     return components;
   };
@@ -68850,7 +68851,7 @@ module.exports = g;
   _Class.prototype.createLoaders = function() {
     var loaders;
     loaders = {};
-    loaders["texture"] = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* TextureLoader */]();
+    loaders["texture"] = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* TextureLoader */]();
     loaders["font"] = new __WEBPACK_IMPORTED_MODULE_0_three__["k" /* FontLoader */]();
     return loaders;
   };
@@ -119490,16 +119491,16 @@ var EffectComposer = function ( renderer, renderTarget ) {
 		var parameters = {
 			minFilter: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["m" /* LinearFilter */],
 			magFilter: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["m" /* LinearFilter */],
-			format: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["x" /* RGBAFormat */],
+			format: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["z" /* RGBAFormat */],
 			stencilBuffer: false
 		};
 
-		var size = renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["G" /* Vector2 */]() );
+		var size = renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* Vector2 */]() );
 		this._pixelRatio = renderer.getPixelRatio();
 		this._width = size.width;
 		this._height = size.height;
 
-		renderTarget = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* WebGLRenderTarget */]( this._width * this._pixelRatio, this._height * this._pixelRatio, parameters );
+		renderTarget = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* WebGLRenderTarget */]( this._width * this._pixelRatio, this._height * this._pixelRatio, parameters );
 		renderTarget.texture.name = 'EffectComposer.rt1';
 
 	} else {
@@ -119537,7 +119538,7 @@ var EffectComposer = function ( renderer, renderTarget ) {
 
 	this.copyPass = new __WEBPACK_IMPORTED_MODULE_2__postprocessing_ShaderPass_js__["a" /* ShaderPass */]( __WEBPACK_IMPORTED_MODULE_1__shaders_CopyShader_js__["a" /* CopyShader */] );
 
-	this.clock = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["e" /* Clock */]();
+	this.clock = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["f" /* Clock */]();
 
 };
 
@@ -119555,7 +119556,7 @@ Object.assign( EffectComposer.prototype, {
 
 		this.passes.push( pass );
 
-		var size = this.renderer.getDrawingBufferSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["G" /* Vector2 */]() );
+		var size = this.renderer.getDrawingBufferSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* Vector2 */]() );
 		pass.setSize( size.width, size.height );
 
 	},
@@ -119649,7 +119650,7 @@ Object.assign( EffectComposer.prototype, {
 
 		if ( renderTarget === undefined ) {
 
-			var size = this.renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["G" /* Vector2 */]() );
+			var size = this.renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* Vector2 */]() );
 			this._pixelRatio = this.renderer.getPixelRatio();
 			this._width = size.width;
 			this._height = size.height;
@@ -119851,7 +119852,7 @@ var ShaderPass = function ( shader, textureID ) {
 
 	this.textureID = ( textureID !== undefined ) ? textureID : "tDiffuse";
 
-	if ( shader instanceof __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["B" /* ShaderMaterial */] ) {
+	if ( shader instanceof __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["D" /* ShaderMaterial */] ) {
 
 		this.uniforms = shader.uniforms;
 
@@ -119859,9 +119860,9 @@ var ShaderPass = function ( shader, textureID ) {
 
 	} else if ( shader ) {
 
-		this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* UniformsUtils */].clone( shader.uniforms );
+		this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["H" /* UniformsUtils */].clone( shader.uniforms );
 
-		this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["B" /* ShaderMaterial */]( {
+		this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["D" /* ShaderMaterial */]( {
 
 			defines: Object.assign( {}, shader.defines ),
 			uniforms: this.uniforms,
@@ -120017,7 +120018,7 @@ var GlitchPass = function ( dt_size ) {
 	if ( __WEBPACK_IMPORTED_MODULE_2__shaders_DigitalGlitch_js__["a" /* DigitalGlitch */] === undefined ) console.error( "GlitchPass relies on DigitalGlitch" );
 
 	var shader = __WEBPACK_IMPORTED_MODULE_2__shaders_DigitalGlitch_js__["a" /* DigitalGlitch */];
-	this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* UniformsUtils */].clone( shader.uniforms );
+	this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["H" /* UniformsUtils */].clone( shader.uniforms );
 
 	if ( dt_size == undefined ) dt_size = 64;
 
@@ -120025,7 +120026,7 @@ var GlitchPass = function ( dt_size ) {
 	this.uniforms[ "tDisp" ].value = this.generateHeightmap( dt_size );
 
 
-	this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["B" /* ShaderMaterial */]( {
+	this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["D" /* ShaderMaterial */]( {
 		uniforms: this.uniforms,
 		vertexShader: shader.vertexShader,
 		fragmentShader: shader.fragmentShader
@@ -120112,7 +120113,7 @@ GlitchPass.prototype = Object.assign( Object.create( __WEBPACK_IMPORTED_MODULE_1
 
 		}
 
-		var texture = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["g" /* DataTexture */]( data_arr, dt_size, dt_size, __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["y" /* RGBFormat */], __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["i" /* FloatType */] );
+		var texture = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["h" /* DataTexture */]( data_arr, dt_size, dt_size, __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["A" /* RGBFormat */], __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["j" /* FloatType */] );
 		texture.needsUpdate = true;
 		return texture;
 
@@ -120422,7 +120423,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     console.log(matcap);
     this.options.loaders.font.load("./scripts/tools/Scene/fonts/helvetiker_regular.typeface.json", (function(_this) {
       return function(font) {
-        _this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["D" /* TextBufferGeometry */]("Jerome", {
+        _this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["F" /* TextBufferGeometry */]("Jerome", {
           font: font,
           size: 1.5,
           height: 0.8,
@@ -120484,13 +120485,13 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     console.log(bakedShadow);
     this.main = new __WEBPACK_IMPORTED_MODULE_0_three__["a" /* AmbientLight */](0xffffff, .5);
     this.options.scene.add(this.main);
-    this.point = new __WEBPACK_IMPORTED_MODULE_0_three__["h" /* DirectionalLight */](0xffffff, .5);
+    this.point = new __WEBPACK_IMPORTED_MODULE_0_three__["i" /* DirectionalLight */](0xffffff, .5);
     this.point.position.set(2, 2, -1);
     this.options.scene.add(this.point);
     this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]();
     this.material.metalness = 0;
     this.material.roughness = 0.7;
-    objectGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["C" /* SphereBufferGeometry */](1, 32, 32);
+    objectGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* SphereBufferGeometry */](1, 32, 32);
     this.object = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](objectGeometry, this.material);
     this.options.scene.add(this.object);
     planeGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](8, 8);
@@ -120595,7 +120596,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 
-/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+/* unused harmony default export */ var _unused_webpack_default_export = ((function(superClass) {
   extend(_Class, superClass);
 
   function _Class(options) {
@@ -120681,7 +120682,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     this.walls.position.y = 2.5 / 2;
     this.walls.castShadow = true;
     house.add(this.walls);
-    roofGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["f" /* ConeBufferGeometry */](4, 1, 4);
+    roofGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["g" /* ConeBufferGeometry */](4, 1, 4);
     roofMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
       color: "#b35f45",
       shininess: 0,
@@ -120717,7 +120718,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     this.door.position.y = 2 / 2;
     this.door.position.z = (4 / 2) + 0.01;
     house.add(this.door);
-    bushGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["C" /* SphereBufferGeometry */](1, 16, 16);
+    bushGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* SphereBufferGeometry */](1, 16, 16);
     bushMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
       color: "#89c854",
       shininess: 0,
@@ -120779,14 +120780,14 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     grassColorTexture.repeat.set(repeat, repeat);
     grassNormalTexture.repeat.set(repeat, repeat);
     grassRoughnessTexture.repeat.set(repeat, repeat);
-    grassAmbientOcclusionTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassAmbientOcclusionTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassColorTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassColorTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassNormalTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassNormalTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassRoughnessTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
-    grassRoughnessTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["z" /* RepeatWrapping */];
+    grassAmbientOcclusionTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassAmbientOcclusionTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassColorTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassColorTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassNormalTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassNormalTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassRoughnessTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
+    grassRoughnessTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
     geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](60, 60);
     geometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](geometry.attributes.uv.array, 2));
     material = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
@@ -120824,7 +120825,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   _Class.prototype.createSecondaryLight = function() {
     var light;
-    light = new __WEBPACK_IMPORTED_MODULE_0_three__["h" /* DirectionalLight */]("#b9d4ff", .5);
+    light = new __WEBPACK_IMPORTED_MODULE_0_three__["i" /* DirectionalLight */]("#b9d4ff", .5);
     light.position.set(4, 5, -2);
     light.castShadow = true;
     return light;
@@ -120865,8 +120866,78 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DomController_coffee__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Item_coffee__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__ = __webpack_require__(2);
+var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+  hasProp = {}.hasOwnProperty;
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+  extend(_Class, superClass);
+
+  function _Class(options) {
+    var colors, i, j, positions, ref;
+    this.options = options;
+    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferGeometry */]();
+    this.count = 5000;
+    positions = new Float32Array(this.count * 3);
+    colors = new Float32Array(this.count * 3);
+    for (i = j = 0, ref = this.count * 3; 0 <= ref ? j < ref : j > ref; i = 0 <= ref ? ++j : --j) {
+      positions[i] = (Math.random() - .5) * 20;
+      colors[i] = Math.random();
+    }
+    this.geometry.addAttribute("position", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](positions, 3));
+    this.geometry.addAttribute("color", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](colors, 3));
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["y" /* PointsMaterial */]({
+      size: 0.2,
+      sizeAttenuation: true,
+      transparent: true,
+      map: this.options.loaders.texture.load("./scripts/tools/Scene/textures/particles/2.png"),
+      depthWrite: false,
+      vertexColors: true
+    });
+    this.material.color.setHSL(1.0, 0.4, 0.7);
+    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["x" /* Points */](this.geometry, this.material);
+    this.options.scene.add(this.mesh);
+    this.debug();
+  }
+
+  _Class.prototype.debug = function() {
+    var folder;
+    return folder = this.options.debug.addFolder({
+      title: "Particles",
+      expanded: true
+    });
+  };
+
+  _Class.prototype.onUpdate = function(elapsedTime) {
+    var i, i3, j, ref, x;
+    for (i = j = 0, ref = this.count; 0 <= ref ? j < ref : j > ref; i = 0 <= ref ? ++j : --j) {
+      i3 = i * 3;
+      x = this.geometry.attributes.position.array[i3 + 0];
+      this.geometry.attributes.position.array[i3 + 1] = Math.sin(elapsedTime + x);
+    }
+    return this.geometry.attributes.position.needsUpdate = true;
+  };
+
+  return _Class;
+
+})(__WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__["a" /* default */]));
+
+
+/***/ }),
+/* 31 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DomController_coffee__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Item_coffee__ = __webpack_require__(33);
 var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
@@ -120899,7 +120970,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -121031,15 +121102,15 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DomItem_coffee__ = __webpack_require__(33);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DomItem_coffee__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__ = __webpack_require__(36);
 var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
@@ -121062,7 +121133,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   _Class.prototype.beforeRender = function() {
     this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](1, 1, 1, 1);
-    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["B" /* ShaderMaterial */]({
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["D" /* ShaderMaterial */]({
       transparent: false,
       vertexShader: __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__["a" /* default */],
       fragmentShader: __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__["a" /* default */],
@@ -121105,7 +121176,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -121289,28 +121360,28 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("#define GLSLIFY 1\nvarying vec2 vUv;\n\nvoid main() {\n    vUv = uv;\n\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}");
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("#ifdef GL_ES\nprecision highp float;\n#define GLSLIFY 1\n#endif\n\nvarying vec2 vUv;\n\nuniform float uTime;\nuniform float uProgress;\n\nvoid main() {\n\n    vec4 color = vec4(vUv.x, vUv.y, 0.0, 1.0);\n    gl_FragColor = color;\n}");
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_gsap_ScrollTrigger__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_gsap_ScrollTrigger__ = __webpack_require__(38);
 
 
 
@@ -121325,7 +121396,7 @@ __WEBPACK_IMPORTED_MODULE_1_gsap__["a" /* default */].registerPlugin(__WEBPACK_I
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -123043,13 +123114,13 @@ _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "../build/html/home.html";

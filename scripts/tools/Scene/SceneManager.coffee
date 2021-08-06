@@ -13,6 +13,7 @@ import Door               from "./Components/Door.coffee"
 import Font               from "./Components/Font.coffee"
 import Shadows            from "./Components/Shadows.coffee"
 import HauntedHouse       from "./Components/HauntedHouse.coffee"
+import Particles          from "./Components/Particles.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -49,7 +50,7 @@ export default class
     createScene: ->
         scene = new THREE.Scene()
 
-        scene.fog = new THREE.Fog("#262837", 1, 25) # HauntedHouse
+        # scene.fog = new THREE.Fog("#262837", 1, 25) # HauntedHouse
 
         return scene
 
@@ -70,10 +71,11 @@ export default class
         renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
         renderer.setSize @getViewport().width, @getViewport().height
         renderer.setPixelRatio = Math.min window.devicePixelRatio, 2
-        renderer.setClearColor("#262837")
+        renderer.setClearColor("#000000")
+        # renderer.setClearColor("#262837") # HauntedHouse
 
         # Shadows setup
-        renderer.shadowMap.enabled = true
+        # renderer.shadowMap.enabled = true
         # renderer.shadowMap.type = THREE.PCFSoftShadowMap
 
         @options.container.appendChild(renderer.domElement)
@@ -102,7 +104,8 @@ export default class
             # door:       new Door(options)
             # font:       new Font(options)
             # shadows:    new Shadows(options)
-            hauntedHouse: new HauntedHouse(options)
+            # hauntedHouse: new HauntedHouse(options)
+            particles: new Particles(options)
 
             # example:    new ExampleController(options)
         }
