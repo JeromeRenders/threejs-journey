@@ -82,10 +82,10 @@
 /* unused harmony export ACESFilmicToneMapping */
 /* unused harmony export AddEquation */
 /* unused harmony export AddOperation */
-/* unused harmony export AdditiveBlending */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AdditiveBlending; });
 /* unused harmony export AlphaFormat */
 /* unused harmony export AlwaysDepth */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AmbientLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return AmbientLight; });
 /* unused harmony export AmbientLightProbe */
 /* unused harmony export AnimationClip */
 /* unused harmony export AnimationLoader */
@@ -100,7 +100,7 @@
 /* unused harmony export AudioContext */
 /* unused harmony export AudioListener */
 /* unused harmony export AudioLoader */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return AxesHelper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return AxesHelper; });
 /* unused harmony export AxisHelper */
 /* unused harmony export BackSide */
 /* unused harmony export BasicDepthPacking */
@@ -112,11 +112,11 @@
 /* unused harmony export Box2 */
 /* unused harmony export Box3 */
 /* unused harmony export Box3Helper */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return BoxBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return BoxBufferGeometry; });
 /* unused harmony export BoxGeometry */
 /* unused harmony export BoxHelper */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return BufferAttribute; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return BufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return BufferAttribute; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return BufferGeometry; });
 /* unused harmony export BufferGeometryLoader */
 /* unused harmony export ByteType */
 /* unused harmony export Cache */
@@ -129,13 +129,13 @@
 /* unused harmony export CircleBufferGeometry */
 /* unused harmony export CircleGeometry */
 /* unused harmony export ClampToEdgeWrapping */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return Clock; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return Clock; });
 /* unused harmony export ClosedSplineCurve3 */
-/* unused harmony export Color */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return Color; });
 /* unused harmony export ColorKeyframeTrack */
 /* unused harmony export CompressedTexture */
 /* unused harmony export CompressedTextureLoader */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return ConeBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return ConeBufferGeometry; });
 /* unused harmony export ConeGeometry */
 /* unused harmony export CubeCamera */
 /* unused harmony export CubeGeometry */
@@ -158,7 +158,7 @@
 /* unused harmony export CylinderBufferGeometry */
 /* unused harmony export CylinderGeometry */
 /* unused harmony export Cylindrical */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return DataTexture; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return DataTexture; });
 /* unused harmony export DataTexture2DArray */
 /* unused harmony export DataTexture3D */
 /* unused harmony export DataTextureLoader */
@@ -166,7 +166,7 @@
 /* unused harmony export DepthFormat */
 /* unused harmony export DepthStencilFormat */
 /* unused harmony export DepthTexture */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return DirectionalLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return DirectionalLight; });
 /* unused harmony export DirectionalLightHelper */
 /* unused harmony export DirectionalLightShadow */
 /* unused harmony export DiscreteInterpolant */
@@ -196,11 +196,11 @@
 /* unused harmony export Float32BufferAttribute */
 /* unused harmony export Float64Attribute */
 /* unused harmony export Float64BufferAttribute */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return FloatType; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return FloatType; });
 /* unused harmony export Fog */
 /* unused harmony export FogExp2 */
 /* unused harmony export Font */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return FontLoader; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return FontLoader; });
 /* unused harmony export FrontFaceDirectionCCW */
 /* unused harmony export FrontFaceDirectionCW */
 /* unused harmony export FrontSide */
@@ -211,7 +211,7 @@
 /* unused harmony export GreaterDepth */
 /* unused harmony export GreaterEqualDepth */
 /* unused harmony export GridHelper */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return Group; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return Group; });
 /* unused harmony export HalfFloatType */
 /* unused harmony export HemisphereLight */
 /* unused harmony export HemisphereLightHelper */
@@ -262,7 +262,7 @@
 /* unused harmony export LineSegments */
 /* unused harmony export LineStrip */
 /* unused harmony export LinearEncoding */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return LinearFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return LinearFilter; });
 /* unused harmony export LinearInterpolant */
 /* unused harmony export LinearMipMapLinearFilter */
 /* unused harmony export LinearMipMapNearestFilter */
@@ -279,21 +279,21 @@
 /* unused harmony export MOUSE */
 /* unused harmony export Material */
 /* unused harmony export MaterialLoader */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return _Math; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return _Math; });
 /* unused harmony export Matrix3 */
 /* unused harmony export Matrix4 */
 /* unused harmony export MaxEquation */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return Mesh; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return MeshBasicMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return Mesh; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return MeshBasicMaterial; });
 /* unused harmony export MeshDepthMaterial */
 /* unused harmony export MeshDistanceMaterial */
 /* unused harmony export MeshFaceMaterial */
 /* unused harmony export MeshLambertMaterial */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return MeshMatcapMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return MeshMatcapMaterial; });
 /* unused harmony export MeshNormalMaterial */
 /* unused harmony export MeshPhongMaterial */
 /* unused harmony export MeshPhysicalMaterial */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return MeshStandardMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return MeshStandardMaterial; });
 /* unused harmony export MeshToonMaterial */
 /* unused harmony export MinEquation */
 /* unused harmony export MirroredRepeatWrapping */
@@ -321,7 +321,7 @@
 /* unused harmony export OneMinusDstColorFactor */
 /* unused harmony export OneMinusSrcAlphaFactor */
 /* unused harmony export OneMinusSrcColorFactor */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return OrthographicCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return OrthographicCamera; });
 /* unused harmony export PCFShadowMap */
 /* unused harmony export PCFSoftShadowMap */
 /* unused harmony export ParametricBufferGeometry */
@@ -331,17 +331,17 @@
 /* unused harmony export ParticleSystem */
 /* unused harmony export ParticleSystemMaterial */
 /* unused harmony export Path */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return PerspectiveCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return PerspectiveCamera; });
 /* unused harmony export Plane */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "u", function() { return PlaneBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return PlaneBufferGeometry; });
 /* unused harmony export PlaneGeometry */
 /* unused harmony export PlaneHelper */
 /* unused harmony export PointCloud */
 /* unused harmony export PointCloudMaterial */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "v", function() { return PointLight; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return PointLightHelper; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return Points; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return PointsMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "x", function() { return PointLight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "y", function() { return PointLightHelper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return Points; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return PointsMaterial; });
 /* unused harmony export PolarGridHelper */
 /* unused harmony export PolyhedronBufferGeometry */
 /* unused harmony export PolyhedronGeometry */
@@ -356,7 +356,7 @@
 /* unused harmony export QuaternionLinearInterpolant */
 /* unused harmony export REVISION */
 /* unused harmony export RGBADepthPacking */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "z", function() { return RGBAFormat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return RGBAFormat; });
 /* unused harmony export RGBA_ASTC_10x10_Format */
 /* unused harmony export RGBA_ASTC_10x5_Format */
 /* unused harmony export RGBA_ASTC_10x6_Format */
@@ -379,7 +379,7 @@
 /* unused harmony export RGBDEncoding */
 /* unused harmony export RGBEEncoding */
 /* unused harmony export RGBEFormat */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "A", function() { return RGBFormat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return RGBFormat; });
 /* unused harmony export RGBM16Encoding */
 /* unused harmony export RGBM7Encoding */
 /* unused harmony export RGB_ETC1_Format */
@@ -393,15 +393,15 @@
 /* unused harmony export RectAreaLightHelper */
 /* unused harmony export RedFormat */
 /* unused harmony export ReinhardToneMapping */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "B", function() { return RepeatWrapping; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return RepeatWrapping; });
 /* unused harmony export ReverseSubtractEquation */
 /* unused harmony export RingBufferGeometry */
 /* unused harmony export RingGeometry */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "C", function() { return Scene; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return Scene; });
 /* unused harmony export SceneUtils */
 /* unused harmony export ShaderChunk */
 /* unused harmony export ShaderLib */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return ShaderMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return ShaderMaterial; });
 /* unused harmony export ShadowMaterial */
 /* unused harmony export Shape */
 /* unused harmony export ShapeBufferGeometry */
@@ -414,7 +414,7 @@
 /* unused harmony export SkinnedMesh */
 /* unused harmony export SmoothShading */
 /* unused harmony export Sphere */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return SphereBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return SphereBufferGeometry; });
 /* unused harmony export SphereGeometry */
 /* unused harmony export Spherical */
 /* unused harmony export SphericalHarmonics3 */
@@ -437,10 +437,10 @@
 /* unused harmony export TangentSpaceNormalMap */
 /* unused harmony export TetrahedronBufferGeometry */
 /* unused harmony export TetrahedronGeometry */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return TextBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return TextBufferGeometry; });
 /* unused harmony export TextGeometry */
 /* unused harmony export Texture */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return TextureLoader; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return TextureLoader; });
 /* unused harmony export TorusBufferGeometry */
 /* unused harmony export TorusGeometry */
 /* unused harmony export TorusKnotBufferGeometry */
@@ -463,7 +463,7 @@
 /* unused harmony export Uncharted2ToneMapping */
 /* unused harmony export Uniform */
 /* unused harmony export UniformsLib */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return UniformsUtils; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return UniformsUtils; });
 /* unused harmony export UnsignedByteType */
 /* unused harmony export UnsignedInt248Type */
 /* unused harmony export UnsignedIntType */
@@ -471,8 +471,8 @@
 /* unused harmony export UnsignedShort5551Type */
 /* unused harmony export UnsignedShort565Type */
 /* unused harmony export UnsignedShortType */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return Vector2; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return Vector3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return Vector2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return Vector3; });
 /* unused harmony export Vector4 */
 /* unused harmony export VectorKeyframeTrack */
 /* unused harmony export Vertex */
@@ -480,9 +480,9 @@
 /* unused harmony export VertexNormalsHelper */
 /* unused harmony export VideoTexture */
 /* unused harmony export WebGLMultisampleRenderTarget */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return WebGLRenderTarget; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return WebGLRenderTarget; });
 /* unused harmony export WebGLRenderTargetCube */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return WebGLRenderer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return WebGLRenderer; });
 /* unused harmony export WebGLUtils */
 /* unused harmony export WireframeGeometry */
 /* unused harmony export WireframeHelper */
@@ -49468,12 +49468,12 @@ Object.assign( Pass.prototype, {
 
 Pass.FullScreenQuad = ( function () {
 
-	var camera = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["s" /* OrthographicCamera */]( - 1, 1, 1, - 1, 0, 1 );
-	var geometry = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["u" /* PlaneBufferGeometry */]( 2, 2 );
+	var camera = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["u" /* OrthographicCamera */]( - 1, 1, 1, - 1, 0, 1 );
+	var geometry = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["w" /* PlaneBufferGeometry */]( 2, 2 );
 
 	var FullScreenQuad = function ( material ) {
 
-		this._mesh = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["o" /* Mesh */]( geometry, material );
+		this._mesh = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["q" /* Mesh */]( geometry, material );
 
 	};
 
@@ -60476,7 +60476,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
 
 /*!
- * GSAP 3.7.0
+ * GSAP 3.7.1
  * https://greensock.com
  *
  * @license Copyright 2008-2021, GreenSock. All rights reserved.
@@ -62146,7 +62146,7 @@ var Animation = /*#__PURE__*/function () {
   };
 
   _proto.time = function time(value, suppressEvents) {
-    return arguments.length ? this.totalTime(Math.min(this.totalDuration(), value + _elapsedCycleDuration(this)) % this._dur || (value ? this._dur : 0), suppressEvents) : this._time; // note: if the modulus results in 0, the playhead could be exactly at the end or the beginning, and we always defer to the END with a non-zero value, otherwise if you set the time() to the very end (duration()), it would render at the START!
+    return arguments.length ? this.totalTime(Math.min(this.totalDuration(), value + _elapsedCycleDuration(this)) % (this._dur + this._rDelay) || (value ? this._dur : 0), suppressEvents) : this._time; // note: if the modulus results in 0, the playhead could be exactly at the end or the beginning, and we always defer to the END with a non-zero value, otherwise if you set the time() to the very end (duration()), it would render at the START!
   };
 
   _proto.totalProgress = function totalProgress(value, suppressEvents) {
@@ -62210,7 +62210,7 @@ var Animation = /*#__PURE__*/function () {
 
         this._ts = this._rts; //only defer to _pTime (pauseTime) if tTime is zero. Remember, someone could pause() an animation, then scrub the playhead and resume(). If the parent doesn't have smoothChildTiming, we render at the rawTime() because the startTime won't get updated.
 
-        this.totalTime(this.parent && !this.parent.smoothChildTiming ? this.rawTime() : this._tTime || this._pTime, this.progress() === 1 && (this._tTime -= _tinyNum) && Math.abs(this._zTime) !== _tinyNum); // edge case: animation.progress(1).pause().play() wouldn't render again because the playhead is already at the end, but the call to totalTime() below will add it back to its parent...and not remove it again (since removing only happens upon rendering at a new time). Offsetting the _tTime slightly is done simply to cause the final render in totalTime() that'll pop it off its timeline (if autoRemoveChildren is true, of course). Check to make sure _zTime isn't -_tinyNum to avoid an edge case where the playhead is pushed to the end but INSIDE a tween/callback, the timeline itself is paused thus halting rendering and leaving a few unrendered. When resuming, it wouldn't render those otherwise.
+        this.totalTime(this.parent && !this.parent.smoothChildTiming ? this.rawTime() : this._tTime || this._pTime, this.progress() === 1 && Math.abs(this._zTime) !== _tinyNum && (this._tTime -= _tinyNum)); // edge case: animation.progress(1).pause().play() wouldn't render again because the playhead is already at the end, but the call to totalTime() below will add it back to its parent...and not remove it again (since removing only happens upon rendering at a new time). Offsetting the _tTime slightly is done simply to cause the final render in totalTime() that'll pop it off its timeline (if autoRemoveChildren is true, of course). Check to make sure _zTime isn't -_tinyNum to avoid an edge case where the playhead is pushed to the end but INSIDE a tween/callback, the timeline itself is paused thus halting rendering and leaving a few unrendered. When resuming, it wouldn't render those otherwise.
       }
     }
 
@@ -62261,8 +62261,12 @@ var Animation = /*#__PURE__*/function () {
 
   _proto.repeatDelay = function repeatDelay(value) {
     if (arguments.length) {
+      var time = this._time;
       this._rDelay = value;
-      return _onUpdateTotalDuration(this);
+
+      _onUpdateTotalDuration(this);
+
+      return time ? this.time(time) : this;
     }
 
     return this._rDelay;
@@ -63692,8 +63696,6 @@ var Tween = /*#__PURE__*/function (_Animation2) {
         this.ratio = ratio = 1 - ratio;
       }
 
-      time && !prevTime && !suppressEvents && _callback(this, "onStart");
-
       if (time && !prevTime && !suppressEvents) {
         _callback(this, "onStart");
 
@@ -64350,7 +64352,7 @@ var gsap = _gsap.registerPlugin({
   }
 }, _buildModifierPlugin("roundProps", _roundModifier), _buildModifierPlugin("modifiers"), _buildModifierPlugin("snap", snap)) || _gsap; //to prevent the core plugins from being dropped via aggressive tree shaking, we must include them in the variable declaration in this way.
 
-Tween.version = Timeline.version = gsap.version = "3.7.0";
+Tween.version = Timeline.version = gsap.version = "3.7.1";
 _coreReady = 1;
 _windowExists() && _wake();
 var Power0 = _easeMap.Power0,
@@ -64498,8 +64500,8 @@ Object.assign( ClearMaskPass.prototype, {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
-__webpack_require__(39);
-module.exports = __webpack_require__(40);
+__webpack_require__(40);
+module.exports = __webpack_require__(41);
 
 
 /***/ }),
@@ -64522,7 +64524,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_locomotive_scroll__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tools_Scene_SceneManager_coffee__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_ScrollAnimations_coffee__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_ScrollAnimations_coffee__ = __webpack_require__(38);
 
 
 
@@ -64566,7 +64568,7 @@ __WEBPACK_IMPORTED_MODULE_0_jquery___default()(function() {
 /* unused harmony export checkPrefix */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gsap_core_js__ = __webpack_require__(5);
 /*!
- * CSSPlugin 3.7.0
+ * CSSPlugin 3.7.1
  * https://greensock.com
  *
  * Copyright 2008-2021, GreenSock. All rights reserved.
@@ -68677,7 +68679,10 @@ module.exports = g;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__Components_Shadows_coffee__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Components_HauntedHouse_coffee__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Components_Particles_coffee__ = __webpack_require__(30);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Components_Dom_Example_Controller_coffee__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Components_Galaxy_coffee__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Components_Dom_Example_Controller_coffee__ = __webpack_require__(32);
+
+
 
 
 
@@ -68711,7 +68716,7 @@ module.exports = g;
 /* harmony default export */ __webpack_exports__["a"] = ((function() {
   function _Class(options1) {
     this.options = options1;
-    this.clock = new __WEBPACK_IMPORTED_MODULE_0_three__["f" /* Clock */]();
+    this.clock = new __WEBPACK_IMPORTED_MODULE_0_three__["g" /* Clock */]();
     this.scene = this.createScene();
     this.camera = this.createCamera();
     this.renderer = this.createRenderer();
@@ -68742,7 +68747,7 @@ module.exports = g;
 
   _Class.prototype.createScene = function() {
     var scene;
-    scene = new __WEBPACK_IMPORTED_MODULE_0_three__["C" /* Scene */]();
+    scene = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* Scene */]();
     return scene;
   };
 
@@ -68752,15 +68757,15 @@ module.exports = g;
     aspectRatio = this.getViewport().aspectRatio;
     nearPlane = 0.1;
     farPlane = 100;
-    camera = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* PerspectiveCamera */](fieldOfView, aspectRatio, nearPlane, farPlane);
+    camera = new __WEBPACK_IMPORTED_MODULE_0_three__["v" /* PerspectiveCamera */](fieldOfView, aspectRatio, nearPlane, farPlane);
     camera.position.set(6.5, 2.6, 6.5);
-    camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["J" /* Vector3 */](0, 0, 0));
+    camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["L" /* Vector3 */](0, 0, 0));
     return camera;
   };
 
   _Class.prototype.createRenderer = function() {
     var renderer;
-    renderer = new __WEBPACK_IMPORTED_MODULE_0_three__["L" /* WebGLRenderer */]({
+    renderer = new __WEBPACK_IMPORTED_MODULE_0_three__["N" /* WebGLRenderer */]({
       antialias: true,
       alpha: true
     });
@@ -68784,7 +68789,7 @@ module.exports = g;
       renderer: this.renderer
     };
     components = {
-      particles: new __WEBPACK_IMPORTED_MODULE_13__Components_Particles_coffee__["a" /* default */](options)
+      galaxy: new __WEBPACK_IMPORTED_MODULE_14__Components_Galaxy_coffee__["a" /* default */](options)
     };
     return components;
   };
@@ -68804,7 +68809,7 @@ module.exports = g;
     if (!this.options.debug) {
       return false;
     }
-    debug = new __WEBPACK_IMPORTED_MODULE_3_tweakpane___default.a({
+    debug = new __WEBPACK_IMPORTED_MODULE_3_tweakpane__["Pane"]({
       title: "CONTROLS",
       expanded: true
     });
@@ -68851,8 +68856,8 @@ module.exports = g;
   _Class.prototype.createLoaders = function() {
     var loaders;
     loaders = {};
-    loaders["texture"] = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* TextureLoader */]();
-    loaders["font"] = new __WEBPACK_IMPORTED_MODULE_0_three__["k" /* FontLoader */]();
+    loaders["texture"] = new __WEBPACK_IMPORTED_MODULE_0_three__["I" /* TextureLoader */]();
+    loaders["font"] = new __WEBPACK_IMPORTED_MODULE_0_three__["m" /* FontLoader */]();
     return loaders;
   };
 
@@ -113848,50 +113853,80 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/*! Tweakpane 1.6.1 (c) 2016 cocopon, licensed under the MIT license. */
+/*! Tweakpane 3.0.4 (c) 2016 cocopon, licensed under the MIT license. */
 (function (global, factory) {
-     true ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Tweakpane = factory());
-}(this, (function () { 'use strict';
+     true ? factory(exports) :
+    typeof define === 'function' && define.amd ? define(['exports'], factory) :
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.Tweakpane = {}));
+}(this, (function (exports) { 'use strict';
 
-    var extendStatics = function(d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    function __extends(d, b) {
-        if (typeof b !== "function" && b !== null)
-            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    }
-    var __assign = function() {
-        __assign = Object.assign || function __assign(t) {
-            for (var s, i = 1, n = arguments.length; i < n; i++) {
-                s = arguments[i];
-                for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-            }
-            return t;
-        };
-        return __assign.apply(this, arguments);
-    };
-    function __spreadArrays() {
-        for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
-        for (var r = Array(s), k = 0, i = 0; i < il; i++)
-            for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
-                r[k] = a[j];
-        return r;
+    /***
+     * A simple semantic versioning perser.
+     */
+    class Semver {
+        /**
+         * @hidden
+         */
+        constructor(text) {
+            const [core, prerelease] = text.split('-');
+            const coreComps = core.split('.');
+            this.major = parseInt(coreComps[0], 10);
+            this.minor = parseInt(coreComps[1], 10);
+            this.patch = parseInt(coreComps[2], 10);
+            this.prerelease = prerelease !== null && prerelease !== void 0 ? prerelease : null;
+        }
+        toString() {
+            const core = [this.major, this.minor, this.patch].join('.');
+            return this.prerelease !== null ? [core, this.prerelease].join('-') : core;
+        }
     }
 
-    var Plugins = {
-        inputs: [],
-        monitors: [],
-    };
-    function getAllPlugins() {
-        return __spreadArrays(Plugins.inputs, Plugins.monitors);
+    class BladeApi {
+        constructor(controller) {
+            this.controller_ = controller;
+        }
+        get disabled() {
+            return this.controller_.viewProps.get('disabled');
+        }
+        set disabled(disabled) {
+            this.controller_.viewProps.set('disabled', disabled);
+        }
+        get hidden() {
+            return this.controller_.viewProps.get('hidden');
+        }
+        set hidden(hidden) {
+            this.controller_.viewProps.set('hidden', hidden);
+        }
+        dispose() {
+            this.controller_.viewProps.set('disposed', true);
+        }
+    }
+
+    class TpEvent {
+        constructor(target) {
+            this.target = target;
+        }
+    }
+    class TpChangeEvent extends TpEvent {
+        constructor(target, value, presetKey, last) {
+            super(target);
+            this.value = value;
+            this.presetKey = presetKey;
+            this.last = last !== null && last !== void 0 ? last : true;
+        }
+    }
+    class TpUpdateEvent extends TpEvent {
+        constructor(target, value, presetKey) {
+            super(target);
+            this.value = value;
+            this.presetKey = presetKey;
+        }
+    }
+    class TpFoldEvent extends TpEvent {
+        constructor(target, expanded) {
+            super(target);
+            this.expanded = expanded;
+        }
     }
 
     function forceCast(v) {
@@ -113904,12 +113939,447 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         if (a1.length !== a2.length) {
             return false;
         }
-        for (var i = 0; i < a1.length; i++) {
+        for (let i = 0; i < a1.length; i++) {
             if (a1[i] !== a2[i]) {
                 return false;
             }
         }
         return true;
+    }
+
+    const CREATE_MESSAGE_MAP = {
+        alreadydisposed: () => 'View has been already disposed',
+        invalidparams: (context) => `Invalid parameters for '${context.name}'`,
+        nomatchingcontroller: (context) => `No matching controller for '${context.key}'`,
+        nomatchingview: (context) => `No matching view for '${JSON.stringify(context.params)}'`,
+        notbindable: () => `Value is not bindable`,
+        propertynotfound: (context) => `Property '${context.name}' not found`,
+        shouldneverhappen: () => 'This error should never happen',
+    };
+    class TpError {
+        constructor(config) {
+            var _a;
+            this.message =
+                (_a = CREATE_MESSAGE_MAP[config.type](forceCast(config.context))) !== null && _a !== void 0 ? _a : 'Unexpected error';
+            this.name = this.constructor.name;
+            this.stack = new Error(this.message).stack;
+            this.type = config.type;
+        }
+        static alreadyDisposed() {
+            return new TpError({ type: 'alreadydisposed' });
+        }
+        static notBindable() {
+            return new TpError({
+                type: 'notbindable',
+            });
+        }
+        static propertyNotFound(name) {
+            return new TpError({
+                type: 'propertynotfound',
+                context: {
+                    name: name,
+                },
+            });
+        }
+        static shouldNeverHappen() {
+            return new TpError({ type: 'shouldneverhappen' });
+        }
+    }
+
+    class BindingTarget {
+        constructor(obj, key, opt_id) {
+            this.obj_ = obj;
+            this.key_ = key;
+            this.presetKey_ = opt_id !== null && opt_id !== void 0 ? opt_id : key;
+        }
+        static isBindable(obj) {
+            if (obj === null) {
+                return false;
+            }
+            if (typeof obj !== 'object') {
+                return false;
+            }
+            return true;
+        }
+        get key() {
+            return this.key_;
+        }
+        get presetKey() {
+            return this.presetKey_;
+        }
+        read() {
+            return this.obj_[this.key_];
+        }
+        write(value) {
+            this.obj_[this.key_] = value;
+        }
+        writeProperty(name, value) {
+            const valueObj = this.read();
+            if (!BindingTarget.isBindable(valueObj)) {
+                throw TpError.notBindable();
+            }
+            if (!(name in valueObj)) {
+                throw TpError.propertyNotFound(name);
+            }
+            valueObj[name] = value;
+        }
+    }
+
+    class ButtonApi extends BladeApi {
+        get label() {
+            return this.controller_.props.get('label');
+        }
+        set label(label) {
+            this.controller_.props.set('label', label);
+        }
+        get title() {
+            var _a;
+            return (_a = this.controller_.valueController.props.get('title')) !== null && _a !== void 0 ? _a : '';
+        }
+        set title(title) {
+            this.controller_.valueController.props.set('title', title);
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            const emitter = this.controller_.valueController.emitter;
+            emitter.on(eventName, () => {
+                bh(new TpEvent(this));
+            });
+            return this;
+        }
+    }
+
+    class Emitter {
+        constructor() {
+            this.observers_ = {};
+        }
+        on(eventName, handler) {
+            let observers = this.observers_[eventName];
+            if (!observers) {
+                observers = this.observers_[eventName] = [];
+            }
+            observers.push({
+                handler: handler,
+            });
+            return this;
+        }
+        off(eventName, handler) {
+            const observers = this.observers_[eventName];
+            if (observers) {
+                this.observers_[eventName] = observers.filter((observer) => {
+                    return observer.handler !== handler;
+                });
+            }
+            return this;
+        }
+        emit(eventName, event) {
+            const observers = this.observers_[eventName];
+            if (!observers) {
+                return;
+            }
+            observers.forEach((observer) => {
+                observer.handler(event);
+            });
+        }
+    }
+
+    const PREFIX = 'tp';
+    function ClassName(viewName) {
+        const fn = (opt_elementName, opt_modifier) => {
+            return [
+                PREFIX,
+                '-',
+                viewName,
+                'v',
+                opt_elementName ? `_${opt_elementName}` : '',
+                opt_modifier ? `-${opt_modifier}` : '',
+            ].join('');
+        };
+        return fn;
+    }
+
+    function compose(h1, h2) {
+        return (input) => h2(h1(input));
+    }
+    function extractValue(ev) {
+        return ev.rawValue;
+    }
+    function bindValue(value, applyValue) {
+        value.emitter.on('change', compose(extractValue, applyValue));
+        applyValue(value.rawValue);
+    }
+    function bindValueMap(valueMap, key, applyValue) {
+        bindValue(valueMap.value(key), applyValue);
+    }
+
+    function applyClass(elem, className, active) {
+        if (active) {
+            elem.classList.add(className);
+        }
+        else {
+            elem.classList.remove(className);
+        }
+    }
+    function valueToClassName(elem, className) {
+        return (value) => {
+            applyClass(elem, className, value);
+        };
+    }
+    function bindValueToTextContent(value, elem) {
+        bindValue(value, (text) => {
+            elem.textContent = text !== null && text !== void 0 ? text : '';
+        });
+    }
+
+    const className$q = ClassName('btn');
+    class ButtonView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$q());
+            config.viewProps.bindClassModifiers(this.element);
+            const buttonElem = doc.createElement('button');
+            buttonElem.classList.add(className$q('b'));
+            config.viewProps.bindDisabled(buttonElem);
+            this.element.appendChild(buttonElem);
+            this.buttonElement = buttonElem;
+            const titleElem = doc.createElement('div');
+            titleElem.classList.add(className$q('t'));
+            bindValueToTextContent(config.props.value('title'), titleElem);
+            this.buttonElement.appendChild(titleElem);
+        }
+    }
+
+    class ButtonController {
+        constructor(doc, config) {
+            this.emitter = new Emitter();
+            this.onClick_ = this.onClick_.bind(this);
+            this.props = config.props;
+            this.viewProps = config.viewProps;
+            this.view = new ButtonView(doc, {
+                props: this.props,
+                viewProps: this.viewProps,
+            });
+            this.view.buttonElement.addEventListener('click', this.onClick_);
+        }
+        onClick_() {
+            this.emitter.emit('click', {
+                sender: this,
+            });
+        }
+    }
+
+    class BoundValue {
+        constructor(initialValue, config) {
+            var _a;
+            this.constraint_ = config === null || config === void 0 ? void 0 : config.constraint;
+            this.equals_ = (_a = config === null || config === void 0 ? void 0 : config.equals) !== null && _a !== void 0 ? _a : ((v1, v2) => v1 === v2);
+            this.emitter = new Emitter();
+            this.rawValue_ = initialValue;
+        }
+        get constraint() {
+            return this.constraint_;
+        }
+        get rawValue() {
+            return this.rawValue_;
+        }
+        set rawValue(rawValue) {
+            this.setRawValue(rawValue, {
+                forceEmit: false,
+                last: true,
+            });
+        }
+        setRawValue(rawValue, options) {
+            const opts = options !== null && options !== void 0 ? options : {
+                forceEmit: false,
+                last: true,
+            };
+            const constrainedValue = this.constraint_
+                ? this.constraint_.constrain(rawValue)
+                : rawValue;
+            const changed = !this.equals_(this.rawValue_, constrainedValue);
+            if (!changed && !opts.forceEmit) {
+                return;
+            }
+            this.emitter.emit('beforechange', {
+                sender: this,
+            });
+            this.rawValue_ = constrainedValue;
+            this.emitter.emit('change', {
+                options: opts,
+                rawValue: constrainedValue,
+                sender: this,
+            });
+        }
+    }
+
+    class PrimitiveValue {
+        constructor(initialValue) {
+            this.emitter = new Emitter();
+            this.value_ = initialValue;
+        }
+        get rawValue() {
+            return this.value_;
+        }
+        set rawValue(value) {
+            this.setRawValue(value, {
+                forceEmit: false,
+                last: true,
+            });
+        }
+        setRawValue(value, options) {
+            const opts = options !== null && options !== void 0 ? options : {
+                forceEmit: false,
+                last: true,
+            };
+            if (this.value_ === value && !opts.forceEmit) {
+                return;
+            }
+            this.emitter.emit('beforechange', {
+                sender: this,
+            });
+            this.value_ = value;
+            this.emitter.emit('change', {
+                options: opts,
+                rawValue: this.value_,
+                sender: this,
+            });
+        }
+    }
+
+    function createValue(initialValue, config) {
+        const constraint = config === null || config === void 0 ? void 0 : config.constraint;
+        const equals = config === null || config === void 0 ? void 0 : config.equals;
+        if (!constraint && !equals) {
+            return new PrimitiveValue(initialValue);
+        }
+        return new BoundValue(initialValue, config);
+    }
+
+    class ValueMap {
+        constructor(valueMap) {
+            this.emitter = new Emitter();
+            this.valMap_ = valueMap;
+            for (const key in this.valMap_) {
+                const v = this.valMap_[key];
+                v.emitter.on('change', () => {
+                    this.emitter.emit('change', {
+                        key: key,
+                        sender: this,
+                    });
+                });
+            }
+        }
+        static createCore(initialValue) {
+            const keys = Object.keys(initialValue);
+            return keys.reduce((o, key) => {
+                return Object.assign(o, {
+                    [key]: createValue(initialValue[key]),
+                });
+            }, {});
+        }
+        static fromObject(initialValue) {
+            const core = this.createCore(initialValue);
+            return new ValueMap(core);
+        }
+        get(key) {
+            return this.valMap_[key].rawValue;
+        }
+        set(key, value) {
+            this.valMap_[key].rawValue = value;
+        }
+        value(key) {
+            return this.valMap_[key];
+        }
+    }
+
+    function parseObject(value, keyToParserMap) {
+        const keys = Object.keys(keyToParserMap);
+        const result = keys.reduce((tmp, key) => {
+            if (tmp === undefined) {
+                return undefined;
+            }
+            const parser = keyToParserMap[key];
+            const result = parser(value[key]);
+            return result.succeeded
+                ? Object.assign(Object.assign({}, tmp), { [key]: result.value }) : undefined;
+        }, {});
+        return forceCast(result);
+    }
+    function parseArray(value, parseItem) {
+        return value.reduce((tmp, item) => {
+            if (tmp === undefined) {
+                return undefined;
+            }
+            const result = parseItem(item);
+            if (!result.succeeded || result.value === undefined) {
+                return undefined;
+            }
+            return [...tmp, result.value];
+        }, []);
+    }
+    function isObject(value) {
+        if (value === null) {
+            return false;
+        }
+        return typeof value === 'object';
+    }
+    function createParamsParserBuilder(parse) {
+        return (optional) => (v) => {
+            if (!optional && v === undefined) {
+                return {
+                    succeeded: false,
+                    value: undefined,
+                };
+            }
+            if (optional && v === undefined) {
+                return {
+                    succeeded: true,
+                    value: undefined,
+                };
+            }
+            const result = parse(v);
+            return result !== undefined
+                ? {
+                    succeeded: true,
+                    value: result,
+                }
+                : {
+                    succeeded: false,
+                    value: undefined,
+                };
+        };
+    }
+    function createParamsParserBuilders(optional) {
+        return {
+            custom: (parse) => createParamsParserBuilder(parse)(optional),
+            boolean: createParamsParserBuilder((v) => typeof v === 'boolean' ? v : undefined)(optional),
+            number: createParamsParserBuilder((v) => typeof v === 'number' ? v : undefined)(optional),
+            string: createParamsParserBuilder((v) => typeof v === 'string' ? v : undefined)(optional),
+            function: createParamsParserBuilder((v) =>
+            typeof v === 'function' ? v : undefined)(optional),
+            constant: (value) => createParamsParserBuilder((v) => (v === value ? value : undefined))(optional),
+            raw: createParamsParserBuilder((v) => v)(optional),
+            object: (keyToParserMap) => createParamsParserBuilder((v) => {
+                if (!isObject(v)) {
+                    return undefined;
+                }
+                return parseObject(v, keyToParserMap);
+            })(optional),
+            array: (itemParser) => createParamsParserBuilder((v) => {
+                if (!Array.isArray(v)) {
+                    return undefined;
+                }
+                return parseArray(v, itemParser);
+            })(optional),
+        };
+    }
+    const ParamsParsers = {
+        optional: createParamsParserBuilders(true),
+        required: createParamsParserBuilders(false),
+    };
+    function parseParams(value, keyToParserMap) {
+        const result = ParamsParsers.required.object(keyToParserMap)(value);
+        return result.succeeded ? result.value : undefined;
     }
 
     function disposeElement(elem) {
@@ -113919,320 +114389,47 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return null;
     }
 
-    var PREFIX = 'tp';
-    function ClassName(viewName) {
-        return function (opt_elementName, opt_modifier) {
-            return [
-                PREFIX,
-                '-',
-                viewName,
-                'v',
-                opt_elementName ? "_" + opt_elementName : '',
-                opt_modifier ? "-" + opt_modifier : '',
-            ].join('');
-        };
-    }
-
     function getAllBladePositions() {
-        return ['first', 'last'];
+        return ['veryfirst', 'first', 'last', 'verylast'];
     }
 
-    var className = ClassName('');
-    function setUpBladeView(view, model) {
-        var elem = view.element;
-        model.emitter.on('change', function (ev) {
-            if (ev.propertyName === 'hidden') {
-                var hiddenClass = className(undefined, 'hidden');
-                if (model.hidden) {
-                    elem.classList.add(hiddenClass);
-                }
-                else {
-                    elem.classList.remove(hiddenClass);
-                }
-            }
-            else if (ev.propertyName === 'positions') {
-                getAllBladePositions().forEach(function (pos) {
-                    elem.classList.remove(className(undefined, pos));
+    const className$p = ClassName('');
+    const POS_TO_CLASS_NAME_MAP = {
+        veryfirst: 'vfst',
+        first: 'fst',
+        last: 'lst',
+        verylast: 'vlst',
+    };
+    class BladeController {
+        constructor(config) {
+            this.parent_ = null;
+            this.blade = config.blade;
+            this.view = config.view;
+            this.viewProps = config.viewProps;
+            const elem = this.view.element;
+            this.blade.value('positions').emitter.on('change', () => {
+                getAllBladePositions().forEach((pos) => {
+                    elem.classList.remove(className$p(undefined, POS_TO_CLASS_NAME_MAP[pos]));
                 });
-                model.positions.forEach(function (pos) {
-                    elem.classList.add(className(undefined, pos));
+                this.blade.get('positions').forEach((pos) => {
+                    elem.classList.add(className$p(undefined, POS_TO_CLASS_NAME_MAP[pos]));
                 });
-            }
-        });
-        model.emitter.on('dispose', function () {
-            if (view.onDispose) {
-                view.onDispose();
-            }
-            disposeElement(elem);
-        });
+            });
+            this.viewProps.handleDispose(() => {
+                disposeElement(elem);
+            });
+        }
+        get parent() {
+            return this.parent_;
+        }
     }
 
-    /**
-     * @hidden
-     */
-    var Emitter = /** @class */ (function () {
-        function Emitter() {
-            this.observers_ = {};
-        }
-        Emitter.prototype.on = function (eventName, handler) {
-            var observers = this.observers_[eventName];
-            if (!observers) {
-                observers = this.observers_[eventName] = [];
-            }
-            observers.push({
-                handler: handler,
-            });
-            return this;
-        };
-        Emitter.prototype.off = function (eventName, handler) {
-            var observers = this.observers_[eventName];
-            if (observers) {
-                this.observers_[eventName] = observers.filter(function (observer) {
-                    return observer.handler !== handler;
-                });
-            }
-            return this;
-        };
-        Emitter.prototype.emit = function (eventName, event) {
-            var observers = this.observers_[eventName];
-            if (!observers) {
-                return;
-            }
-            observers.forEach(function (observer) {
-                observer.handler(event);
-            });
-        };
-        return Emitter;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Button = /** @class */ (function () {
-        function Button(title) {
-            this.emitter = new Emitter();
-            this.title = title;
-        }
-        Button.prototype.click = function () {
-            this.emitter.emit('click', {
-                sender: this,
-            });
-        };
-        return Button;
-    }());
-
-    var className$1 = ClassName('btn');
-    /**
-     * @hidden
-     */
-    var ButtonView = /** @class */ (function () {
-        function ButtonView(doc, config) {
-            this.button = config.button;
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$1());
-            var buttonElem = doc.createElement('button');
-            buttonElem.classList.add(className$1('b'));
-            buttonElem.textContent = this.button.title;
-            this.element.appendChild(buttonElem);
-            this.buttonElement = buttonElem;
-        }
-        return ButtonView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var ButtonController = /** @class */ (function () {
-        function ButtonController(doc, config) {
-            this.onButtonClick_ = this.onButtonClick_.bind(this);
-            this.button = new Button(config.title);
-            this.blade = config.blade;
-            this.view = new ButtonView(doc, {
-                button: this.button,
-            });
-            this.view.buttonElement.addEventListener('click', this.onButtonClick_);
-            setUpBladeView(this.view, this.blade);
-        }
-        ButtonController.prototype.onButtonClick_ = function () {
-            this.button.click();
-        };
-        return ButtonController;
-    }());
-
-    var className$2 = ClassName('lbl');
-    function createLabelNode(doc, label) {
-        var frag = doc.createDocumentFragment();
-        var lineNodes = label.split('\n').map(function (line) {
-            return doc.createTextNode(line);
-        });
-        lineNodes.forEach(function (lineNode, index) {
-            if (index > 0) {
-                frag.appendChild(doc.createElement('br'));
-            }
-            frag.appendChild(lineNode);
-        });
-        return frag;
-    }
-    /**
-     * @hidden
-     */
-    var LabeledView = /** @class */ (function () {
-        function LabeledView(doc, config) {
-            this.label = config.label;
-            this.elem_ = doc.createElement('div');
-            this.elem_.classList.add(className$2());
-            var labelElem = doc.createElement('div');
-            labelElem.classList.add(className$2('l'));
-            labelElem.appendChild(createLabelNode(doc, this.label));
-            this.elem_.appendChild(labelElem);
-            var viewElem = doc.createElement('div');
-            viewElem.classList.add(className$2('v'));
-            viewElem.appendChild(config.view.element);
-            this.elem_.appendChild(viewElem);
-        }
-        Object.defineProperty(LabeledView.prototype, "element", {
-            get: function () {
-                return this.elem_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        return LabeledView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var InputBindingController = /** @class */ (function () {
-        function InputBindingController(doc, config) {
-            this.binding = config.binding;
-            this.controller = config.controller;
-            this.view = new LabeledView(doc, {
-                label: config.label,
-                view: this.controller.view,
-            });
-            this.blade = config.blade;
-            setUpBladeView(this.view, this.blade);
-        }
-        return InputBindingController;
-    }());
-
-    /**
-     * @hidden
-     */
-    var MonitorBindingController = /** @class */ (function () {
-        function MonitorBindingController(doc, config) {
-            var _this = this;
-            this.binding = config.binding;
-            this.controller = config.controller;
-            this.view = new LabeledView(doc, {
-                label: config.label,
-                view: this.controller.view,
-            });
-            this.blade = config.blade;
-            this.blade.emitter.on('dispose', function () {
-                _this.binding.dispose();
-            });
-            setUpBladeView(this.view, this.blade);
-        }
-        return MonitorBindingController;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Disposable = /** @class */ (function () {
-        function Disposable() {
-            this.emitter = new Emitter();
-            this.disposed_ = false;
-        }
-        Object.defineProperty(Disposable.prototype, "disposed", {
-            get: function () {
-                return this.disposed_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Disposable.prototype.dispose = function () {
-            if (this.disposed_) {
-                return false;
-            }
-            this.disposed_ = true;
-            this.emitter.emit('dispose', {
-                sender: this,
-            });
-            return true;
-        };
-        return Disposable;
-    }());
-
-    var Blade = /** @class */ (function () {
-        function Blade() {
-            this.onDispose_ = this.onDispose_.bind(this);
-            this.emitter = new Emitter();
-            this.positions_ = [];
-            this.hidden_ = false;
-            this.disposable_ = new Disposable();
-            this.disposable_.emitter.on('dispose', this.onDispose_);
-        }
-        Object.defineProperty(Blade.prototype, "hidden", {
-            get: function () {
-                return this.hidden_;
-            },
-            set: function (hidden) {
-                if (this.hidden_ === hidden) {
-                    return;
-                }
-                this.hidden_ = hidden;
-                this.emitter.emit('change', {
-                    propertyName: 'hidden',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Blade.prototype, "positions", {
-            get: function () {
-                return this.positions_;
-            },
-            set: function (positions) {
-                if (deepEqualsArray(positions, this.positions_)) {
-                    return;
-                }
-                this.positions_ = positions;
-                this.emitter.emit('change', {
-                    propertyName: 'positions',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Blade.prototype, "disposed", {
-            get: function () {
-                return this.disposable_.disposed;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Blade.prototype.dispose = function () {
-            this.disposable_.dispose();
-        };
-        Blade.prototype.onDispose_ = function () {
-            this.emitter.emit('dispose', {
-                sender: this,
-            });
-        };
-        return Blade;
-    }());
-
-    var SVG_NS = 'http://www.w3.org/2000/svg';
+    const SVG_NS = 'http://www.w3.org/2000/svg';
     function forceReflow(element) {
         element.offsetHeight;
     }
     function disableTransitionTemporarily(element, callback) {
-        var t = element.style.transition;
+        const t = element.style.transition;
         element.style.transition = 'none';
         callback();
         element.style.transition = t;
@@ -114244,1563 +114441,1590 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return new Function('return this')();
     }
     function getWindowDocument() {
-        var globalObj = forceCast(getGlobalObject());
+        const globalObj = forceCast(getGlobalObject());
         return globalObj.document;
     }
     function isBrowser() {
         return 'document' in getGlobalObject();
     }
     function getCanvasContext(canvasElement) {
-        // HTMLCanvasElement.prototype.getContext is not defined on testing environment
         return isBrowser() ? canvasElement.getContext('2d') : null;
     }
-    var ICON_ID_TO_INNER_HTML_MAP = {
-        p2dpad: '<path d="M8 2V14" stroke="currentColor" stroke-width="1.5"/><path d="M2 8H14" stroke="currentColor" stroke-width="1.5"/><circle cx="8" cy="8" r="2" fill="currentColor"/>',
+    const ICON_ID_TO_INNER_HTML_MAP = {
+        check: '<path d="M2 8l4 4l8 -8"/>',
+        dropdown: '<path d="M5 7h6l-3 3 z"/>',
+        p2dpad: '<path d="M8 4v8"/><path d="M4 8h8"/><circle cx="12" cy="12" r="1.2"/>',
     };
     function createSvgIconElement(document, iconId) {
-        var elem = document.createElementNS(SVG_NS, 'svg');
+        const elem = document.createElementNS(SVG_NS, 'svg');
         elem.innerHTML = ICON_ID_TO_INNER_HTML_MAP[iconId];
         return elem;
     }
     function insertElementAt(parentElement, element, index) {
         parentElement.insertBefore(element, parentElement.children[index]);
     }
+    function removeElement(element) {
+        if (element.parentElement) {
+            element.parentElement.removeChild(element);
+        }
+    }
+    function removeChildElements(element) {
+        while (element.children.length > 0) {
+            element.removeChild(element.children[0]);
+        }
+    }
+    function removeChildNodes(element) {
+        while (element.childNodes.length > 0) {
+            element.removeChild(element.childNodes[0]);
+        }
+    }
     function findNextTarget(ev) {
         if (ev.relatedTarget) {
             return forceCast(ev.relatedTarget);
         }
-        // Workaround for Firefox
         if ('explicitOriginalTarget' in ev) {
             return ev.explicitOriginalTarget;
         }
-        // TODO: Workaround for Safari
-        // Safari doesn't set next target for some elements
-        // (e.g. button, input[type=checkbox], etc.)
         return null;
     }
 
-    function updateAllItemsPositions(bladeRack) {
-        var visibleItems = bladeRack.items.filter(function (bc) { return !bc.blade.hidden; });
-        var firstVisibleItem = visibleItems[0];
-        var lastVisibleItem = visibleItems[visibleItems.length - 1];
-        bladeRack.items.forEach(function (bc) {
-            var ps = [];
-            if (bc === firstVisibleItem) {
-                ps.push('first');
+    const className$o = ClassName('lbl');
+    function createLabelNode(doc, label) {
+        const frag = doc.createDocumentFragment();
+        const lineNodes = label.split('\n').map((line) => {
+            return doc.createTextNode(line);
+        });
+        lineNodes.forEach((lineNode, index) => {
+            if (index > 0) {
+                frag.appendChild(doc.createElement('br'));
             }
-            if (bc === lastVisibleItem) {
-                ps.push('last');
+            frag.appendChild(lineNode);
+        });
+        return frag;
+    }
+    class LabelView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$o());
+            config.viewProps.bindClassModifiers(this.element);
+            const labelElem = doc.createElement('div');
+            labelElem.classList.add(className$o('l'));
+            bindValueMap(config.props, 'label', (value) => {
+                if (isEmpty(value)) {
+                    this.element.classList.add(className$o(undefined, 'nol'));
+                }
+                else {
+                    this.element.classList.remove(className$o(undefined, 'nol'));
+                    removeChildNodes(labelElem);
+                    labelElem.appendChild(createLabelNode(doc, value));
+                }
+            });
+            this.element.appendChild(labelElem);
+            this.labelElement = labelElem;
+            const valueElem = doc.createElement('div');
+            valueElem.classList.add(className$o('v'));
+            this.element.appendChild(valueElem);
+            this.valueElement = valueElem;
+        }
+    }
+
+    class LabelController extends BladeController {
+        constructor(doc, config) {
+            const viewProps = config.valueController.viewProps;
+            super(Object.assign(Object.assign({}, config), { view: new LabelView(doc, {
+                    props: config.props,
+                    viewProps: viewProps,
+                }), viewProps: viewProps }));
+            this.props = config.props;
+            this.valueController = config.valueController;
+            this.view.valueElement.appendChild(this.valueController.view.element);
+        }
+    }
+
+    const ButtonBladePlugin = {
+        id: 'button',
+        type: 'blade',
+        accept(params) {
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                title: p.required.string,
+                view: p.required.constant('button'),
+                label: p.optional.string,
+            });
+            return result ? { params: result } : null;
+        },
+        controller(args) {
+            return new LabelController(args.document, {
+                blade: args.blade,
+                props: ValueMap.fromObject({
+                    label: args.params.label,
+                }),
+                valueController: new ButtonController(args.document, {
+                    props: ValueMap.fromObject({
+                        title: args.params.title,
+                    }),
+                    viewProps: args.viewProps,
+                }),
+            });
+        },
+        api(args) {
+            if (!(args.controller instanceof LabelController)) {
+                return null;
             }
-            bc.blade.positions = ps;
+            if (!(args.controller.valueController instanceof ButtonController)) {
+                return null;
+            }
+            return new ButtonApi(args.controller);
+        },
+    };
+
+    class ValueBladeController extends BladeController {
+        constructor(config) {
+            super(config);
+            this.value = config.value;
+        }
+    }
+
+    function createBlade() {
+        return new ValueMap({
+            positions: createValue([], {
+                equals: deepEqualsArray,
+            }),
         });
     }
-    /**
-     * @hidden
-     */
+
+    class Foldable extends ValueMap {
+        constructor(valueMap) {
+            super(valueMap);
+        }
+        static create(expanded) {
+            const coreObj = {
+                completed: true,
+                expanded: expanded,
+                expandedHeight: null,
+                shouldFixHeight: false,
+                temporaryExpanded: null,
+            };
+            const core = ValueMap.createCore(coreObj);
+            return new Foldable(core);
+        }
+        get styleExpanded() {
+            var _a;
+            return (_a = this.get('temporaryExpanded')) !== null && _a !== void 0 ? _a : this.get('expanded');
+        }
+        get styleHeight() {
+            if (!this.styleExpanded) {
+                return '0';
+            }
+            const exHeight = this.get('expandedHeight');
+            if (this.get('shouldFixHeight') && !isEmpty(exHeight)) {
+                return `${exHeight}px`;
+            }
+            return 'auto';
+        }
+        bindExpandedClass(elem, expandedClassName) {
+            bindValueMap(this, 'expanded', () => {
+                const expanded = this.styleExpanded;
+                if (expanded) {
+                    elem.classList.add(expandedClassName);
+                }
+                else {
+                    elem.classList.remove(expandedClassName);
+                }
+            });
+        }
+    }
     function computeExpandedFolderHeight(folder, containerElement) {
-        var height = 0;
-        disableTransitionTemporarily(containerElement, function () {
-            // Expand folder temporarily
-            folder.expandedHeight = null;
-            folder.temporaryExpanded = true;
+        let height = 0;
+        disableTransitionTemporarily(containerElement, () => {
+            folder.set('expandedHeight', null);
+            folder.set('temporaryExpanded', true);
             forceReflow(containerElement);
-            // Compute height
             height = containerElement.clientHeight;
-            // Restore expanded
-            folder.temporaryExpanded = null;
+            folder.set('temporaryExpanded', null);
             forceReflow(containerElement);
         });
         return height;
     }
+    function applyHeight(foldable, elem) {
+        elem.style.height = foldable.styleHeight;
+    }
+    function bindFoldable(foldable, elem) {
+        foldable.value('expanded').emitter.on('beforechange', () => {
+            foldable.set('completed', false);
+            if (isEmpty(foldable.get('expandedHeight'))) {
+                foldable.set('expandedHeight', computeExpandedFolderHeight(foldable, elem));
+            }
+            foldable.set('shouldFixHeight', true);
+            forceReflow(elem);
+        });
+        foldable.emitter.on('change', () => {
+            applyHeight(foldable, elem);
+        });
+        applyHeight(foldable, elem);
+        elem.addEventListener('transitionend', (ev) => {
+            if (ev.propertyName !== 'height') {
+                return;
+            }
+            foldable.set('shouldFixHeight', false);
+            foldable.set('expandedHeight', null);
+            foldable.set('completed', true);
+        });
+    }
 
-    /**
-     * @hidden
-     */
-    var List = /** @class */ (function () {
-        function List() {
+    class RackLikeApi extends BladeApi {
+        constructor(controller, rackApi) {
+            super(controller);
+            this.rackApi_ = rackApi;
+        }
+    }
+
+    function addButtonAsBlade(api, params) {
+        return api.addBlade(Object.assign(Object.assign({}, params), { view: 'button' }));
+    }
+    function addFolderAsBlade(api, params) {
+        return api.addBlade(Object.assign(Object.assign({}, params), { view: 'folder' }));
+    }
+    function addSeparatorAsBlade(api, opt_params) {
+        const params = opt_params || {};
+        return api.addBlade(Object.assign(Object.assign({}, params), { view: 'separator' }));
+    }
+    function addTabAsBlade(api, params) {
+        return api.addBlade(Object.assign(Object.assign({}, params), { view: 'tab' }));
+    }
+
+    class NestedOrderedSet {
+        constructor(extract) {
             this.emitter = new Emitter();
             this.items_ = [];
+            this.cache_ = new Set();
+            this.onSubListAdd_ = this.onSubListAdd_.bind(this);
+            this.onSubListRemove_ = this.onSubListRemove_.bind(this);
+            this.extract_ = extract;
         }
-        Object.defineProperty(List.prototype, "items", {
-            get: function () {
-                return this.items_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        List.prototype.add = function (item, opt_index) {
-            var index = opt_index !== undefined ? opt_index : this.items_.length;
+        get items() {
+            return this.items_;
+        }
+        allItems() {
+            return Array.from(this.cache_);
+        }
+        find(callback) {
+            for (const item of this.allItems()) {
+                if (callback(item)) {
+                    return item;
+                }
+            }
+            return null;
+        }
+        includes(item) {
+            return this.cache_.has(item);
+        }
+        add(item, opt_index) {
+            if (this.includes(item)) {
+                throw TpError.shouldNeverHappen();
+            }
+            const index = opt_index !== undefined ? opt_index : this.items_.length;
             this.items_.splice(index, 0, item);
+            this.cache_.add(item);
+            const subList = this.extract_(item);
+            if (subList) {
+                subList.emitter.on('add', this.onSubListAdd_);
+                subList.emitter.on('remove', this.onSubListRemove_);
+                subList.allItems().forEach((item) => {
+                    this.cache_.add(item);
+                });
+            }
             this.emitter.emit('add', {
                 index: index,
                 item: item,
-                sender: this,
+                root: this,
+                target: this,
             });
-        };
-        List.prototype.remove = function (item) {
-            var index = this.items_.indexOf(item);
+        }
+        remove(item) {
+            const index = this.items_.indexOf(item);
             if (index < 0) {
                 return;
             }
             this.items_.splice(index, 1);
+            this.cache_.delete(item);
+            const subList = this.extract_(item);
+            if (subList) {
+                subList.emitter.off('add', this.onSubListAdd_);
+                subList.emitter.off('remove', this.onSubListRemove_);
+            }
             this.emitter.emit('remove', {
-                sender: this,
+                index: index,
+                item: item,
+                root: this,
+                target: this,
             });
-        };
-        return List;
-    }());
-
-    /**
-     * @hidden
-     */
-    var BladeRack = /** @class */ (function () {
-        function BladeRack() {
-            this.onItemFolderFold_ = this.onItemFolderFold_.bind(this);
-            this.onListItemLayout_ = this.onListItemLayout_.bind(this);
-            this.onSubitemLayout_ = this.onSubitemLayout_.bind(this);
-            this.onSubitemFolderFold_ = this.onSubitemFolderFold_.bind(this);
-            this.onSubitemInputChange_ = this.onSubitemInputChange_.bind(this);
-            this.onSubitemMonitorUpdate_ = this.onSubitemMonitorUpdate_.bind(this);
-            this.onItemInputChange_ = this.onItemInputChange_.bind(this);
-            this.onListAdd_ = this.onListAdd_.bind(this);
-            this.onListItemDispose_ = this.onListItemDispose_.bind(this);
-            this.onListRemove_ = this.onListRemove_.bind(this);
-            this.onItemMonitorUpdate_ = this.onItemMonitorUpdate_.bind(this);
-            this.blades_ = new List();
-            this.emitter = new Emitter();
-            this.blades_.emitter.on('add', this.onListAdd_);
-            this.blades_.emitter.on('remove', this.onListRemove_);
         }
-        Object.defineProperty(BladeRack.prototype, "items", {
-            get: function () {
-                return this.blades_.items;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        BladeRack.prototype.add = function (bc, opt_index) {
-            this.blades_.add(bc, opt_index);
-        };
-        BladeRack.prototype.find = function (controllerClass) {
-            return this.items.reduce(function (results, bc) {
-                if (bc instanceof FolderController) {
-                    results.push.apply(results, bc.bladeRack.find(controllerClass));
-                }
-                if (bc instanceof controllerClass) {
-                    results.push(bc);
-                }
-                return results;
-            }, []);
-        };
-        BladeRack.prototype.onListAdd_ = function (ev) {
-            var bc = ev.item;
+        onSubListAdd_(ev) {
+            this.cache_.add(ev.item);
             this.emitter.emit('add', {
-                blade: bc,
                 index: ev.index,
-                sender: this,
+                item: ev.item,
+                root: this,
+                target: ev.target,
             });
-            bc.blade.emitter.on('dispose', this.onListItemDispose_);
-            bc.blade.emitter.on('change', this.onListItemLayout_);
-            if (bc instanceof InputBindingController) {
-                bc.binding.emitter.on('change', this.onItemInputChange_);
-            }
-            else if (bc instanceof MonitorBindingController) {
-                bc.binding.emitter.on('update', this.onItemMonitorUpdate_);
-            }
-            else if (bc instanceof FolderController) {
-                bc.folder.emitter.on('change', this.onItemFolderFold_);
-                var emitter = bc.bladeRack.emitter;
-                emitter.on('itemfold', this.onSubitemFolderFold_);
-                emitter.on('itemlayout', this.onSubitemLayout_);
-                emitter.on('inputchange', this.onSubitemInputChange_);
-                emitter.on('monitorupdate', this.onSubitemMonitorUpdate_);
-            }
-        };
-        BladeRack.prototype.onListRemove_ = function (_) {
+        }
+        onSubListRemove_(ev) {
+            this.cache_.delete(ev.item);
             this.emitter.emit('remove', {
-                sender: this,
-            });
-        };
-        BladeRack.prototype.onListItemLayout_ = function (ev) {
-            if (ev.propertyName === 'hidden' || ev.propertyName === 'positions') {
-                this.emitter.emit('itemlayout', {
-                    sender: this,
-                });
-            }
-        };
-        BladeRack.prototype.onListItemDispose_ = function (_) {
-            var _this = this;
-            var disposedUcs = this.blades_.items.filter(function (bc) {
-                return bc.blade.disposed;
-            });
-            disposedUcs.forEach(function (bc) {
-                _this.blades_.remove(bc);
-            });
-        };
-        BladeRack.prototype.onItemInputChange_ = function (ev) {
-            this.emitter.emit('inputchange', {
-                inputBinding: ev.sender,
-                sender: this,
-                value: ev.rawValue,
-            });
-        };
-        BladeRack.prototype.onItemMonitorUpdate_ = function (ev) {
-            this.emitter.emit('monitorupdate', {
-                monitorBinding: ev.sender,
-                sender: this,
-                value: ev.rawValue,
-            });
-        };
-        BladeRack.prototype.onItemFolderFold_ = function (ev) {
-            if (ev.propertyName !== 'expanded') {
-                return;
-            }
-            this.emitter.emit('itemfold', {
-                expanded: ev.sender.expanded,
-                sender: this,
-            });
-        };
-        BladeRack.prototype.onSubitemLayout_ = function (_) {
-            this.emitter.emit('itemlayout', {
-                sender: this,
-            });
-        };
-        BladeRack.prototype.onSubitemInputChange_ = function (ev) {
-            this.emitter.emit('inputchange', {
-                inputBinding: ev.inputBinding,
-                sender: this,
-                value: ev.value,
-            });
-        };
-        BladeRack.prototype.onSubitemMonitorUpdate_ = function (ev) {
-            this.emitter.emit('monitorupdate', {
-                monitorBinding: ev.monitorBinding,
-                sender: this,
-                value: ev.value,
-            });
-        };
-        BladeRack.prototype.onSubitemFolderFold_ = function (ev) {
-            this.emitter.emit('itemfold', {
-                expanded: ev.expanded,
-                sender: this,
-            });
-        };
-        return BladeRack;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Folder = /** @class */ (function () {
-        function Folder(title, expanded) {
-            this.emitter = new Emitter();
-            this.expanded_ = expanded;
-            this.expandedHeight_ = null;
-            this.temporaryExpanded_ = null;
-            this.shouldFixHeight_ = false;
-            this.title = title;
-        }
-        Object.defineProperty(Folder.prototype, "expanded", {
-            get: function () {
-                return this.expanded_;
-            },
-            set: function (expanded) {
-                var changed = this.expanded_ !== expanded;
-                if (!changed) {
-                    return;
-                }
-                this.emitter.emit('beforechange', {
-                    propertyName: 'expanded',
-                    sender: this,
-                });
-                this.expanded_ = expanded;
-                this.emitter.emit('change', {
-                    propertyName: 'expanded',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Folder.prototype, "temporaryExpanded", {
-            get: function () {
-                return this.temporaryExpanded_;
-            },
-            set: function (expanded) {
-                var changed = this.temporaryExpanded_ !== expanded;
-                if (!changed) {
-                    return;
-                }
-                this.emitter.emit('beforechange', {
-                    propertyName: 'temporaryExpanded',
-                    sender: this,
-                });
-                this.temporaryExpanded_ = expanded;
-                this.emitter.emit('change', {
-                    propertyName: 'temporaryExpanded',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Folder.prototype, "expandedHeight", {
-            get: function () {
-                return this.expandedHeight_;
-            },
-            set: function (expandedHeight) {
-                var changed = this.expandedHeight_ !== expandedHeight;
-                if (!changed) {
-                    return;
-                }
-                this.emitter.emit('beforechange', {
-                    propertyName: 'expandedHeight',
-                    sender: this,
-                });
-                this.expandedHeight_ = expandedHeight;
-                this.emitter.emit('change', {
-                    propertyName: 'expandedHeight',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Folder.prototype, "shouldFixHeight", {
-            get: function () {
-                return this.shouldFixHeight_;
-            },
-            set: function (shouldFixHeight) {
-                var changed = this.shouldFixHeight_ !== shouldFixHeight;
-                if (!changed) {
-                    return;
-                }
-                this.emitter.emit('beforechange', {
-                    propertyName: 'shouldFixHeight',
-                    sender: this,
-                });
-                this.shouldFixHeight_ = shouldFixHeight;
-                this.emitter.emit('change', {
-                    propertyName: 'shouldFixHeight',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Folder.prototype, "styleExpanded", {
-            get: function () {
-                var _a;
-                return (_a = this.temporaryExpanded) !== null && _a !== void 0 ? _a : this.expanded;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Folder.prototype, "styleHeight", {
-            get: function () {
-                if (!this.styleExpanded) {
-                    return '0';
-                }
-                if (this.shouldFixHeight && !isEmpty(this.expandedHeight)) {
-                    return this.expandedHeight + "px";
-                }
-                return 'auto';
-            },
-            enumerable: false,
-            configurable: true
-        });
-        return Folder;
-    }());
-
-    var className$3 = ClassName('fld');
-    /**
-     * @hidden
-     */
-    var FolderView = /** @class */ (function () {
-        function FolderView(doc, config) {
-            this.onFolderChange_ = this.onFolderChange_.bind(this);
-            this.folder_ = config.folder;
-            this.folder_.emitter.on('change', this.onFolderChange_);
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$3());
-            var titleElem = doc.createElement('button');
-            titleElem.classList.add(className$3('t'));
-            titleElem.textContent = this.folder_.title;
-            this.element.appendChild(titleElem);
-            this.titleElement = titleElem;
-            var markElem = doc.createElement('div');
-            markElem.classList.add(className$3('m'));
-            this.titleElement.appendChild(markElem);
-            var containerElem = doc.createElement('div');
-            containerElem.classList.add(className$3('c'));
-            this.element.appendChild(containerElem);
-            this.containerElement = containerElem;
-            this.applyModel_();
-        }
-        FolderView.prototype.applyModel_ = function () {
-            var expanded = this.folder_.styleExpanded;
-            var expandedClass = className$3(undefined, 'expanded');
-            if (expanded) {
-                this.element.classList.add(expandedClass);
-            }
-            else {
-                this.element.classList.remove(expandedClass);
-            }
-            this.containerElement.style.height = this.folder_.styleHeight;
-        };
-        FolderView.prototype.onFolderChange_ = function () {
-            this.applyModel_();
-        };
-        return FolderView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var FolderController = /** @class */ (function () {
-        function FolderController(doc, config) {
-            var _a;
-            this.onContainerTransitionEnd_ = this.onContainerTransitionEnd_.bind(this);
-            this.onFolderBeforeChange_ = this.onFolderBeforeChange_.bind(this);
-            this.onTitleClick_ = this.onTitleClick_.bind(this);
-            this.onRackAdd_ = this.onRackAdd_.bind(this);
-            this.onRackItemLayout_ = this.onRackItemLayout_.bind(this);
-            this.onRackRemove_ = this.onRackRemove_.bind(this);
-            this.blade = config.blade;
-            this.folder = new Folder(config.title, (_a = config.expanded) !== null && _a !== void 0 ? _a : true);
-            this.folder.emitter.on('beforechange', this.onFolderBeforeChange_);
-            this.rack_ = new BladeRack();
-            this.rack_.emitter.on('add', this.onRackAdd_);
-            this.rack_.emitter.on('itemlayout', this.onRackItemLayout_);
-            this.rack_.emitter.on('remove', this.onRackRemove_);
-            this.doc_ = doc;
-            this.view = new FolderView(this.doc_, {
-                folder: this.folder,
-            });
-            this.view.titleElement.addEventListener('click', this.onTitleClick_);
-            this.view.containerElement.addEventListener('transitionend', this.onContainerTransitionEnd_);
-            setUpBladeView(this.view, this.blade);
-        }
-        Object.defineProperty(FolderController.prototype, "document", {
-            get: function () {
-                return this.doc_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(FolderController.prototype, "bladeRack", {
-            get: function () {
-                return this.rack_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        FolderController.prototype.onFolderBeforeChange_ = function (ev) {
-            if (ev.propertyName !== 'expanded') {
-                return;
-            }
-            if (isEmpty(this.folder.expandedHeight)) {
-                this.folder.expandedHeight = computeExpandedFolderHeight(this.folder, this.view.containerElement);
-            }
-            this.folder.shouldFixHeight = true;
-            forceReflow(this.view.containerElement);
-        };
-        FolderController.prototype.onTitleClick_ = function () {
-            this.folder.expanded = !this.folder.expanded;
-        };
-        FolderController.prototype.applyRackChange_ = function () {
-            updateAllItemsPositions(this.bladeRack);
-        };
-        FolderController.prototype.onRackAdd_ = function (ev) {
-            insertElementAt(this.view.containerElement, ev.blade.view.element, ev.index);
-            this.applyRackChange_();
-        };
-        FolderController.prototype.onRackRemove_ = function (_) {
-            this.applyRackChange_();
-        };
-        FolderController.prototype.onRackItemLayout_ = function (_) {
-            this.applyRackChange_();
-        };
-        FolderController.prototype.onContainerTransitionEnd_ = function (ev) {
-            if (ev.propertyName !== 'height') {
-                return;
-            }
-            this.folder.shouldFixHeight = false;
-            this.folder.expandedHeight = null;
-        };
-        return FolderController;
-    }());
-
-    var className$4 = ClassName('spt');
-    /**
-     * @hidden
-     */
-    var SeparatorView = /** @class */ (function () {
-        function SeparatorView(doc) {
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$4());
-            var hrElem = doc.createElement('hr');
-            hrElem.classList.add(className$4('r'));
-            this.element.appendChild(hrElem);
-        }
-        return SeparatorView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var SeparatorController = /** @class */ (function () {
-        function SeparatorController(doc, config) {
-            this.blade = config.blade;
-            this.view = new SeparatorView(doc);
-            setUpBladeView(this.view, this.blade);
-        }
-        return SeparatorController;
-    }());
-
-    var ButtonApi = /** @class */ (function () {
-        /**
-         * @hidden
-         */
-        function ButtonApi(buttonController) {
-            this.controller = buttonController;
-        }
-        Object.defineProperty(ButtonApi.prototype, "hidden", {
-            get: function () {
-                return this.controller.blade.hidden;
-            },
-            set: function (hidden) {
-                this.controller.blade.hidden = hidden;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ButtonApi.prototype.dispose = function () {
-            this.controller.blade.dispose();
-        };
-        ButtonApi.prototype.on = function (eventName, handler) {
-            var emitter = this.controller.button.emitter;
-            // TODO: Type-safe
-            emitter.on(eventName, forceCast(handler.bind(this)));
-            return this;
-        };
-        return ButtonApi;
-    }());
-
-    /**
-     * @hidden
-     */
-    function handleInputBinding(_a) {
-        var binding = _a.binding, eventName = _a.eventName, handler = _a.handler;
-        if (eventName === 'change') {
-            var emitter = binding.emitter;
-            emitter.on('change', function (ev) {
-                handler(forceCast(ev.sender.target.read()));
-            });
-        }
-    }
-    /**
-     * @hidden
-     */
-    function handleMonitorBinding(_a) {
-        var binding = _a.binding, eventName = _a.eventName, handler = _a.handler;
-        if (eventName === 'update') {
-            var emitter = binding.emitter;
-            emitter.on('update', function (ev) {
-                handler(ev.sender.target.read());
-            });
-        }
-    }
-    /**
-     * @hidden
-     */
-    function handleFolder(_a) {
-        var bladeRack = _a.bladeRack, eventName = _a.eventName, folder = _a.folder, handler = _a.handler;
-        if (eventName === 'change') {
-            var emitter = bladeRack.emitter;
-            emitter.on('inputchange', function (ev) {
-                handler(ev.inputBinding.target.read());
-            });
-        }
-        if (eventName === 'update') {
-            var emitter = bladeRack.emitter;
-            emitter.on('monitorupdate', function (ev) {
-                handler(ev.monitorBinding.target.read());
-            });
-        }
-        if (eventName === 'fold') {
-            bladeRack.emitter.on('itemfold', function (ev) {
-                handler(ev.expanded);
-            });
-            folder === null || folder === void 0 ? void 0 : folder.emitter.on('change', function (ev) {
-                if (ev.propertyName !== 'expanded') {
-                    return;
-                }
-                handler(ev.sender.expanded);
+                index: ev.index,
+                item: ev.item,
+                root: this,
+                target: ev.target,
             });
         }
     }
 
-    /**
-     * The API for the input binding between the parameter and the pane.
-     * @param In The internal type.
-     * @param Ex The external type (= parameter object).
-     */
-    var InputBindingApi = /** @class */ (function () {
-        /**
-         * @hidden
-         */
-        function InputBindingApi(bindingController) {
-            this.controller = bindingController;
+    class InputBindingApi extends BladeApi {
+        constructor(controller) {
+            super(controller);
+            this.onBindingChange_ = this.onBindingChange_.bind(this);
+            this.emitter_ = new Emitter();
+            this.controller_.binding.emitter.on('change', this.onBindingChange_);
         }
-        Object.defineProperty(InputBindingApi.prototype, "hidden", {
-            get: function () {
-                return this.controller.blade.hidden;
-            },
-            set: function (hidden) {
-                this.controller.blade.hidden = hidden;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        InputBindingApi.prototype.dispose = function () {
-            this.controller.blade.dispose();
-        };
-        InputBindingApi.prototype.on = function (eventName, handler) {
-            handleInputBinding({
-                binding: this.controller.binding,
-                eventName: eventName,
-                handler: handler.bind(this),
+        get label() {
+            return this.controller_.props.get('label');
+        }
+        set label(label) {
+            this.controller_.props.set('label', label);
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
             });
             return this;
-        };
-        InputBindingApi.prototype.refresh = function () {
-            this.controller.binding.read();
-        };
-        return InputBindingApi;
-    }());
-
-    var CREATE_MESSAGE_MAP = {
-        alreadydisposed: function () { return 'View has been already disposed'; },
-        invalidparams: function (context) { return "Invalid parameters for '" + context.name + "'"; },
-        nomatchingcontroller: function (context) {
-            return "No matching controller for '" + context.key + "'";
-        },
-        notbindable: function () { return "Value is not bindable"; },
-        propertynotfound: function (context) { return "Property '" + context.name + "' not found"; },
-        shouldneverhappen: function () { return 'This error should never happen'; },
-    };
-    var TpError = /** @class */ (function () {
-        function TpError(config) {
-            var _a;
-            this.message = (_a = CREATE_MESSAGE_MAP[config.type](forceCast(config.context))) !== null && _a !== void 0 ? _a : 'Unexpected error';
-            this.name = this.constructor.name;
-            this.stack = new Error(this.message).stack;
-            this.type = config.type;
         }
-        TpError.alreadyDisposed = function () {
-            return new TpError({ context: {}, type: 'alreadydisposed' });
-        };
-        TpError.notBindable = function () {
-            return new TpError({
-                context: {},
-                type: 'notbindable',
+        refresh() {
+            this.controller_.binding.read();
+        }
+        onBindingChange_(ev) {
+            const value = ev.sender.target.read();
+            this.emitter_.emit('change', {
+                event: new TpChangeEvent(this, forceCast(value), this.controller_.binding.target.presetKey, ev.options.last),
             });
-        };
-        TpError.propertyNotFound = function (name) {
-            return new TpError({
-                type: 'propertynotfound',
-                context: {
-                    name: name,
-                },
-            });
-        };
-        TpError.shouldNeverHappen = function () {
-            return new TpError({ context: {}, type: 'shouldneverhappen' });
-        };
-        return TpError;
-    }());
-    TpError.prototype = Object.create(Error.prototype);
-    TpError.prototype.constructor = TpError;
-
-    /**
-     * @hidden
-     */
-    var InputBinding = /** @class */ (function () {
-        function InputBinding(config) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.reader = config.reader;
-            this.writer = config.writer;
-            this.emitter = new Emitter();
-            this.value = config.value;
-            this.value.emitter.on('change', this.onValueChange_);
-            this.target = config.target;
-            this.read();
         }
-        InputBinding.prototype.read = function () {
-            var targetValue = this.target.read();
-            if (targetValue !== undefined) {
-                this.value.rawValue = this.reader(targetValue);
-            }
-        };
-        InputBinding.prototype.write_ = function (rawValue) {
-            this.writer(this.target, rawValue);
-        };
-        InputBinding.prototype.onValueChange_ = function (ev) {
-            this.write_(ev.rawValue);
-            this.emitter.emit('change', {
-                rawValue: ev.rawValue,
-                sender: this,
-            });
-        };
-        return InputBinding;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Value = /** @class */ (function () {
-        function Value(initialValue, config) {
-            var _a;
-            this.constraint_ = config === null || config === void 0 ? void 0 : config.constraint;
-            this.equals_ = (_a = config === null || config === void 0 ? void 0 : config.equals) !== null && _a !== void 0 ? _a : (function (v1, v2) { return v1 === v2; });
-            this.emitter = new Emitter();
-            this.rawValue_ = initialValue;
-        }
-        Object.defineProperty(Value.prototype, "constraint", {
-            get: function () {
-                return this.constraint_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Value.prototype, "rawValue", {
-            get: function () {
-                return this.rawValue_;
-            },
-            set: function (rawValue) {
-                var constrainedValue = this.constraint_
-                    ? this.constraint_.constrain(rawValue)
-                    : rawValue;
-                var changed = !this.equals_(this.rawValue_, constrainedValue);
-                if (changed) {
-                    this.rawValue_ = constrainedValue;
-                    this.emitter.emit('change', {
-                        rawValue: constrainedValue,
-                        sender: this,
-                    });
-                }
-            },
-            enumerable: false,
-            configurable: true
-        });
-        return Value;
-    }());
-
-    function createController(plugin, args) {
-        var initialValue = plugin.binding.accept(args.target.read(), args.params);
-        if (initialValue === null) {
-            return null;
-        }
-        var valueArgs = {
-            target: args.target,
-            initialValue: initialValue,
-            params: args.params,
-        };
-        var reader = plugin.binding.reader(valueArgs);
-        var constraint = plugin.binding.constraint
-            ? plugin.binding.constraint(valueArgs)
-            : undefined;
-        var value = new Value(reader(initialValue), {
-            constraint: constraint,
-            equals: plugin.binding.equals,
-        });
-        var binding = new InputBinding({
-            reader: reader,
-            target: args.target,
-            value: value,
-            writer: plugin.binding.writer(valueArgs),
-        });
-        var controller = plugin.controller({
-            binding: binding,
-            document: args.document,
-            initialValue: initialValue,
-            params: args.params,
-        });
-        return new InputBindingController(args.document, {
-            binding: binding,
-            controller: controller,
-            label: args.params.label || args.target.key,
-            blade: new Blade(),
-        });
     }
 
-    /**
-     * @hidden
-     */
-    function createInputBindingController(document, target, params) {
-        var initialValue = target.read();
-        if (isEmpty(initialValue)) {
-            throw new TpError({
-                context: {
-                    key: target.key,
-                },
-                type: 'nomatchingcontroller',
-            });
+    class InputBindingController extends LabelController {
+        constructor(doc, config) {
+            super(doc, config);
+            this.binding = config.binding;
         }
-        var bc = Plugins.inputs.reduce(function (result, plugin) {
-            return result ||
-                createController(plugin, {
-                    document: document,
-                    target: target,
-                    params: params,
-                });
-        }, null);
-        if (bc) {
-            return bc;
-        }
-        throw new TpError({
-            context: {
-                key: target.key,
-            },
-            type: 'nomatchingcontroller',
-        });
     }
 
-    /**
-     * The API for the monitor binding between the parameter and the pane.
-     */
-    var MonitorBindingApi = /** @class */ (function () {
-        /**
-         * @hidden
-         */
-        function MonitorBindingApi(bindingController) {
-            this.controller = bindingController;
+    class MonitorBindingApi extends BladeApi {
+        constructor(controller) {
+            super(controller);
+            this.onBindingUpdate_ = this.onBindingUpdate_.bind(this);
+            this.emitter_ = new Emitter();
+            this.controller_.binding.emitter.on('update', this.onBindingUpdate_);
         }
-        Object.defineProperty(MonitorBindingApi.prototype, "hidden", {
-            get: function () {
-                return this.controller.blade.hidden;
-            },
-            set: function (hidden) {
-                this.controller.blade.hidden = hidden;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        MonitorBindingApi.prototype.dispose = function () {
-            this.controller.blade.dispose();
-        };
-        MonitorBindingApi.prototype.on = function (eventName, handler) {
-            handleMonitorBinding({
-                binding: this.controller.binding,
-                eventName: eventName,
-                // TODO: Type-safe
-                handler: forceCast(handler.bind(this)),
+        get label() {
+            return this.controller_.props.get('label');
+        }
+        set label(label) {
+            this.controller_.props.set('label', label);
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
             });
             return this;
-        };
-        MonitorBindingApi.prototype.refresh = function () {
-            this.controller.binding.read();
-        };
-        return MonitorBindingApi;
-    }());
-
-    var Constants = {
-        monitor: {
-            defaultInterval: 200,
-            defaultLineCount: 3,
-        },
-    };
-
-    function fillBuffer(buffer, bufferSize) {
-        while (buffer.length < bufferSize) {
-            buffer.push(undefined);
         }
-    }
-    /**
-     * @hidden
-     */
-    function initializeBuffer(initialValue, bufferSize) {
-        var buffer = [initialValue];
-        fillBuffer(buffer, bufferSize);
-        return new Value(buffer);
-    }
-    function createTrimmedBuffer(buffer) {
-        var index = buffer.indexOf(undefined);
-        return forceCast(index < 0 ? buffer : buffer.slice(0, index));
-    }
-    /**
-     * @hidden
-     */
-    function createPushedBuffer(buffer, newValue) {
-        var newBuffer = __spreadArrays(createTrimmedBuffer(buffer), [newValue]);
-        if (newBuffer.length > buffer.length) {
-            newBuffer.splice(0, newBuffer.length - buffer.length);
+        refresh() {
+            this.controller_.binding.read();
         }
-        else {
-            fillBuffer(newBuffer, buffer.length);
-        }
-        return newBuffer;
-    }
-
-    /**
-     * @hidden
-     */
-    var MonitorBinding = /** @class */ (function () {
-        function MonitorBinding(config) {
-            this.onTick_ = this.onTick_.bind(this);
-            this.reader_ = config.reader;
-            this.target = config.target;
-            this.emitter = new Emitter();
-            this.value = config.value;
-            this.ticker = config.ticker;
-            this.ticker.emitter.on('tick', this.onTick_);
-            this.read();
-        }
-        MonitorBinding.prototype.dispose = function () {
-            this.ticker.disposable.dispose();
-        };
-        MonitorBinding.prototype.read = function () {
-            var targetValue = this.target.read();
-            if (targetValue === undefined) {
-                return;
-            }
-            var buffer = this.value.rawValue;
-            var newValue = this.reader_(targetValue);
-            this.value.rawValue = createPushedBuffer(buffer, newValue);
-            this.emitter.emit('update', {
-                rawValue: newValue,
-                sender: this,
-            });
-        };
-        MonitorBinding.prototype.onTick_ = function (_) {
-            this.read();
-        };
-        return MonitorBinding;
-    }());
-
-    /**
-     * @hidden
-     */
-    var IntervalTicker = /** @class */ (function () {
-        function IntervalTicker(doc, interval) {
-            var _this = this;
-            this.id_ = null;
-            this.onTick_ = this.onTick_.bind(this);
-            // this.onWindowBlur_ = this.onWindowBlur_.bind(this);
-            // this.onWindowFocus_ = this.onWindowFocus_.bind(this);
-            this.doc_ = doc;
-            this.emitter = new Emitter();
-            if (interval <= 0) {
-                this.id_ = null;
-            }
-            else {
-                var win = this.doc_.defaultView;
-                if (win) {
-                    this.id_ = win.setInterval(this.onTick_, interval);
-                }
-            }
-            // TODO: Stop on blur?
-            // const win = document.defaultView;
-            // if (win) {
-            //   win.addEventListener('blur', this.onWindowBlur_);
-            //   win.addEventListener('focus', this.onWindowFocus_);
-            // }
-            this.disposable = new Disposable();
-            this.disposable.emitter.on('dispose', function () {
-                if (_this.id_ !== null) {
-                    var win = _this.doc_.defaultView;
-                    if (win) {
-                        win.clearInterval(_this.id_);
-                    }
-                }
-                _this.id_ = null;
+        onBindingUpdate_(ev) {
+            const value = ev.sender.target.read();
+            this.emitter_.emit('update', {
+                event: new TpUpdateEvent(this, forceCast(value), this.controller_.binding.target.presetKey),
             });
         }
-        IntervalTicker.prototype.onTick_ = function () {
-            // if (!this.active_) {
-            // 	return;
-            // }
-            this.emitter.emit('tick', {
-                sender: this,
+    }
+
+    class MonitorBindingController extends LabelController {
+        constructor(doc, config) {
+            super(doc, config);
+            this.binding = config.binding;
+            this.viewProps.bindDisabled(this.binding.ticker);
+            this.viewProps.handleDispose(() => {
+                this.binding.dispose();
             });
-        };
-        return IntervalTicker;
-    }());
-
-    /**
-     * @hidden
-     */
-    var ManualTicker = /** @class */ (function () {
-        function ManualTicker() {
-            this.disposable = new Disposable();
-            this.emitter = new Emitter();
         }
-        ManualTicker.prototype.tick = function () {
-            this.emitter.emit('tick', {
-                sender: this,
-            });
-        };
-        return ManualTicker;
-    }());
-
-    function createTicker(document, interval) {
-        return interval === 0
-            ? new ManualTicker()
-            : new IntervalTicker(document, interval !== null && interval !== void 0 ? interval : Constants.monitor.defaultInterval);
-    }
-    function createController$1(plugin, args) {
-        var _a, _b, _c;
-        var initialValue = plugin.binding.accept(args.target.read(), args.params);
-        if (initialValue === null) {
-            return null;
-        }
-        var valueArgs = {
-            target: args.target,
-            initialValue: initialValue,
-            params: args.params,
-        };
-        var reader = plugin.binding.reader(valueArgs);
-        var bufferSize = (_c = (_b = (_a = args.params.bufferSize) !== null && _a !== void 0 ? _a : args.params.count) !== null && _b !== void 0 ? _b : (plugin.binding.defaultBufferSize &&
-            plugin.binding.defaultBufferSize(args.params))) !== null && _c !== void 0 ? _c : 1;
-        var binding = new MonitorBinding({
-            reader: reader,
-            target: args.target,
-            ticker: createTicker(args.document, args.params.interval),
-            value: initializeBuffer(reader(initialValue), bufferSize),
-        });
-        return new MonitorBindingController(args.document, {
-            binding: binding,
-            controller: plugin.controller({
-                binding: binding,
-                document: args.document,
-                params: args.params,
-            }),
-            label: args.params.label || args.target.key,
-            blade: new Blade(),
-        });
     }
 
-    /**
-     * @hidden
-     */
-    function createMonitorBindingController(document, target, params) {
-        var bc = Plugins.monitors.reduce(function (result, plugin) {
-            return result ||
-                createController$1(plugin, {
-                    document: document,
-                    params: params,
-                    target: target,
-                });
-        }, null);
-        if (bc) {
-            return bc;
+    function findSubBladeApiSet(api) {
+        if (api instanceof RackApi) {
+            return api['apiSet_'];
         }
-        throw new TpError({
-            context: {
-                key: target.key,
-            },
-            type: 'nomatchingcontroller',
-        });
+        if (api instanceof RackLikeApi) {
+            return api['rackApi_']['apiSet_'];
+        }
+        return null;
     }
-
-    var SeparatorApi = /** @class */ (function () {
-        /**
-         * @hidden
-         */
-        function SeparatorApi(controller) {
-            this.controller = controller;
+    function getApiByController(apiSet, controller) {
+        const api = apiSet.find((api) => api.controller_ === controller);
+        if (!api) {
+            throw TpError.shouldNeverHappen();
         }
-        Object.defineProperty(SeparatorApi.prototype, "hidden", {
-            get: function () {
-                return this.controller.blade.hidden;
-            },
-            set: function (hidden) {
-                this.controller.blade.hidden = hidden;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        SeparatorApi.prototype.dispose = function () {
-            this.controller.blade.dispose();
-        };
-        return SeparatorApi;
-    }());
-
-    /**
-     * @hidden
-     */
-    var BindingTarget = /** @class */ (function () {
-        function BindingTarget(obj, key, opt_id) {
-            this.obj_ = obj;
-            this.key_ = key;
-            this.presetKey_ = opt_id !== null && opt_id !== void 0 ? opt_id : key;
-        }
-        BindingTarget.isBindable = function (obj) {
-            if (obj === null) {
-                return false;
-            }
-            if (typeof obj !== 'object') {
-                return false;
-            }
-            return true;
-        };
-        Object.defineProperty(BindingTarget.prototype, "key", {
-            get: function () {
-                return this.key_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(BindingTarget.prototype, "presetKey", {
-            get: function () {
-                return this.presetKey_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        BindingTarget.prototype.read = function () {
-            return this.obj_[this.key_];
-        };
-        BindingTarget.prototype.write = function (value) {
-            this.obj_[this.key_] = value;
-        };
-        BindingTarget.prototype.writeProperty = function (name, value) {
-            var valueObj = this.read();
-            if (!BindingTarget.isBindable(valueObj)) {
-                throw TpError.notBindable();
-            }
-            if (!(name in valueObj)) {
-                throw TpError.propertyNotFound(name);
-            }
-            valueObj[name] = value;
-        };
-        return BindingTarget;
-    }());
-
+        return api;
+    }
     function createBindingTarget(obj, key, opt_id) {
         if (!BindingTarget.isBindable(obj)) {
             throw TpError.notBindable();
         }
         return new BindingTarget(obj, key, opt_id);
     }
-
-    var FolderApi = /** @class */ (function () {
-        /**
-         * @hidden
-         */
-        function FolderApi(folderController) {
-            this.controller = folderController;
-        }
-        Object.defineProperty(FolderApi.prototype, "expanded", {
-            get: function () {
-                return this.controller.folder.expanded;
-            },
-            set: function (expanded) {
-                this.controller.folder.expanded = expanded;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(FolderApi.prototype, "hidden", {
-            get: function () {
-                return this.controller.blade.hidden;
-            },
-            set: function (hidden) {
-                this.controller.blade.hidden = hidden;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        FolderApi.prototype.dispose = function () {
-            this.controller.blade.dispose();
-        };
-        FolderApi.prototype.addInput = function (object, key, opt_params) {
-            var params = opt_params || {};
-            var bc = createInputBindingController(this.controller.document, createBindingTarget(object, key, params.presetKey), params);
-            this.controller.bladeRack.add(bc, params.index);
-            return new InputBindingApi(forceCast(bc));
-        };
-        FolderApi.prototype.addMonitor = function (object, key, opt_params) {
-            var params = opt_params || {};
-            var bc = createMonitorBindingController(this.controller.document, createBindingTarget(object, key), params);
-            this.controller.bladeRack.add(bc, params.index);
-            return new MonitorBindingApi(forceCast(bc));
-        };
-        FolderApi.prototype.addFolder = function (params) {
-            var bc = new FolderController(this.controller.document, __assign(__assign({}, params), { blade: new Blade() }));
-            this.controller.bladeRack.add(bc, params.index);
-            return new FolderApi(bc);
-        };
-        FolderApi.prototype.addButton = function (params) {
-            var bc = new ButtonController(this.controller.document, __assign(__assign({}, params), { blade: new Blade() }));
-            this.controller.bladeRack.add(bc, params.index);
-            return new ButtonApi(bc);
-        };
-        FolderApi.prototype.addSeparator = function (opt_params) {
-            var params = opt_params || {};
-            var bc = new SeparatorController(this.controller.document, {
-                blade: new Blade(),
+    class RackApi extends BladeApi {
+        constructor(controller, pool) {
+            super(controller);
+            this.onRackAdd_ = this.onRackAdd_.bind(this);
+            this.onRackRemove_ = this.onRackRemove_.bind(this);
+            this.onRackInputChange_ = this.onRackInputChange_.bind(this);
+            this.onRackMonitorUpdate_ = this.onRackMonitorUpdate_.bind(this);
+            this.emitter_ = new Emitter();
+            this.apiSet_ = new NestedOrderedSet(findSubBladeApiSet);
+            this.pool_ = pool;
+            const rack = this.controller_.rack;
+            rack.emitter.on('add', this.onRackAdd_);
+            rack.emitter.on('remove', this.onRackRemove_);
+            rack.emitter.on('inputchange', this.onRackInputChange_);
+            rack.emitter.on('monitorupdate', this.onRackMonitorUpdate_);
+            rack.children.forEach((bc) => {
+                this.setUpApi_(bc);
             });
-            this.controller.bladeRack.add(bc, params.index);
-            return new SeparatorApi(bc);
-        };
-        FolderApi.prototype.on = function (eventName, handler) {
-            handleFolder({
-                eventName: eventName,
-                folder: this.controller.folder,
-                // TODO: Type-safe
-                handler: forceCast(handler.bind(this)),
-                bladeRack: this.controller.bladeRack,
+        }
+        get children() {
+            return this.controller_.rack.children.map((bc) => getApiByController(this.apiSet_, bc));
+        }
+        addInput(object, key, opt_params) {
+            const params = opt_params || {};
+            const doc = this.controller_.view.element.ownerDocument;
+            const bc = this.pool_.createInput(doc, createBindingTarget(object, key, params.presetKey), params);
+            const api = new InputBindingApi(bc);
+            return this.add(api, params.index);
+        }
+        addMonitor(object, key, opt_params) {
+            const params = opt_params || {};
+            const doc = this.controller_.view.element.ownerDocument;
+            const bc = this.pool_.createMonitor(doc, createBindingTarget(object, key), params);
+            const api = new MonitorBindingApi(bc);
+            return forceCast(this.add(api, params.index));
+        }
+        addFolder(params) {
+            return addFolderAsBlade(this, params);
+        }
+        addButton(params) {
+            return addButtonAsBlade(this, params);
+        }
+        addSeparator(opt_params) {
+            return addSeparatorAsBlade(this, opt_params);
+        }
+        addTab(params) {
+            return addTabAsBlade(this, params);
+        }
+        add(api, opt_index) {
+            this.controller_.rack.add(api.controller_, opt_index);
+            const gapi = this.apiSet_.find((a) => a.controller_ === api.controller_);
+            if (gapi) {
+                this.apiSet_.remove(gapi);
+            }
+            this.apiSet_.add(api);
+            return api;
+        }
+        remove(api) {
+            this.controller_.rack.remove(api.controller_);
+        }
+        addBlade(params) {
+            const doc = this.controller_.view.element.ownerDocument;
+            const bc = this.pool_.createBlade(doc, params);
+            const api = this.pool_.createBladeApi(bc);
+            return this.add(api, params.index);
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
             });
             return this;
-        };
-        return FolderApi;
-    }());
-
-    /**
-     * @hidden
-     */
-    function exportPresetJson(targets) {
-        return targets.reduce(function (result, target) {
-            var _a;
-            return Object.assign(result, (_a = {},
-                _a[target.presetKey] = target.read(),
-                _a));
-        }, {});
-    }
-    /**
-     * @hidden
-     */
-    function importPresetJson(targets, preset) {
-        targets.forEach(function (target) {
-            var value = preset[target.presetKey];
-            if (value !== undefined) {
-                target.write(value);
-            }
-        });
-    }
-
-    /**
-     * The Tweakpane interface.
-     *
-     * ```
-     * new Tweakpane(options: TweakpaneConfig): RootApi
-     * ```
-     *
-     * See [[`TweakpaneConfig`]] interface for available options.
-     */
-    var RootApi = /** @class */ (function () {
-        /**
-         * @hidden
-         */
-        function RootApi(rootController) {
-            this.controller = rootController;
         }
-        // TODO: Publish
-        /**
-         * @hidden
-         */
-        RootApi.registerPlugin = function (r) {
-            if (r.type === 'input') {
-                Plugins.inputs.unshift(r.plugin);
+        setUpApi_(bc) {
+            const api = this.apiSet_.find((api) => api.controller_ === bc);
+            if (!api) {
+                this.apiSet_.add(this.pool_.createBladeApi(bc));
             }
-            else if (r.type === 'monitor') {
-                Plugins.monitors.unshift(r.plugin);
+        }
+        onRackAdd_(ev) {
+            this.setUpApi_(ev.bladeController);
+        }
+        onRackRemove_(ev) {
+            if (ev.isRoot) {
+                const api = getApiByController(this.apiSet_, ev.bladeController);
+                this.apiSet_.remove(api);
             }
-        };
-        Object.defineProperty(RootApi.prototype, "element", {
-            get: function () {
-                return this.controller.view.element;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(RootApi.prototype, "expanded", {
-            get: function () {
-                var folder = this.controller.folder;
-                return folder ? folder.expanded : true;
-            },
-            set: function (expanded) {
-                var folder = this.controller.folder;
-                if (folder) {
-                    folder.expanded = expanded;
-                }
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(RootApi.prototype, "hidden", {
-            get: function () {
-                return this.controller.blade.hidden;
-            },
-            set: function (hidden) {
-                this.controller.blade.hidden = hidden;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        RootApi.prototype.dispose = function () {
-            this.controller.blade.dispose();
-        };
-        RootApi.prototype.addInput = function (object, key, opt_params) {
-            var params = opt_params || {};
-            var bc = createInputBindingController(this.controller.document, createBindingTarget(object, key, params.presetKey), params);
-            this.controller.bladeRack.add(bc, params.index);
-            return new InputBindingApi(forceCast(bc));
-        };
-        RootApi.prototype.addMonitor = function (object, key, opt_params) {
-            var params = opt_params || {};
-            var bc = createMonitorBindingController(this.controller.document, createBindingTarget(object, key), params);
-            this.controller.bladeRack.add(bc, params.index);
-            return new MonitorBindingApi(forceCast(bc));
-        };
-        RootApi.prototype.addButton = function (params) {
-            var bc = new ButtonController(this.controller.document, __assign(__assign({}, params), { blade: new Blade() }));
-            this.controller.bladeRack.add(bc, params.index);
-            return new ButtonApi(bc);
-        };
-        RootApi.prototype.addFolder = function (params) {
-            var bc = new FolderController(this.controller.document, __assign(__assign({}, params), { blade: new Blade() }));
-            this.controller.bladeRack.add(bc, params.index);
-            return new FolderApi(bc);
-        };
-        RootApi.prototype.addSeparator = function (opt_params) {
-            var params = opt_params || {};
-            var bc = new SeparatorController(this.controller.document, {
-                blade: new Blade(),
+        }
+        onRackInputChange_(ev) {
+            const bc = ev.bladeController;
+            if (bc instanceof InputBindingController) {
+                const api = getApiByController(this.apiSet_, bc);
+                const binding = bc.binding;
+                this.emitter_.emit('change', {
+                    event: new TpChangeEvent(api, forceCast(binding.target.read()), binding.target.presetKey, ev.options.last),
+                });
+            }
+            else if (bc instanceof ValueBladeController) {
+                const api = getApiByController(this.apiSet_, bc);
+                this.emitter_.emit('change', {
+                    event: new TpChangeEvent(api, bc.value.rawValue, undefined, ev.options.last),
+                });
+            }
+        }
+        onRackMonitorUpdate_(ev) {
+            if (!(ev.bladeController instanceof MonitorBindingController)) {
+                throw TpError.shouldNeverHappen();
+            }
+            const api = getApiByController(this.apiSet_, ev.bladeController);
+            const binding = ev.bladeController.binding;
+            this.emitter_.emit('update', {
+                event: new TpUpdateEvent(api, forceCast(binding.target.read()), binding.target.presetKey),
             });
-            this.controller.bladeRack.add(bc, params.index);
-            return new SeparatorApi(bc);
-        };
-        /**
-         * Import a preset of all inputs.
-         * @param preset The preset object to import.
-         */
-        RootApi.prototype.importPreset = function (preset) {
-            var targets = this.controller.bladeRack
-                .find(InputBindingController)
-                .map(function (ibc) {
-                return ibc.binding.target;
+        }
+    }
+
+    class FolderApi extends RackLikeApi {
+        constructor(controller, pool) {
+            super(controller, new RackApi(controller.rackController, pool));
+            this.emitter_ = new Emitter();
+            this.controller_.foldable
+                .value('expanded')
+                .emitter.on('change', (ev) => {
+                this.emitter_.emit('fold', {
+                    event: new TpFoldEvent(this, ev.sender.rawValue),
+                });
             });
-            importPresetJson(targets, preset);
-            this.refresh();
-        };
-        /**
-         * Export a preset of all inputs.
-         * @return The exported preset object.
-         */
-        RootApi.prototype.exportPreset = function () {
-            var targets = this.controller.bladeRack
-                .find(InputBindingController)
-                .map(function (ibc) {
-                return ibc.binding.target;
+            this.rackApi_.on('change', (ev) => {
+                this.emitter_.emit('change', {
+                    event: ev,
+                });
             });
-            return exportPresetJson(targets);
-        };
-        /**
-         * Adds a global event listener. It handles all events of child inputs/monitors.
-         * @param eventName The event name to listen.
-         * @return The API object itself.
-         */
-        RootApi.prototype.on = function (eventName, handler) {
-            handleFolder({
-                eventName: eventName,
-                folder: this.controller.folder,
-                // TODO: Type-safe
-                handler: forceCast(handler.bind(this)),
-                bladeRack: this.controller.bladeRack,
+            this.rackApi_.on('update', (ev) => {
+                this.emitter_.emit('update', {
+                    event: ev,
+                });
+            });
+        }
+        get expanded() {
+            return this.controller_.foldable.get('expanded');
+        }
+        set expanded(expanded) {
+            this.controller_.foldable.set('expanded', expanded);
+        }
+        get title() {
+            return this.controller_.props.get('title');
+        }
+        set title(title) {
+            this.controller_.props.set('title', title);
+        }
+        get children() {
+            return this.rackApi_.children;
+        }
+        addInput(object, key, opt_params) {
+            return this.rackApi_.addInput(object, key, opt_params);
+        }
+        addMonitor(object, key, opt_params) {
+            return this.rackApi_.addMonitor(object, key, opt_params);
+        }
+        addFolder(params) {
+            return this.rackApi_.addFolder(params);
+        }
+        addButton(params) {
+            return this.rackApi_.addButton(params);
+        }
+        addSeparator(opt_params) {
+            return this.rackApi_.addSeparator(opt_params);
+        }
+        addTab(params) {
+            return this.rackApi_.addTab(params);
+        }
+        add(api, opt_index) {
+            return this.rackApi_.add(api, opt_index);
+        }
+        remove(api) {
+            this.rackApi_.remove(api);
+        }
+        addBlade(params) {
+            return this.rackApi_.addBlade(params);
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
             });
             return this;
-        };
-        /**
-         * Refreshes all bindings of the pane.
-         */
-        RootApi.prototype.refresh = function () {
-            // Force-read all input bindings
-            this.controller.bladeRack.find(InputBindingController).forEach(function (ibc) {
-                ibc.binding.read();
-            });
-            // Force-read all monitor bindings
-            this.controller.bladeRack.find(MonitorBindingController).forEach(function (mbc) {
-                mbc.binding.read();
-            });
-        };
-        return RootApi;
-    }());
+        }
+    }
 
-    var className$5 = ClassName('rot');
-    /**
-     * @hidden
-     */
-    var RootView = /** @class */ (function () {
-        function RootView(doc, config) {
-            this.titleElem_ = null;
-            this.onFolderChange_ = this.onFolderChange_.bind(this);
-            this.folder_ = config.folder;
-            if (this.folder_) {
-                this.folder_.emitter.on('change', this.onFolderChange_);
-            }
+    class RackLikeController extends BladeController {
+        constructor(config) {
+            super({
+                blade: config.blade,
+                view: config.view,
+                viewProps: config.rackController.viewProps,
+            });
+            this.rackController = config.rackController;
+        }
+    }
+
+    class PlainView {
+        constructor(doc, config) {
+            const className = ClassName(config.viewName);
             this.element = doc.createElement('div');
-            this.element.classList.add(className$5());
-            var folder = this.folder_;
-            if (folder) {
-                var titleElem = doc.createElement('button');
-                titleElem.classList.add(className$5('t'));
-                titleElem.textContent = folder.title;
-                this.element.appendChild(titleElem);
-                var markElem = doc.createElement('div');
-                markElem.classList.add(className$5('m'));
-                titleElem.appendChild(markElem);
-                this.titleElem_ = titleElem;
-            }
-            var containerElem = doc.createElement('div');
-            containerElem.classList.add(className$5('c'));
-            this.element.appendChild(containerElem);
-            this.containerElement = containerElem;
-            this.applyModel_();
+            this.element.classList.add(className());
+            config.viewProps.bindClassModifiers(this.element);
         }
-        Object.defineProperty(RootView.prototype, "titleElement", {
-            get: function () {
-                return this.titleElem_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        RootView.prototype.applyModel_ = function () {
-            var expanded = this.folder_ ? this.folder_.styleExpanded : true;
-            var expandedClass = className$5(undefined, 'expanded');
-            if (expanded) {
-                this.element.classList.add(expandedClass);
+    }
+
+    function findInputBindingController(bcs, b) {
+        for (let i = 0; i < bcs.length; i++) {
+            const bc = bcs[i];
+            if (bc instanceof InputBindingController && bc.binding === b) {
+                return bc;
+            }
+        }
+        return null;
+    }
+    function findMonitorBindingController(bcs, b) {
+        for (let i = 0; i < bcs.length; i++) {
+            const bc = bcs[i];
+            if (bc instanceof MonitorBindingController && bc.binding === b) {
+                return bc;
+            }
+        }
+        return null;
+    }
+    function findValueBladeController(bcs, v) {
+        for (let i = 0; i < bcs.length; i++) {
+            const bc = bcs[i];
+            if (bc instanceof ValueBladeController && bc.value === v) {
+                return bc;
+            }
+        }
+        return null;
+    }
+    function findSubRack(bc) {
+        if (bc instanceof RackController) {
+            return bc.rack;
+        }
+        if (bc instanceof RackLikeController) {
+            return bc.rackController.rack;
+        }
+        return null;
+    }
+    function findSubBladeControllerSet(bc) {
+        const rack = findSubRack(bc);
+        return rack ? rack['bcSet_'] : null;
+    }
+    class BladeRack {
+        constructor(blade) {
+            var _a;
+            this.onBladePositionsChange_ = this.onBladePositionsChange_.bind(this);
+            this.onSetAdd_ = this.onSetAdd_.bind(this);
+            this.onSetRemove_ = this.onSetRemove_.bind(this);
+            this.onChildDispose_ = this.onChildDispose_.bind(this);
+            this.onChildPositionsChange_ = this.onChildPositionsChange_.bind(this);
+            this.onChildInputChange_ = this.onChildInputChange_.bind(this);
+            this.onChildMonitorUpdate_ = this.onChildMonitorUpdate_.bind(this);
+            this.onChildValueChange_ = this.onChildValueChange_.bind(this);
+            this.onChildViewPropsChange_ = this.onChildViewPropsChange_.bind(this);
+            this.onDescendantLayout_ = this.onDescendantLayout_.bind(this);
+            this.onDescendantInputChange_ = this.onDescendantInputChange_.bind(this);
+            this.onDescendantMonitorUpdate_ =
+                this.onDescendantMonitorUpdate_.bind(this);
+            this.emitter = new Emitter();
+            this.blade_ = blade !== null && blade !== void 0 ? blade : null;
+            (_a = this.blade_) === null || _a === void 0 ? void 0 : _a.value('positions').emitter.on('change', this.onBladePositionsChange_);
+            this.bcSet_ = new NestedOrderedSet(findSubBladeControllerSet);
+            this.bcSet_.emitter.on('add', this.onSetAdd_);
+            this.bcSet_.emitter.on('remove', this.onSetRemove_);
+        }
+        get children() {
+            return this.bcSet_.items;
+        }
+        add(bc, opt_index) {
+            if (bc.parent) {
+                bc.parent.remove(bc);
+            }
+            bc['parent_'] = this;
+            this.bcSet_.add(bc, opt_index);
+        }
+        remove(bc) {
+            bc['parent_'] = null;
+            this.bcSet_.remove(bc);
+        }
+        find(controllerClass) {
+            return forceCast(this.bcSet_.allItems().filter((bc) => {
+                return bc instanceof controllerClass;
+            }));
+        }
+        onSetAdd_(ev) {
+            this.updatePositions_();
+            const isRoot = ev.target === ev.root;
+            this.emitter.emit('add', {
+                bladeController: ev.item,
+                index: ev.index,
+                isRoot: isRoot,
+                sender: this,
+            });
+            if (!isRoot) {
+                return;
+            }
+            const bc = ev.item;
+            bc.viewProps.emitter.on('change', this.onChildViewPropsChange_);
+            bc.blade
+                .value('positions')
+                .emitter.on('change', this.onChildPositionsChange_);
+            bc.viewProps.handleDispose(this.onChildDispose_);
+            if (bc instanceof InputBindingController) {
+                bc.binding.emitter.on('change', this.onChildInputChange_);
+            }
+            else if (bc instanceof MonitorBindingController) {
+                bc.binding.emitter.on('update', this.onChildMonitorUpdate_);
+            }
+            else if (bc instanceof ValueBladeController) {
+                bc.value.emitter.on('change', this.onChildValueChange_);
             }
             else {
-                this.element.classList.remove(expandedClass);
+                const rack = findSubRack(bc);
+                if (rack) {
+                    const emitter = rack.emitter;
+                    emitter.on('layout', this.onDescendantLayout_);
+                    emitter.on('inputchange', this.onDescendantInputChange_);
+                    emitter.on('monitorupdate', this.onDescendantMonitorUpdate_);
+                }
             }
-            this.containerElement.style.height = this.folder_
-                ? this.folder_.styleHeight
-                : 'auto';
-        };
-        RootView.prototype.onFolderChange_ = function () {
-            this.applyModel_();
-        };
-        return RootView;
-    }());
+        }
+        onSetRemove_(ev) {
+            this.updatePositions_();
+            const isRoot = ev.target === ev.root;
+            this.emitter.emit('remove', {
+                bladeController: ev.item,
+                isRoot: isRoot,
+                sender: this,
+            });
+            if (!isRoot) {
+                return;
+            }
+            const bc = ev.item;
+            if (bc instanceof InputBindingController) {
+                bc.binding.emitter.off('change', this.onChildInputChange_);
+            }
+            else if (bc instanceof MonitorBindingController) {
+                bc.binding.emitter.off('update', this.onChildMonitorUpdate_);
+            }
+            else if (bc instanceof ValueBladeController) {
+                bc.value.emitter.off('change', this.onChildValueChange_);
+            }
+            else {
+                const rack = findSubRack(bc);
+                if (rack) {
+                    const emitter = rack.emitter;
+                    emitter.off('layout', this.onDescendantLayout_);
+                    emitter.off('inputchange', this.onDescendantInputChange_);
+                    emitter.off('monitorupdate', this.onDescendantMonitorUpdate_);
+                }
+            }
+        }
+        updatePositions_() {
+            const visibleItems = this.bcSet_.items.filter((bc) => !bc.viewProps.get('hidden'));
+            const firstVisibleItem = visibleItems[0];
+            const lastVisibleItem = visibleItems[visibleItems.length - 1];
+            this.bcSet_.items.forEach((bc) => {
+                const ps = [];
+                if (bc === firstVisibleItem) {
+                    ps.push('first');
+                    if (!this.blade_ ||
+                        this.blade_.get('positions').includes('veryfirst')) {
+                        ps.push('veryfirst');
+                    }
+                }
+                if (bc === lastVisibleItem) {
+                    ps.push('last');
+                    if (!this.blade_ || this.blade_.get('positions').includes('verylast')) {
+                        ps.push('verylast');
+                    }
+                }
+                bc.blade.set('positions', ps);
+            });
+        }
+        onChildPositionsChange_() {
+            this.updatePositions_();
+            this.emitter.emit('layout', {
+                sender: this,
+            });
+        }
+        onChildViewPropsChange_(_ev) {
+            this.updatePositions_();
+            this.emitter.emit('layout', {
+                sender: this,
+            });
+        }
+        onChildDispose_() {
+            const disposedUcs = this.bcSet_.items.filter((bc) => {
+                return bc.viewProps.get('disposed');
+            });
+            disposedUcs.forEach((bc) => {
+                this.bcSet_.remove(bc);
+            });
+        }
+        onChildInputChange_(ev) {
+            const bc = findInputBindingController(this.find(InputBindingController), ev.sender);
+            if (!bc) {
+                throw TpError.shouldNeverHappen();
+            }
+            this.emitter.emit('inputchange', {
+                bladeController: bc,
+                options: ev.options,
+                sender: this,
+            });
+        }
+        onChildMonitorUpdate_(ev) {
+            const bc = findMonitorBindingController(this.find(MonitorBindingController), ev.sender);
+            if (!bc) {
+                throw TpError.shouldNeverHappen();
+            }
+            this.emitter.emit('monitorupdate', {
+                bladeController: bc,
+                sender: this,
+            });
+        }
+        onChildValueChange_(ev) {
+            const bc = findValueBladeController(this.find(ValueBladeController), ev.sender);
+            if (!bc) {
+                throw TpError.shouldNeverHappen();
+            }
+            this.emitter.emit('inputchange', {
+                bladeController: bc,
+                options: ev.options,
+                sender: this,
+            });
+        }
+        onDescendantLayout_(_) {
+            this.updatePositions_();
+            this.emitter.emit('layout', {
+                sender: this,
+            });
+        }
+        onDescendantInputChange_(ev) {
+            this.emitter.emit('inputchange', {
+                bladeController: ev.bladeController,
+                options: ev.options,
+                sender: this,
+            });
+        }
+        onDescendantMonitorUpdate_(ev) {
+            this.emitter.emit('monitorupdate', {
+                bladeController: ev.bladeController,
+                sender: this,
+            });
+        }
+        onBladePositionsChange_() {
+            this.updatePositions_();
+        }
+    }
 
-    function createFolder(config) {
-        var _a;
-        if (!config.title) {
+    class RackController extends BladeController {
+        constructor(doc, config) {
+            super(Object.assign(Object.assign({}, config), { view: new PlainView(doc, {
+                    viewName: 'brk',
+                    viewProps: config.viewProps,
+                }) }));
+            this.onRackAdd_ = this.onRackAdd_.bind(this);
+            this.onRackRemove_ = this.onRackRemove_.bind(this);
+            const rack = new BladeRack(config.root ? undefined : config.blade);
+            rack.emitter.on('add', this.onRackAdd_);
+            rack.emitter.on('remove', this.onRackRemove_);
+            this.rack = rack;
+            this.viewProps.handleDispose(() => {
+                for (let i = this.rack.children.length - 1; i >= 0; i--) {
+                    const bc = this.rack.children[i];
+                    bc.viewProps.set('disposed', true);
+                }
+            });
+        }
+        onRackAdd_(ev) {
+            if (!ev.isRoot) {
+                return;
+            }
+            insertElementAt(this.view.element, ev.bladeController.view.element, ev.index);
+        }
+        onRackRemove_(ev) {
+            if (!ev.isRoot) {
+                return;
+            }
+            removeElement(ev.bladeController.view.element);
+        }
+    }
+
+    const bladeContainerClassName = ClassName('cnt');
+
+    class FolderView {
+        constructor(doc, config) {
+            this.className_ = ClassName(config.viewName || 'fld');
+            this.element = doc.createElement('div');
+            this.element.classList.add(this.className_(), bladeContainerClassName());
+            config.viewProps.bindClassModifiers(this.element);
+            this.foldable_ = config.foldable;
+            this.foldable_.bindExpandedClass(this.element, this.className_(undefined, 'expanded'));
+            bindValueMap(this.foldable_, 'completed', valueToClassName(this.element, this.className_(undefined, 'cpl')));
+            const buttonElem = doc.createElement('button');
+            buttonElem.classList.add(this.className_('b'));
+            bindValueMap(config.props, 'title', (title) => {
+                if (isEmpty(title)) {
+                    this.element.classList.add(this.className_(undefined, 'not'));
+                }
+                else {
+                    this.element.classList.remove(this.className_(undefined, 'not'));
+                }
+            });
+            config.viewProps.bindDisabled(buttonElem);
+            this.element.appendChild(buttonElem);
+            this.buttonElement = buttonElem;
+            const titleElem = doc.createElement('div');
+            titleElem.classList.add(this.className_('t'));
+            bindValueToTextContent(config.props.value('title'), titleElem);
+            this.buttonElement.appendChild(titleElem);
+            this.titleElement = titleElem;
+            const markElem = doc.createElement('div');
+            markElem.classList.add(this.className_('m'));
+            this.buttonElement.appendChild(markElem);
+            const containerElem = config.containerElement;
+            containerElem.classList.add(this.className_('c'));
+            this.element.appendChild(containerElem);
+            this.containerElement = containerElem;
+        }
+    }
+
+    class FolderController extends RackLikeController {
+        constructor(doc, config) {
+            var _a;
+            const foldable = Foldable.create((_a = config.expanded) !== null && _a !== void 0 ? _a : true);
+            const rc = new RackController(doc, {
+                blade: config.blade,
+                root: config.root,
+                viewProps: config.viewProps,
+            });
+            super(Object.assign(Object.assign({}, config), { rackController: rc, view: new FolderView(doc, {
+                    containerElement: rc.view.element,
+                    foldable: foldable,
+                    props: config.props,
+                    viewName: config.root ? 'rot' : undefined,
+                    viewProps: config.viewProps,
+                }) }));
+            this.onTitleClick_ = this.onTitleClick_.bind(this);
+            this.props = config.props;
+            this.foldable = foldable;
+            bindFoldable(this.foldable, this.view.containerElement);
+            this.view.buttonElement.addEventListener('click', this.onTitleClick_);
+        }
+        get document() {
+            return this.view.element.ownerDocument;
+        }
+        onTitleClick_() {
+            this.foldable.set('expanded', !this.foldable.get('expanded'));
+        }
+    }
+
+    const FolderBladePlugin = {
+        id: 'folder',
+        type: 'blade',
+        accept(params) {
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                title: p.required.string,
+                view: p.required.constant('folder'),
+                expanded: p.optional.boolean,
+            });
+            return result ? { params: result } : null;
+        },
+        controller(args) {
+            return new FolderController(args.document, {
+                blade: args.blade,
+                expanded: args.params.expanded,
+                props: ValueMap.fromObject({
+                    title: args.params.title,
+                }),
+                viewProps: args.viewProps,
+            });
+        },
+        api(args) {
+            if (!(args.controller instanceof FolderController)) {
+                return null;
+            }
+            return new FolderApi(args.controller, args.pool);
+        },
+    };
+
+    class LabeledValueController extends ValueBladeController {
+        constructor(doc, config) {
+            const viewProps = config.valueController.viewProps;
+            super(Object.assign(Object.assign({}, config), { value: config.valueController.value, view: new LabelView(doc, {
+                    props: config.props,
+                    viewProps: viewProps,
+                }), viewProps: viewProps }));
+            this.props = config.props;
+            this.valueController = config.valueController;
+            this.view.valueElement.appendChild(this.valueController.view.element);
+        }
+    }
+
+    class SeparatorApi extends BladeApi {
+    }
+
+    const className$n = ClassName('spr');
+    class SeparatorView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$n());
+            config.viewProps.bindClassModifiers(this.element);
+            const hrElem = doc.createElement('hr');
+            hrElem.classList.add(className$n('r'));
+            this.element.appendChild(hrElem);
+        }
+    }
+
+    class SeparatorController extends BladeController {
+        constructor(doc, config) {
+            super(Object.assign(Object.assign({}, config), { view: new SeparatorView(doc, {
+                    viewProps: config.viewProps,
+                }) }));
+        }
+    }
+
+    const SeparatorBladePlugin = {
+        id: 'separator',
+        type: 'blade',
+        accept(params) {
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                view: p.required.constant('separator'),
+            });
+            return result ? { params: result } : null;
+        },
+        controller(args) {
+            return new SeparatorController(args.document, {
+                blade: args.blade,
+                viewProps: args.viewProps,
+            });
+        },
+        api(args) {
+            if (!(args.controller instanceof SeparatorController)) {
+                return null;
+            }
+            return new SeparatorApi(args.controller);
+        },
+    };
+
+    const className$m = ClassName('');
+    function valueToModifier(elem, modifier) {
+        return valueToClassName(elem, className$m(undefined, modifier));
+    }
+    class ViewProps extends ValueMap {
+        constructor(valueMap) {
+            super(valueMap);
+        }
+        static create(opt_initialValue) {
+            var _a, _b;
+            const initialValue = opt_initialValue !== null && opt_initialValue !== void 0 ? opt_initialValue : {};
+            const coreObj = {
+                disabled: (_a = initialValue.disabled) !== null && _a !== void 0 ? _a : false,
+                disposed: false,
+                hidden: (_b = initialValue.hidden) !== null && _b !== void 0 ? _b : false,
+            };
+            const core = ValueMap.createCore(coreObj);
+            return new ViewProps(core);
+        }
+        bindClassModifiers(elem) {
+            bindValueMap(this, 'disabled', valueToModifier(elem, 'disabled'));
+            bindValueMap(this, 'hidden', valueToModifier(elem, 'hidden'));
+        }
+        bindDisabled(target) {
+            bindValueMap(this, 'disabled', (disabled) => {
+                target.disabled = disabled;
+            });
+        }
+        bindTabIndex(elem) {
+            bindValueMap(this, 'disabled', (disabled) => {
+                elem.tabIndex = disabled ? -1 : 0;
+            });
+        }
+        handleDispose(callback) {
+            this.value('disposed').emitter.on('change', (disposed) => {
+                if (disposed) {
+                    callback();
+                }
+            });
+        }
+    }
+
+    const className$l = ClassName('tbi');
+    class TabItemView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$l());
+            config.viewProps.bindClassModifiers(this.element);
+            bindValueMap(config.props, 'selected', (selected) => {
+                if (selected) {
+                    this.element.classList.add(className$l(undefined, 'sel'));
+                }
+                else {
+                    this.element.classList.remove(className$l(undefined, 'sel'));
+                }
+            });
+            const buttonElem = doc.createElement('button');
+            buttonElem.classList.add(className$l('b'));
+            config.viewProps.bindDisabled(buttonElem);
+            this.element.appendChild(buttonElem);
+            this.buttonElement = buttonElem;
+            const titleElem = doc.createElement('div');
+            titleElem.classList.add(className$l('t'));
+            bindValueToTextContent(config.props.value('title'), titleElem);
+            this.buttonElement.appendChild(titleElem);
+            this.titleElement = titleElem;
+        }
+    }
+
+    class TabItemController {
+        constructor(doc, config) {
+            this.emitter = new Emitter();
+            this.onClick_ = this.onClick_.bind(this);
+            this.props = config.props;
+            this.viewProps = config.viewProps;
+            this.view = new TabItemView(doc, {
+                props: config.props,
+                viewProps: config.viewProps,
+            });
+            this.view.buttonElement.addEventListener('click', this.onClick_);
+        }
+        onClick_() {
+            this.emitter.emit('click', {
+                sender: this,
+            });
+        }
+    }
+
+    class TabPageController {
+        constructor(doc, config) {
+            this.onItemClick_ = this.onItemClick_.bind(this);
+            this.ic_ = new TabItemController(doc, {
+                props: config.itemProps,
+                viewProps: ViewProps.create(),
+            });
+            this.ic_.emitter.on('click', this.onItemClick_);
+            this.cc_ = new RackController(doc, {
+                blade: createBlade(),
+                viewProps: ViewProps.create(),
+            });
+            this.props = config.props;
+            bindValueMap(this.props, 'selected', (selected) => {
+                this.itemController.props.set('selected', selected);
+                this.contentController.viewProps.set('hidden', !selected);
+            });
+        }
+        get itemController() {
+            return this.ic_;
+        }
+        get contentController() {
+            return this.cc_;
+        }
+        onItemClick_() {
+            this.props.set('selected', true);
+        }
+    }
+
+    class TabPageApi {
+        constructor(controller, contentRackApi) {
+            this.controller_ = controller;
+            this.rackApi_ = contentRackApi;
+        }
+        get title() {
+            var _a;
+            return (_a = this.controller_.itemController.props.get('title')) !== null && _a !== void 0 ? _a : '';
+        }
+        set title(title) {
+            this.controller_.itemController.props.set('title', title);
+        }
+        get selected() {
+            return this.controller_.props.get('selected');
+        }
+        set selected(selected) {
+            this.controller_.props.set('selected', selected);
+        }
+        get children() {
+            return this.rackApi_.children;
+        }
+        addButton(params) {
+            return this.rackApi_.addButton(params);
+        }
+        addFolder(params) {
+            return this.rackApi_.addFolder(params);
+        }
+        addSeparator(opt_params) {
+            return this.rackApi_.addSeparator(opt_params);
+        }
+        addTab(params) {
+            return this.rackApi_.addTab(params);
+        }
+        add(api, opt_index) {
+            this.rackApi_.add(api, opt_index);
+        }
+        remove(api) {
+            this.rackApi_.remove(api);
+        }
+        addInput(object, key, opt_params) {
+            return this.rackApi_.addInput(object, key, opt_params);
+        }
+        addMonitor(object, key, opt_params) {
+            return this.rackApi_.addMonitor(object, key, opt_params);
+        }
+        addBlade(params) {
+            return this.rackApi_.addBlade(params);
+        }
+    }
+
+    class TabApi extends RackLikeApi {
+        constructor(controller, pool) {
+            super(controller, new RackApi(controller.rackController, pool));
+            this.onPageAdd_ = this.onPageAdd_.bind(this);
+            this.onPageRemove_ = this.onPageRemove_.bind(this);
+            this.emitter_ = new Emitter();
+            this.pageApiMap_ = new Map();
+            this.rackApi_.on('change', (ev) => {
+                this.emitter_.emit('change', {
+                    event: ev,
+                });
+            });
+            this.rackApi_.on('update', (ev) => {
+                this.emitter_.emit('update', {
+                    event: ev,
+                });
+            });
+            this.controller_.pageSet.emitter.on('add', this.onPageAdd_);
+            this.controller_.pageSet.emitter.on('remove', this.onPageRemove_);
+            this.controller_.pageSet.items.forEach((pc) => {
+                this.setUpPageApi_(pc);
+            });
+        }
+        get pages() {
+            return this.controller_.pageSet.items.map((pc) => {
+                const api = this.pageApiMap_.get(pc);
+                if (!api) {
+                    throw TpError.shouldNeverHappen();
+                }
+                return api;
+            });
+        }
+        addPage(params) {
+            const doc = this.controller_.view.element.ownerDocument;
+            const pc = new TabPageController(doc, {
+                itemProps: ValueMap.fromObject({
+                    selected: false,
+                    title: params.title,
+                }),
+                props: ValueMap.fromObject({
+                    selected: false,
+                }),
+            });
+            this.controller_.add(pc, params.index);
+            const api = this.pageApiMap_.get(pc);
+            if (!api) {
+                throw TpError.shouldNeverHappen();
+            }
+            return api;
+        }
+        removePage(index) {
+            this.controller_.remove(index);
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
+            });
+            return this;
+        }
+        setUpPageApi_(pc) {
+            const rackApi = this.rackApi_['apiSet_'].find((api) => api.controller_ === pc.contentController);
+            if (!rackApi) {
+                throw TpError.shouldNeverHappen();
+            }
+            const api = new TabPageApi(pc, rackApi);
+            this.pageApiMap_.set(pc, api);
+        }
+        onPageAdd_(ev) {
+            this.setUpPageApi_(ev.item);
+        }
+        onPageRemove_(ev) {
+            const api = this.pageApiMap_.get(ev.item);
+            if (!api) {
+                throw TpError.shouldNeverHappen();
+            }
+            this.pageApiMap_.delete(ev.item);
+        }
+    }
+
+    const className$k = ClassName('tab');
+    class TabView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$k(), bladeContainerClassName());
+            config.viewProps.bindClassModifiers(this.element);
+            bindValue(config.empty, valueToClassName(this.element, className$k(undefined, 'nop')));
+            const itemsElem = doc.createElement('div');
+            itemsElem.classList.add(className$k('i'));
+            this.element.appendChild(itemsElem);
+            this.itemsElement = itemsElem;
+            const contentsElem = config.contentsElement;
+            contentsElem.classList.add(className$k('c'));
+            this.element.appendChild(contentsElem);
+            this.contentsElement = contentsElem;
+        }
+    }
+
+    class TabController extends RackLikeController {
+        constructor(doc, config) {
+            const cr = new RackController(doc, {
+                blade: config.blade,
+                viewProps: config.viewProps,
+            });
+            const empty = createValue(true);
+            super({
+                blade: config.blade,
+                rackController: cr,
+                view: new TabView(doc, {
+                    contentsElement: cr.view.element,
+                    empty: empty,
+                    viewProps: config.viewProps,
+                }),
+            });
+            this.onPageAdd_ = this.onPageAdd_.bind(this);
+            this.onPageRemove_ = this.onPageRemove_.bind(this);
+            this.onPageSelectedChange_ = this.onPageSelectedChange_.bind(this);
+            this.pageSet_ = new NestedOrderedSet(() => null);
+            this.pageSet_.emitter.on('add', this.onPageAdd_);
+            this.pageSet_.emitter.on('remove', this.onPageRemove_);
+            this.empty_ = empty;
+            this.applyPages_();
+        }
+        get pageSet() {
+            return this.pageSet_;
+        }
+        add(pc, opt_index) {
+            this.pageSet_.add(pc, opt_index !== null && opt_index !== void 0 ? opt_index : this.pageSet_.items.length);
+        }
+        remove(index) {
+            this.pageSet_.remove(this.pageSet_.items[index]);
+        }
+        applyPages_() {
+            this.keepSelection_();
+            this.empty_.rawValue = this.pageSet_.items.length === 0;
+        }
+        onPageAdd_(ev) {
+            const pc = ev.item;
+            insertElementAt(this.view.itemsElement, pc.itemController.view.element, ev.index);
+            this.rackController.rack.add(pc.contentController, ev.index);
+            pc.props.value('selected').emitter.on('change', this.onPageSelectedChange_);
+            this.applyPages_();
+        }
+        onPageRemove_(ev) {
+            const pc = ev.item;
+            removeElement(pc.itemController.view.element);
+            this.rackController.rack.remove(pc.contentController);
+            pc.props
+                .value('selected')
+                .emitter.off('change', this.onPageSelectedChange_);
+            this.applyPages_();
+        }
+        keepSelection_() {
+            if (this.pageSet_.items.length === 0) {
+                return;
+            }
+            const firstSelIndex = this.pageSet_.items.findIndex((pc) => pc.props.get('selected'));
+            if (firstSelIndex < 0) {
+                this.pageSet_.items.forEach((pc, i) => {
+                    pc.props.set('selected', i === 0);
+                });
+            }
+            else {
+                this.pageSet_.items.forEach((pc, i) => {
+                    pc.props.set('selected', i === firstSelIndex);
+                });
+            }
+        }
+        onPageSelectedChange_(ev) {
+            if (ev.rawValue) {
+                const index = this.pageSet_.items.findIndex((pc) => pc.props.value('selected') === ev.sender);
+                this.pageSet_.items.forEach((pc, i) => {
+                    pc.props.set('selected', i === index);
+                });
+            }
+            else {
+                this.keepSelection_();
+            }
+        }
+    }
+
+    const TabBladePlugin = {
+        id: 'tab',
+        type: 'blade',
+        accept(params) {
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                pages: p.required.array(p.required.object({ title: p.required.string })),
+                view: p.required.constant('tab'),
+            });
+            if (!result || result.pages.length === 0) {
+                return null;
+            }
+            return { params: result };
+        },
+        controller(args) {
+            const c = new TabController(args.document, {
+                blade: args.blade,
+                viewProps: args.viewProps,
+            });
+            args.params.pages.forEach((p) => {
+                const pc = new TabPageController(args.document, {
+                    itemProps: ValueMap.fromObject({
+                        selected: false,
+                        title: p.title,
+                    }),
+                    props: ValueMap.fromObject({
+                        selected: false,
+                    }),
+                });
+                c.add(pc);
+            });
+            return c;
+        },
+        api(args) {
+            if (!(args.controller instanceof TabController)) {
+                return null;
+            }
+            return new TabApi(args.controller, args.pool);
+        },
+    };
+
+    function createBladeController(plugin, args) {
+        const ac = plugin.accept(args.params);
+        if (!ac) {
             return null;
         }
-        return new Folder(config.title, (_a = config.expanded) !== null && _a !== void 0 ? _a : true);
+        const disabled = ParamsParsers.optional.boolean(args.params['disabled']).value;
+        const hidden = ParamsParsers.optional.boolean(args.params['hidden']).value;
+        return plugin.controller({
+            blade: createBlade(),
+            document: args.document,
+            params: forceCast(Object.assign(Object.assign({}, ac.params), { disabled: disabled, hidden: hidden })),
+            viewProps: ViewProps.create({
+                disabled: disabled,
+                hidden: hidden,
+            }),
+        });
     }
-    /**
-     * @hidden
-     */
-    var RootController = /** @class */ (function () {
-        function RootController(doc, config) {
-            this.onContainerTransitionEnd_ = this.onContainerTransitionEnd_.bind(this);
-            this.onFolderBeforeChange_ = this.onFolderBeforeChange_.bind(this);
-            this.onTitleClick_ = this.onTitleClick_.bind(this);
-            this.onRackAdd_ = this.onRackAdd_.bind(this);
-            this.onRackItemLayout_ = this.onRackItemLayout_.bind(this);
-            this.onRackRemove_ = this.onRackRemove_.bind(this);
-            this.folder = createFolder(config);
-            if (this.folder) {
-                this.folder.emitter.on('beforechange', this.onFolderBeforeChange_);
-            }
-            this.bladeRack = new BladeRack();
-            this.bladeRack.emitter.on('add', this.onRackAdd_);
-            this.bladeRack.emitter.on('itemlayout', this.onRackItemLayout_);
-            this.bladeRack.emitter.on('remove', this.onRackRemove_);
-            this.doc_ = doc;
-            this.blade = config.blade;
-            this.view = new RootView(this.doc_, {
-                folder: this.folder,
-            });
-            if (this.view.titleElement) {
-                this.view.titleElement.addEventListener('click', this.onTitleClick_);
-            }
-            this.view.containerElement.addEventListener('transitionend', this.onContainerTransitionEnd_);
-            setUpBladeView(this.view, this.blade);
-        }
-        Object.defineProperty(RootController.prototype, "document", {
-            get: function () {
-                return this.doc_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        RootController.prototype.onFolderBeforeChange_ = function (ev) {
-            if (ev.propertyName !== 'expanded') {
-                return;
-            }
-            var folder = this.folder;
-            if (!folder) {
-                return;
-            }
-            if (isEmpty(folder.expandedHeight)) {
-                folder.expandedHeight = computeExpandedFolderHeight(folder, this.view.containerElement);
-            }
-            folder.shouldFixHeight = true;
-            forceReflow(this.view.containerElement);
-        };
-        RootController.prototype.applyRackChange_ = function () {
-            updateAllItemsPositions(this.bladeRack);
-        };
-        RootController.prototype.onRackAdd_ = function (ev) {
-            insertElementAt(this.view.containerElement, ev.blade.view.element, ev.index);
-            this.applyRackChange_();
-        };
-        RootController.prototype.onRackRemove_ = function (_) {
-            this.applyRackChange_();
-        };
-        RootController.prototype.onRackItemLayout_ = function (_) {
-            this.applyRackChange_();
-        };
-        RootController.prototype.onTitleClick_ = function () {
-            if (this.folder) {
-                this.folder.expanded = !this.folder.expanded;
-            }
-        };
-        RootController.prototype.onContainerTransitionEnd_ = function (ev) {
-            if (ev.propertyName !== 'height') {
-                return;
-            }
-            if (this.folder) {
-                this.folder.shouldFixHeight = false;
-                this.folder.expandedHeight = null;
-            }
-        };
-        return RootController;
-    }());
 
-    /**
-     * @hidden
-     */
-    var CompositeConstraint = /** @class */ (function () {
-        function CompositeConstraint(config) {
-            this.constraints_ = config.constraints;
+    class ManualTicker {
+        constructor() {
+            this.disabled = false;
+            this.emitter = new Emitter();
         }
-        Object.defineProperty(CompositeConstraint.prototype, "constraints", {
-            get: function () {
-                return this.constraints_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        CompositeConstraint.prototype.constrain = function (value) {
-            return this.constraints_.reduce(function (result, c) {
+        dispose() { }
+        tick() {
+            if (this.disabled) {
+                return;
+            }
+            this.emitter.emit('tick', {
+                sender: this,
+            });
+        }
+    }
+
+    class IntervalTicker {
+        constructor(doc, interval) {
+            this.disabled_ = false;
+            this.timerId_ = null;
+            this.onTick_ = this.onTick_.bind(this);
+            this.doc_ = doc;
+            this.emitter = new Emitter();
+            this.interval_ = interval;
+            this.setTimer_();
+        }
+        get disabled() {
+            return this.disabled_;
+        }
+        set disabled(inactive) {
+            this.disabled_ = inactive;
+            if (this.disabled_) {
+                this.clearTimer_();
+            }
+            else {
+                this.setTimer_();
+            }
+        }
+        dispose() {
+            this.clearTimer_();
+        }
+        clearTimer_() {
+            if (this.timerId_ === null) {
+                return;
+            }
+            const win = this.doc_.defaultView;
+            if (win) {
+                win.clearInterval(this.timerId_);
+            }
+            this.timerId_ = null;
+        }
+        setTimer_() {
+            this.clearTimer_();
+            if (this.interval_ <= 0) {
+                return;
+            }
+            const win = this.doc_.defaultView;
+            if (win) {
+                this.timerId_ = win.setInterval(this.onTick_, this.interval_);
+            }
+        }
+        onTick_() {
+            if (this.disabled_) {
+                return;
+            }
+            this.emitter.emit('tick', {
+                sender: this,
+            });
+        }
+    }
+
+    class CompositeConstraint {
+        constructor(constraints) {
+            this.constraints = constraints;
+        }
+        constrain(value) {
+            return this.constraints.reduce((result, c) => {
                 return c.constrain(result);
             }, value);
-        };
-        return CompositeConstraint;
-    }());
+        }
+    }
     function findConstraint(c, constraintClass) {
         if (c instanceof constraintClass) {
             return c;
         }
         if (c instanceof CompositeConstraint) {
-            var result = c.constraints.reduce(function (tmpResult, sc) {
+            const result = c.constraints.reduce((tmpResult, sc) => {
                 if (tmpResult) {
                     return tmpResult;
                 }
@@ -115813,82 +116037,820 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return null;
     }
 
-    /**
-     * @hidden
-     */
-    var ListConstraint = /** @class */ (function () {
-        function ListConstraint(config) {
-            this.opts_ = config.options;
+    class ListConstraint {
+        constructor(options) {
+            this.options = options;
         }
-        Object.defineProperty(ListConstraint.prototype, "options", {
-            get: function () {
-                return this.opts_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ListConstraint.prototype.constrain = function (value) {
-            var opts = this.opts_;
+        constrain(value) {
+            const opts = this.options;
             if (opts.length === 0) {
                 return value;
             }
-            var matched = opts.filter(function (item) {
+            const matched = opts.filter((item) => {
                 return item.value === value;
             }).length > 0;
             return matched ? value : opts[0].value;
-        };
-        return ListConstraint;
-    }());
+        }
+    }
 
-    /**
-     * @hidden
-     */
+    class RangeConstraint {
+        constructor(config) {
+            this.maxValue = config.max;
+            this.minValue = config.min;
+        }
+        constrain(value) {
+            let result = value;
+            if (!isEmpty(this.minValue)) {
+                result = Math.max(result, this.minValue);
+            }
+            if (!isEmpty(this.maxValue)) {
+                result = Math.min(result, this.maxValue);
+            }
+            return result;
+        }
+    }
+
+    class StepConstraint {
+        constructor(step) {
+            this.step = step;
+        }
+        constrain(value) {
+            const r = value < 0
+                ? -Math.round(-value / this.step)
+                : Math.round(value / this.step);
+            return r * this.step;
+        }
+    }
+
+    const className$j = ClassName('lst');
+    class ListView {
+        constructor(doc, config) {
+            this.onValueChange_ = this.onValueChange_.bind(this);
+            this.props_ = config.props;
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$j());
+            config.viewProps.bindClassModifiers(this.element);
+            const selectElem = doc.createElement('select');
+            selectElem.classList.add(className$j('s'));
+            bindValueMap(this.props_, 'options', (opts) => {
+                removeChildElements(selectElem);
+                opts.forEach((item, index) => {
+                    const optionElem = doc.createElement('option');
+                    optionElem.dataset.index = String(index);
+                    optionElem.textContent = item.text;
+                    optionElem.value = String(item.value);
+                    selectElem.appendChild(optionElem);
+                });
+            });
+            config.viewProps.bindDisabled(selectElem);
+            this.element.appendChild(selectElem);
+            this.selectElement = selectElem;
+            const markElem = doc.createElement('div');
+            markElem.classList.add(className$j('m'));
+            markElem.appendChild(createSvgIconElement(doc, 'dropdown'));
+            this.element.appendChild(markElem);
+            config.value.emitter.on('change', this.onValueChange_);
+            this.value_ = config.value;
+            this.update_();
+        }
+        update_() {
+            this.selectElement.value = String(this.value_.rawValue);
+        }
+        onValueChange_() {
+            this.update_();
+        }
+    }
+
+    class ListController {
+        constructor(doc, config) {
+            this.onSelectChange_ = this.onSelectChange_.bind(this);
+            this.props = config.props;
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.view = new ListView(doc, {
+                props: this.props,
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            this.view.selectElement.addEventListener('change', this.onSelectChange_);
+        }
+        onSelectChange_(e) {
+            const selectElem = forceCast(e.currentTarget);
+            const optElem = selectElem.selectedOptions.item(0);
+            if (!optElem) {
+                return;
+            }
+            const itemIndex = Number(optElem.dataset.index);
+            this.value.rawValue = this.props.get('options')[itemIndex].value;
+        }
+    }
+
+    const className$i = ClassName('pop');
+    class PopupView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$i());
+            config.viewProps.bindClassModifiers(this.element);
+            bindValue(config.shows, valueToClassName(this.element, className$i(undefined, 'v')));
+        }
+    }
+
+    class PopupController {
+        constructor(doc, config) {
+            this.shows = createValue(false);
+            this.viewProps = config.viewProps;
+            this.view = new PopupView(doc, {
+                shows: this.shows,
+                viewProps: this.viewProps,
+            });
+        }
+    }
+
+    const className$h = ClassName('txt');
+    class TextView {
+        constructor(doc, config) {
+            this.onChange_ = this.onChange_.bind(this);
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$h());
+            config.viewProps.bindClassModifiers(this.element);
+            this.props_ = config.props;
+            this.props_.emitter.on('change', this.onChange_);
+            const inputElem = doc.createElement('input');
+            inputElem.classList.add(className$h('i'));
+            inputElem.type = 'text';
+            config.viewProps.bindDisabled(inputElem);
+            this.element.appendChild(inputElem);
+            this.inputElement = inputElem;
+            config.value.emitter.on('change', this.onChange_);
+            this.value_ = config.value;
+            this.refresh();
+        }
+        refresh() {
+            const formatter = this.props_.get('formatter');
+            this.inputElement.value = formatter(this.value_.rawValue);
+        }
+        onChange_() {
+            this.refresh();
+        }
+    }
+
+    class TextController {
+        constructor(doc, config) {
+            this.onInputChange_ = this.onInputChange_.bind(this);
+            this.parser_ = config.parser;
+            this.props = config.props;
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.view = new TextView(doc, {
+                props: config.props,
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            this.view.inputElement.addEventListener('change', this.onInputChange_);
+        }
+        onInputChange_(e) {
+            const inputElem = forceCast(e.currentTarget);
+            const value = inputElem.value;
+            const parsedValue = this.parser_(value);
+            if (!isEmpty(parsedValue)) {
+                this.value.rawValue = parsedValue;
+            }
+            this.view.refresh();
+        }
+    }
+
     function boolToString(value) {
         return String(value);
     }
-    /**
-     * @hidden
-     */
     function boolFromUnknown(value) {
         if (value === 'false') {
             return false;
         }
         return !!value;
     }
-    /**
-     * @hidden
-     */
     function BooleanFormatter(value) {
         return boolToString(value);
     }
 
-    function writePrimitive(target, value) {
-        target.write(value);
+    class NumberLiteralNode {
+        constructor(text) {
+            this.text = text;
+        }
+        evaluate() {
+            return Number(this.text);
+        }
+        toString() {
+            return this.text;
+        }
+    }
+    const BINARY_OPERATION_MAP = {
+        '**': (v1, v2) => Math.pow(v1, v2),
+        '*': (v1, v2) => v1 * v2,
+        '/': (v1, v2) => v1 / v2,
+        '%': (v1, v2) => v1 % v2,
+        '+': (v1, v2) => v1 + v2,
+        '-': (v1, v2) => v1 - v2,
+        '<<': (v1, v2) => v1 << v2,
+        '>>': (v1, v2) => v1 >> v2,
+        '>>>': (v1, v2) => v1 >>> v2,
+        '&': (v1, v2) => v1 & v2,
+        '^': (v1, v2) => v1 ^ v2,
+        '|': (v1, v2) => v1 | v2,
+    };
+    class BinaryOperationNode {
+        constructor(operator, left, right) {
+            this.left = left;
+            this.operator = operator;
+            this.right = right;
+        }
+        evaluate() {
+            const op = BINARY_OPERATION_MAP[this.operator];
+            if (!op) {
+                throw new Error(`unexpected binary operator: '${this.operator}`);
+            }
+            return op(this.left.evaluate(), this.right.evaluate());
+        }
+        toString() {
+            return [
+                'b(',
+                this.left.toString(),
+                this.operator,
+                this.right.toString(),
+                ')',
+            ].join(' ');
+        }
+    }
+    const UNARY_OPERATION_MAP = {
+        '+': (v) => v,
+        '-': (v) => -v,
+        '~': (v) => ~v,
+    };
+    class UnaryOperationNode {
+        constructor(operator, expr) {
+            this.operator = operator;
+            this.expression = expr;
+        }
+        evaluate() {
+            const op = UNARY_OPERATION_MAP[this.operator];
+            if (!op) {
+                throw new Error(`unexpected unary operator: '${this.operator}`);
+            }
+            return op(this.expression.evaluate());
+        }
+        toString() {
+            return ['u(', this.operator, this.expression.toString(), ')'].join(' ');
+        }
     }
 
-    /**
-     * @hidden
-     */
-    var StepConstraint = /** @class */ (function () {
-        function StepConstraint(config) {
-            this.step = config.step;
-        }
-        StepConstraint.prototype.constrain = function (value) {
-            var r = value < 0
-                ? -Math.round(-value / this.step)
-                : Math.round(value / this.step);
-            return r * this.step;
+    function combineReader(parsers) {
+        return (text, cursor) => {
+            for (let i = 0; i < parsers.length; i++) {
+                const result = parsers[i](text, cursor);
+                if (result !== '') {
+                    return result;
+                }
+            }
+            return '';
         };
-        return StepConstraint;
-    }());
+    }
+    function readWhitespace(text, cursor) {
+        var _a;
+        const m = text.substr(cursor).match(/^\s+/);
+        return (_a = (m && m[0])) !== null && _a !== void 0 ? _a : '';
+    }
+    function readNonZeroDigit(text, cursor) {
+        const ch = text.substr(cursor, 1);
+        return ch.match(/^[1-9]$/) ? ch : '';
+    }
+    function readDecimalDigits(text, cursor) {
+        var _a;
+        const m = text.substr(cursor).match(/^[0-9]+/);
+        return (_a = (m && m[0])) !== null && _a !== void 0 ? _a : '';
+    }
+    function readSignedInteger(text, cursor) {
+        const ds = readDecimalDigits(text, cursor);
+        if (ds !== '') {
+            return ds;
+        }
+        const sign = text.substr(cursor, 1);
+        cursor += 1;
+        if (sign !== '-' && sign !== '+') {
+            return '';
+        }
+        const sds = readDecimalDigits(text, cursor);
+        if (sds === '') {
+            return '';
+        }
+        return sign + sds;
+    }
+    function readExponentPart(text, cursor) {
+        const e = text.substr(cursor, 1);
+        cursor += 1;
+        if (e.toLowerCase() !== 'e') {
+            return '';
+        }
+        const si = readSignedInteger(text, cursor);
+        if (si === '') {
+            return '';
+        }
+        return e + si;
+    }
+    function readDecimalIntegerLiteral(text, cursor) {
+        const ch = text.substr(cursor, 1);
+        if (ch === '0') {
+            return ch;
+        }
+        const nzd = readNonZeroDigit(text, cursor);
+        cursor += nzd.length;
+        if (nzd === '') {
+            return '';
+        }
+        return nzd + readDecimalDigits(text, cursor);
+    }
+    function readDecimalLiteral1(text, cursor) {
+        const dil = readDecimalIntegerLiteral(text, cursor);
+        cursor += dil.length;
+        if (dil === '') {
+            return '';
+        }
+        const dot = text.substr(cursor, 1);
+        cursor += dot.length;
+        if (dot !== '.') {
+            return '';
+        }
+        const dds = readDecimalDigits(text, cursor);
+        cursor += dds.length;
+        return dil + dot + dds + readExponentPart(text, cursor);
+    }
+    function readDecimalLiteral2(text, cursor) {
+        const dot = text.substr(cursor, 1);
+        cursor += dot.length;
+        if (dot !== '.') {
+            return '';
+        }
+        const dds = readDecimalDigits(text, cursor);
+        cursor += dds.length;
+        if (dds === '') {
+            return '';
+        }
+        return dot + dds + readExponentPart(text, cursor);
+    }
+    function readDecimalLiteral3(text, cursor) {
+        const dil = readDecimalIntegerLiteral(text, cursor);
+        cursor += dil.length;
+        if (dil === '') {
+            return '';
+        }
+        return dil + readExponentPart(text, cursor);
+    }
+    const readDecimalLiteral = combineReader([
+        readDecimalLiteral1,
+        readDecimalLiteral2,
+        readDecimalLiteral3,
+    ]);
+    function parseBinaryDigits(text, cursor) {
+        var _a;
+        const m = text.substr(cursor).match(/^[01]+/);
+        return (_a = (m && m[0])) !== null && _a !== void 0 ? _a : '';
+    }
+    function readBinaryIntegerLiteral(text, cursor) {
+        const prefix = text.substr(cursor, 2);
+        cursor += prefix.length;
+        if (prefix.toLowerCase() !== '0b') {
+            return '';
+        }
+        const bds = parseBinaryDigits(text, cursor);
+        if (bds === '') {
+            return '';
+        }
+        return prefix + bds;
+    }
+    function readOctalDigits(text, cursor) {
+        var _a;
+        const m = text.substr(cursor).match(/^[0-7]+/);
+        return (_a = (m && m[0])) !== null && _a !== void 0 ? _a : '';
+    }
+    function readOctalIntegerLiteral(text, cursor) {
+        const prefix = text.substr(cursor, 2);
+        cursor += prefix.length;
+        if (prefix.toLowerCase() !== '0o') {
+            return '';
+        }
+        const ods = readOctalDigits(text, cursor);
+        if (ods === '') {
+            return '';
+        }
+        return prefix + ods;
+    }
+    function readHexDigits(text, cursor) {
+        var _a;
+        const m = text.substr(cursor).match(/^[0-9a-f]+/i);
+        return (_a = (m && m[0])) !== null && _a !== void 0 ? _a : '';
+    }
+    function readHexIntegerLiteral(text, cursor) {
+        const prefix = text.substr(cursor, 2);
+        cursor += prefix.length;
+        if (prefix.toLowerCase() !== '0x') {
+            return '';
+        }
+        const hds = readHexDigits(text, cursor);
+        if (hds === '') {
+            return '';
+        }
+        return prefix + hds;
+    }
+    const readNonDecimalIntegerLiteral = combineReader([
+        readBinaryIntegerLiteral,
+        readOctalIntegerLiteral,
+        readHexIntegerLiteral,
+    ]);
+    const readNumericLiteral = combineReader([
+        readNonDecimalIntegerLiteral,
+        readDecimalLiteral,
+    ]);
+
+    function parseLiteral(text, cursor) {
+        const num = readNumericLiteral(text, cursor);
+        cursor += num.length;
+        if (num === '') {
+            return null;
+        }
+        return {
+            evaluable: new NumberLiteralNode(num),
+            cursor: cursor,
+        };
+    }
+    function parseParenthesizedExpression(text, cursor) {
+        const op = text.substr(cursor, 1);
+        cursor += op.length;
+        if (op !== '(') {
+            return null;
+        }
+        const expr = parseExpression(text, cursor);
+        if (!expr) {
+            return null;
+        }
+        cursor = expr.cursor;
+        cursor += readWhitespace(text, cursor).length;
+        const cl = text.substr(cursor, 1);
+        cursor += cl.length;
+        if (cl !== ')') {
+            return null;
+        }
+        return {
+            evaluable: expr.evaluable,
+            cursor: cursor,
+        };
+    }
+    function parsePrimaryExpression(text, cursor) {
+        return (parseLiteral(text, cursor) || parseParenthesizedExpression(text, cursor));
+    }
+    function parseUnaryExpression(text, cursor) {
+        const expr = parsePrimaryExpression(text, cursor);
+        if (expr) {
+            return expr;
+        }
+        const op = text.substr(cursor, 1);
+        cursor += op.length;
+        if (op !== '+' && op !== '-' && op !== '~') {
+            return null;
+        }
+        const num = parseUnaryExpression(text, cursor);
+        if (!num) {
+            return null;
+        }
+        cursor = num.cursor;
+        return {
+            cursor: cursor,
+            evaluable: new UnaryOperationNode(op, num.evaluable),
+        };
+    }
+    function readBinaryOperator(ops, text, cursor) {
+        cursor += readWhitespace(text, cursor).length;
+        const op = ops.filter((op) => text.startsWith(op, cursor))[0];
+        if (!op) {
+            return null;
+        }
+        cursor += op.length;
+        cursor += readWhitespace(text, cursor).length;
+        return {
+            cursor: cursor,
+            operator: op,
+        };
+    }
+    function createBinaryOperationExpressionParser(exprParser, ops) {
+        return (text, cursor) => {
+            const firstExpr = exprParser(text, cursor);
+            if (!firstExpr) {
+                return null;
+            }
+            cursor = firstExpr.cursor;
+            let expr = firstExpr.evaluable;
+            for (;;) {
+                const op = readBinaryOperator(ops, text, cursor);
+                if (!op) {
+                    break;
+                }
+                cursor = op.cursor;
+                const nextExpr = exprParser(text, cursor);
+                if (!nextExpr) {
+                    return null;
+                }
+                cursor = nextExpr.cursor;
+                expr = new BinaryOperationNode(op.operator, expr, nextExpr.evaluable);
+            }
+            return expr
+                ? {
+                    cursor: cursor,
+                    evaluable: expr,
+                }
+                : null;
+        };
+    }
+    const parseBinaryOperationExpression = [
+        ['**'],
+        ['*', '/', '%'],
+        ['+', '-'],
+        ['<<', '>>>', '>>'],
+        ['&'],
+        ['^'],
+        ['|'],
+    ].reduce((parser, ops) => {
+        return createBinaryOperationExpressionParser(parser, ops);
+    }, parseUnaryExpression);
+    function parseExpression(text, cursor) {
+        cursor += readWhitespace(text, cursor).length;
+        return parseBinaryOperationExpression(text, cursor);
+    }
+    function parseEcmaNumberExpression(text) {
+        const expr = parseExpression(text, 0);
+        if (!expr) {
+            return null;
+        }
+        const cursor = expr.cursor + readWhitespace(text, expr.cursor).length;
+        if (cursor !== text.length) {
+            return null;
+        }
+        return expr.evaluable;
+    }
+
+    function parseNumber(text) {
+        var _a;
+        const r = parseEcmaNumberExpression(text);
+        return (_a = r === null || r === void 0 ? void 0 : r.evaluate()) !== null && _a !== void 0 ? _a : null;
+    }
+    function numberFromUnknown(value) {
+        if (typeof value === 'number') {
+            return value;
+        }
+        if (typeof value === 'string') {
+            const pv = parseNumber(value);
+            if (!isEmpty(pv)) {
+                return pv;
+            }
+        }
+        return 0;
+    }
+    function numberToString(value) {
+        return String(value);
+    }
+    function createNumberFormatter(digits) {
+        return (value) => {
+            return value.toFixed(Math.max(Math.min(digits, 20), 0));
+        };
+    }
+
+    const innerFormatter = createNumberFormatter(0);
+    function formatPercentage(value) {
+        return innerFormatter(value) + '%';
+    }
+
+    function stringFromUnknown(value) {
+        return String(value);
+    }
+    function formatString(value) {
+        return value;
+    }
+
+    function fillBuffer(buffer, bufferSize) {
+        while (buffer.length < bufferSize) {
+            buffer.push(undefined);
+        }
+    }
+    function initializeBuffer(bufferSize) {
+        const buffer = [];
+        fillBuffer(buffer, bufferSize);
+        return createValue(buffer);
+    }
+    function createTrimmedBuffer(buffer) {
+        const index = buffer.indexOf(undefined);
+        return forceCast(index < 0 ? buffer : buffer.slice(0, index));
+    }
+    function createPushedBuffer(buffer, newValue) {
+        const newBuffer = [...createTrimmedBuffer(buffer), newValue];
+        if (newBuffer.length > buffer.length) {
+            newBuffer.splice(0, newBuffer.length - buffer.length);
+        }
+        else {
+            fillBuffer(newBuffer, buffer.length);
+        }
+        return newBuffer;
+    }
+
+    function connectValues({ primary, secondary, forward, backward, }) {
+        let changing = false;
+        function preventFeedback(callback) {
+            if (changing) {
+                return;
+            }
+            changing = true;
+            callback();
+            changing = false;
+        }
+        primary.emitter.on('change', (ev) => {
+            preventFeedback(() => {
+                secondary.setRawValue(forward(primary, secondary), ev.options);
+            });
+        });
+        secondary.emitter.on('change', (ev) => {
+            preventFeedback(() => {
+                primary.setRawValue(backward(primary, secondary), ev.options);
+            });
+            preventFeedback(() => {
+                secondary.setRawValue(forward(primary, secondary), ev.options);
+            });
+        });
+        preventFeedback(() => {
+            secondary.setRawValue(forward(primary, secondary), {
+                forceEmit: false,
+                last: true,
+            });
+        });
+    }
+
+    function getStepForKey(baseStep, keys) {
+        const step = baseStep * (keys.altKey ? 0.1 : 1) * (keys.shiftKey ? 10 : 1);
+        if (keys.upKey) {
+            return +step;
+        }
+        else if (keys.downKey) {
+            return -step;
+        }
+        return 0;
+    }
+    function getVerticalStepKeys(ev) {
+        return {
+            altKey: ev.altKey,
+            downKey: ev.key === 'ArrowDown',
+            shiftKey: ev.shiftKey,
+            upKey: ev.key === 'ArrowUp',
+        };
+    }
+    function getHorizontalStepKeys(ev) {
+        return {
+            altKey: ev.altKey,
+            downKey: ev.key === 'ArrowLeft',
+            shiftKey: ev.shiftKey,
+            upKey: ev.key === 'ArrowRight',
+        };
+    }
+    function isVerticalArrowKey(key) {
+        return key === 'ArrowUp' || key === 'ArrowDown';
+    }
+    function isArrowKey(key) {
+        return isVerticalArrowKey(key) || key === 'ArrowLeft' || key === 'ArrowRight';
+    }
+
+    function computeOffset(ev, elem) {
+        const win = elem.ownerDocument.defaultView;
+        const rect = elem.getBoundingClientRect();
+        return {
+            x: ev.pageX - (((win && win.scrollX) || 0) + rect.left),
+            y: ev.pageY - (((win && win.scrollY) || 0) + rect.top),
+        };
+    }
+    class PointerHandler {
+        constructor(element) {
+            this.lastTouch_ = null;
+            this.onDocumentMouseMove_ = this.onDocumentMouseMove_.bind(this);
+            this.onDocumentMouseUp_ = this.onDocumentMouseUp_.bind(this);
+            this.onMouseDown_ = this.onMouseDown_.bind(this);
+            this.onTouchEnd_ = this.onTouchEnd_.bind(this);
+            this.onTouchMove_ = this.onTouchMove_.bind(this);
+            this.onTouchStart_ = this.onTouchStart_.bind(this);
+            this.elem_ = element;
+            this.emitter = new Emitter();
+            element.addEventListener('touchstart', this.onTouchStart_);
+            element.addEventListener('touchmove', this.onTouchMove_);
+            element.addEventListener('touchend', this.onTouchEnd_);
+            element.addEventListener('mousedown', this.onMouseDown_);
+        }
+        computePosition_(offset) {
+            const rect = this.elem_.getBoundingClientRect();
+            return {
+                bounds: {
+                    width: rect.width,
+                    height: rect.height,
+                },
+                point: offset
+                    ? {
+                        x: offset.x,
+                        y: offset.y,
+                    }
+                    : null,
+            };
+        }
+        onMouseDown_(ev) {
+            var _a;
+            ev.preventDefault();
+            (_a = ev.currentTarget) === null || _a === void 0 ? void 0 : _a.focus();
+            const doc = this.elem_.ownerDocument;
+            doc.addEventListener('mousemove', this.onDocumentMouseMove_);
+            doc.addEventListener('mouseup', this.onDocumentMouseUp_);
+            this.emitter.emit('down', {
+                altKey: ev.altKey,
+                data: this.computePosition_(computeOffset(ev, this.elem_)),
+                sender: this,
+                shiftKey: ev.shiftKey,
+            });
+        }
+        onDocumentMouseMove_(ev) {
+            this.emitter.emit('move', {
+                altKey: ev.altKey,
+                data: this.computePosition_(computeOffset(ev, this.elem_)),
+                sender: this,
+                shiftKey: ev.shiftKey,
+            });
+        }
+        onDocumentMouseUp_(ev) {
+            const doc = this.elem_.ownerDocument;
+            doc.removeEventListener('mousemove', this.onDocumentMouseMove_);
+            doc.removeEventListener('mouseup', this.onDocumentMouseUp_);
+            this.emitter.emit('up', {
+                altKey: ev.altKey,
+                data: this.computePosition_(computeOffset(ev, this.elem_)),
+                sender: this,
+                shiftKey: ev.shiftKey,
+            });
+        }
+        onTouchStart_(ev) {
+            ev.preventDefault();
+            const touch = ev.targetTouches.item(0);
+            const rect = this.elem_.getBoundingClientRect();
+            this.emitter.emit('down', {
+                altKey: ev.altKey,
+                data: this.computePosition_(touch
+                    ? {
+                        x: touch.clientX - rect.left,
+                        y: touch.clientY - rect.top,
+                    }
+                    : undefined),
+                sender: this,
+                shiftKey: ev.shiftKey,
+            });
+            this.lastTouch_ = touch;
+        }
+        onTouchMove_(ev) {
+            const touch = ev.targetTouches.item(0);
+            const rect = this.elem_.getBoundingClientRect();
+            this.emitter.emit('move', {
+                altKey: ev.altKey,
+                data: this.computePosition_(touch
+                    ? {
+                        x: touch.clientX - rect.left,
+                        y: touch.clientY - rect.top,
+                    }
+                    : undefined),
+                sender: this,
+                shiftKey: ev.shiftKey,
+            });
+            this.lastTouch_ = touch;
+        }
+        onTouchEnd_(ev) {
+            var _a;
+            const touch = (_a = ev.targetTouches.item(0)) !== null && _a !== void 0 ? _a : this.lastTouch_;
+            const rect = this.elem_.getBoundingClientRect();
+            this.emitter.emit('up', {
+                altKey: ev.altKey,
+                data: this.computePosition_(touch
+                    ? {
+                        x: touch.clientX - rect.left,
+                        y: touch.clientY - rect.top,
+                    }
+                    : undefined),
+                sender: this,
+                shiftKey: ev.shiftKey,
+            });
+        }
+    }
 
     function mapRange(value, start1, end1, start2, end2) {
-        var p = (value - start1) / (end1 - start1);
+        const p = (value - start1) / (end1 - start1);
         return start2 + p * (end2 - start2);
     }
     function getDecimalDigits(value) {
-        var text = String(value.toFixed(10));
-        var frac = text.split('.')[1];
+        const text = String(value.toFixed(10));
+        const frac = text.split('.')[1];
         return frac.replace(/0+$/, '').length;
     }
     function constrainRange(value, min, max) {
@@ -115898,32 +116860,325 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return ((value % max) + max) % max;
     }
 
-    /**
-     * @hidden
-     */
-    function normalizeInputParamsOptions(options, convert) {
-        if (Array.isArray(options)) {
-            return options.map(function (item) {
-                return {
-                    text: item.text,
-                    value: convert(item.value),
-                };
+    const className$g = ClassName('txt');
+    class NumberTextView {
+        constructor(doc, config) {
+            this.onChange_ = this.onChange_.bind(this);
+            this.props_ = config.props;
+            this.props_.emitter.on('change', this.onChange_);
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$g(), className$g(undefined, 'num'));
+            if (config.arrayPosition) {
+                this.element.classList.add(className$g(undefined, config.arrayPosition));
+            }
+            config.viewProps.bindClassModifiers(this.element);
+            const inputElem = doc.createElement('input');
+            inputElem.classList.add(className$g('i'));
+            inputElem.type = 'text';
+            config.viewProps.bindDisabled(inputElem);
+            this.element.appendChild(inputElem);
+            this.inputElement = inputElem;
+            this.onDraggingChange_ = this.onDraggingChange_.bind(this);
+            this.dragging_ = config.dragging;
+            this.dragging_.emitter.on('change', this.onDraggingChange_);
+            this.element.classList.add(className$g());
+            this.inputElement.classList.add(className$g('i'));
+            const knobElem = doc.createElement('div');
+            knobElem.classList.add(className$g('k'));
+            this.element.appendChild(knobElem);
+            this.knobElement = knobElem;
+            const guideElem = doc.createElementNS(SVG_NS, 'svg');
+            guideElem.classList.add(className$g('g'));
+            this.knobElement.appendChild(guideElem);
+            const bodyElem = doc.createElementNS(SVG_NS, 'path');
+            bodyElem.classList.add(className$g('gb'));
+            guideElem.appendChild(bodyElem);
+            this.guideBodyElem_ = bodyElem;
+            const headElem = doc.createElementNS(SVG_NS, 'path');
+            headElem.classList.add(className$g('gh'));
+            guideElem.appendChild(headElem);
+            this.guideHeadElem_ = headElem;
+            const tooltipElem = doc.createElement('div');
+            tooltipElem.classList.add(ClassName('tt')());
+            this.knobElement.appendChild(tooltipElem);
+            this.tooltipElem_ = tooltipElem;
+            config.value.emitter.on('change', this.onChange_);
+            this.value = config.value;
+            this.refresh();
+        }
+        onDraggingChange_(ev) {
+            if (ev.rawValue === null) {
+                this.element.classList.remove(className$g(undefined, 'drg'));
+                return;
+            }
+            this.element.classList.add(className$g(undefined, 'drg'));
+            const x = ev.rawValue / this.props_.get('draggingScale');
+            const aox = x + (x > 0 ? -1 : x < 0 ? +1 : 0);
+            const adx = constrainRange(-aox, -4, +4);
+            this.guideHeadElem_.setAttributeNS(null, 'd', [`M ${aox + adx},0 L${aox},4 L${aox + adx},8`, `M ${x},-1 L${x},9`].join(' '));
+            this.guideBodyElem_.setAttributeNS(null, 'd', `M 0,4 L${x},4`);
+            const formatter = this.props_.get('formatter');
+            this.tooltipElem_.textContent = formatter(this.value.rawValue);
+            this.tooltipElem_.style.left = `${x}px`;
+        }
+        refresh() {
+            const formatter = this.props_.get('formatter');
+            this.inputElement.value = formatter(this.value.rawValue);
+        }
+        onChange_() {
+            this.refresh();
+        }
+    }
+
+    class NumberTextController {
+        constructor(doc, config) {
+            this.originRawValue_ = 0;
+            this.onInputChange_ = this.onInputChange_.bind(this);
+            this.onInputKeyDown_ = this.onInputKeyDown_.bind(this);
+            this.onPointerDown_ = this.onPointerDown_.bind(this);
+            this.onPointerMove_ = this.onPointerMove_.bind(this);
+            this.onPointerUp_ = this.onPointerUp_.bind(this);
+            this.baseStep_ = config.baseStep;
+            this.parser_ = config.parser;
+            this.props = config.props;
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.dragging_ = createValue(null);
+            this.view = new NumberTextView(doc, {
+                arrayPosition: config.arrayPosition,
+                dragging: this.dragging_,
+                props: this.props,
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            this.view.inputElement.addEventListener('change', this.onInputChange_);
+            this.view.inputElement.addEventListener('keydown', this.onInputKeyDown_);
+            const ph = new PointerHandler(this.view.knobElement);
+            ph.emitter.on('down', this.onPointerDown_);
+            ph.emitter.on('move', this.onPointerMove_);
+            ph.emitter.on('up', this.onPointerUp_);
+        }
+        onInputChange_(e) {
+            const inputElem = forceCast(e.currentTarget);
+            const value = inputElem.value;
+            const parsedValue = this.parser_(value);
+            if (!isEmpty(parsedValue)) {
+                this.value.rawValue = parsedValue;
+            }
+            this.view.refresh();
+        }
+        onInputKeyDown_(e) {
+            const step = getStepForKey(this.baseStep_, getVerticalStepKeys(e));
+            if (step !== 0) {
+                this.value.rawValue += step;
+            }
+        }
+        onPointerDown_() {
+            this.originRawValue_ = this.value.rawValue;
+            this.dragging_.rawValue = 0;
+        }
+        computeDraggingValue_(data) {
+            if (!data.point) {
+                return null;
+            }
+            const dx = data.point.x - data.bounds.width / 2;
+            return this.originRawValue_ + dx * this.props.get('draggingScale');
+        }
+        onPointerMove_(ev) {
+            const v = this.computeDraggingValue_(ev.data);
+            if (v === null) {
+                return;
+            }
+            this.value.setRawValue(v, {
+                forceEmit: false,
+                last: false,
+            });
+            this.dragging_.rawValue = this.value.rawValue - this.originRawValue_;
+        }
+        onPointerUp_(ev) {
+            const v = this.computeDraggingValue_(ev.data);
+            if (v === null) {
+                return;
+            }
+            this.value.setRawValue(v, {
+                forceEmit: true,
+                last: true,
+            });
+            this.dragging_.rawValue = null;
+        }
+    }
+
+    const className$f = ClassName('sld');
+    class SliderView {
+        constructor(doc, config) {
+            this.onChange_ = this.onChange_.bind(this);
+            this.props_ = config.props;
+            this.props_.emitter.on('change', this.onChange_);
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$f());
+            config.viewProps.bindClassModifiers(this.element);
+            const trackElem = doc.createElement('div');
+            trackElem.classList.add(className$f('t'));
+            config.viewProps.bindTabIndex(trackElem);
+            this.element.appendChild(trackElem);
+            this.trackElement = trackElem;
+            const knobElem = doc.createElement('div');
+            knobElem.classList.add(className$f('k'));
+            this.trackElement.appendChild(knobElem);
+            this.knobElement = knobElem;
+            config.value.emitter.on('change', this.onChange_);
+            this.value = config.value;
+            this.update_();
+        }
+        update_() {
+            const p = constrainRange(mapRange(this.value.rawValue, this.props_.get('minValue'), this.props_.get('maxValue'), 0, 100), 0, 100);
+            this.knobElement.style.width = `${p}%`;
+        }
+        onChange_() {
+            this.update_();
+        }
+    }
+
+    class SliderController {
+        constructor(doc, config) {
+            this.onKeyDown_ = this.onKeyDown_.bind(this);
+            this.onPointerDownOrMove_ = this.onPointerDownOrMove_.bind(this);
+            this.onPointerUp_ = this.onPointerUp_.bind(this);
+            this.baseStep_ = config.baseStep;
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.props = config.props;
+            this.view = new SliderView(doc, {
+                props: this.props,
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            this.ptHandler_ = new PointerHandler(this.view.trackElement);
+            this.ptHandler_.emitter.on('down', this.onPointerDownOrMove_);
+            this.ptHandler_.emitter.on('move', this.onPointerDownOrMove_);
+            this.ptHandler_.emitter.on('up', this.onPointerUp_);
+            this.view.trackElement.addEventListener('keydown', this.onKeyDown_);
+        }
+        handlePointerEvent_(d, opts) {
+            if (!d.point) {
+                return;
+            }
+            this.value.setRawValue(mapRange(constrainRange(d.point.x, 0, d.bounds.width), 0, d.bounds.width, this.props.get('minValue'), this.props.get('maxValue')), opts);
+        }
+        onPointerDownOrMove_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
             });
         }
-        var textToValueMap = options;
-        var texts = Object.keys(textToValueMap);
-        return texts.reduce(function (result, text) {
-            return result.concat({
-                text: text,
-                value: convert(textToValueMap[text]),
+        onPointerUp_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: true,
+                last: true,
             });
-        }, []);
+        }
+        onKeyDown_(ev) {
+            this.value.rawValue += getStepForKey(this.baseStep_, getHorizontalStepKeys(ev));
+        }
     }
-    /**
-     * @hidden
-     */
+
+    const className$e = ClassName('sldtxt');
+    class SliderTextView {
+        constructor(doc, config) {
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$e());
+            const sliderElem = doc.createElement('div');
+            sliderElem.classList.add(className$e('s'));
+            this.sliderView_ = config.sliderView;
+            sliderElem.appendChild(this.sliderView_.element);
+            this.element.appendChild(sliderElem);
+            const textElem = doc.createElement('div');
+            textElem.classList.add(className$e('t'));
+            this.textView_ = config.textView;
+            textElem.appendChild(this.textView_.element);
+            this.element.appendChild(textElem);
+        }
+    }
+
+    class SliderTextController {
+        constructor(doc, config) {
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.sliderC_ = new SliderController(doc, {
+                baseStep: config.baseStep,
+                props: config.sliderProps,
+                value: config.value,
+                viewProps: this.viewProps,
+            });
+            this.textC_ = new NumberTextController(doc, {
+                baseStep: config.baseStep,
+                parser: config.parser,
+                props: config.textProps,
+                value: config.value,
+                viewProps: config.viewProps,
+            });
+            this.view = new SliderTextView(doc, {
+                sliderView: this.sliderC_.view,
+                textView: this.textC_.view,
+            });
+        }
+        get sliderController() {
+            return this.sliderC_;
+        }
+        get textController() {
+            return this.textC_;
+        }
+    }
+
+    function writePrimitive(target, value) {
+        target.write(value);
+    }
+
+    function parseListOptions(value) {
+        const p = ParamsParsers;
+        if (Array.isArray(value)) {
+            return p.required.array(p.required.object({
+                text: p.required.string,
+                value: p.required.raw,
+            }))(value).value;
+        }
+        if (typeof value === 'object') {
+            return p.required.raw(value)
+                .value;
+        }
+        return undefined;
+    }
+    function parsePickerLayout(value) {
+        if (value === 'inline' || value === 'popup') {
+            return value;
+        }
+        return undefined;
+    }
+    function parsePointDimensionParams(value) {
+        const p = ParamsParsers;
+        return p.required.object({
+            max: p.optional.number,
+            min: p.optional.number,
+            step: p.optional.number,
+        })(value).value;
+    }
+    function normalizeListOptions(options) {
+        if (Array.isArray(options)) {
+            return options;
+        }
+        const items = [];
+        Object.keys(options).forEach((text) => {
+            items.push({ text: text, value: options[text] });
+        });
+        return items;
+    }
+    function createListConstraint(options) {
+        return !isEmpty(options)
+            ? new ListConstraint(normalizeListOptions(forceCast(options)))
+            : null;
+    }
     function findListItems(constraint) {
-        var c = constraint
+        const c = constraint
             ? findConstraint(constraint, ListConstraint)
             : null;
         if (!c) {
@@ -115932,371 +117187,174 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return c.options;
     }
     function findStep(constraint) {
-        var c = constraint ? findConstraint(constraint, StepConstraint) : null;
+        const c = constraint ? findConstraint(constraint, StepConstraint) : null;
         if (!c) {
             return null;
         }
         return c.step;
     }
-    /**
-     * @hidden
-     */
     function getSuitableDecimalDigits(constraint, rawValue) {
-        var sc = constraint && findConstraint(constraint, StepConstraint);
+        const sc = constraint && findConstraint(constraint, StepConstraint);
         if (sc) {
             return getDecimalDigits(sc.step);
         }
         return Math.max(getDecimalDigits(rawValue), 2);
     }
-    /**
-     * @hidden
-     */
     function getBaseStep(constraint) {
-        var step = findStep(constraint);
+        const step = findStep(constraint);
         return step !== null && step !== void 0 ? step : 1;
     }
+    function getSuitableDraggingScale(constraint, rawValue) {
+        var _a;
+        const sc = constraint && findConstraint(constraint, StepConstraint);
+        const base = Math.abs((_a = sc === null || sc === void 0 ? void 0 : sc.step) !== null && _a !== void 0 ? _a : rawValue);
+        return base === 0 ? 0.1 : Math.pow(10, Math.floor(Math.log10(base)) - 1);
+    }
 
-    var className$6 = ClassName('lst');
-    /**
-     * @hidden
-     */
-    var ListView = /** @class */ (function () {
-        function ListView(doc, config) {
-            var _this = this;
+    const className$d = ClassName('ckb');
+    class CheckboxView {
+        constructor(doc, config) {
             this.onValueChange_ = this.onValueChange_.bind(this);
             this.element = doc.createElement('div');
-            this.element.classList.add(className$6());
-            this.stringifyValue_ = config.stringifyValue;
-            var selectElem = doc.createElement('select');
-            selectElem.classList.add(className$6('s'));
-            config.options.forEach(function (item, index) {
-                var optionElem = doc.createElement('option');
-                optionElem.dataset.index = String(index);
-                optionElem.textContent = item.text;
-                optionElem.value = _this.stringifyValue_(item.value);
-                selectElem.appendChild(optionElem);
-            });
-            this.element.appendChild(selectElem);
-            this.selectElement = selectElem;
-            var markElem = doc.createElement('div');
-            markElem.classList.add(className$6('m'));
-            this.element.appendChild(markElem);
-            config.value.emitter.on('change', this.onValueChange_);
-            this.value = config.value;
-            this.update();
-        }
-        ListView.prototype.update = function () {
-            this.selectElement.value = this.stringifyValue_(this.value.rawValue);
-        };
-        ListView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return ListView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var ListController = /** @class */ (function () {
-        function ListController(doc, config) {
-            this.onSelectChange_ = this.onSelectChange_.bind(this);
-            this.value = config.value;
-            this.listItems_ = config.listItems;
-            this.view = new ListView(doc, {
-                options: this.listItems_,
-                stringifyValue: config.stringifyValue,
-                value: this.value,
-            });
-            this.view.selectElement.addEventListener('change', this.onSelectChange_);
-        }
-        ListController.prototype.onSelectChange_ = function (e) {
-            var selectElem = forceCast(e.currentTarget);
-            var optElem = selectElem.selectedOptions.item(0);
-            if (!optElem) {
-                return;
-            }
-            var itemIndex = Number(optElem.dataset.index);
-            this.value.rawValue = this.listItems_[itemIndex].value;
-            this.view.update();
-        };
-        return ListController;
-    }());
-
-    var className$7 = ClassName('ckb');
-    /**
-     * @hidden
-     */
-    var CheckboxView = /** @class */ (function () {
-        function CheckboxView(doc, config) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$7());
-            var labelElem = doc.createElement('label');
-            labelElem.classList.add(className$7('l'));
+            this.element.classList.add(className$d());
+            config.viewProps.bindClassModifiers(this.element);
+            const labelElem = doc.createElement('label');
+            labelElem.classList.add(className$d('l'));
             this.element.appendChild(labelElem);
-            var inputElem = doc.createElement('input');
-            inputElem.classList.add(className$7('i'));
+            const inputElem = doc.createElement('input');
+            inputElem.classList.add(className$d('i'));
             inputElem.type = 'checkbox';
             labelElem.appendChild(inputElem);
             this.inputElement = inputElem;
-            var markElem = doc.createElement('div');
-            markElem.classList.add(className$7('m'));
-            labelElem.appendChild(markElem);
+            config.viewProps.bindDisabled(this.inputElement);
+            const wrapperElem = doc.createElement('div');
+            wrapperElem.classList.add(className$d('w'));
+            labelElem.appendChild(wrapperElem);
+            const markElem = createSvgIconElement(doc, 'check');
+            wrapperElem.appendChild(markElem);
             config.value.emitter.on('change', this.onValueChange_);
             this.value = config.value;
-            this.update();
+            this.update_();
         }
-        CheckboxView.prototype.update = function () {
+        update_() {
             this.inputElement.checked = this.value.rawValue;
-        };
-        CheckboxView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return CheckboxView;
-    }());
+        }
+        onValueChange_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var CheckboxController = /** @class */ (function () {
-        function CheckboxController(doc, config) {
+    class CheckboxController {
+        constructor(doc, config) {
             this.onInputChange_ = this.onInputChange_.bind(this);
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.view = new CheckboxView(doc, {
                 value: this.value,
+                viewProps: this.viewProps,
             });
             this.view.inputElement.addEventListener('change', this.onInputChange_);
         }
-        CheckboxController.prototype.onInputChange_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
+        onInputChange_(e) {
+            const inputElem = forceCast(e.currentTarget);
             this.value.rawValue = inputElem.checked;
-            this.view.update();
-        };
-        return CheckboxController;
-    }());
+        }
+    }
 
-    function createConstraint(params) {
-        var constraints = [];
-        if ('options' in params && params.options !== undefined) {
-            constraints.push(new ListConstraint({
-                options: normalizeInputParamsOptions(params.options, boolFromUnknown),
-            }));
+    function createConstraint$5(params) {
+        const constraints = [];
+        const lc = createListConstraint(params.options);
+        if (lc) {
+            constraints.push(lc);
         }
-        return new CompositeConstraint({
-            constraints: constraints,
-        });
+        return new CompositeConstraint(constraints);
     }
-    function createController$2(doc, value) {
-        var _a;
-        var c = value.constraint;
-        if (c && findConstraint(c, ListConstraint)) {
-            return new ListController(doc, {
-                listItems: (_a = findListItems(c)) !== null && _a !== void 0 ? _a : [],
-                stringifyValue: boolToString,
-                value: value,
-            });
-        }
-        return new CheckboxController(doc, {
-            value: value,
-        });
-    }
-    /**
-     * @hidden
-     */
-    var BooleanInputPlugin = {
+    const BooleanInputPlugin = {
         id: 'input-bool',
-        binding: {
-            accept: function (value) { return (typeof value === 'boolean' ? value : null); },
-            constraint: function (args) { return createConstraint(args.params); },
-            reader: function (_args) { return boolFromUnknown; },
-            writer: function (_args) { return writePrimitive; },
+        type: 'input',
+        accept: (value, params) => {
+            if (typeof value !== 'boolean') {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                options: p.optional.custom(parseListOptions),
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
-            return createController$2(args.document, args.binding.value);
+        binding: {
+            reader: (_args) => boolFromUnknown,
+            constraint: (args) => createConstraint$5(args.params),
+            writer: (_args) => writePrimitive,
+        },
+        controller: (args) => {
+            var _a;
+            const doc = args.document;
+            const value = args.value;
+            const c = args.constraint;
+            if (c && findConstraint(c, ListConstraint)) {
+                return new ListController(doc, {
+                    props: ValueMap.fromObject({
+                        options: (_a = findListItems(c)) !== null && _a !== void 0 ? _a : [],
+                    }),
+                    value: value,
+                    viewProps: args.viewProps,
+                });
+            }
+            return new CheckboxController(doc, {
+                value: value,
+                viewProps: args.viewProps,
+            });
         },
     };
 
-    var className$8 = ClassName('txt');
-    /**
-     * @hidden
-     */
-    var TextView = /** @class */ (function () {
-        function TextView(doc, config) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.formatter_ = config.formatter;
+    const className$c = ClassName('col');
+    class ColorView {
+        constructor(doc, config) {
             this.element = doc.createElement('div');
-            this.element.classList.add(className$8());
-            var inputElem = doc.createElement('input');
-            inputElem.classList.add(className$8('i'));
-            inputElem.type = 'text';
-            this.element.appendChild(inputElem);
-            this.inputElement = inputElem;
-            config.value.emitter.on('change', this.onValueChange_);
-            this.value = config.value;
-            this.update();
-        }
-        TextView.prototype.update = function () {
-            this.inputElement.value = this.formatter_(this.value.rawValue);
-        };
-        TextView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return TextView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var TextController = /** @class */ (function () {
-        function TextController(doc, config) {
-            this.onInputChange_ = this.onInputChange_.bind(this);
-            this.parser_ = config.parser;
-            this.value = config.value;
-            this.view = new TextView(doc, {
-                formatter: config.formatter,
-                value: this.value,
-            });
-            this.view.inputElement.addEventListener('change', this.onInputChange_);
-        }
-        TextController.prototype.onInputChange_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
-            var value = inputElem.value;
-            var parsedValue = this.parser_(value);
-            if (!isEmpty(parsedValue)) {
-                this.value.rawValue = parsedValue;
+            this.element.classList.add(className$c());
+            config.foldable.bindExpandedClass(this.element, className$c(undefined, 'expanded'));
+            bindValueMap(config.foldable, 'completed', valueToClassName(this.element, className$c(undefined, 'cpl')));
+            const headElem = doc.createElement('div');
+            headElem.classList.add(className$c('h'));
+            this.element.appendChild(headElem);
+            const swatchElem = doc.createElement('div');
+            swatchElem.classList.add(className$c('s'));
+            headElem.appendChild(swatchElem);
+            this.swatchElement = swatchElem;
+            const textElem = doc.createElement('div');
+            textElem.classList.add(className$c('t'));
+            headElem.appendChild(textElem);
+            this.textElement = textElem;
+            if (config.pickerLayout === 'inline') {
+                const pickerElem = doc.createElement('div');
+                pickerElem.classList.add(className$c('p'));
+                this.element.appendChild(pickerElem);
+                this.pickerElement = pickerElem;
             }
-            this.view.update();
-        };
-        return TextController;
-    }());
-
-    var className$9 = ClassName('cswtxt');
-    /**
-     * @hidden
-     */
-    var ColorSwatchTextView = /** @class */ (function () {
-        function ColorSwatchTextView(doc, config) {
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$9());
-            var swatchElem = doc.createElement('div');
-            swatchElem.classList.add(className$9('s'));
-            this.swatchView_ = config.swatchView;
-            swatchElem.appendChild(this.swatchView_.element);
-            this.element.appendChild(swatchElem);
-            var textElem = doc.createElement('div');
-            textElem.classList.add(className$9('t'));
-            this.textView = config.textView;
-            textElem.appendChild(this.textView.element);
-            this.element.appendChild(textElem);
-        }
-        Object.defineProperty(ColorSwatchTextView.prototype, "value", {
-            get: function () {
-                return this.textView.value;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ColorSwatchTextView.prototype.update = function () {
-            this.swatchView_.update();
-            this.textView.update();
-        };
-        return ColorSwatchTextView;
-    }());
-
-    var PickedColor = /** @class */ (function () {
-        function PickedColor(value) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.mode_ = value.rawValue.mode;
-            this.value = value;
-            this.value.emitter.on('change', this.onValueChange_);
-            this.emitter = new Emitter();
-        }
-        Object.defineProperty(PickedColor.prototype, "mode", {
-            get: function () {
-                return this.mode_;
-            },
-            set: function (mode) {
-                if (this.mode_ === mode) {
-                    return;
-                }
-                this.mode_ = mode;
-                this.emitter.emit('change', {
-                    propertyName: 'mode',
-                    sender: this,
-                });
-            },
-            enumerable: false,
-            configurable: true
-        });
-        PickedColor.prototype.onValueChange_ = function () {
-            this.emitter.emit('change', {
-                propertyName: 'value',
-                sender: this,
-            });
-        };
-        return PickedColor;
-    }());
-
-    /**
-     * @hidden
-     */
-    function parseNumber(text) {
-        var num = parseFloat(text);
-        if (isNaN(num)) {
-            return null;
-        }
-        return num;
-    }
-    /**
-     * @hidden
-     */
-    function numberFromUnknown(value) {
-        if (typeof value === 'number') {
-            return value;
-        }
-        if (typeof value === 'string') {
-            var pv = parseNumber(value);
-            if (!isEmpty(pv)) {
-                return pv;
+            else {
+                this.pickerElement = null;
             }
         }
-        return 0;
-    }
-    /**
-     * @hidden
-     */
-    function numberToString(value) {
-        return String(value);
-    }
-    /**
-     * @hidden
-     */
-    function createNumberFormatter(digits) {
-        return function (value) {
-            return value.toFixed(Math.max(Math.min(digits, 20), 0));
-        };
-    }
-
-    var innerFormatter = createNumberFormatter(0);
-    /**
-     * @hidden
-     */
-    function formatPercentage(value) {
-        return innerFormatter(value) + '%';
     }
 
     function rgbToHsl(r, g, b) {
-        var rp = constrainRange(r / 255, 0, 1);
-        var gp = constrainRange(g / 255, 0, 1);
-        var bp = constrainRange(b / 255, 0, 1);
-        var cmax = Math.max(rp, gp, bp);
-        var cmin = Math.min(rp, gp, bp);
-        var c = cmax - cmin;
-        var h = 0;
-        var s = 0;
-        var l = (cmin + cmax) / 2;
+        const rp = constrainRange(r / 255, 0, 1);
+        const gp = constrainRange(g / 255, 0, 1);
+        const bp = constrainRange(b / 255, 0, 1);
+        const cmax = Math.max(rp, gp, bp);
+        const cmin = Math.min(rp, gp, bp);
+        const c = cmax - cmin;
+        let h = 0;
+        let s = 0;
+        const l = (cmin + cmax) / 2;
         if (c !== 0) {
-            s = l > 0.5 ? c / (2 - cmin - cmax) : c / (cmax + cmin);
+            s = c / (1 - Math.abs(cmax + cmin - 1));
             if (rp === cmax) {
                 h = (gp - bp) / c;
             }
@@ -116311,42 +117369,41 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return [h * 360, s * 100, l * 100];
     }
     function hslToRgb(h, s, l) {
-        var _a, _b, _c, _d, _e, _f;
-        var hp = ((h % 360) + 360) % 360;
-        var sp = constrainRange(s / 100, 0, 1);
-        var lp = constrainRange(l / 100, 0, 1);
-        var c = (1 - Math.abs(2 * lp - 1)) * sp;
-        var x = c * (1 - Math.abs(((hp / 60) % 2) - 1));
-        var m = lp - c / 2;
-        var rp, gp, bp;
+        const hp = ((h % 360) + 360) % 360;
+        const sp = constrainRange(s / 100, 0, 1);
+        const lp = constrainRange(l / 100, 0, 1);
+        const c = (1 - Math.abs(2 * lp - 1)) * sp;
+        const x = c * (1 - Math.abs(((hp / 60) % 2) - 1));
+        const m = lp - c / 2;
+        let rp, gp, bp;
         if (hp >= 0 && hp < 60) {
-            _a = [c, x, 0], rp = _a[0], gp = _a[1], bp = _a[2];
+            [rp, gp, bp] = [c, x, 0];
         }
         else if (hp >= 60 && hp < 120) {
-            _b = [x, c, 0], rp = _b[0], gp = _b[1], bp = _b[2];
+            [rp, gp, bp] = [x, c, 0];
         }
         else if (hp >= 120 && hp < 180) {
-            _c = [0, c, x], rp = _c[0], gp = _c[1], bp = _c[2];
+            [rp, gp, bp] = [0, c, x];
         }
         else if (hp >= 180 && hp < 240) {
-            _d = [0, x, c], rp = _d[0], gp = _d[1], bp = _d[2];
+            [rp, gp, bp] = [0, x, c];
         }
         else if (hp >= 240 && hp < 300) {
-            _e = [x, 0, c], rp = _e[0], gp = _e[1], bp = _e[2];
+            [rp, gp, bp] = [x, 0, c];
         }
         else {
-            _f = [c, 0, x], rp = _f[0], gp = _f[1], bp = _f[2];
+            [rp, gp, bp] = [c, 0, x];
         }
         return [(rp + m) * 255, (gp + m) * 255, (bp + m) * 255];
     }
     function rgbToHsv(r, g, b) {
-        var rp = constrainRange(r / 255, 0, 1);
-        var gp = constrainRange(g / 255, 0, 1);
-        var bp = constrainRange(b / 255, 0, 1);
-        var cmax = Math.max(rp, gp, bp);
-        var cmin = Math.min(rp, gp, bp);
-        var d = cmax - cmin;
-        var h;
+        const rp = constrainRange(r / 255, 0, 1);
+        const gp = constrainRange(g / 255, 0, 1);
+        const bp = constrainRange(b / 255, 0, 1);
+        const cmax = Math.max(rp, gp, bp);
+        const cmin = Math.min(rp, gp, bp);
+        const d = cmax - cmin;
+        let h;
         if (d === 0) {
             h = 0;
         }
@@ -116359,87 +117416,79 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         else {
             h = 60 * ((rp - gp) / d + 4);
         }
-        var s = cmax === 0 ? 0 : d / cmax;
-        var v = cmax;
+        const s = cmax === 0 ? 0 : d / cmax;
+        const v = cmax;
         return [h, s * 100, v * 100];
     }
-    /**
-     * @hidden
-     */
     function hsvToRgb(h, s, v) {
-        var _a, _b, _c, _d, _e, _f;
-        var hp = loopRange(h, 360);
-        var sp = constrainRange(s / 100, 0, 1);
-        var vp = constrainRange(v / 100, 0, 1);
-        var c = vp * sp;
-        var x = c * (1 - Math.abs(((hp / 60) % 2) - 1));
-        var m = vp - c;
-        var rp, gp, bp;
+        const hp = loopRange(h, 360);
+        const sp = constrainRange(s / 100, 0, 1);
+        const vp = constrainRange(v / 100, 0, 1);
+        const c = vp * sp;
+        const x = c * (1 - Math.abs(((hp / 60) % 2) - 1));
+        const m = vp - c;
+        let rp, gp, bp;
         if (hp >= 0 && hp < 60) {
-            _a = [c, x, 0], rp = _a[0], gp = _a[1], bp = _a[2];
+            [rp, gp, bp] = [c, x, 0];
         }
         else if (hp >= 60 && hp < 120) {
-            _b = [x, c, 0], rp = _b[0], gp = _b[1], bp = _b[2];
+            [rp, gp, bp] = [x, c, 0];
         }
         else if (hp >= 120 && hp < 180) {
-            _c = [0, c, x], rp = _c[0], gp = _c[1], bp = _c[2];
+            [rp, gp, bp] = [0, c, x];
         }
         else if (hp >= 180 && hp < 240) {
-            _d = [0, x, c], rp = _d[0], gp = _d[1], bp = _d[2];
+            [rp, gp, bp] = [0, x, c];
         }
         else if (hp >= 240 && hp < 300) {
-            _e = [x, 0, c], rp = _e[0], gp = _e[1], bp = _e[2];
+            [rp, gp, bp] = [x, 0, c];
         }
         else {
-            _f = [c, 0, x], rp = _f[0], gp = _f[1], bp = _f[2];
+            [rp, gp, bp] = [c, 0, x];
         }
         return [(rp + m) * 255, (gp + m) * 255, (bp + m) * 255];
     }
-    /**
-     * @hidden
-     */
+    function hslToHsv(h, s, l) {
+        const sd = l + (s * (100 - Math.abs(2 * l - 100))) / (2 * 100);
+        return [
+            h,
+            sd !== 0 ? (s * (100 - Math.abs(2 * l - 100))) / sd : 0,
+            l + (s * (100 - Math.abs(2 * l - 100))) / (2 * 100),
+        ];
+    }
+    function hsvToHsl(h, s, v) {
+        const sd = 100 - Math.abs((v * (200 - s)) / 100 - 100);
+        return [h, sd !== 0 ? (s * v) / sd : 0, (v * (200 - s)) / (2 * 100)];
+    }
     function removeAlphaComponent(comps) {
         return [comps[0], comps[1], comps[2]];
     }
-    /**
-     * @hidden
-     */
     function appendAlphaComponent(comps, alpha) {
         return [comps[0], comps[1], comps[2], alpha];
     }
-    var MODE_CONVERTER_MAP = {
+    const MODE_CONVERTER_MAP = {
         hsl: {
-            hsl: function (h, s, l) { return [h, s, l]; },
-            hsv: function (h, s, l) {
-                var _a = hslToRgb(h, s, l), r = _a[0], g = _a[1], b = _a[2];
-                return rgbToHsv(r, g, b);
-            },
+            hsl: (h, s, l) => [h, s, l],
+            hsv: hslToHsv,
             rgb: hslToRgb,
         },
         hsv: {
-            hsl: function (h, s, v) {
-                var _a = hsvToRgb(h, s, v), r = _a[0], g = _a[1], b = _a[2];
-                return rgbToHsl(r, g, b);
-            },
-            hsv: function (h, s, v) { return [h, s, v]; },
+            hsl: hsvToHsl,
+            hsv: (h, s, v) => [h, s, v],
             rgb: hsvToRgb,
         },
         rgb: {
             hsl: rgbToHsl,
             hsv: rgbToHsv,
-            rgb: function (r, g, b) { return [r, g, b]; },
+            rgb: (r, g, b) => [r, g, b],
         },
     };
-    /**
-     * @hidden
-     */
     function convertColorMode(components, fromMode, toMode) {
-        var _a;
-        return (_a = MODE_CONVERTER_MAP[fromMode])[toMode].apply(_a, components);
+        return MODE_CONVERTER_MAP[fromMode][toMode](...components);
     }
 
-    var CONSTRAINT_MAP = {
-        hsl: function (comps) {
+    const CONSTRAINT_MAP = {
+        hsl: (comps) => {
             var _a;
             return [
                 loopRange(comps[0], 360),
@@ -116448,7 +117497,7 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                 constrainRange((_a = comps[3]) !== null && _a !== void 0 ? _a : 1, 0, 1),
             ];
         },
-        hsv: function (comps) {
+        hsv: (comps) => {
             var _a;
             return [
                 loopRange(comps[0], 360),
@@ -116457,7 +117506,7 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                 constrainRange((_a = comps[3]) !== null && _a !== void 0 ? _a : 1, 0, 1),
             ];
         },
-        rgb: function (comps) {
+        rgb: (comps) => {
             var _a;
             return [
                 constrainRange(comps[0], 0, 255),
@@ -116473,99 +117522,159 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         }
         return key in obj && typeof obj[key] === 'number';
     }
-    /**
-     * @hidden
-     */
-    var Color = /** @class */ (function () {
-        function Color(comps, mode) {
+    class Color {
+        constructor(comps, mode) {
             this.mode_ = mode;
             this.comps_ = CONSTRAINT_MAP[mode](comps);
         }
-        Color.black = function () {
+        static black() {
             return new Color([0, 0, 0], 'rgb');
-        };
-        Color.fromObject = function (obj) {
-            var comps = 'a' in obj ? [obj.r, obj.g, obj.b, obj.a] : [obj.r, obj.g, obj.b];
+        }
+        static fromObject(obj) {
+            const comps = 'a' in obj ? [obj.r, obj.g, obj.b, obj.a] : [obj.r, obj.g, obj.b];
             return new Color(comps, 'rgb');
-        };
-        Color.toRgbaObject = function (color) {
+        }
+        static toRgbaObject(color) {
             return color.toRgbaObject();
-        };
-        Color.isRgbColorObject = function (obj) {
+        }
+        static isRgbColorObject(obj) {
             return (isRgbColorComponent(obj, 'r') &&
                 isRgbColorComponent(obj, 'g') &&
                 isRgbColorComponent(obj, 'b'));
-        };
-        Color.isRgbaColorObject = function (obj) {
+        }
+        static isRgbaColorObject(obj) {
             return this.isRgbColorObject(obj) && isRgbColorComponent(obj, 'a');
-        };
-        Color.isColorObject = function (obj) {
+        }
+        static isColorObject(obj) {
             return this.isRgbColorObject(obj);
-        };
-        Color.equals = function (v1, v2) {
+        }
+        static equals(v1, v2) {
             if (v1.mode_ !== v2.mode_) {
                 return false;
             }
-            var comps1 = v1.comps_;
-            var comps2 = v2.comps_;
-            for (var i = 0; i < comps1.length; i++) {
+            const comps1 = v1.comps_;
+            const comps2 = v2.comps_;
+            for (let i = 0; i < comps1.length; i++) {
                 if (comps1[i] !== comps2[i]) {
                     return false;
                 }
             }
             return true;
-        };
-        Object.defineProperty(Color.prototype, "mode", {
-            get: function () {
-                return this.mode_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Color.prototype.getComponents = function (opt_mode) {
+        }
+        get mode() {
+            return this.mode_;
+        }
+        getComponents(opt_mode) {
             return appendAlphaComponent(convertColorMode(removeAlphaComponent(this.comps_), this.mode_, opt_mode || this.mode_), this.comps_[3]);
-        };
-        Color.prototype.toRgbaObject = function () {
-            var rgbComps = this.getComponents('rgb');
+        }
+        toRgbaObject() {
+            const rgbComps = this.getComponents('rgb');
             return {
                 r: rgbComps[0],
                 g: rgbComps[1],
                 b: rgbComps[2],
                 a: rgbComps[3],
             };
-        };
-        return Color;
-    }());
+        }
+    }
+
+    const className$b = ClassName('colp');
+    class ColorPickerView {
+        constructor(doc, config) {
+            this.alphaViews_ = null;
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$b());
+            const hsvElem = doc.createElement('div');
+            hsvElem.classList.add(className$b('hsv'));
+            const svElem = doc.createElement('div');
+            svElem.classList.add(className$b('sv'));
+            this.svPaletteView_ = config.svPaletteView;
+            svElem.appendChild(this.svPaletteView_.element);
+            hsvElem.appendChild(svElem);
+            const hElem = doc.createElement('div');
+            hElem.classList.add(className$b('h'));
+            this.hPaletteView_ = config.hPaletteView;
+            hElem.appendChild(this.hPaletteView_.element);
+            hsvElem.appendChild(hElem);
+            this.element.appendChild(hsvElem);
+            const rgbElem = doc.createElement('div');
+            rgbElem.classList.add(className$b('rgb'));
+            this.textView_ = config.textView;
+            rgbElem.appendChild(this.textView_.element);
+            this.element.appendChild(rgbElem);
+            if (config.alphaViews) {
+                this.alphaViews_ = {
+                    palette: config.alphaViews.palette,
+                    text: config.alphaViews.text,
+                };
+                const aElem = doc.createElement('div');
+                aElem.classList.add(className$b('a'));
+                const apElem = doc.createElement('div');
+                apElem.classList.add(className$b('ap'));
+                apElem.appendChild(this.alphaViews_.palette.element);
+                aElem.appendChild(apElem);
+                const atElem = doc.createElement('div');
+                atElem.classList.add(className$b('at'));
+                atElem.appendChild(this.alphaViews_.text.element);
+                aElem.appendChild(atElem);
+                this.element.appendChild(aElem);
+            }
+        }
+        get allFocusableElements() {
+            const elems = [
+                this.svPaletteView_.element,
+                this.hPaletteView_.element,
+                this.textView_.modeSelectElement,
+                ...this.textView_.textViews.map((v) => v.inputElement),
+            ];
+            if (this.alphaViews_) {
+                elems.push(this.alphaViews_.palette.element, this.alphaViews_.text.inputElement);
+            }
+            return elems;
+        }
+    }
+
+    function parseColorInputParams(params) {
+        const p = ParamsParsers;
+        return parseParams(params, {
+            alpha: p.optional.boolean,
+            expanded: p.optional.boolean,
+            picker: p.optional.custom(parsePickerLayout),
+        });
+    }
+    function getBaseStepForColor(forAlpha) {
+        return forAlpha ? 0.1 : 1;
+    }
 
     function parseCssNumberOrPercentage(text, maxValue) {
-        var m = text.match(/^(.+)%$/);
+        const m = text.match(/^(.+)%$/);
         if (!m) {
             return Math.min(parseFloat(text), maxValue);
         }
         return Math.min(parseFloat(m[1]) * 0.01 * maxValue, maxValue);
     }
-    var ANGLE_TO_DEG_MAP = {
-        deg: function (angle) { return angle; },
-        grad: function (angle) { return (angle * 360) / 400; },
-        rad: function (angle) { return (angle * 360) / (2 * Math.PI); },
-        turn: function (angle) { return angle * 360; },
+    const ANGLE_TO_DEG_MAP = {
+        deg: (angle) => angle,
+        grad: (angle) => (angle * 360) / 400,
+        rad: (angle) => (angle * 360) / (2 * Math.PI),
+        turn: (angle) => angle * 360,
     };
     function parseCssNumberOrAngle(text) {
-        var m = text.match(/^([0-9.]+?)(deg|grad|rad|turn)$/);
+        const m = text.match(/^([0-9.]+?)(deg|grad|rad|turn)$/);
         if (!m) {
             return parseFloat(text);
         }
-        var angle = parseFloat(m[1]);
-        var unit = m[2];
+        const angle = parseFloat(m[1]);
+        const unit = m[2];
         return ANGLE_TO_DEG_MAP[unit](angle);
     }
-    var NOTATION_TO_PARSER_MAP = {
-        'func.rgb': function (text) {
-            var m = text.match(/^rgb\(\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
+    const NOTATION_TO_PARSER_MAP = {
+        'func.rgb': (text) => {
+            const m = text.match(/^rgb\(\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
             if (!m) {
                 return null;
             }
-            var comps = [
+            const comps = [
                 parseCssNumberOrPercentage(m[1], 255),
                 parseCssNumberOrPercentage(m[2], 255),
                 parseCssNumberOrPercentage(m[3], 255),
@@ -116575,12 +117684,12 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
             }
             return new Color(comps, 'rgb');
         },
-        'func.rgba': function (text) {
-            var m = text.match(/^rgba\(\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
+        'func.rgba': (text) => {
+            const m = text.match(/^rgba\(\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
             if (!m) {
                 return null;
             }
-            var comps = [
+            const comps = [
                 parseCssNumberOrPercentage(m[1], 255),
                 parseCssNumberOrPercentage(m[2], 255),
                 parseCssNumberOrPercentage(m[3], 255),
@@ -116594,12 +117703,12 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
             }
             return new Color(comps, 'rgb');
         },
-        'func.hsl': function (text) {
-            var m = text.match(/^hsl\(\s*([0-9A-Fa-f.]+(?:deg|grad|rad|turn)?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
+        'func.hsl': (text) => {
+            const m = text.match(/^hsl\(\s*([0-9A-Fa-f.]+(?:deg|grad|rad|turn)?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
             if (!m) {
                 return null;
             }
-            var comps = [
+            const comps = [
                 parseCssNumberOrAngle(m[1]),
                 parseCssNumberOrPercentage(m[2], 100),
                 parseCssNumberOrPercentage(m[3], 100),
@@ -116609,12 +117718,12 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
             }
             return new Color(comps, 'hsl');
         },
-        'func.hsla': function (text) {
-            var m = text.match(/^hsla\(\s*([0-9A-Fa-f.]+(?:deg|grad|rad|turn)?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
+        'func.hsla': (text) => {
+            const m = text.match(/^hsla\(\s*([0-9A-Fa-f.]+(?:deg|grad|rad|turn)?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*,\s*([0-9A-Fa-f.]+%?)\s*\)$/);
             if (!m) {
                 return null;
             }
-            var comps = [
+            const comps = [
                 parseCssNumberOrAngle(m[1]),
                 parseCssNumberOrPercentage(m[2], 100),
                 parseCssNumberOrPercentage(m[3], 100),
@@ -116628,61 +117737,59 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
             }
             return new Color(comps, 'hsl');
         },
-        'hex.rgb': function (text) {
-            var mRrggbb = text.match(/^#([0-9A-Fa-f])([0-9A-Fa-f])([0-9A-Fa-f])$/);
-            if (mRrggbb) {
+        'hex.rgb': (text) => {
+            const mRgb = text.match(/^#([0-9A-Fa-f])([0-9A-Fa-f])([0-9A-Fa-f])$/);
+            if (mRgb) {
                 return new Color([
-                    parseInt(mRrggbb[1] + mRrggbb[1], 16),
-                    parseInt(mRrggbb[2] + mRrggbb[2], 16),
-                    parseInt(mRrggbb[3] + mRrggbb[3], 16),
+                    parseInt(mRgb[1] + mRgb[1], 16),
+                    parseInt(mRgb[2] + mRgb[2], 16),
+                    parseInt(mRgb[3] + mRgb[3], 16),
                 ], 'rgb');
             }
-            var mRgb = text.match(/^#([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/);
-            if (mRgb) {
-                return new Color([parseInt(mRgb[1], 16), parseInt(mRgb[2], 16), parseInt(mRgb[3], 16)], 'rgb');
+            const mRrggbb = text.match(/^(?:#|0x)([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/);
+            if (mRrggbb) {
+                return new Color([
+                    parseInt(mRrggbb[1], 16),
+                    parseInt(mRrggbb[2], 16),
+                    parseInt(mRrggbb[3], 16),
+                ], 'rgb');
             }
             return null;
         },
-        'hex.rgba': function (text) {
-            var mRrggbb = text.match(/^#?([0-9A-Fa-f])([0-9A-Fa-f])([0-9A-Fa-f])([0-9A-Fa-f])$/);
-            if (mRrggbb) {
-                return new Color([
-                    parseInt(mRrggbb[1] + mRrggbb[1], 16),
-                    parseInt(mRrggbb[2] + mRrggbb[2], 16),
-                    parseInt(mRrggbb[3] + mRrggbb[3], 16),
-                    mapRange(parseInt(mRrggbb[4] + mRrggbb[4], 16), 0, 255, 0, 1),
-                ], 'rgb');
-            }
-            var mRgb = text.match(/^#?([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/);
+        'hex.rgba': (text) => {
+            const mRgb = text.match(/^#?([0-9A-Fa-f])([0-9A-Fa-f])([0-9A-Fa-f])([0-9A-Fa-f])$/);
             if (mRgb) {
                 return new Color([
-                    parseInt(mRgb[1], 16),
-                    parseInt(mRgb[2], 16),
-                    parseInt(mRgb[3], 16),
-                    mapRange(parseInt(mRgb[4], 16), 0, 255, 0, 1),
+                    parseInt(mRgb[1] + mRgb[1], 16),
+                    parseInt(mRgb[2] + mRgb[2], 16),
+                    parseInt(mRgb[3] + mRgb[3], 16),
+                    mapRange(parseInt(mRgb[4] + mRgb[4], 16), 0, 255, 0, 1),
+                ], 'rgb');
+            }
+            const mRrggbb = text.match(/^(?:#|0x)?([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/);
+            if (mRrggbb) {
+                return new Color([
+                    parseInt(mRrggbb[1], 16),
+                    parseInt(mRrggbb[2], 16),
+                    parseInt(mRrggbb[3], 16),
+                    mapRange(parseInt(mRrggbb[4], 16), 0, 255, 0, 1),
                 ], 'rgb');
             }
             return null;
         },
     };
-    /**
-     * @hidden
-     */
     function getColorNotation(text) {
-        var notations = Object.keys(NOTATION_TO_PARSER_MAP);
-        return notations.reduce(function (result, notation) {
+        const notations = Object.keys(NOTATION_TO_PARSER_MAP);
+        return notations.reduce((result, notation) => {
             if (result) {
                 return result;
             }
-            var subparser = NOTATION_TO_PARSER_MAP[notation];
+            const subparser = NOTATION_TO_PARSER_MAP[notation];
             return subparser(text) ? notation : null;
         }, null);
     }
-    /**
-     * @hidden
-     */
-    var CompositeColorParser = function (text) {
-        var notation = getColorNotation(text);
+    const CompositeColorParser = (text) => {
+        const notation = getColorNotation(text);
         return notation ? NOTATION_TO_PARSER_MAP[notation](text) : null;
     };
     function hasAlphaComponent(notation) {
@@ -116690,12 +117797,9 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
             notation === 'func.rgba' ||
             notation === 'hex.rgba');
     }
-    /**
-     * @hidden
-     */
     function colorFromString(value) {
         if (typeof value === 'string') {
-            var cv = CompositeColorParser(value);
+            const cv = CompositeColorParser(value);
             if (cv) {
                 return cv;
             }
@@ -116703,78 +117807,58 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return Color.black();
     }
     function zerofill(comp) {
-        var hex = constrainRange(Math.floor(comp), 0, 255).toString(16);
-        return hex.length === 1 ? "0" + hex : hex;
+        const hex = constrainRange(Math.floor(comp), 0, 255).toString(16);
+        return hex.length === 1 ? `0${hex}` : hex;
     }
-    /**
-     * @hidden
-     */
-    function colorToHexRgbString(value) {
-        var hexes = removeAlphaComponent(value.getComponents('rgb'))
+    function colorToHexRgbString(value, prefix = '#') {
+        const hexes = removeAlphaComponent(value.getComponents('rgb'))
             .map(zerofill)
             .join('');
-        return "#" + hexes;
+        return `${prefix}${hexes}`;
     }
-    /**
-     * @hidden
-     */
-    function colorToHexRgbaString(value) {
-        var rgbaComps = value.getComponents('rgb');
-        var hexes = [rgbaComps[0], rgbaComps[1], rgbaComps[2], rgbaComps[3] * 255]
+    function colorToHexRgbaString(value, prefix = '#') {
+        const rgbaComps = value.getComponents('rgb');
+        const hexes = [rgbaComps[0], rgbaComps[1], rgbaComps[2], rgbaComps[3] * 255]
             .map(zerofill)
             .join('');
-        return "#" + hexes;
+        return `${prefix}${hexes}`;
     }
-    /**
-     * @hidden
-     */
     function colorToFunctionalRgbString(value) {
-        var formatter = createNumberFormatter(0);
-        var comps = removeAlphaComponent(value.getComponents('rgb')).map(function (comp) {
-            return formatter(comp);
-        });
-        return "rgb(" + comps.join(', ') + ")";
+        const formatter = createNumberFormatter(0);
+        const comps = removeAlphaComponent(value.getComponents('rgb')).map((comp) => formatter(comp));
+        return `rgb(${comps.join(', ')})`;
     }
-    /**
-     * @hidden
-     */
     function colorToFunctionalRgbaString(value) {
-        var aFormatter = createNumberFormatter(2);
-        var rgbFormatter = createNumberFormatter(0);
-        var comps = value.getComponents('rgb').map(function (comp, index) {
-            var formatter = index === 3 ? aFormatter : rgbFormatter;
+        const aFormatter = createNumberFormatter(2);
+        const rgbFormatter = createNumberFormatter(0);
+        const comps = value.getComponents('rgb').map((comp, index) => {
+            const formatter = index === 3 ? aFormatter : rgbFormatter;
             return formatter(comp);
         });
-        return "rgba(" + comps.join(', ') + ")";
+        return `rgba(${comps.join(', ')})`;
     }
-    /**
-     * @hidden
-     */
     function colorToFunctionalHslString(value) {
-        var formatters = [
+        const formatters = [
             createNumberFormatter(0),
             formatPercentage,
             formatPercentage,
         ];
-        var comps = removeAlphaComponent(value.getComponents('hsl')).map(function (comp, index) { return formatters[index](comp); });
-        return "hsl(" + comps.join(', ') + ")";
+        const comps = removeAlphaComponent(value.getComponents('hsl')).map((comp, index) => formatters[index](comp));
+        return `hsl(${comps.join(', ')})`;
     }
-    /**
-     * @hidden
-     */
     function colorToFunctionalHslaString(value) {
-        var formatters = [
+        const formatters = [
             createNumberFormatter(0),
             formatPercentage,
             formatPercentage,
             createNumberFormatter(2),
         ];
-        var comps = value
+        const comps = value
             .getComponents('hsl')
-            .map(function (comp, index) { return formatters[index](comp); });
-        return "hsla(" + comps.join(', ') + ")";
+            .map((comp, index) => formatters[index](comp));
+        return `hsla(${comps.join(', ')})`;
     }
-    var NOTATION_TO_STRINGIFIER_MAP = {
+    const NOTATION_TO_STRINGIFIER_MAP = {
         'func.hsl': colorToFunctionalHslString,
         'func.hsla': colorToFunctionalHslaString,
         'func.rgb': colorToFunctionalRgbString,
@@ -116786,447 +117870,115 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return NOTATION_TO_STRINGIFIER_MAP[notation];
     }
 
-    var className$a = ClassName('csw');
-    /**
-     * @hidden
-     */
-    var ColorSwatchView = /** @class */ (function () {
-        function ColorSwatchView(doc, config) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            config.value.emitter.on('change', this.onValueChange_);
-            this.value = config.value;
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$a());
-            var swatchElem = doc.createElement('div');
-            swatchElem.classList.add(className$a('sw'));
-            this.element.appendChild(swatchElem);
-            this.swatchElem_ = swatchElem;
-            var buttonElem = doc.createElement('button');
-            buttonElem.classList.add(className$a('b'));
-            this.element.appendChild(buttonElem);
-            this.buttonElement = buttonElem;
-            var pickerElem = doc.createElement('div');
-            pickerElem.classList.add(className$a('p'));
-            this.pickerView_ = config.pickerView;
-            pickerElem.appendChild(this.pickerView_.element);
-            this.element.appendChild(pickerElem);
-            this.update();
-        }
-        ColorSwatchView.prototype.update = function () {
-            var value = this.value.rawValue;
-            this.swatchElem_.style.backgroundColor = colorToHexRgbaString(value);
-        };
-        ColorSwatchView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return ColorSwatchView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Foldable = /** @class */ (function () {
-        function Foldable() {
-            this.emitter = new Emitter();
-            this.expanded_ = false;
-        }
-        Object.defineProperty(Foldable.prototype, "expanded", {
-            get: function () {
-                return this.expanded_;
-            },
-            set: function (expanded) {
-                var changed = this.expanded_ !== expanded;
-                if (changed) {
-                    this.expanded_ = expanded;
-                    this.emitter.emit('change', {
-                        sender: this,
-                    });
-                }
-            },
-            enumerable: false,
-            configurable: true
-        });
-        return Foldable;
-    }());
-
-    /**
-     * @hidden
-     */
-    function connect(_a) {
-        var primary = _a.primary, secondary = _a.secondary, forward = _a.forward, backward = _a.backward;
-        primary.emitter.on('change', function () {
-            secondary.rawValue = forward(primary, secondary);
-        });
-        secondary.emitter.on('change', function () {
-            primary.rawValue = backward(primary, secondary);
-        });
-        secondary.rawValue = forward(primary, secondary);
-    }
-
-    /**
-     * @hidden
-     */
-    function getStepForKey(baseStep, keys) {
-        var step = baseStep * (keys.altKey ? 0.1 : 1) * (keys.shiftKey ? 10 : 1);
-        if (keys.upKey) {
-            return +step;
-        }
-        else if (keys.downKey) {
-            return -step;
-        }
-        return 0;
-    }
-    /**
-     * @hidden
-     */
-    function getVerticalStepKeys(ev) {
-        return {
-            altKey: ev.altKey,
-            downKey: ev.keyCode === 40,
-            shiftKey: ev.shiftKey,
-            upKey: ev.keyCode === 38,
-        };
-    }
-    /**
-     * @hidden
-     */
-    function getHorizontalStepKeys(ev) {
-        return {
-            altKey: ev.altKey,
-            downKey: ev.keyCode === 37,
-            shiftKey: ev.shiftKey,
-            upKey: ev.keyCode === 39,
-        };
-    }
-    /**
-     * @hidden
-     */
-    function isVerticalArrowKey(keyCode) {
-        return keyCode === 38 || keyCode === 40;
-    }
-    /**
-     * @hidden
-     */
-    function isArrowKey(keyCode) {
-        return isVerticalArrowKey(keyCode) || keyCode === 37 || keyCode === 39;
-    }
-
-    /**
-     * @hidden
-     */
-    var NumberTextController = /** @class */ (function (_super) {
-        __extends(NumberTextController, _super);
-        function NumberTextController(doc, config) {
-            var _this = _super.call(this, doc, config) || this;
-            _this.onInputKeyDown_ = _this.onInputKeyDown_.bind(_this);
-            _this.baseStep_ = config.baseStep;
-            _this.view.inputElement.addEventListener('keydown', _this.onInputKeyDown_);
-            return _this;
-        }
-        NumberTextController.prototype.onInputKeyDown_ = function (e) {
-            var step = getStepForKey(this.baseStep_, getVerticalStepKeys(e));
-            if (step !== 0) {
-                this.value.rawValue += step;
-                this.view.update();
-            }
-        };
-        return NumberTextController;
-    }(TextController));
-
-    var className$b = ClassName('clp');
-    /**
-     * @hidden
-     */
-    var ColorPickerView = /** @class */ (function () {
-        function ColorPickerView(doc, config) {
-            this.alphaViews_ = null;
-            this.onFoldableChange_ = this.onFoldableChange_.bind(this);
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.pickedColor = config.pickedColor;
-            this.pickedColor.value.emitter.on('change', this.onValueChange_);
-            this.foldable = config.foldable;
-            this.foldable.emitter.on('change', this.onFoldableChange_);
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$b());
-            var hsvElem = doc.createElement('div');
-            hsvElem.classList.add(className$b('hsv'));
-            var svElem = doc.createElement('div');
-            svElem.classList.add(className$b('sv'));
-            this.svPaletteView_ = config.svPaletteView;
-            svElem.appendChild(this.svPaletteView_.element);
-            hsvElem.appendChild(svElem);
-            var hElem = doc.createElement('div');
-            hElem.classList.add(className$b('h'));
-            this.hPaletteView_ = config.hPaletteView;
-            hElem.appendChild(this.hPaletteView_.element);
-            hsvElem.appendChild(hElem);
-            this.element.appendChild(hsvElem);
-            var rgbElem = doc.createElement('div');
-            rgbElem.classList.add(className$b('rgb'));
-            this.compTextsView_ = config.componentTextsView;
-            rgbElem.appendChild(this.compTextsView_.element);
-            this.element.appendChild(rgbElem);
-            if (config.alphaViews) {
-                this.alphaViews_ = {
-                    palette: config.alphaViews.palette,
-                    text: config.alphaViews.text,
-                };
-                var aElem = doc.createElement('div');
-                aElem.classList.add(className$b('a'));
-                var apElem = doc.createElement('div');
-                apElem.classList.add(className$b('ap'));
-                apElem.appendChild(this.alphaViews_.palette.element);
-                aElem.appendChild(apElem);
-                var atElem = doc.createElement('div');
-                atElem.classList.add(className$b('at'));
-                atElem.appendChild(this.alphaViews_.text.element);
-                aElem.appendChild(atElem);
-                this.element.appendChild(aElem);
-            }
-            this.update();
-        }
-        Object.defineProperty(ColorPickerView.prototype, "allFocusableElements", {
-            get: function () {
-                var elems = __spreadArrays([
-                    this.svPaletteView_.element,
-                    this.hPaletteView_.element
-                ], this.compTextsView_.inputElements);
-                if (this.alphaViews_) {
-                    elems.push(this.alphaViews_.palette.element, this.alphaViews_.text.inputElement);
-                }
-                return forceCast(elems);
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(ColorPickerView.prototype, "value", {
-            get: function () {
-                return this.pickedColor.value;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ColorPickerView.prototype.update = function () {
-            if (this.foldable.expanded) {
-                this.element.classList.add(className$b(undefined, 'expanded'));
-            }
-            else {
-                this.element.classList.remove(className$b(undefined, 'expanded'));
-            }
-        };
-        ColorPickerView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        ColorPickerView.prototype.onFoldableChange_ = function () {
-            this.update();
-        };
-        return ColorPickerView;
-    }());
-
-    function computeOffset(ev, elem) {
-        // NOTE: OffsetX/Y should be computed from page and window properties to capture mouse events
-        var win = elem.ownerDocument.defaultView;
-        var rect = elem.getBoundingClientRect();
-        return [
-            ev.pageX - (((win && win.scrollX) || 0) + rect.left),
-            ev.pageY - (((win && win.scrollY) || 0) + rect.top),
-        ];
-    }
-    /**
-     * A utility class to handle both mouse and touch events.
-     * @hidden
-     */
-    var PointerHandler = /** @class */ (function () {
-        function PointerHandler(doc, element) {
-            this.onDocumentMouseMove_ = this.onDocumentMouseMove_.bind(this);
-            this.onDocumentMouseUp_ = this.onDocumentMouseUp_.bind(this);
-            this.onMouseDown_ = this.onMouseDown_.bind(this);
-            this.onTouchMove_ = this.onTouchMove_.bind(this);
-            this.onTouchStart_ = this.onTouchStart_.bind(this);
-            this.document = doc;
-            this.element = element;
-            this.emitter = new Emitter();
-            this.pressed_ = false;
-            if (supportsTouch(this.document)) {
-                element.addEventListener('touchstart', this.onTouchStart_);
-                element.addEventListener('touchmove', this.onTouchMove_);
-            }
-            else {
-                element.addEventListener('mousedown', this.onMouseDown_);
-                this.document.addEventListener('mousemove', this.onDocumentMouseMove_);
-                this.document.addEventListener('mouseup', this.onDocumentMouseUp_);
-            }
-        }
-        PointerHandler.prototype.computePosition_ = function (offsetX, offsetY) {
-            var rect = this.element.getBoundingClientRect();
-            return {
-                px: offsetX / rect.width,
-                py: offsetY / rect.height,
-            };
-        };
-        PointerHandler.prototype.onMouseDown_ = function (e) {
-            var _a;
-            // Prevent native text selection
-            e.preventDefault();
-            (_a = e.currentTarget) === null || _a === void 0 ? void 0 : _a.focus();
-            this.pressed_ = true;
-            this.emitter.emit('down', {
-                data: this.computePosition_.apply(this, computeOffset(e, this.element)),
-                sender: this,
-            });
-        };
-        PointerHandler.prototype.onDocumentMouseMove_ = function (e) {
-            if (!this.pressed_) {
-                return;
-            }
-            this.emitter.emit('move', {
-                data: this.computePosition_.apply(this, computeOffset(e, this.element)),
-                sender: this,
-            });
-        };
-        PointerHandler.prototype.onDocumentMouseUp_ = function (e) {
-            if (!this.pressed_) {
-                return;
-            }
-            this.pressed_ = false;
-            this.emitter.emit('up', {
-                data: this.computePosition_.apply(this, computeOffset(e, this.element)),
-                sender: this,
-            });
-        };
-        PointerHandler.prototype.onTouchStart_ = function (e) {
-            // Prevent native page scroll
-            e.preventDefault();
-            var touch = e.targetTouches[0];
-            var rect = this.element.getBoundingClientRect();
-            this.emitter.emit('down', {
-                data: this.computePosition_(touch.clientX - rect.left, touch.clientY - rect.top),
-                sender: this,
-            });
-        };
-        PointerHandler.prototype.onTouchMove_ = function (e) {
-            var touch = e.targetTouches[0];
-            var rect = this.element.getBoundingClientRect();
-            this.emitter.emit('move', {
-                data: this.computePosition_(touch.clientX - rect.left, touch.clientY - rect.top),
-                sender: this,
-            });
-        };
-        return PointerHandler;
-    }());
-
-    /**
-     * @hidden
-     */
-    function getBaseStepForColor(forAlpha) {
-        return forAlpha ? 0.1 : 1;
-    }
-
-    var className$c = ClassName('apl');
-    /**
-     * @hidden
-     */
-    var APaletteView = /** @class */ (function () {
-        function APaletteView(doc, config) {
+    const className$a = ClassName('apl');
+    class APaletteView {
+        constructor(doc, config) {
             this.onValueChange_ = this.onValueChange_.bind(this);
             this.value = config.value;
             this.value.emitter.on('change', this.onValueChange_);
             this.element = doc.createElement('div');
-            this.element.classList.add(className$c());
-            this.element.tabIndex = 0;
-            var barElem = doc.createElement('div');
-            barElem.classList.add(className$c('b'));
+            this.element.classList.add(className$a());
+            config.viewProps.bindTabIndex(this.element);
+            const barElem = doc.createElement('div');
+            barElem.classList.add(className$a('b'));
             this.element.appendChild(barElem);
-            var colorElem = doc.createElement('div');
-            colorElem.classList.add(className$c('c'));
+            const colorElem = doc.createElement('div');
+            colorElem.classList.add(className$a('c'));
             barElem.appendChild(colorElem);
             this.colorElem_ = colorElem;
-            var markerElem = doc.createElement('div');
-            markerElem.classList.add(className$c('m'));
+            const markerElem = doc.createElement('div');
+            markerElem.classList.add(className$a('m'));
             this.element.appendChild(markerElem);
             this.markerElem_ = markerElem;
-            var previewElem = doc.createElement('div');
-            previewElem.classList.add(className$c('p'));
+            const previewElem = doc.createElement('div');
+            previewElem.classList.add(className$a('p'));
             this.markerElem_.appendChild(previewElem);
             this.previewElem_ = previewElem;
-            this.update();
+            this.update_();
         }
-        APaletteView.prototype.update = function () {
-            var c = this.value.rawValue;
-            var rgbaComps = c.getComponents('rgb');
-            var leftColor = new Color([rgbaComps[0], rgbaComps[1], rgbaComps[2], 0], 'rgb');
-            var rightColor = new Color([rgbaComps[0], rgbaComps[1], rgbaComps[2], 255], 'rgb');
-            var gradientComps = [
+        update_() {
+            const c = this.value.rawValue;
+            const rgbaComps = c.getComponents('rgb');
+            const leftColor = new Color([rgbaComps[0], rgbaComps[1], rgbaComps[2], 0], 'rgb');
+            const rightColor = new Color([rgbaComps[0], rgbaComps[1], rgbaComps[2], 255], 'rgb');
+            const gradientComps = [
                 'to right',
                 colorToFunctionalRgbaString(leftColor),
                 colorToFunctionalRgbaString(rightColor),
             ];
-            this.colorElem_.style.background = "linear-gradient(" + gradientComps.join(',') + ")";
+            this.colorElem_.style.background = `linear-gradient(${gradientComps.join(',')})`;
             this.previewElem_.style.backgroundColor = colorToFunctionalRgbaString(c);
-            var left = mapRange(rgbaComps[3], 0, 1, 0, 100);
-            this.markerElem_.style.left = left + "%";
-        };
-        APaletteView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return APaletteView;
-    }());
+            const left = mapRange(rgbaComps[3], 0, 1, 0, 100);
+            this.markerElem_.style.left = `${left}%`;
+        }
+        onValueChange_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var APaletteController = /** @class */ (function () {
-        function APaletteController(doc, config) {
+    class APaletteController {
+        constructor(doc, config) {
             this.onKeyDown_ = this.onKeyDown_.bind(this);
             this.onPointerDown_ = this.onPointerDown_.bind(this);
             this.onPointerMove_ = this.onPointerMove_.bind(this);
             this.onPointerUp_ = this.onPointerUp_.bind(this);
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.view = new APaletteView(doc, {
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.ptHandler_ = new PointerHandler(doc, this.view.element);
+            this.ptHandler_ = new PointerHandler(this.view.element);
             this.ptHandler_.emitter.on('down', this.onPointerDown_);
             this.ptHandler_.emitter.on('move', this.onPointerMove_);
             this.ptHandler_.emitter.on('up', this.onPointerUp_);
             this.view.element.addEventListener('keydown', this.onKeyDown_);
         }
-        APaletteController.prototype.handlePointerEvent_ = function (d) {
-            var alpha = d.px;
-            var c = this.value.rawValue;
-            var _a = c.getComponents('hsv'), h = _a[0], s = _a[1], v = _a[2];
-            this.value.rawValue = new Color([h, s, v, alpha], 'hsv');
-            this.view.update();
-        };
-        APaletteController.prototype.onPointerDown_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        APaletteController.prototype.onPointerMove_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        APaletteController.prototype.onPointerUp_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        APaletteController.prototype.onKeyDown_ = function (ev) {
-            var step = getStepForKey(getBaseStepForColor(true), getHorizontalStepKeys(ev));
-            var c = this.value.rawValue;
-            var _a = c.getComponents('hsv'), h = _a[0], s = _a[1], v = _a[2], a = _a[3];
+        handlePointerEvent_(d, opts) {
+            if (!d.point) {
+                return;
+            }
+            const alpha = d.point.x / d.bounds.width;
+            const c = this.value.rawValue;
+            const [h, s, v] = c.getComponents('hsv');
+            this.value.setRawValue(new Color([h, s, v, alpha], 'hsv'), opts);
+        }
+        onPointerDown_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerMove_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerUp_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: true,
+                last: true,
+            });
+        }
+        onKeyDown_(ev) {
+            const step = getStepForKey(getBaseStepForColor(true), getHorizontalStepKeys(ev));
+            const c = this.value.rawValue;
+            const [h, s, v, a] = c.getComponents('hsv');
             this.value.rawValue = new Color([h, s, v, a + step], 'hsv');
-        };
-        return APaletteController;
-    }());
+        }
+    }
 
-    var className$d = ClassName('cctxts');
-    var FORMATTER = createNumberFormatter(0);
+    const className$9 = ClassName('coltxt');
     function createModeSelectElement(doc) {
-        var selectElem = doc.createElement('select');
-        var items = [
+        const selectElem = doc.createElement('select');
+        const items = [
             { text: 'RGB', value: 'rgb' },
             { text: 'HSL', value: 'hsl' },
             { text: 'HSV', value: 'hsv' },
         ];
-        selectElem.appendChild(items.reduce(function (frag, item) {
-            var optElem = doc.createElement('option');
+        selectElem.appendChild(items.reduce((frag, item) => {
+            const optElem = doc.createElement('option');
             optElem.textContent = item.text;
             optElem.value = item.value;
             frag.appendChild(optElem);
@@ -117234,279 +117986,259 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         }, doc.createDocumentFragment()));
         return selectElem;
     }
-    /**
-     * @hidden
-     */
-    var ColorComponentTextsView = /** @class */ (function () {
-        function ColorComponentTextsView(doc, config) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
+    class ColorTextView {
+        constructor(doc, config) {
             this.element = doc.createElement('div');
-            this.element.classList.add(className$d());
-            var modeElem = doc.createElement('div');
-            modeElem.classList.add(className$d('m'));
+            this.element.classList.add(className$9());
+            const modeElem = doc.createElement('div');
+            modeElem.classList.add(className$9('m'));
             this.modeElem_ = createModeSelectElement(doc);
-            this.modeElem_.classList.add(className$d('ms'));
+            this.modeElem_.classList.add(className$9('ms'));
             modeElem.appendChild(this.modeSelectElement);
-            var modeMarkerElem = doc.createElement('div');
-            modeMarkerElem.classList.add(className$d('mm'));
+            const modeMarkerElem = doc.createElement('div');
+            modeMarkerElem.classList.add(className$9('mm'));
+            modeMarkerElem.appendChild(createSvgIconElement(doc, 'dropdown'));
             modeElem.appendChild(modeMarkerElem);
             this.element.appendChild(modeElem);
-            var wrapperElem = doc.createElement('div');
-            wrapperElem.classList.add(className$d('w'));
-            this.element.appendChild(wrapperElem);
-            var inputElems = [0, 1, 2].map(function () {
-                var inputElem = doc.createElement('input');
-                inputElem.classList.add(className$d('i'));
-                inputElem.type = 'text';
-                return inputElem;
+            const textsElem = doc.createElement('div');
+            textsElem.classList.add(className$9('w'));
+            this.element.appendChild(textsElem);
+            this.textsElem_ = textsElem;
+            this.textViews_ = config.textViews;
+            this.applyTextViews_();
+            bindValue(config.colorMode, (mode) => {
+                this.modeElem_.value = mode;
             });
-            inputElems.forEach(function (elem) {
-                wrapperElem.appendChild(elem);
-            });
-            this.inputElems_ = [inputElems[0], inputElems[1], inputElems[2]];
-            this.pickedColor = config.pickedColor;
-            this.pickedColor.emitter.on('change', this.onValueChange_);
-            this.update();
         }
-        Object.defineProperty(ColorComponentTextsView.prototype, "modeSelectElement", {
-            get: function () {
-                return this.modeElem_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(ColorComponentTextsView.prototype, "inputElements", {
-            get: function () {
-                return this.inputElems_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(ColorComponentTextsView.prototype, "value", {
-            get: function () {
-                return this.pickedColor.value;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ColorComponentTextsView.prototype.update = function () {
-            var _this = this;
-            this.modeElem_.value = this.pickedColor.mode;
-            var comps = this.pickedColor.value.rawValue.getComponents(this.pickedColor.mode);
-            comps.forEach(function (comp, index) {
-                var inputElem = _this.inputElems_[index];
-                if (!inputElem) {
-                    return;
-                }
-                inputElem.value = FORMATTER(comp);
+        get modeSelectElement() {
+            return this.modeElem_;
+        }
+        get textViews() {
+            return this.textViews_;
+        }
+        set textViews(textViews) {
+            this.textViews_ = textViews;
+            this.applyTextViews_();
+        }
+        applyTextViews_() {
+            removeChildElements(this.textsElem_);
+            const doc = this.element.ownerDocument;
+            this.textViews_.forEach((v) => {
+                const compElem = doc.createElement('div');
+                compElem.classList.add(className$9('c'));
+                compElem.appendChild(v.element);
+                this.textsElem_.appendChild(compElem);
             });
-        };
-        ColorComponentTextsView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return ColorComponentTextsView;
-    }());
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var ColorComponentTextsController = /** @class */ (function () {
-        function ColorComponentTextsController(doc, config) {
-            var _this = this;
+    const FORMATTER = createNumberFormatter(0);
+    const MODE_TO_CONSTRAINT_MAP = {
+        rgb: () => {
+            return new RangeConstraint({ min: 0, max: 255 });
+        },
+        hsl: (index) => {
+            return index === 0
+                ? new RangeConstraint({ min: 0, max: 360 })
+                : new RangeConstraint({ min: 0, max: 100 });
+        },
+        hsv: (index) => {
+            return index === 0
+                ? new RangeConstraint({ min: 0, max: 360 })
+                : new RangeConstraint({ min: 0, max: 100 });
+        },
+    };
+    function createComponentController(doc, config, index) {
+        return new NumberTextController(doc, {
+            arrayPosition: index === 0 ? 'fst' : index === 3 - 1 ? 'lst' : 'mid',
+            baseStep: getBaseStepForColor(false),
+            parser: config.parser,
+            props: ValueMap.fromObject({
+                draggingScale: 1,
+                formatter: FORMATTER,
+            }),
+            value: createValue(0, {
+                constraint: MODE_TO_CONSTRAINT_MAP[config.colorMode](index),
+            }),
+            viewProps: config.viewProps,
+        });
+    }
+    class ColorTextController {
+        constructor(doc, config) {
             this.onModeSelectChange_ = this.onModeSelectChange_.bind(this);
-            this.onInputChange_ = this.onInputChange_.bind(this);
-            this.onInputKeyDown_ = this.onInputKeyDown_.bind(this);
             this.parser_ = config.parser;
-            this.pickedColor = config.pickedColor;
-            this.view = new ColorComponentTextsView(doc, {
-                pickedColor: this.pickedColor,
-            });
-            this.view.inputElements.forEach(function (inputElem) {
-                inputElem.addEventListener('change', _this.onInputChange_);
-                inputElem.addEventListener('keydown', _this.onInputKeyDown_);
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.colorMode = createValue(this.value.rawValue.mode);
+            this.ccs_ = this.createComponentControllers_(doc);
+            this.view = new ColorTextView(doc, {
+                colorMode: this.colorMode,
+                textViews: [this.ccs_[0].view, this.ccs_[1].view, this.ccs_[2].view],
             });
             this.view.modeSelectElement.addEventListener('change', this.onModeSelectChange_);
         }
-        Object.defineProperty(ColorComponentTextsController.prototype, "value", {
-            get: function () {
-                return this.pickedColor.value;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ColorComponentTextsController.prototype.findIndexOfInputElem_ = function (inputElem) {
-            var inputElems = this.view.inputElements;
-            for (var i = 0; i < inputElems.length; i++) {
-                if (inputElems[i] === inputElem) {
-                    return i;
-                }
-            }
-            return null;
-        };
-        ColorComponentTextsController.prototype.updateComponent_ = function (index, newValue) {
-            var mode = this.pickedColor.mode;
-            var comps = this.value.rawValue.getComponents(mode);
-            var newComps = comps.map(function (comp, i) {
-                return i === index ? newValue : comp;
+        createComponentControllers_(doc) {
+            const cc = {
+                colorMode: this.colorMode.rawValue,
+                parser: this.parser_,
+                viewProps: this.viewProps,
+            };
+            const ccs = [
+                createComponentController(doc, cc, 0),
+                createComponentController(doc, cc, 1),
+                createComponentController(doc, cc, 2),
+            ];
+            ccs.forEach((cs, index) => {
+                connectValues({
+                    primary: this.value,
+                    secondary: cs.value,
+                    forward: (p) => {
+                        return p.rawValue.getComponents(this.colorMode.rawValue)[index];
+                    },
+                    backward: (p, s) => {
+                        const pickedMode = this.colorMode.rawValue;
+                        const comps = p.rawValue.getComponents(pickedMode);
+                        comps[index] = s.rawValue;
+                        return new Color(appendAlphaComponent(removeAlphaComponent(comps), comps[3]), pickedMode);
+                    },
+                });
             });
-            this.value.rawValue = new Color(newComps, mode);
-            this.view.update();
-        };
-        ColorComponentTextsController.prototype.onInputChange_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
-            var parsedValue = this.parser_(inputElem.value);
-            if (isEmpty(parsedValue)) {
-                return;
-            }
-            var compIndex = this.findIndexOfInputElem_(inputElem);
-            if (isEmpty(compIndex)) {
-                return;
-            }
-            this.updateComponent_(compIndex, parsedValue);
-        };
-        ColorComponentTextsController.prototype.onInputKeyDown_ = function (e) {
-            var compIndex = this.findIndexOfInputElem_(e.currentTarget);
-            var step = getStepForKey(getBaseStepForColor(compIndex === 3), getVerticalStepKeys(e));
-            if (step === 0) {
-                return;
-            }
-            var inputElem = forceCast(e.currentTarget);
-            var parsedValue = this.parser_(inputElem.value);
-            if (isEmpty(parsedValue)) {
-                return;
-            }
-            if (isEmpty(compIndex)) {
-                return;
-            }
-            this.updateComponent_(compIndex, parsedValue + step);
-        };
-        ColorComponentTextsController.prototype.onModeSelectChange_ = function (ev) {
-            var selectElem = ev.currentTarget;
-            this.pickedColor.mode = selectElem.value;
-        };
-        return ColorComponentTextsController;
-    }());
+            return ccs;
+        }
+        onModeSelectChange_(ev) {
+            const selectElem = ev.currentTarget;
+            this.colorMode.rawValue = selectElem.value;
+            this.ccs_ = this.createComponentControllers_(this.view.element.ownerDocument);
+            this.view.textViews = [
+                this.ccs_[0].view,
+                this.ccs_[1].view,
+                this.ccs_[2].view,
+            ];
+        }
+    }
 
-    var className$e = ClassName('hpl');
-    /**
-     * @hidden
-     */
-    var HPaletteView = /** @class */ (function () {
-        function HPaletteView(doc, config) {
+    const className$8 = ClassName('hpl');
+    class HPaletteView {
+        constructor(doc, config) {
             this.onValueChange_ = this.onValueChange_.bind(this);
             this.value = config.value;
             this.value.emitter.on('change', this.onValueChange_);
             this.element = doc.createElement('div');
-            this.element.classList.add(className$e());
-            this.element.tabIndex = 0;
-            var colorElem = doc.createElement('div');
-            colorElem.classList.add(className$e('c'));
+            this.element.classList.add(className$8());
+            config.viewProps.bindTabIndex(this.element);
+            const colorElem = doc.createElement('div');
+            colorElem.classList.add(className$8('c'));
             this.element.appendChild(colorElem);
-            var markerElem = doc.createElement('div');
-            markerElem.classList.add(className$e('m'));
+            const markerElem = doc.createElement('div');
+            markerElem.classList.add(className$8('m'));
             this.element.appendChild(markerElem);
             this.markerElem_ = markerElem;
-            this.update();
+            this.update_();
         }
-        HPaletteView.prototype.update = function () {
-            var c = this.value.rawValue;
-            var h = c.getComponents('hsv')[0];
+        update_() {
+            const c = this.value.rawValue;
+            const [h] = c.getComponents('hsv');
             this.markerElem_.style.backgroundColor = colorToFunctionalRgbString(new Color([h, 100, 100], 'hsv'));
-            var left = mapRange(h, 0, 360, 0, 100);
-            this.markerElem_.style.left = left + "%";
-        };
-        HPaletteView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return HPaletteView;
-    }());
+            const left = mapRange(h, 0, 360, 0, 100);
+            this.markerElem_.style.left = `${left}%`;
+        }
+        onValueChange_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var HPaletteController = /** @class */ (function () {
-        function HPaletteController(doc, config) {
+    class HPaletteController {
+        constructor(doc, config) {
             this.onKeyDown_ = this.onKeyDown_.bind(this);
             this.onPointerDown_ = this.onPointerDown_.bind(this);
             this.onPointerMove_ = this.onPointerMove_.bind(this);
             this.onPointerUp_ = this.onPointerUp_.bind(this);
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.view = new HPaletteView(doc, {
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.ptHandler_ = new PointerHandler(doc, this.view.element);
+            this.ptHandler_ = new PointerHandler(this.view.element);
             this.ptHandler_.emitter.on('down', this.onPointerDown_);
             this.ptHandler_.emitter.on('move', this.onPointerMove_);
             this.ptHandler_.emitter.on('up', this.onPointerUp_);
             this.view.element.addEventListener('keydown', this.onKeyDown_);
         }
-        HPaletteController.prototype.handlePointerEvent_ = function (d) {
-            var hue = mapRange(d.px, 0, 1, 0, 360);
-            var c = this.value.rawValue;
-            var _a = c.getComponents('hsv'), s = _a[1], v = _a[2], a = _a[3];
-            this.value.rawValue = new Color([hue, s, v, a], 'hsv');
-            this.view.update();
-        };
-        HPaletteController.prototype.onPointerDown_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        HPaletteController.prototype.onPointerMove_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        HPaletteController.prototype.onPointerUp_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        HPaletteController.prototype.onKeyDown_ = function (ev) {
-            var step = getStepForKey(getBaseStepForColor(false), getHorizontalStepKeys(ev));
-            var c = this.value.rawValue;
-            var _a = c.getComponents('hsv'), h = _a[0], s = _a[1], v = _a[2], a = _a[3];
+        handlePointerEvent_(d, opts) {
+            if (!d.point) {
+                return;
+            }
+            const hue = mapRange(d.point.x, 0, d.bounds.width, 0, 360);
+            const c = this.value.rawValue;
+            const [, s, v, a] = c.getComponents('hsv');
+            this.value.setRawValue(new Color([hue, s, v, a], 'hsv'), opts);
+        }
+        onPointerDown_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerMove_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerUp_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: true,
+                last: true,
+            });
+        }
+        onKeyDown_(ev) {
+            const step = getStepForKey(getBaseStepForColor(false), getHorizontalStepKeys(ev));
+            const c = this.value.rawValue;
+            const [h, s, v, a] = c.getComponents('hsv');
             this.value.rawValue = new Color([h + step, s, v, a], 'hsv');
-        };
-        return HPaletteController;
-    }());
+        }
+    }
 
-    var className$f = ClassName('svp');
-    var CANVAS_RESOL = 64;
-    /**
-     * @hidden
-     */
-    var SvPaletteView = /** @class */ (function () {
-        function SvPaletteView(doc, config) {
+    const className$7 = ClassName('svp');
+    const CANVAS_RESOL = 64;
+    class SvPaletteView {
+        constructor(doc, config) {
             this.onValueChange_ = this.onValueChange_.bind(this);
             this.value = config.value;
             this.value.emitter.on('change', this.onValueChange_);
             this.element = doc.createElement('div');
-            this.element.classList.add(className$f());
-            this.element.tabIndex = 0;
-            var canvasElem = doc.createElement('canvas');
+            this.element.classList.add(className$7());
+            config.viewProps.bindTabIndex(this.element);
+            const canvasElem = doc.createElement('canvas');
             canvasElem.height = CANVAS_RESOL;
             canvasElem.width = CANVAS_RESOL;
-            canvasElem.classList.add(className$f('c'));
+            canvasElem.classList.add(className$7('c'));
             this.element.appendChild(canvasElem);
             this.canvasElement = canvasElem;
-            var markerElem = doc.createElement('div');
-            markerElem.classList.add(className$f('m'));
+            const markerElem = doc.createElement('div');
+            markerElem.classList.add(className$7('m'));
             this.element.appendChild(markerElem);
             this.markerElem_ = markerElem;
-            this.update();
+            this.update_();
         }
-        SvPaletteView.prototype.update = function () {
-            var ctx = getCanvasContext(this.canvasElement);
+        update_() {
+            const ctx = getCanvasContext(this.canvasElement);
             if (!ctx) {
                 return;
             }
-            var c = this.value.rawValue;
-            var hsvComps = c.getComponents('hsv');
-            var width = this.canvasElement.width;
-            var height = this.canvasElement.height;
-            var imgData = ctx.getImageData(0, 0, width, height);
-            var data = imgData.data;
-            for (var iy = 0; iy < height; iy++) {
-                for (var ix = 0; ix < width; ix++) {
-                    var s = mapRange(ix, 0, width, 0, 100);
-                    var v = mapRange(iy, 0, height, 100, 0);
-                    var rgbComps = hsvToRgb(hsvComps[0], s, v);
-                    var i = (iy * width + ix) * 4;
+            const c = this.value.rawValue;
+            const hsvComps = c.getComponents('hsv');
+            const width = this.canvasElement.width;
+            const height = this.canvasElement.height;
+            const imgData = ctx.getImageData(0, 0, width, height);
+            const data = imgData.data;
+            for (let iy = 0; iy < height; iy++) {
+                for (let ix = 0; ix < width; ix++) {
+                    const s = mapRange(ix, 0, width, 0, 100);
+                    const v = mapRange(iy, 0, height, 100, 0);
+                    const rgbComps = hsvToRgb(hsvComps[0], s, v);
+                    const i = (iy * width + ix) * 4;
                     data[i] = rgbComps[0];
                     data[i + 1] = rgbComps[1];
                     data[i + 2] = rgbComps[2];
@@ -117514,115 +118246,126 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                 }
             }
             ctx.putImageData(imgData, 0, 0);
-            var left = mapRange(hsvComps[1], 0, 100, 0, 100);
-            this.markerElem_.style.left = left + "%";
-            var top = mapRange(hsvComps[2], 0, 100, 100, 0);
-            this.markerElem_.style.top = top + "%";
-        };
-        SvPaletteView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return SvPaletteView;
-    }());
+            const left = mapRange(hsvComps[1], 0, 100, 0, 100);
+            this.markerElem_.style.left = `${left}%`;
+            const top = mapRange(hsvComps[2], 0, 100, 100, 0);
+            this.markerElem_.style.top = `${top}%`;
+        }
+        onValueChange_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var SvPaletteController = /** @class */ (function () {
-        function SvPaletteController(doc, config) {
+    class SvPaletteController {
+        constructor(doc, config) {
             this.onKeyDown_ = this.onKeyDown_.bind(this);
             this.onPointerDown_ = this.onPointerDown_.bind(this);
             this.onPointerMove_ = this.onPointerMove_.bind(this);
             this.onPointerUp_ = this.onPointerUp_.bind(this);
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.view = new SvPaletteView(doc, {
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.ptHandler_ = new PointerHandler(doc, this.view.element);
+            this.ptHandler_ = new PointerHandler(this.view.element);
             this.ptHandler_.emitter.on('down', this.onPointerDown_);
             this.ptHandler_.emitter.on('move', this.onPointerMove_);
             this.ptHandler_.emitter.on('up', this.onPointerUp_);
             this.view.element.addEventListener('keydown', this.onKeyDown_);
         }
-        SvPaletteController.prototype.handlePointerEvent_ = function (d) {
-            var saturation = mapRange(d.px, 0, 1, 0, 100);
-            var value = mapRange(d.py, 0, 1, 100, 0);
-            var _a = this.value.rawValue.getComponents('hsv'), h = _a[0], a = _a[3];
-            this.value.rawValue = new Color([h, saturation, value, a], 'hsv');
-            this.view.update();
-        };
-        SvPaletteController.prototype.onPointerDown_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        SvPaletteController.prototype.onPointerMove_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        SvPaletteController.prototype.onPointerUp_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        SvPaletteController.prototype.onKeyDown_ = function (ev) {
-            if (isArrowKey(ev.keyCode)) {
+        handlePointerEvent_(d, opts) {
+            if (!d.point) {
+                return;
+            }
+            const saturation = mapRange(d.point.x, 0, d.bounds.width, 0, 100);
+            const value = mapRange(d.point.y, 0, d.bounds.height, 100, 0);
+            const [h, , , a] = this.value.rawValue.getComponents('hsv');
+            this.value.setRawValue(new Color([h, saturation, value, a], 'hsv'), opts);
+        }
+        onPointerDown_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerMove_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerUp_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: true,
+                last: true,
+            });
+        }
+        onKeyDown_(ev) {
+            if (isArrowKey(ev.key)) {
                 ev.preventDefault();
             }
-            var _a = this.value.rawValue.getComponents('hsv'), h = _a[0], s = _a[1], v = _a[2], a = _a[3];
-            var baseStep = getBaseStepForColor(false);
+            const [h, s, v, a] = this.value.rawValue.getComponents('hsv');
+            const baseStep = getBaseStepForColor(false);
             this.value.rawValue = new Color([
                 h,
                 s + getStepForKey(baseStep, getHorizontalStepKeys(ev)),
                 v + getStepForKey(baseStep, getVerticalStepKeys(ev)),
                 a,
             ], 'hsv');
-        };
-        return SvPaletteController;
-    }());
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var ColorPickerController = /** @class */ (function () {
-        function ColorPickerController(doc, config) {
-            var _this = this;
-            this.triggerElement = null;
-            this.onFocusableElementBlur_ = this.onFocusableElementBlur_.bind(this);
-            this.onKeyDown_ = this.onKeyDown_.bind(this);
-            this.pickedColor = config.pickedColor;
-            this.foldable = new Foldable();
-            this.hPaletteIc_ = new HPaletteController(doc, {
-                value: this.pickedColor.value,
+    class ColorPickerController {
+        constructor(doc, config) {
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.hPaletteC_ = new HPaletteController(doc, {
+                value: this.value,
+                viewProps: this.viewProps,
             });
-            this.svPaletteIc_ = new SvPaletteController(doc, {
-                value: this.pickedColor.value,
+            this.svPaletteC_ = new SvPaletteController(doc, {
+                value: this.value,
+                viewProps: this.viewProps,
             });
             this.alphaIcs_ = config.supportsAlpha
                 ? {
                     palette: new APaletteController(doc, {
-                        value: this.pickedColor.value,
+                        value: this.value,
+                        viewProps: this.viewProps,
                     }),
                     text: new NumberTextController(doc, {
-                        formatter: createNumberFormatter(2),
                         parser: parseNumber,
                         baseStep: 0.1,
-                        value: new Value(0),
+                        props: ValueMap.fromObject({
+                            draggingScale: 0.01,
+                            formatter: createNumberFormatter(2),
+                        }),
+                        value: createValue(0, {
+                            constraint: new RangeConstraint({ min: 0, max: 1 }),
+                        }),
+                        viewProps: this.viewProps,
                     }),
                 }
                 : null;
             if (this.alphaIcs_) {
-                connect({
-                    primary: this.pickedColor.value,
+                connectValues({
+                    primary: this.value,
                     secondary: this.alphaIcs_.text.value,
-                    forward: function (p) {
+                    forward: (p) => {
                         return p.rawValue.getComponents()[3];
                     },
-                    backward: function (p, s) {
-                        var comps = p.rawValue.getComponents();
+                    backward: (p, s) => {
+                        const comps = p.rawValue.getComponents();
                         comps[3] = s.rawValue;
                         return new Color(comps, p.rawValue.mode);
                     },
                 });
             }
-            this.compTextsIc_ = new ColorComponentTextsController(doc, {
+            this.textC_ = new ColorTextController(doc, {
                 parser: parseNumber,
-                pickedColor: this.pickedColor,
+                value: this.value,
+                viewProps: this.viewProps,
             });
             this.view = new ColorPickerView(doc, {
                 alphaViews: this.alphaIcs_
@@ -117631,142 +118374,187 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                         text: this.alphaIcs_.text.view,
                     }
                     : null,
-                componentTextsView: this.compTextsIc_.view,
-                foldable: this.foldable,
-                hPaletteView: this.hPaletteIc_.view,
-                pickedColor: this.pickedColor,
+                hPaletteView: this.hPaletteC_.view,
                 supportsAlpha: config.supportsAlpha,
-                svPaletteView: this.svPaletteIc_.view,
-            });
-            this.view.element.addEventListener('keydown', this.onKeyDown_);
-            this.view.allFocusableElements.forEach(function (elem) {
-                elem.addEventListener('blur', _this.onFocusableElementBlur_);
+                svPaletteView: this.svPaletteC_.view,
+                textView: this.textC_.view,
             });
         }
-        Object.defineProperty(ColorPickerController.prototype, "value", {
-            get: function () {
-                return this.pickedColor.value;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        ColorPickerController.prototype.onFocusableElementBlur_ = function (ev) {
-            var elem = this.view.element;
-            var nextTarget = findNextTarget(ev);
+        get textController() {
+            return this.textC_;
+        }
+    }
+
+    const className$6 = ClassName('colsw');
+    class ColorSwatchView {
+        constructor(doc, config) {
+            this.onValueChange_ = this.onValueChange_.bind(this);
+            config.value.emitter.on('change', this.onValueChange_);
+            this.value = config.value;
+            this.element = doc.createElement('div');
+            this.element.classList.add(className$6());
+            config.viewProps.bindClassModifiers(this.element);
+            const swatchElem = doc.createElement('div');
+            swatchElem.classList.add(className$6('sw'));
+            this.element.appendChild(swatchElem);
+            this.swatchElem_ = swatchElem;
+            const buttonElem = doc.createElement('button');
+            buttonElem.classList.add(className$6('b'));
+            config.viewProps.bindDisabled(buttonElem);
+            this.element.appendChild(buttonElem);
+            this.buttonElement = buttonElem;
+            this.update_();
+        }
+        update_() {
+            const value = this.value.rawValue;
+            this.swatchElem_.style.backgroundColor = colorToHexRgbaString(value);
+        }
+        onValueChange_() {
+            this.update_();
+        }
+    }
+
+    class ColorSwatchController {
+        constructor(doc, config) {
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.view = new ColorSwatchView(doc, {
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+        }
+    }
+
+    class ColorController {
+        constructor(doc, config) {
+            this.onButtonBlur_ = this.onButtonBlur_.bind(this);
+            this.onButtonClick_ = this.onButtonClick_.bind(this);
+            this.onPopupChildBlur_ = this.onPopupChildBlur_.bind(this);
+            this.onPopupChildKeydown_ = this.onPopupChildKeydown_.bind(this);
+            this.value = config.value;
+            this.viewProps = config.viewProps;
+            this.foldable_ = Foldable.create(config.expanded);
+            this.swatchC_ = new ColorSwatchController(doc, {
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            const buttonElem = this.swatchC_.view.buttonElement;
+            buttonElem.addEventListener('blur', this.onButtonBlur_);
+            buttonElem.addEventListener('click', this.onButtonClick_);
+            this.textC_ = new TextController(doc, {
+                parser: config.parser,
+                props: ValueMap.fromObject({
+                    formatter: config.formatter,
+                }),
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            this.view = new ColorView(doc, {
+                foldable: this.foldable_,
+                pickerLayout: config.pickerLayout,
+            });
+            this.view.swatchElement.appendChild(this.swatchC_.view.element);
+            this.view.textElement.appendChild(this.textC_.view.element);
+            this.popC_ =
+                config.pickerLayout === 'popup'
+                    ? new PopupController(doc, {
+                        viewProps: this.viewProps,
+                    })
+                    : null;
+            const pickerC = new ColorPickerController(doc, {
+                supportsAlpha: config.supportsAlpha,
+                value: this.value,
+                viewProps: this.viewProps,
+            });
+            pickerC.view.allFocusableElements.forEach((elem) => {
+                elem.addEventListener('blur', this.onPopupChildBlur_);
+                elem.addEventListener('keydown', this.onPopupChildKeydown_);
+            });
+            this.pickerC_ = pickerC;
+            if (this.popC_) {
+                this.view.element.appendChild(this.popC_.view.element);
+                this.popC_.view.element.appendChild(pickerC.view.element);
+                connectValues({
+                    primary: this.foldable_.value('expanded'),
+                    secondary: this.popC_.shows,
+                    forward: (p) => p.rawValue,
+                    backward: (_, s) => s.rawValue,
+                });
+            }
+            else if (this.view.pickerElement) {
+                this.view.pickerElement.appendChild(this.pickerC_.view.element);
+                bindFoldable(this.foldable_, this.view.pickerElement);
+            }
+        }
+        get textController() {
+            return this.textC_;
+        }
+        onButtonBlur_(e) {
+            if (!this.popC_) {
+                return;
+            }
+            const elem = this.view.element;
+            const nextTarget = forceCast(e.relatedTarget);
+            if (!nextTarget || !elem.contains(nextTarget)) {
+                this.popC_.shows.rawValue = false;
+            }
+        }
+        onButtonClick_() {
+            this.foldable_.set('expanded', !this.foldable_.get('expanded'));
+            if (this.foldable_.get('expanded')) {
+                this.pickerC_.view.allFocusableElements[0].focus();
+            }
+        }
+        onPopupChildBlur_(ev) {
+            if (!this.popC_) {
+                return;
+            }
+            const elem = this.popC_.view.element;
+            const nextTarget = findNextTarget(ev);
             if (nextTarget && elem.contains(nextTarget)) {
-                // Next target is in the picker
                 return;
             }
             if (nextTarget &&
-                nextTarget === this.triggerElement &&
+                nextTarget === this.swatchC_.view.buttonElement &&
                 !supportsTouch(elem.ownerDocument)) {
-                // Next target is the trigger button
                 return;
             }
-            this.foldable.expanded = false;
-        };
-        ColorPickerController.prototype.onKeyDown_ = function (ev) {
-            if (ev.keyCode === 27) {
-                this.foldable.expanded = false;
-            }
-        };
-        return ColorPickerController;
-    }());
-
-    /**
-     * @hidden
-     */
-    var ColorSwatchController = /** @class */ (function () {
-        function ColorSwatchController(doc, config) {
-            this.onButtonBlur_ = this.onButtonBlur_.bind(this);
-            this.onButtonClick_ = this.onButtonClick_.bind(this);
-            this.value = config.value;
-            this.pickerIc_ = new ColorPickerController(doc, {
-                pickedColor: new PickedColor(this.value),
-                supportsAlpha: config.supportsAlpha,
-            });
-            this.view = new ColorSwatchView(doc, {
-                pickerView: this.pickerIc_.view,
-                value: this.value,
-            });
-            this.view.buttonElement.addEventListener('blur', this.onButtonBlur_);
-            this.view.buttonElement.addEventListener('click', this.onButtonClick_);
-            this.pickerIc_.triggerElement = this.view.buttonElement;
+            this.popC_.shows.rawValue = false;
         }
-        ColorSwatchController.prototype.onButtonBlur_ = function (e) {
-            var elem = this.view.element;
-            var nextTarget = forceCast(e.relatedTarget);
-            if (!nextTarget || !elem.contains(nextTarget)) {
-                this.pickerIc_.foldable.expanded = false;
+        onPopupChildKeydown_(ev) {
+            if (this.popC_) {
+                if (ev.key === 'Escape') {
+                    this.popC_.shows.rawValue = false;
+                }
             }
-        };
-        ColorSwatchController.prototype.onButtonClick_ = function () {
-            this.pickerIc_.foldable.expanded = !this.pickerIc_.foldable.expanded;
-            if (this.pickerIc_.foldable.expanded) {
-                this.pickerIc_.view.allFocusableElements[0].focus();
+            else if (this.view.pickerElement) {
+                if (ev.key === 'Escape') {
+                    this.swatchC_.view.buttonElement.focus();
+                }
             }
-        };
-        return ColorSwatchController;
-    }());
-
-    /**
-     * @hidden
-     */
-    var ColorSwatchTextController = /** @class */ (function () {
-        function ColorSwatchTextController(doc, config) {
-            this.value = config.value;
-            this.swatchIc_ = new ColorSwatchController(doc, {
-                supportsAlpha: config.supportsAlpha,
-                value: this.value,
-            });
-            this.textIc_ = new TextController(doc, {
-                formatter: config.formatter,
-                parser: config.parser,
-                value: this.value,
-            });
-            this.view = new ColorSwatchTextView(doc, {
-                swatchView: this.swatchIc_.view,
-                textView: this.textIc_.view,
-            });
         }
-        return ColorSwatchTextController;
-    }());
+    }
 
-    /**
-     * @hidden
-     */
     function colorFromObject(value) {
         if (Color.isColorObject(value)) {
             return Color.fromObject(value);
         }
         return Color.black();
     }
-    /**
-     * @hidden
-     */
     function colorToRgbNumber(value) {
-        return removeAlphaComponent(value.getComponents('rgb')).reduce(function (result, comp) {
+        return removeAlphaComponent(value.getComponents('rgb')).reduce((result, comp) => {
             return (result << 8) | (Math.floor(comp) & 0xff);
         }, 0);
     }
-    /**
-     * @hidden
-     */
     function colorToRgbaNumber(value) {
-        return (value.getComponents('rgb').reduce(function (result, comp, index) {
-            var hex = Math.floor(index === 3 ? comp * 255 : comp) & 0xff;
+        return (value.getComponents('rgb').reduce((result, comp, index) => {
+            const hex = Math.floor(index === 3 ? comp * 255 : comp) & 0xff;
             return (result << 8) | hex;
         }, 0) >>> 0);
     }
-    /**
-     * @hidden
-     */
     function numberToRgbColor(num) {
         return new Color([(num >> 16) & 0xff, (num >> 8) & 0xff, num & 0xff], 'rgb');
     }
-    /**
-     * @hidden
-     */
     function numberToRgbaColor(num) {
         return new Color([
             (num >> 24) & 0xff,
@@ -117775,18 +118563,12 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
             mapRange(num & 0xff, 0, 255, 0, 1),
         ], 'rgb');
     }
-    /**
-     * @hidden
-     */
     function colorFromRgbNumber(value) {
         if (typeof value !== 'number') {
             return Color.black();
         }
         return numberToRgbColor(value);
     }
-    /**
-     * @hidden
-     */
     function colorFromRgbaNumber(value) {
         if (typeof value !== 'number') {
             return Color.black();
@@ -117795,26 +118577,26 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
     }
 
     function createColorStringWriter(notation) {
-        var stringify = getColorStringifier(notation);
-        return function (target, value) {
+        const stringify = getColorStringifier(notation);
+        return (target, value) => {
             writePrimitive(target, stringify(value));
         };
     }
     function createColorNumberWriter(supportsAlpha) {
-        var colorToNumber = supportsAlpha ? colorToRgbaNumber : colorToRgbNumber;
-        return function (target, value) {
+        const colorToNumber = supportsAlpha ? colorToRgbaNumber : colorToRgbNumber;
+        return (target, value) => {
             writePrimitive(target, colorToNumber(value));
         };
     }
     function writeRgbaColorObject(target, value) {
-        var obj = value.toRgbaObject();
+        const obj = value.toRgbaObject();
         target.writeProperty('r', obj.r);
         target.writeProperty('g', obj.g);
         target.writeProperty('b', obj.b);
         target.writeProperty('a', obj.a);
     }
     function writeRgbColorObject(target, value) {
-        var obj = value.toRgbaObject();
+        const obj = value.toRgbaObject();
         target.writeProperty('r', obj.r);
         target.writeProperty('g', obj.g);
         target.writeProperty('b', obj.b);
@@ -117823,804 +118605,657 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return supportsAlpha ? writeRgbaColorObject : writeRgbColorObject;
     }
 
-    function shouldSupportAlpha(inputParams) {
-        return 'input' in inputParams && inputParams.input === 'color.rgba';
+    function shouldSupportAlpha$1(inputParams) {
+        return 'alpha' in inputParams && inputParams.alpha === true;
     }
-    /**
-     * @hidden
-     */
-    var NumberColorInputPlugin = {
+    function createFormatter$1(supportsAlpha) {
+        return supportsAlpha
+            ? (v) => colorToHexRgbaString(v, '0x')
+            : (v) => colorToHexRgbString(v, '0x');
+    }
+    const NumberColorInputPlugin = {
         id: 'input-color-number',
+        type: 'input',
+        accept: (value, params) => {
+            if (typeof value !== 'number') {
+                return null;
+            }
+            if (!('view' in params)) {
+                return null;
+            }
+            if (params.view !== 'color') {
+                return null;
+            }
+            const result = parseColorInputParams(params);
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
+        },
         binding: {
-            accept: function (value, params) {
-                if (typeof value !== 'number') {
-                    return null;
-                }
-                if (!('input' in params)) {
-                    return null;
-                }
-                if (params.input !== 'color' &&
-                    params.input !== 'color.rgb' &&
-                    params.input !== 'color.rgba') {
-                    return null;
-                }
-                return value;
-            },
-            reader: function (args) {
-                return shouldSupportAlpha(args.params)
+            reader: (args) => {
+                return shouldSupportAlpha$1(args.params)
                     ? colorFromRgbaNumber
                     : colorFromRgbNumber;
             },
-            writer: function (args) {
-                return createColorNumberWriter(shouldSupportAlpha(args.params));
-            },
             equals: Color.equals,
+            writer: (args) => {
+                return createColorNumberWriter(shouldSupportAlpha$1(args.params));
+            },
         },
-        controller: function (args) {
-            var supportsAlpha = shouldSupportAlpha(args.params);
-            var formatter = supportsAlpha
-                ? colorToHexRgbaString
-                : colorToHexRgbString;
-            return new ColorSwatchTextController(args.document, {
-                formatter: formatter,
+        controller: (args) => {
+            const supportsAlpha = shouldSupportAlpha$1(args.params);
+            const expanded = 'expanded' in args.params ? args.params.expanded : undefined;
+            const picker = 'picker' in args.params ? args.params.picker : undefined;
+            return new ColorController(args.document, {
+                expanded: expanded !== null && expanded !== void 0 ? expanded : false,
+                formatter: createFormatter$1(supportsAlpha),
                 parser: CompositeColorParser,
+                pickerLayout: picker !== null && picker !== void 0 ? picker : 'popup',
                 supportsAlpha: supportsAlpha,
-                value: args.binding.value,
+                value: args.value,
+                viewProps: args.viewProps,
             });
         },
     };
 
-    function shouldSupportAlpha$1(initialValue) {
+    function shouldSupportAlpha(initialValue) {
         return Color.isRgbaColorObject(initialValue);
     }
-    /**
-     * @hidden
-     */
-    var ObjectColorInputPlugin = {
+    const ObjectColorInputPlugin = {
         id: 'input-color-object',
-        binding: {
-            accept: function (value, _params) { return (Color.isColorObject(value) ? value : null); },
-            reader: function (_args) { return colorFromObject; },
-            writer: function (args) {
-                return createColorObjectWriter(shouldSupportAlpha$1(args.initialValue));
-            },
-            equals: Color.equals,
+        type: 'input',
+        accept: (value, params) => {
+            if (!Color.isColorObject(value)) {
+                return null;
+            }
+            const result = parseColorInputParams(params);
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
-            var supportsAlpha = Color.isRgbaColorObject(args.initialValue);
-            var formatter = supportsAlpha
+        binding: {
+            reader: (_args) => colorFromObject,
+            equals: Color.equals,
+            writer: (args) => createColorObjectWriter(shouldSupportAlpha(args.initialValue)),
+        },
+        controller: (args) => {
+            const supportsAlpha = Color.isRgbaColorObject(args.initialValue);
+            const expanded = 'expanded' in args.params ? args.params.expanded : undefined;
+            const picker = 'picker' in args.params ? args.params.picker : undefined;
+            const formatter = supportsAlpha
                 ? colorToHexRgbaString
                 : colorToHexRgbString;
-            return new ColorSwatchTextController(args.document, {
+            return new ColorController(args.document, {
+                expanded: expanded !== null && expanded !== void 0 ? expanded : false,
                 formatter: formatter,
                 parser: CompositeColorParser,
+                pickerLayout: picker !== null && picker !== void 0 ? picker : 'popup',
                 supportsAlpha: supportsAlpha,
-                value: args.binding.value,
+                value: args.value,
+                viewProps: args.viewProps,
             });
         },
     };
 
-    /**
-     * @hidden
-     */
-    var StringColorInputPlugin = {
+    const StringColorInputPlugin = {
         id: 'input-color-string',
+        type: 'input',
+        accept: (value, params) => {
+            if (typeof value !== 'string') {
+                return null;
+            }
+            if ('view' in params && params.view === 'text') {
+                return null;
+            }
+            const notation = getColorNotation(value);
+            if (!notation) {
+                return null;
+            }
+            const result = parseColorInputParams(params);
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
+        },
         binding: {
-            accept: function (value, params) {
-                if (typeof value !== 'string') {
-                    return null;
-                }
-                if ('input' in params && params.input === 'string') {
-                    return null;
-                }
-                var notation = getColorNotation(value);
-                if (!notation) {
-                    return null;
-                }
-                return value;
-            },
-            reader: function (_args) { return colorFromString; },
-            writer: function (args) {
-                var notation = getColorNotation(args.initialValue);
+            reader: (_args) => colorFromString,
+            equals: Color.equals,
+            writer: (args) => {
+                const notation = getColorNotation(args.initialValue);
                 if (!notation) {
                     throw TpError.shouldNeverHappen();
                 }
                 return createColorStringWriter(notation);
             },
-            equals: Color.equals,
         },
-        controller: function (args) {
-            var notation = getColorNotation(args.initialValue);
+        controller: (args) => {
+            const notation = getColorNotation(args.initialValue);
             if (!notation) {
                 throw TpError.shouldNeverHappen();
             }
-            var stringifier = getColorStringifier(notation);
-            return new ColorSwatchTextController(args.document, {
+            const stringifier = getColorStringifier(notation);
+            const expanded = 'expanded' in args.params ? args.params.expanded : undefined;
+            const picker = 'picker' in args.params ? args.params.picker : undefined;
+            return new ColorController(args.document, {
+                expanded: expanded !== null && expanded !== void 0 ? expanded : false,
                 formatter: stringifier,
                 parser: CompositeColorParser,
+                pickerLayout: picker !== null && picker !== void 0 ? picker : 'popup',
                 supportsAlpha: hasAlphaComponent(notation),
-                value: args.binding.value,
+                value: args.value,
+                viewProps: args.viewProps,
             });
         },
     };
 
-    /**
-     * @hidden
-     */
-    var RangeConstraint = /** @class */ (function () {
-        function RangeConstraint(config) {
-            this.maxValue = config.max;
-            this.minValue = config.min;
+    class PointNdConstraint {
+        constructor(config) {
+            this.components = config.components;
+            this.asm_ = config.assembly;
         }
-        RangeConstraint.prototype.constrain = function (value) {
-            var result = value;
-            if (!isEmpty(this.minValue)) {
-                result = Math.max(result, this.minValue);
-            }
-            if (!isEmpty(this.maxValue)) {
-                result = Math.min(result, this.maxValue);
-            }
-            return result;
-        };
-        return RangeConstraint;
-    }());
+        constrain(value) {
+            const comps = this.asm_
+                .toComponents(value)
+                .map((comp, index) => { var _a, _b; return (_b = (_a = this.components[index]) === null || _a === void 0 ? void 0 : _a.constrain(comp)) !== null && _b !== void 0 ? _b : comp; });
+            return this.asm_.fromComponents(comps);
+        }
+    }
 
-    var className$g = ClassName('sldtxt');
-    /**
-     * @hidden
-     */
-    var SliderTextView = /** @class */ (function () {
-        function SliderTextView(doc, config) {
+    const className$5 = ClassName('pndtxt');
+    class PointNdTextView {
+        constructor(doc, config) {
+            this.textViews = config.textViews;
             this.element = doc.createElement('div');
-            this.element.classList.add(className$g());
-            var sliderElem = doc.createElement('div');
-            sliderElem.classList.add(className$g('s'));
-            this.sliderView_ = config.sliderView;
-            sliderElem.appendChild(this.sliderView_.element);
-            this.element.appendChild(sliderElem);
-            var textElem = doc.createElement('div');
-            textElem.classList.add(className$g('t'));
-            this.textView_ = config.textView;
-            textElem.appendChild(this.textView_.element);
-            this.element.appendChild(textElem);
+            this.element.classList.add(className$5());
+            this.textViews.forEach((v) => {
+                const axisElem = doc.createElement('div');
+                axisElem.classList.add(className$5('a'));
+                axisElem.appendChild(v.element);
+                this.element.appendChild(axisElem);
+            });
         }
-        Object.defineProperty(SliderTextView.prototype, "value", {
-            get: function () {
-                return this.sliderView_.value;
-            },
-            enumerable: false,
-            configurable: true
+    }
+
+    function createAxisController(doc, config, index) {
+        return new NumberTextController(doc, {
+            arrayPosition: index === 0 ? 'fst' : index === config.axes.length - 1 ? 'lst' : 'mid',
+            baseStep: config.axes[index].baseStep,
+            parser: config.parser,
+            props: config.axes[index].textProps,
+            value: createValue(0, {
+                constraint: config.axes[index].constraint,
+            }),
+            viewProps: config.viewProps,
         });
-        SliderTextView.prototype.update = function () {
-            this.sliderView_.update();
-            this.textView_.update();
-        };
-        return SliderTextView;
-    }());
-
-    var className$h = ClassName('sld');
-    /**
-     * @hidden
-     */
-    var SliderView = /** @class */ (function () {
-        function SliderView(doc, config) {
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.minValue_ = config.minValue;
-            this.maxValue_ = config.maxValue;
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$h());
-            var outerElem = doc.createElement('div');
-            outerElem.classList.add(className$h('o'));
-            outerElem.tabIndex = 0;
-            this.element.appendChild(outerElem);
-            this.outerElement = outerElem;
-            var innerElem = doc.createElement('div');
-            innerElem.classList.add(className$h('i'));
-            this.outerElement.appendChild(innerElem);
-            this.innerElement = innerElem;
-            config.value.emitter.on('change', this.onValueChange_);
+    }
+    class PointNdTextController {
+        constructor(doc, config) {
             this.value = config.value;
-            this.update();
+            this.viewProps = config.viewProps;
+            this.acs_ = config.axes.map((_, index) => createAxisController(doc, config, index));
+            this.acs_.forEach((c, index) => {
+                connectValues({
+                    primary: this.value,
+                    secondary: c.value,
+                    forward: (p) => {
+                        return config.assembly.toComponents(p.rawValue)[index];
+                    },
+                    backward: (p, s) => {
+                        const comps = config.assembly.toComponents(p.rawValue);
+                        comps[index] = s.rawValue;
+                        return config.assembly.fromComponents(comps);
+                    },
+                });
+            });
+            this.view = new PointNdTextView(doc, {
+                textViews: this.acs_.map((ac) => ac.view),
+            });
         }
-        SliderView.prototype.update = function () {
-            var p = constrainRange(mapRange(this.value.rawValue, this.minValue_, this.maxValue_, 0, 100), 0, 100);
-            this.innerElement.style.width = p + "%";
-        };
-        SliderView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return SliderView;
-    }());
+    }
 
-    function findRange(value) {
-        var c = value.constraint
-            ? findConstraint(value.constraint, RangeConstraint)
-            : null;
+    function createStepConstraint(params) {
+        if ('step' in params && !isEmpty(params.step)) {
+            return new StepConstraint(params.step);
+        }
+        return null;
+    }
+    function createRangeConstraint(params) {
+        if (('max' in params && !isEmpty(params.max)) ||
+            ('min' in params && !isEmpty(params.min))) {
+            return new RangeConstraint({
+                max: params.max,
+                min: params.min,
+            });
+        }
+        return null;
+    }
+    function createConstraint$4(params) {
+        const constraints = [];
+        const sc = createStepConstraint(params);
+        if (sc) {
+            constraints.push(sc);
+        }
+        const rc = createRangeConstraint(params);
+        if (rc) {
+            constraints.push(rc);
+        }
+        const lc = createListConstraint(params.options);
+        if (lc) {
+            constraints.push(lc);
+        }
+        return new CompositeConstraint(constraints);
+    }
+    function findRange(constraint) {
+        const c = constraint ? findConstraint(constraint, RangeConstraint) : null;
         if (!c) {
             return [undefined, undefined];
         }
         return [c.minValue, c.maxValue];
     }
-    function estimateSuitableRange(value) {
-        var _a = findRange(value), min = _a[0], max = _a[1];
+    function estimateSuitableRange(constraint) {
+        const [min, max] = findRange(constraint);
         return [min !== null && min !== void 0 ? min : 0, max !== null && max !== void 0 ? max : 100];
     }
-    /**
-     * @hidden
-     */
-    var SliderController = /** @class */ (function () {
-        function SliderController(doc, config) {
-            this.onKeyDown_ = this.onKeyDown_.bind(this);
-            this.onPointerDown_ = this.onPointerDown_.bind(this);
-            this.onPointerMove_ = this.onPointerMove_.bind(this);
-            this.onPointerUp_ = this.onPointerUp_.bind(this);
-            this.value = config.value;
-            this.baseStep_ = config.baseStep;
-            var _a = estimateSuitableRange(this.value), min = _a[0], max = _a[1];
-            this.minValue_ = min;
-            this.maxValue_ = max;
-            this.view = new SliderView(doc, {
-                maxValue: this.maxValue_,
-                minValue: this.minValue_,
-                value: this.value,
-            });
-            this.ptHandler_ = new PointerHandler(doc, this.view.outerElement);
-            this.ptHandler_.emitter.on('down', this.onPointerDown_);
-            this.ptHandler_.emitter.on('move', this.onPointerMove_);
-            this.ptHandler_.emitter.on('up', this.onPointerUp_);
-            this.view.outerElement.addEventListener('keydown', this.onKeyDown_);
-        }
-        SliderController.prototype.handlePointerEvent_ = function (d) {
-            this.value.rawValue = mapRange(d.px, 0, 1, this.minValue_, this.maxValue_);
-        };
-        SliderController.prototype.onPointerDown_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        SliderController.prototype.onPointerMove_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        SliderController.prototype.onPointerUp_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        SliderController.prototype.onKeyDown_ = function (ev) {
-            this.value.rawValue += getStepForKey(this.baseStep_, getHorizontalStepKeys(ev));
-        };
-        return SliderController;
-    }());
-
-    /**
-     * @hidden
-     */
-    var SliderTextController = /** @class */ (function () {
-        function SliderTextController(doc, config) {
-            this.value = config.value;
-            this.sliderIc_ = new SliderController(doc, {
-                baseStep: config.baseStep,
-                value: config.value,
-            });
-            this.textIc_ = new NumberTextController(doc, {
-                baseStep: config.baseStep,
-                formatter: config.formatter,
-                parser: config.parser,
-                value: config.value,
-            });
-            this.view = new SliderTextView(doc, {
-                sliderView: this.sliderIc_.view,
-                textView: this.textIc_.view,
-            });
-        }
-        return SliderTextController;
-    }());
-
-    function createConstraint$1(params) {
-        var constraints = [];
-        if ('step' in params && !isEmpty(params.step)) {
-            constraints.push(new StepConstraint({
-                step: params.step,
-            }));
-        }
-        if (('max' in params && !isEmpty(params.max)) ||
-            ('min' in params && !isEmpty(params.min))) {
-            constraints.push(new RangeConstraint({
-                max: params.max,
-                min: params.min,
-            }));
-        }
-        if ('options' in params && params.options !== undefined) {
-            constraints.push(new ListConstraint({
-                options: normalizeInputParamsOptions(params.options, numberFromUnknown),
-            }));
-        }
-        return new CompositeConstraint({
-            constraints: constraints,
-        });
-    }
-    function createController$3(doc, value) {
-        var _a;
-        var c = value.constraint;
-        if (c && findConstraint(c, ListConstraint)) {
-            return new ListController(doc, {
-                listItems: (_a = findListItems(c)) !== null && _a !== void 0 ? _a : [],
-                stringifyValue: numberToString,
-                value: value,
-            });
-        }
-        if (c && findConstraint(c, RangeConstraint)) {
-            return new SliderTextController(doc, {
-                baseStep: getBaseStep(c),
-                formatter: createNumberFormatter(getSuitableDecimalDigits(value.constraint, value.rawValue)),
-                parser: parseNumber,
-                value: value,
-            });
-        }
-        return new NumberTextController(doc, {
-            baseStep: getBaseStep(c),
-            formatter: createNumberFormatter(getSuitableDecimalDigits(value.constraint, value.rawValue)),
-            parser: parseNumber,
-            value: value,
-        });
-    }
-    /**
-     * @hidden
-     */
-    var NumberInputPlugin = {
+    const NumberInputPlugin = {
         id: 'input-number',
-        binding: {
-            accept: function (value) { return (typeof value === 'number' ? value : null); },
-            constraint: function (args) { return createConstraint$1(args.params); },
-            reader: function (_args) { return numberFromUnknown; },
-            writer: function (_args) { return writePrimitive; },
+        type: 'input',
+        accept: (value, params) => {
+            if (typeof value !== 'number') {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                format: p.optional.function,
+                max: p.optional.number,
+                min: p.optional.number,
+                options: p.optional.custom(parseListOptions),
+                step: p.optional.number,
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
-            return createController$3(args.document, args.binding.value);
+        binding: {
+            reader: (_args) => numberFromUnknown,
+            constraint: (args) => createConstraint$4(args.params),
+            writer: (_args) => writePrimitive,
+        },
+        controller: (args) => {
+            var _a, _b;
+            const value = args.value;
+            const c = args.constraint;
+            if (c && findConstraint(c, ListConstraint)) {
+                return new ListController(args.document, {
+                    props: ValueMap.fromObject({
+                        options: (_a = findListItems(c)) !== null && _a !== void 0 ? _a : [],
+                    }),
+                    value: value,
+                    viewProps: args.viewProps,
+                });
+            }
+            const formatter = (_b = ('format' in args.params ? args.params.format : undefined)) !== null && _b !== void 0 ? _b : createNumberFormatter(getSuitableDecimalDigits(c, value.rawValue));
+            if (c && findConstraint(c, RangeConstraint)) {
+                const [min, max] = estimateSuitableRange(c);
+                return new SliderTextController(args.document, {
+                    baseStep: getBaseStep(c),
+                    parser: parseNumber,
+                    sliderProps: ValueMap.fromObject({
+                        maxValue: max,
+                        minValue: min,
+                    }),
+                    textProps: ValueMap.fromObject({
+                        draggingScale: getSuitableDraggingScale(c, value.rawValue),
+                        formatter: formatter,
+                    }),
+                    value: value,
+                    viewProps: args.viewProps,
+                });
+            }
+            return new NumberTextController(args.document, {
+                baseStep: getBaseStep(c),
+                parser: parseNumber,
+                props: ValueMap.fromObject({
+                    draggingScale: getSuitableDraggingScale(c, value.rawValue),
+                    formatter: formatter,
+                }),
+                value: value,
+                viewProps: args.viewProps,
+            });
         },
     };
 
-    var Point2d = /** @class */ (function () {
-        function Point2d(x, y) {
-            if (x === void 0) { x = 0; }
-            if (y === void 0) { y = 0; }
+    class Point2d {
+        constructor(x = 0, y = 0) {
             this.x = x;
             this.y = y;
         }
-        Point2d.prototype.getComponents = function () {
+        getComponents() {
             return [this.x, this.y];
-        };
-        Point2d.isObject = function (obj) {
+        }
+        static isObject(obj) {
             if (isEmpty(obj)) {
                 return false;
             }
-            var x = obj.x;
-            var y = obj.y;
+            const x = obj.x;
+            const y = obj.y;
             if (typeof x !== 'number' || typeof y !== 'number') {
                 return false;
             }
             return true;
-        };
-        Point2d.equals = function (v1, v2) {
+        }
+        static equals(v1, v2) {
             return v1.x === v2.x && v1.y === v2.y;
-        };
-        Point2d.prototype.toObject = function () {
+        }
+        toObject() {
             return {
                 x: this.x,
                 y: this.y,
             };
-        };
-        return Point2d;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Point2dConstraint = /** @class */ (function () {
-        function Point2dConstraint(config) {
-            this.x = config.x;
-            this.y = config.y;
         }
-        Point2dConstraint.prototype.constrain = function (value) {
-            return new Point2d(this.x ? this.x.constrain(value.x) : value.x, this.y ? this.y.constrain(value.y) : value.y);
-        };
-        return Point2dConstraint;
-    }());
+    }
+    const Point2dAssembly = {
+        toComponents: (p) => p.getComponents(),
+        fromComponents: (comps) => new Point2d(...comps),
+    };
 
-    var className$i = ClassName('p2dpadtxt');
-    /**
-     * @hidden
-     */
-    var Point2dPadTextView = /** @class */ (function () {
-        function Point2dPadTextView(doc, config) {
+    const className$4 = ClassName('p2d');
+    class Point2dView {
+        constructor(doc, config) {
             this.element = doc.createElement('div');
-            this.element.classList.add(className$i());
-            var padWrapperElem = doc.createElement('div');
-            padWrapperElem.classList.add(className$i('w'));
-            this.element.appendChild(padWrapperElem);
-            var buttonElem = doc.createElement('button');
-            buttonElem.classList.add(className$i('b'));
+            this.element.classList.add(className$4());
+            config.viewProps.bindClassModifiers(this.element);
+            bindValue(config.expanded, valueToClassName(this.element, className$4(undefined, 'expanded')));
+            const headElem = doc.createElement('div');
+            headElem.classList.add(className$4('h'));
+            this.element.appendChild(headElem);
+            const buttonElem = doc.createElement('button');
+            buttonElem.classList.add(className$4('b'));
             buttonElem.appendChild(createSvgIconElement(doc, 'p2dpad'));
-            padWrapperElem.appendChild(buttonElem);
-            this.padButtonElem_ = buttonElem;
-            var padElem = doc.createElement('div');
-            padElem.classList.add(className$i('p'));
-            padWrapperElem.appendChild(padElem);
-            this.padView_ = config.padView;
-            padElem.appendChild(this.padView_.element);
-            var textElem = doc.createElement('div');
-            textElem.classList.add(className$i('t'));
-            this.textView_ = config.textView;
-            textElem.appendChild(this.textView_.element);
-            this.element.appendChild(textElem);
+            config.viewProps.bindDisabled(buttonElem);
+            headElem.appendChild(buttonElem);
+            this.buttonElement = buttonElem;
+            const textElem = doc.createElement('div');
+            textElem.classList.add(className$4('t'));
+            headElem.appendChild(textElem);
+            this.textElement = textElem;
+            if (config.pickerLayout === 'inline') {
+                const pickerElem = doc.createElement('div');
+                pickerElem.classList.add(className$4('p'));
+                this.element.appendChild(pickerElem);
+                this.pickerElement = pickerElem;
+            }
+            else {
+                this.pickerElement = null;
+            }
         }
-        Object.defineProperty(Point2dPadTextView.prototype, "value", {
-            get: function () {
-                return this.textView_.value;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Object.defineProperty(Point2dPadTextView.prototype, "padButtonElement", {
-            get: function () {
-                return this.padButtonElem_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Point2dPadTextView.prototype.update = function () {
-            this.padView_.update();
-            this.textView_.update();
-        };
-        return Point2dPadTextView;
-    }());
+    }
 
-    var className$j = ClassName('p2dpad');
-    /**
-     * @hidden
-     */
-    var Point2dPadView = /** @class */ (function () {
-        function Point2dPadView(doc, config) {
+    const className$3 = ClassName('p2dp');
+    class Point2dPickerView {
+        constructor(doc, config) {
             this.onFoldableChange_ = this.onFoldableChange_.bind(this);
             this.onValueChange_ = this.onValueChange_.bind(this);
-            this.foldable = config.foldable;
-            this.foldable.emitter.on('change', this.onFoldableChange_);
             this.invertsY_ = config.invertsY;
             this.maxValue_ = config.maxValue;
             this.element = doc.createElement('div');
-            this.element.classList.add(className$j());
-            var padElem = doc.createElement('div');
-            padElem.tabIndex = 0;
-            padElem.classList.add(className$j('p'));
+            this.element.classList.add(className$3());
+            if (config.layout === 'popup') {
+                this.element.classList.add(className$3(undefined, 'p'));
+            }
+            const padElem = doc.createElement('div');
+            padElem.classList.add(className$3('p'));
+            config.viewProps.bindTabIndex(padElem);
             this.element.appendChild(padElem);
             this.padElement = padElem;
-            var svgElem = doc.createElementNS(SVG_NS, 'svg');
-            svgElem.classList.add(className$j('g'));
+            const svgElem = doc.createElementNS(SVG_NS, 'svg');
+            svgElem.classList.add(className$3('g'));
             this.padElement.appendChild(svgElem);
             this.svgElem_ = svgElem;
-            var xAxisElem = doc.createElementNS(SVG_NS, 'line');
-            xAxisElem.classList.add(className$j('ax'));
+            const xAxisElem = doc.createElementNS(SVG_NS, 'line');
+            xAxisElem.classList.add(className$3('ax'));
             xAxisElem.setAttributeNS(null, 'x1', '0');
             xAxisElem.setAttributeNS(null, 'y1', '50%');
             xAxisElem.setAttributeNS(null, 'x2', '100%');
             xAxisElem.setAttributeNS(null, 'y2', '50%');
             this.svgElem_.appendChild(xAxisElem);
-            var yAxisElem = doc.createElementNS(SVG_NS, 'line');
-            yAxisElem.classList.add(className$j('ax'));
+            const yAxisElem = doc.createElementNS(SVG_NS, 'line');
+            yAxisElem.classList.add(className$3('ax'));
             yAxisElem.setAttributeNS(null, 'x1', '50%');
             yAxisElem.setAttributeNS(null, 'y1', '0');
             yAxisElem.setAttributeNS(null, 'x2', '50%');
             yAxisElem.setAttributeNS(null, 'y2', '100%');
             this.svgElem_.appendChild(yAxisElem);
-            var lineElem = doc.createElementNS(SVG_NS, 'line');
-            lineElem.classList.add(className$j('l'));
+            const lineElem = doc.createElementNS(SVG_NS, 'line');
+            lineElem.classList.add(className$3('l'));
             lineElem.setAttributeNS(null, 'x1', '50%');
             lineElem.setAttributeNS(null, 'y1', '50%');
             this.svgElem_.appendChild(lineElem);
             this.lineElem_ = lineElem;
-            var markerElem = doc.createElementNS(SVG_NS, 'circle');
-            markerElem.classList.add(className$j('m'));
-            markerElem.setAttributeNS(null, 'r', '2px');
-            this.svgElem_.appendChild(markerElem);
+            const markerElem = doc.createElement('div');
+            markerElem.classList.add(className$3('m'));
+            this.padElement.appendChild(markerElem);
             this.markerElem_ = markerElem;
             config.value.emitter.on('change', this.onValueChange_);
             this.value = config.value;
-            this.update();
+            this.update_();
         }
-        Object.defineProperty(Point2dPadView.prototype, "allFocusableElements", {
-            get: function () {
-                return [this.padElement];
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Point2dPadView.prototype.update = function () {
-            if (this.foldable.expanded) {
-                this.element.classList.add(className$j(undefined, 'expanded'));
-            }
-            else {
-                this.element.classList.remove(className$j(undefined, 'expanded'));
-            }
-            var _a = this.value.rawValue.getComponents(), x = _a[0], y = _a[1];
-            var max = this.maxValue_;
-            var px = mapRange(x, -max, +max, 0, 100);
-            var py = mapRange(y, -max, +max, 0, 100);
-            var ipy = this.invertsY_ ? 100 - py : py;
-            this.lineElem_.setAttributeNS(null, 'x2', px + "%");
-            this.lineElem_.setAttributeNS(null, 'y2', ipy + "%");
-            this.markerElem_.setAttributeNS(null, 'cx', px + "%");
-            this.markerElem_.setAttributeNS(null, 'cy', ipy + "%");
-        };
-        Point2dPadView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        Point2dPadView.prototype.onFoldableChange_ = function () {
-            this.update();
-        };
-        return Point2dPadView;
-    }());
+        get allFocusableElements() {
+            return [this.padElement];
+        }
+        update_() {
+            const [x, y] = this.value.rawValue.getComponents();
+            const max = this.maxValue_;
+            const px = mapRange(x, -max, +max, 0, 100);
+            const py = mapRange(y, -max, +max, 0, 100);
+            const ipy = this.invertsY_ ? 100 - py : py;
+            this.lineElem_.setAttributeNS(null, 'x2', `${px}%`);
+            this.lineElem_.setAttributeNS(null, 'y2', `${ipy}%`);
+            this.markerElem_.style.left = `${px}%`;
+            this.markerElem_.style.top = `${ipy}%`;
+        }
+        onValueChange_() {
+            this.update_();
+        }
+        onFoldableChange_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var Point2dPadController = /** @class */ (function () {
-        function Point2dPadController(doc, config) {
-            var _this = this;
-            this.triggerElement = null;
-            this.onFocusableElementBlur_ = this.onFocusableElementBlur_.bind(this);
-            this.onKeyDown_ = this.onKeyDown_.bind(this);
+    class Point2dPickerController {
+        constructor(doc, config) {
             this.onPadKeyDown_ = this.onPadKeyDown_.bind(this);
             this.onPointerDown_ = this.onPointerDown_.bind(this);
             this.onPointerMove_ = this.onPointerMove_.bind(this);
             this.onPointerUp_ = this.onPointerUp_.bind(this);
             this.value = config.value;
-            this.foldable = new Foldable();
+            this.viewProps = config.viewProps;
             this.baseSteps_ = config.baseSteps;
             this.maxValue_ = config.maxValue;
             this.invertsY_ = config.invertsY;
-            this.view = new Point2dPadView(doc, {
-                foldable: this.foldable,
+            this.view = new Point2dPickerView(doc, {
                 invertsY: this.invertsY_,
+                layout: config.layout,
                 maxValue: this.maxValue_,
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.ptHandler_ = new PointerHandler(doc, this.view.padElement);
+            this.ptHandler_ = new PointerHandler(this.view.padElement);
             this.ptHandler_.emitter.on('down', this.onPointerDown_);
             this.ptHandler_.emitter.on('move', this.onPointerMove_);
             this.ptHandler_.emitter.on('up', this.onPointerUp_);
             this.view.padElement.addEventListener('keydown', this.onPadKeyDown_);
-            this.view.element.addEventListener('keydown', this.onKeyDown_);
-            this.view.allFocusableElements.forEach(function (elem) {
-                elem.addEventListener('blur', _this.onFocusableElementBlur_);
+        }
+        handlePointerEvent_(d, opts) {
+            if (!d.point) {
+                return;
+            }
+            const max = this.maxValue_;
+            const px = mapRange(d.point.x, 0, d.bounds.width, -max, +max);
+            const py = mapRange(this.invertsY_ ? d.bounds.height - d.point.y : d.point.y, 0, d.bounds.height, -max, +max);
+            this.value.setRawValue(new Point2d(px, py), opts);
+        }
+        onPointerDown_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
             });
         }
-        Point2dPadController.prototype.handlePointerEvent_ = function (d) {
-            var max = this.maxValue_;
-            var px = mapRange(d.px, 0, 1, -max, +max);
-            var py = mapRange(this.invertsY_ ? 1 - d.py : d.py, 0, 1, -max, +max);
-            this.value.rawValue = new Point2d(px, py);
-            this.view.update();
-        };
-        Point2dPadController.prototype.onPointerDown_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        Point2dPadController.prototype.onPointerMove_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        Point2dPadController.prototype.onPointerUp_ = function (ev) {
-            this.handlePointerEvent_(ev.data);
-        };
-        Point2dPadController.prototype.onPadKeyDown_ = function (ev) {
-            if (isArrowKey(ev.keyCode)) {
+        onPointerMove_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: false,
+                last: false,
+            });
+        }
+        onPointerUp_(ev) {
+            this.handlePointerEvent_(ev.data, {
+                forceEmit: true,
+                last: true,
+            });
+        }
+        onPadKeyDown_(ev) {
+            if (isArrowKey(ev.key)) {
                 ev.preventDefault();
             }
             this.value.rawValue = new Point2d(this.value.rawValue.x +
                 getStepForKey(this.baseSteps_[0], getHorizontalStepKeys(ev)), this.value.rawValue.y +
                 getStepForKey(this.baseSteps_[1], getVerticalStepKeys(ev)) *
                     (this.invertsY_ ? 1 : -1));
-        };
-        Point2dPadController.prototype.onFocusableElementBlur_ = function (ev) {
-            var elem = this.view.element;
-            var nextTarget = findNextTarget(ev);
-            if (nextTarget && elem.contains(nextTarget)) {
-                // Next target is in the picker
-                return;
-            }
-            if (nextTarget &&
-                nextTarget === this.triggerElement &&
-                !supportsTouch(elem.ownerDocument)) {
-                // Next target is the trigger button
-                return;
-            }
-            this.foldable.expanded = false;
-        };
-        Point2dPadController.prototype.onKeyDown_ = function (ev) {
-            if (ev.keyCode === 27) {
-                this.foldable.expanded = false;
-            }
-        };
-        return Point2dPadController;
-    }());
-
-    var className$k = ClassName('p2dtxt');
-    /**
-     * @hidden
-     */
-    var Point2dTextView = /** @class */ (function () {
-        function Point2dTextView(doc, config) {
-            var _this = this;
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.formatters_ = config.formatters;
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$k());
-            var inputElems = [0, 1].map(function () {
-                var inputElem = doc.createElement('input');
-                inputElem.classList.add(className$k('i'));
-                inputElem.type = 'text';
-                return inputElem;
-            });
-            [0, 1].forEach(function (_, index) {
-                var elem = doc.createElement('div');
-                elem.classList.add(className$k('w'));
-                elem.appendChild(inputElems[index]);
-                _this.element.appendChild(elem);
-            });
-            this.inputElems_ = [inputElems[0], inputElems[1]];
-            config.value.emitter.on('change', this.onValueChange_);
-            this.value = config.value;
-            this.update();
         }
-        Object.defineProperty(Point2dTextView.prototype, "inputElements", {
-            get: function () {
-                return this.inputElems_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Point2dTextView.prototype.update = function () {
-            var _this = this;
-            var xyComps = this.value.rawValue.getComponents();
-            xyComps.forEach(function (comp, index) {
-                var inputElem = _this.inputElems_[index];
-                inputElem.value = _this.formatters_[index](comp);
-            });
-        };
-        Point2dTextView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return Point2dTextView;
-    }());
+    }
 
-    /**
-     * @hidden
-     */
-    var Point2dTextController = /** @class */ (function () {
-        function Point2dTextController(doc, config) {
-            var _this = this;
-            this.onInputChange_ = this.onInputChange_.bind(this);
-            this.onInputKeyDown_ = this.onInputKeyDown_.bind(this);
-            this.parser_ = config.parser;
-            this.value = config.value;
-            this.baseSteps_ = [config.axes[0].baseStep, config.axes[1].baseStep];
-            this.view = new Point2dTextView(doc, {
-                formatters: [config.axes[0].formatter, config.axes[1].formatter],
-                value: this.value,
-            });
-            this.view.inputElements.forEach(function (inputElem) {
-                inputElem.addEventListener('change', _this.onInputChange_);
-                inputElem.addEventListener('keydown', _this.onInputKeyDown_);
-            });
-        }
-        Point2dTextController.prototype.findIndexOfInputElem_ = function (inputElem) {
-            var inputElems = this.view.inputElements;
-            for (var i = 0; i < inputElems.length; i++) {
-                if (inputElems[i] === inputElem) {
-                    return i;
-                }
-            }
-            return null;
-        };
-        Point2dTextController.prototype.updateComponent_ = function (index, newValue) {
-            var comps = this.value.rawValue.getComponents();
-            var newComps = comps.map(function (comp, i) {
-                return i === index ? newValue : comp;
-            });
-            this.value.rawValue = new Point2d(newComps[0], newComps[1]);
-            this.view.update();
-        };
-        Point2dTextController.prototype.onInputChange_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
-            var parsedValue = this.parser_(inputElem.value);
-            if (isEmpty(parsedValue)) {
-                return;
-            }
-            var compIndex = this.findIndexOfInputElem_(inputElem);
-            if (isEmpty(compIndex)) {
-                return;
-            }
-            this.updateComponent_(compIndex, parsedValue);
-        };
-        Point2dTextController.prototype.onInputKeyDown_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
-            var parsedValue = this.parser_(inputElem.value);
-            if (isEmpty(parsedValue)) {
-                return;
-            }
-            var compIndex = this.findIndexOfInputElem_(inputElem);
-            if (isEmpty(compIndex)) {
-                return;
-            }
-            var step = getStepForKey(this.baseSteps_[compIndex], getVerticalStepKeys(e));
-            if (step === 0) {
-                return;
-            }
-            this.updateComponent_(compIndex, parsedValue + step);
-        };
-        return Point2dTextController;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Point2dPadTextController = /** @class */ (function () {
-        function Point2dPadTextController(doc, config) {
+    class Point2dController {
+        constructor(doc, config) {
+            var _a, _b;
+            this.onPopupChildBlur_ = this.onPopupChildBlur_.bind(this);
+            this.onPopupChildKeydown_ = this.onPopupChildKeydown_.bind(this);
             this.onPadButtonBlur_ = this.onPadButtonBlur_.bind(this);
             this.onPadButtonClick_ = this.onPadButtonClick_.bind(this);
             this.value = config.value;
-            this.padIc_ = new Point2dPadController(doc, {
+            this.viewProps = config.viewProps;
+            this.foldable_ = Foldable.create(config.expanded);
+            this.popC_ =
+                config.pickerLayout === 'popup'
+                    ? new PopupController(doc, {
+                        viewProps: this.viewProps,
+                    })
+                    : null;
+            const padC = new Point2dPickerController(doc, {
                 baseSteps: [config.axes[0].baseStep, config.axes[1].baseStep],
                 invertsY: config.invertsY,
+                layout: config.pickerLayout,
                 maxValue: config.maxValue,
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.textIc_ = new Point2dTextController(doc, {
+            padC.view.allFocusableElements.forEach((elem) => {
+                elem.addEventListener('blur', this.onPopupChildBlur_);
+                elem.addEventListener('keydown', this.onPopupChildKeydown_);
+            });
+            this.pickerC_ = padC;
+            this.textC_ = new PointNdTextController(doc, {
+                assembly: Point2dAssembly,
                 axes: config.axes,
                 parser: config.parser,
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.view = new Point2dPadTextView(doc, {
-                padView: this.padIc_.view,
-                textView: this.textIc_.view,
+            this.view = new Point2dView(doc, {
+                expanded: this.foldable_.value('expanded'),
+                pickerLayout: config.pickerLayout,
+                viewProps: this.viewProps,
             });
-            this.view.padButtonElement.addEventListener('blur', this.onPadButtonBlur_);
-            this.view.padButtonElement.addEventListener('click', this.onPadButtonClick_);
-            this.padIc_.triggerElement = this.view.padButtonElement;
+            this.view.textElement.appendChild(this.textC_.view.element);
+            (_a = this.view.buttonElement) === null || _a === void 0 ? void 0 : _a.addEventListener('blur', this.onPadButtonBlur_);
+            (_b = this.view.buttonElement) === null || _b === void 0 ? void 0 : _b.addEventListener('click', this.onPadButtonClick_);
+            if (this.popC_) {
+                this.view.element.appendChild(this.popC_.view.element);
+                this.popC_.view.element.appendChild(this.pickerC_.view.element);
+                connectValues({
+                    primary: this.foldable_.value('expanded'),
+                    secondary: this.popC_.shows,
+                    forward: (p) => p.rawValue,
+                    backward: (_, s) => s.rawValue,
+                });
+            }
+            else if (this.view.pickerElement) {
+                this.view.pickerElement.appendChild(this.pickerC_.view.element);
+                bindFoldable(this.foldable_, this.view.pickerElement);
+            }
         }
-        Point2dPadTextController.prototype.onPadButtonBlur_ = function (e) {
-            var elem = this.view.element;
-            var nextTarget = forceCast(e.relatedTarget);
+        onPadButtonBlur_(e) {
+            if (!this.popC_) {
+                return;
+            }
+            const elem = this.view.element;
+            const nextTarget = forceCast(e.relatedTarget);
             if (!nextTarget || !elem.contains(nextTarget)) {
-                this.padIc_.foldable.expanded = false;
+                this.popC_.shows.rawValue = false;
             }
-        };
-        Point2dPadTextController.prototype.onPadButtonClick_ = function () {
-            this.padIc_.foldable.expanded = !this.padIc_.foldable.expanded;
-            if (this.padIc_.foldable.expanded) {
-                this.padIc_.view.allFocusableElements[0].focus();
+        }
+        onPadButtonClick_() {
+            this.foldable_.set('expanded', !this.foldable_.get('expanded'));
+            if (this.foldable_.get('expanded')) {
+                this.pickerC_.view.allFocusableElements[0].focus();
             }
-        };
-        return Point2dPadTextController;
-    }());
+        }
+        onPopupChildBlur_(ev) {
+            if (!this.popC_) {
+                return;
+            }
+            const elem = this.popC_.view.element;
+            const nextTarget = findNextTarget(ev);
+            if (nextTarget && elem.contains(nextTarget)) {
+                return;
+            }
+            if (nextTarget &&
+                nextTarget === this.view.buttonElement &&
+                !supportsTouch(elem.ownerDocument)) {
+                return;
+            }
+            this.popC_.shows.rawValue = false;
+        }
+        onPopupChildKeydown_(ev) {
+            if (this.popC_) {
+                if (ev.key === 'Escape') {
+                    this.popC_.shows.rawValue = false;
+                }
+            }
+            else if (this.view.pickerElement) {
+                if (ev.key === 'Escape') {
+                    this.view.buttonElement.focus();
+                }
+            }
+        }
+    }
 
-    /**
-     * @hidden
-     */
     function point2dFromUnknown(value) {
         return Point2d.isObject(value)
             ? new Point2d(value.x, value.y)
             : new Point2d();
     }
-
     function writePoint2d(target, value) {
         target.writeProperty('x', value.x);
         target.writeProperty('y', value.y);
     }
 
-    function createDimensionConstraint(params) {
+    function createDimensionConstraint$2(params) {
         if (!params) {
             return undefined;
         }
-        var constraints = [];
+        const constraints = [];
         if (!isEmpty(params.step)) {
-            constraints.push(new StepConstraint({
-                step: params.step,
-            }));
+            constraints.push(new StepConstraint(params.step));
         }
         if (!isEmpty(params.max) || !isEmpty(params.min)) {
             constraints.push(new RangeConstraint({
@@ -118628,264 +119263,157 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                 min: params.min,
             }));
         }
-        return new CompositeConstraint({
-            constraints: constraints,
-        });
+        return new CompositeConstraint(constraints);
     }
-    function createConstraint$2(params) {
-        return new Point2dConstraint({
-            x: createDimensionConstraint('x' in params ? params.x : undefined),
-            y: createDimensionConstraint('y' in params ? params.y : undefined),
+    function createConstraint$3(params) {
+        return new PointNdConstraint({
+            assembly: Point2dAssembly,
+            components: [
+                createDimensionConstraint$2('x' in params ? params.x : undefined),
+                createDimensionConstraint$2('y' in params ? params.y : undefined),
+            ],
         });
     }
     function getSuitableMaxDimensionValue(constraint, rawValue) {
-        var rc = constraint && findConstraint(constraint, RangeConstraint);
+        const rc = constraint && findConstraint(constraint, RangeConstraint);
         if (rc) {
             return Math.max(Math.abs(rc.minValue || 0), Math.abs(rc.maxValue || 0));
         }
-        var step = getBaseStep(constraint);
+        const step = getBaseStep(constraint);
         return Math.max(Math.abs(step) * 10, Math.abs(rawValue) * 10);
     }
-    /**
-     * @hidden
-     */
     function getSuitableMaxValue(initialValue, constraint) {
-        var xc = constraint instanceof Point2dConstraint ? constraint.x : undefined;
-        var yc = constraint instanceof Point2dConstraint ? constraint.y : undefined;
-        var xr = getSuitableMaxDimensionValue(xc, initialValue.x);
-        var yr = getSuitableMaxDimensionValue(yc, initialValue.y);
+        const xc = constraint instanceof PointNdConstraint
+            ? constraint.components[0]
+            : undefined;
+        const yc = constraint instanceof PointNdConstraint
+            ? constraint.components[1]
+            : undefined;
+        const xr = getSuitableMaxDimensionValue(xc, initialValue.x);
+        const yr = getSuitableMaxDimensionValue(yc, initialValue.y);
         return Math.max(xr, yr);
     }
-    function createController$4(document, value, invertsY) {
-        var c = value.constraint;
-        if (!(c instanceof Point2dConstraint)) {
-            throw TpError.shouldNeverHappen();
-        }
-        return new Point2dPadTextController(document, {
-            axes: [
-                {
-                    baseStep: getBaseStep(c.x),
-                    formatter: createNumberFormatter(getSuitableDecimalDigits(c.x, value.rawValue.x)),
-                },
-                {
-                    baseStep: getBaseStep(c.y),
-                    formatter: createNumberFormatter(getSuitableDecimalDigits(c.y, value.rawValue.y)),
-                },
-            ],
-            invertsY: invertsY,
-            maxValue: getSuitableMaxValue(value.rawValue, value.constraint),
-            parser: parseNumber,
-            value: value,
-        });
+    function createAxis$2(initialValue, constraint) {
+        return {
+            baseStep: getBaseStep(constraint),
+            constraint: constraint,
+            textProps: ValueMap.fromObject({
+                draggingScale: getSuitableDraggingScale(constraint, initialValue),
+                formatter: createNumberFormatter(getSuitableDecimalDigits(constraint, initialValue)),
+            }),
+        };
     }
     function shouldInvertY(params) {
         if (!('y' in params)) {
             return false;
         }
-        var yParams = params.y;
+        const yParams = params.y;
         if (!yParams) {
             return false;
         }
         return 'inverted' in yParams ? !!yParams.inverted : false;
     }
-    /**
-     * @hidden
-     */
-    var Point2dInputPlugin = {
+    const Point2dInputPlugin = {
         id: 'input-point2d',
-        binding: {
-            accept: function (value, _params) { return (Point2d.isObject(value) ? value : null); },
-            reader: function (_args) { return point2dFromUnknown; },
-            writer: function (_args) { return writePoint2d; },
-            constraint: function (args) { return createConstraint$2(args.params); },
-            equals: Point2d.equals,
+        type: 'input',
+        accept: (value, params) => {
+            if (!Point2d.isObject(value)) {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                expanded: p.optional.boolean,
+                picker: p.optional.custom(parsePickerLayout),
+                x: p.optional.custom(parsePointDimensionParams),
+                y: p.optional.object({
+                    inverted: p.optional.boolean,
+                    max: p.optional.number,
+                    min: p.optional.number,
+                    step: p.optional.number,
+                }),
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
-            return createController$4(args.document, args.binding.value, shouldInvertY(args.params));
+        binding: {
+            reader: (_args) => point2dFromUnknown,
+            constraint: (args) => createConstraint$3(args.params),
+            equals: Point2d.equals,
+            writer: (_args) => writePoint2d,
+        },
+        controller: (args) => {
+            const doc = args.document;
+            const value = args.value;
+            const c = args.constraint;
+            if (!(c instanceof PointNdConstraint)) {
+                throw TpError.shouldNeverHappen();
+            }
+            const expanded = 'expanded' in args.params ? args.params.expanded : undefined;
+            const picker = 'picker' in args.params ? args.params.picker : undefined;
+            return new Point2dController(doc, {
+                axes: [
+                    createAxis$2(value.rawValue.x, c.components[0]),
+                    createAxis$2(value.rawValue.y, c.components[1]),
+                ],
+                expanded: expanded !== null && expanded !== void 0 ? expanded : false,
+                invertsY: shouldInvertY(args.params),
+                maxValue: getSuitableMaxValue(value.rawValue, c),
+                parser: parseNumber,
+                pickerLayout: picker !== null && picker !== void 0 ? picker : 'popup',
+                value: value,
+                viewProps: args.viewProps,
+            });
         },
     };
 
-    var Point3d = /** @class */ (function () {
-        function Point3d(x, y, z) {
-            if (x === void 0) { x = 0; }
-            if (y === void 0) { y = 0; }
-            if (z === void 0) { z = 0; }
+    class Point3d {
+        constructor(x = 0, y = 0, z = 0) {
             this.x = x;
             this.y = y;
             this.z = z;
         }
-        Point3d.prototype.getComponents = function () {
+        getComponents() {
             return [this.x, this.y, this.z];
-        };
-        Point3d.isObject = function (obj) {
+        }
+        static isObject(obj) {
             if (isEmpty(obj)) {
                 return false;
             }
-            var x = obj.x;
-            var y = obj.y;
-            var z = obj.z;
+            const x = obj.x;
+            const y = obj.y;
+            const z = obj.z;
             if (typeof x !== 'number' ||
                 typeof y !== 'number' ||
                 typeof z !== 'number') {
                 return false;
             }
             return true;
-        };
-        Point3d.equals = function (v1, v2) {
+        }
+        static equals(v1, v2) {
             return v1.x === v2.x && v1.y === v2.y && v1.z === v2.z;
-        };
-        Point3d.prototype.toObject = function () {
+        }
+        toObject() {
             return {
                 x: this.x,
                 y: this.y,
                 z: this.z,
             };
-        };
-        return Point3d;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Point3dConstraint = /** @class */ (function () {
-        function Point3dConstraint(config) {
-            this.x = config.x;
-            this.y = config.y;
-            this.z = config.z;
         }
-        Point3dConstraint.prototype.constrain = function (value) {
-            return new Point3d(this.x ? this.x.constrain(value.x) : value.x, this.y ? this.y.constrain(value.y) : value.y, this.z ? this.z.constrain(value.z) : value.z);
-        };
-        return Point3dConstraint;
-    }());
+    }
+    const Point3dAssembly = {
+        toComponents: (p) => p.getComponents(),
+        fromComponents: (comps) => new Point3d(...comps),
+    };
 
-    var className$l = ClassName('p3dtxt');
-    /**
-     * @hidden
-     */
-    var Point3dTextView = /** @class */ (function () {
-        function Point3dTextView(doc, config) {
-            var _this = this;
-            this.onValueChange_ = this.onValueChange_.bind(this);
-            this.formatters_ = config.formatters;
-            this.element = doc.createElement('div');
-            this.element.classList.add(className$l());
-            var inputElems = [0, 1, 2].map(function () {
-                var inputElem = doc.createElement('input');
-                inputElem.classList.add(className$l('i'));
-                inputElem.type = 'text';
-                return inputElem;
-            });
-            [0, 1, 2].forEach(function (_, index) {
-                var elem = doc.createElement('div');
-                elem.classList.add(className$l('w'));
-                elem.appendChild(inputElems[index]);
-                _this.element.appendChild(elem);
-            });
-            this.inputElems_ = [inputElems[0], inputElems[1], inputElems[2]];
-            config.value.emitter.on('change', this.onValueChange_);
-            this.value = config.value;
-            this.update();
-        }
-        Object.defineProperty(Point3dTextView.prototype, "inputElements", {
-            get: function () {
-                return this.inputElems_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Point3dTextView.prototype.update = function () {
-            var _this = this;
-            var comps = this.value.rawValue.getComponents();
-            comps.forEach(function (comp, index) {
-                var inputElem = _this.inputElems_[index];
-                inputElem.value = _this.formatters_[index](comp);
-            });
-        };
-        Point3dTextView.prototype.onValueChange_ = function () {
-            this.update();
-        };
-        return Point3dTextView;
-    }());
-
-    /**
-     * @hidden
-     */
-    var Point3dTextController = /** @class */ (function () {
-        function Point3dTextController(doc, config) {
-            var _this = this;
-            this.onInputChange_ = this.onInputChange_.bind(this);
-            this.onInputKeyDown_ = this.onInputKeyDown_.bind(this);
-            this.parser_ = config.parser;
-            this.value = config.value;
-            var axes = config.axes;
-            this.baseSteps_ = [axes[0].baseStep, axes[1].baseStep, axes[2].baseStep];
-            this.view = new Point3dTextView(doc, {
-                formatters: [axes[0].formatter, axes[1].formatter, axes[2].formatter],
-                value: this.value,
-            });
-            this.view.inputElements.forEach(function (inputElem) {
-                inputElem.addEventListener('change', _this.onInputChange_);
-                inputElem.addEventListener('keydown', _this.onInputKeyDown_);
-            });
-        }
-        Point3dTextController.prototype.findIndexOfInputElem_ = function (inputElem) {
-            var inputElems = this.view.inputElements;
-            for (var i = 0; i < inputElems.length; i++) {
-                if (inputElems[i] === inputElem) {
-                    return i;
-                }
-            }
-            return null;
-        };
-        Point3dTextController.prototype.updateComponent_ = function (index, newValue) {
-            var comps = this.value.rawValue.getComponents();
-            var newComps = comps.map(function (comp, i) {
-                return i === index ? newValue : comp;
-            });
-            this.value.rawValue = new Point3d(newComps[0], newComps[1], newComps[2]);
-            this.view.update();
-        };
-        Point3dTextController.prototype.onInputChange_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
-            var parsedValue = this.parser_(inputElem.value);
-            if (isEmpty(parsedValue)) {
-                return;
-            }
-            var compIndex = this.findIndexOfInputElem_(inputElem);
-            if (isEmpty(compIndex)) {
-                return;
-            }
-            this.updateComponent_(compIndex, parsedValue);
-        };
-        Point3dTextController.prototype.onInputKeyDown_ = function (e) {
-            var inputElem = forceCast(e.currentTarget);
-            var parsedValue = this.parser_(inputElem.value);
-            if (isEmpty(parsedValue)) {
-                return;
-            }
-            var compIndex = this.findIndexOfInputElem_(inputElem);
-            if (isEmpty(compIndex)) {
-                return;
-            }
-            var step = getStepForKey(this.baseSteps_[compIndex], getVerticalStepKeys(e));
-            if (step === 0) {
-                return;
-            }
-            this.updateComponent_(compIndex, parsedValue + step);
-        };
-        return Point3dTextController;
-    }());
-
-    /**
-     * @hidden
-     */
     function point3dFromUnknown(value) {
         return Point3d.isObject(value)
             ? new Point3d(value.x, value.y, value.z)
             : new Point3d();
     }
-
     function writePoint3d(target, value) {
         target.writeProperty('x', value.x);
         target.writeProperty('y', value.y);
@@ -118896,11 +119424,9 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         if (!params) {
             return undefined;
         }
-        var constraints = [];
+        const constraints = [];
         if (!isEmpty(params.step)) {
-            constraints.push(new StepConstraint({
-                step: params.step,
-            }));
+            constraints.push(new StepConstraint(params.step));
         }
         if (!isEmpty(params.max) || !isEmpty(params.min)) {
             constraints.push(new RangeConstraint({
@@ -118908,352 +119434,507 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                 min: params.min,
             }));
         }
-        return new CompositeConstraint({
-            constraints: constraints,
+        return new CompositeConstraint(constraints);
+    }
+    function createConstraint$2(params) {
+        return new PointNdConstraint({
+            assembly: Point3dAssembly,
+            components: [
+                createDimensionConstraint$1('x' in params ? params.x : undefined),
+                createDimensionConstraint$1('y' in params ? params.y : undefined),
+                createDimensionConstraint$1('z' in params ? params.z : undefined),
+            ],
         });
     }
-    function createConstraint$3(params) {
-        return new Point3dConstraint({
-            x: createDimensionConstraint$1('x' in params ? params.x : undefined),
-            y: createDimensionConstraint$1('y' in params ? params.y : undefined),
-            z: createDimensionConstraint$1('z' in params ? params.z : undefined),
-        });
-    }
-    /**
-     * @hidden
-     */
-    function getAxis(initialValue, constraint) {
+    function createAxis$1(initialValue, constraint) {
         return {
             baseStep: getBaseStep(constraint),
-            formatter: createNumberFormatter(getSuitableDecimalDigits(constraint, initialValue)),
+            constraint: constraint,
+            textProps: ValueMap.fromObject({
+                draggingScale: getSuitableDraggingScale(constraint, initialValue),
+                formatter: createNumberFormatter(getSuitableDecimalDigits(constraint, initialValue)),
+            }),
         };
     }
-    function createController$5(document, value) {
-        var c = value.constraint;
-        if (!(c instanceof Point3dConstraint)) {
-            throw TpError.shouldNeverHappen();
-        }
-        return new Point3dTextController(document, {
-            axes: [
-                getAxis(value.rawValue.x, c.x),
-                getAxis(value.rawValue.y, c.y),
-                getAxis(value.rawValue.z, c.z),
-            ],
-            parser: parseNumber,
-            value: value,
-        });
-    }
-    /**
-     * @hidden
-     */
-    var Point3dInputPlugin = {
+    const Point3dInputPlugin = {
         id: 'input-point3d',
-        binding: {
-            accept: function (value, _params) { return (Point3d.isObject(value) ? value : null); },
-            reader: function (_args) { return point3dFromUnknown; },
-            writer: function (_args) { return writePoint3d; },
-            constraint: function (args) { return createConstraint$3(args.params); },
-            equals: Point3d.equals,
+        type: 'input',
+        accept: (value, params) => {
+            if (!Point3d.isObject(value)) {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                x: p.optional.custom(parsePointDimensionParams),
+                y: p.optional.custom(parsePointDimensionParams),
+                z: p.optional.custom(parsePointDimensionParams),
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
-            return createController$5(args.document, args.binding.value);
+        binding: {
+            reader: (_args) => point3dFromUnknown,
+            constraint: (args) => createConstraint$2(args.params),
+            equals: Point3d.equals,
+            writer: (_args) => writePoint3d,
+        },
+        controller: (args) => {
+            const value = args.value;
+            const c = args.constraint;
+            if (!(c instanceof PointNdConstraint)) {
+                throw TpError.shouldNeverHappen();
+            }
+            return new PointNdTextController(args.document, {
+                assembly: Point3dAssembly,
+                axes: [
+                    createAxis$1(value.rawValue.x, c.components[0]),
+                    createAxis$1(value.rawValue.y, c.components[1]),
+                    createAxis$1(value.rawValue.z, c.components[2]),
+                ],
+                parser: parseNumber,
+                value: value,
+                viewProps: args.viewProps,
+            });
         },
     };
 
-    /**
-     * @hidden
-     */
-    function stringFromUnknown(value) {
-        return String(value);
+    class Point4d {
+        constructor(x = 0, y = 0, z = 0, w = 0) {
+            this.x = x;
+            this.y = y;
+            this.z = z;
+            this.w = w;
+        }
+        getComponents() {
+            return [this.x, this.y, this.z, this.w];
+        }
+        static isObject(obj) {
+            if (isEmpty(obj)) {
+                return false;
+            }
+            const x = obj.x;
+            const y = obj.y;
+            const z = obj.z;
+            const w = obj.w;
+            if (typeof x !== 'number' ||
+                typeof y !== 'number' ||
+                typeof z !== 'number' ||
+                typeof w !== 'number') {
+                return false;
+            }
+            return true;
+        }
+        static equals(v1, v2) {
+            return v1.x === v2.x && v1.y === v2.y && v1.z === v2.z && v1.w === v2.w;
+        }
+        toObject() {
+            return {
+                x: this.x,
+                y: this.y,
+                z: this.z,
+                w: this.w,
+            };
+        }
     }
-    /**
-     * @hidden
-     */
-    function formatString(value) {
-        return value;
+    const Point4dAssembly = {
+        toComponents: (p) => p.getComponents(),
+        fromComponents: (comps) => new Point4d(...comps),
+    };
+
+    function point4dFromUnknown(value) {
+        return Point4d.isObject(value)
+            ? new Point4d(value.x, value.y, value.z, value.w)
+            : new Point4d();
+    }
+    function writePoint4d(target, value) {
+        target.writeProperty('x', value.x);
+        target.writeProperty('y', value.y);
+        target.writeProperty('z', value.z);
+        target.writeProperty('w', value.w);
     }
 
-    function createConstraint$4(params) {
-        var constraints = [];
-        if ('options' in params && params.options !== undefined) {
-            constraints.push(new ListConstraint({
-                options: normalizeInputParamsOptions(params.options, stringFromUnknown),
+    function createDimensionConstraint(params) {
+        if (!params) {
+            return undefined;
+        }
+        const constraints = [];
+        if (!isEmpty(params.step)) {
+            constraints.push(new StepConstraint(params.step));
+        }
+        if (!isEmpty(params.max) || !isEmpty(params.min)) {
+            constraints.push(new RangeConstraint({
+                max: params.max,
+                min: params.min,
             }));
         }
-        return new CompositeConstraint({
-            constraints: constraints,
+        return new CompositeConstraint(constraints);
+    }
+    function createConstraint$1(params) {
+        return new PointNdConstraint({
+            assembly: Point4dAssembly,
+            components: [
+                createDimensionConstraint('x' in params ? params.x : undefined),
+                createDimensionConstraint('y' in params ? params.y : undefined),
+                createDimensionConstraint('z' in params ? params.z : undefined),
+                createDimensionConstraint('w' in params ? params.w : undefined),
+            ],
         });
     }
-    function createController$6(doc, value) {
-        var _a;
-        var c = value.constraint;
-        if (c && findConstraint(c, ListConstraint)) {
-            return new ListController(doc, {
-                listItems: (_a = findListItems(c)) !== null && _a !== void 0 ? _a : [],
-                stringifyValue: function (v) { return v; },
-                value: value,
+    function createAxis(initialValue, constraint) {
+        return {
+            baseStep: getBaseStep(constraint),
+            constraint: constraint,
+            textProps: ValueMap.fromObject({
+                draggingScale: getSuitableDraggingScale(constraint, initialValue),
+                formatter: createNumberFormatter(getSuitableDecimalDigits(constraint, initialValue)),
+            }),
+        };
+    }
+    const Point4dInputPlugin = {
+        id: 'input-point4d',
+        type: 'input',
+        accept: (value, params) => {
+            if (!Point4d.isObject(value)) {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                x: p.optional.custom(parsePointDimensionParams),
+                y: p.optional.custom(parsePointDimensionParams),
+                z: p.optional.custom(parsePointDimensionParams),
+                w: p.optional.custom(parsePointDimensionParams),
             });
-        }
-        return new TextController(doc, {
-            formatter: formatString,
-            parser: function (v) { return v; },
-            value: value,
-        });
-    }
-    /**
-     * @hidden
-     */
-    var StringInputPlugin = {
-        id: 'input-string',
-        binding: {
-            accept: function (value, _params) { return (typeof value === 'string' ? value : null); },
-            constraint: function (args) { return createConstraint$4(args.params); },
-            reader: function (_args) { return stringFromUnknown; },
-            writer: function (_args) { return writePrimitive; },
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (params) {
-            return createController$6(params.document, params.binding.value);
+        binding: {
+            reader: (_args) => point4dFromUnknown,
+            constraint: (args) => createConstraint$1(args.params),
+            equals: Point4d.equals,
+            writer: (_args) => writePoint4d,
+        },
+        controller: (args) => {
+            const value = args.value;
+            const c = args.constraint;
+            if (!(c instanceof PointNdConstraint)) {
+                throw TpError.shouldNeverHappen();
+            }
+            return new PointNdTextController(args.document, {
+                assembly: Point4dAssembly,
+                axes: value.rawValue
+                    .getComponents()
+                    .map((comp, index) => createAxis(comp, c.components[index])),
+                parser: parseNumber,
+                value: value,
+                viewProps: args.viewProps,
+            });
         },
     };
 
-    var className$m = ClassName('mll');
-    /**
-     * @hidden
-     */
-    var MultiLogView = /** @class */ (function () {
-        function MultiLogView(doc, config) {
+    function createConstraint(params) {
+        const constraints = [];
+        const lc = createListConstraint(params.options);
+        if (lc) {
+            constraints.push(lc);
+        }
+        return new CompositeConstraint(constraints);
+    }
+    const StringInputPlugin = {
+        id: 'input-string',
+        type: 'input',
+        accept: (value, params) => {
+            if (typeof value !== 'string') {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                options: p.optional.custom(parseListOptions),
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
+        },
+        binding: {
+            reader: (_args) => stringFromUnknown,
+            constraint: (args) => createConstraint(args.params),
+            writer: (_args) => writePrimitive,
+        },
+        controller: (args) => {
+            var _a;
+            const doc = args.document;
+            const value = args.value;
+            const c = args.constraint;
+            if (c && findConstraint(c, ListConstraint)) {
+                return new ListController(doc, {
+                    props: ValueMap.fromObject({
+                        options: (_a = findListItems(c)) !== null && _a !== void 0 ? _a : [],
+                    }),
+                    value: value,
+                    viewProps: args.viewProps,
+                });
+            }
+            return new TextController(doc, {
+                parser: (v) => v,
+                props: ValueMap.fromObject({
+                    formatter: formatString,
+                }),
+                value: value,
+                viewProps: args.viewProps,
+            });
+        },
+    };
+
+    const Constants = {
+        monitor: {
+            defaultInterval: 200,
+            defaultLineCount: 3,
+        },
+    };
+
+    const className$2 = ClassName('mll');
+    class MultiLogView {
+        constructor(doc, config) {
             this.onValueUpdate_ = this.onValueUpdate_.bind(this);
             this.formatter_ = config.formatter;
             this.element = doc.createElement('div');
-            this.element.classList.add(className$m());
-            var textareaElem = doc.createElement('textarea');
-            textareaElem.classList.add(className$m('i'));
-            textareaElem.style.height = "calc(var(--unit-size) * " + config.lineCount + ")";
+            this.element.classList.add(className$2());
+            config.viewProps.bindClassModifiers(this.element);
+            const textareaElem = doc.createElement('textarea');
+            textareaElem.classList.add(className$2('i'));
+            textareaElem.style.height = `calc(var(--bld-us) * ${config.lineCount})`;
             textareaElem.readOnly = true;
+            config.viewProps.bindDisabled(textareaElem);
             this.element.appendChild(textareaElem);
             this.textareaElem_ = textareaElem;
             config.value.emitter.on('change', this.onValueUpdate_);
             this.value = config.value;
-            this.update();
+            this.update_();
         }
-        MultiLogView.prototype.update = function () {
-            var _this = this;
-            var elem = this.textareaElem_;
-            var shouldScroll = elem.scrollTop === elem.scrollHeight - elem.clientHeight;
-            elem.textContent = this.value.rawValue
-                .map(function (value) {
-                return value !== undefined ? _this.formatter_(value) : '';
-            })
-                .join('\n');
+        update_() {
+            const elem = this.textareaElem_;
+            const shouldScroll = elem.scrollTop === elem.scrollHeight - elem.clientHeight;
+            const lines = [];
+            this.value.rawValue.forEach((value) => {
+                if (value !== undefined) {
+                    lines.push(this.formatter_(value));
+                }
+            });
+            elem.textContent = lines.join('\n');
             if (shouldScroll) {
                 elem.scrollTop = elem.scrollHeight;
             }
-        };
-        MultiLogView.prototype.onValueUpdate_ = function () {
-            this.update();
-        };
-        return MultiLogView;
-    }());
+        }
+        onValueUpdate_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var MultiLogController = /** @class */ (function () {
-        function MultiLogController(doc, config) {
+    class MultiLogController {
+        constructor(doc, config) {
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.view = new MultiLogView(doc, {
                 formatter: config.formatter,
                 lineCount: config.lineCount,
                 value: this.value,
+                viewProps: this.viewProps,
             });
         }
-        return MultiLogController;
-    }());
+    }
 
-    var className$n = ClassName('sgl');
-    /**
-     * @hidden
-     */
-    var SingleLogView = /** @class */ (function () {
-        function SingleLogView(doc, config) {
+    const className$1 = ClassName('sgl');
+    class SingleLogView {
+        constructor(doc, config) {
             this.onValueUpdate_ = this.onValueUpdate_.bind(this);
             this.formatter_ = config.formatter;
             this.element = doc.createElement('div');
-            this.element.classList.add(className$n());
-            var inputElem = doc.createElement('input');
-            inputElem.classList.add(className$n('i'));
+            this.element.classList.add(className$1());
+            config.viewProps.bindClassModifiers(this.element);
+            const inputElem = doc.createElement('input');
+            inputElem.classList.add(className$1('i'));
             inputElem.readOnly = true;
             inputElem.type = 'text';
+            config.viewProps.bindDisabled(inputElem);
             this.element.appendChild(inputElem);
-            this.inputElem_ = inputElem;
+            this.inputElement = inputElem;
             config.value.emitter.on('change', this.onValueUpdate_);
             this.value = config.value;
-            this.update();
+            this.update_();
         }
-        SingleLogView.prototype.update = function () {
-            var values = this.value.rawValue;
-            var lastValue = values[values.length - 1];
-            this.inputElem_.value =
+        update_() {
+            const values = this.value.rawValue;
+            const lastValue = values[values.length - 1];
+            this.inputElement.value =
                 lastValue !== undefined ? this.formatter_(lastValue) : '';
-        };
-        SingleLogView.prototype.onValueUpdate_ = function () {
-            this.update();
-        };
-        return SingleLogView;
-    }());
+        }
+        onValueUpdate_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var SingleLogMonitorController = /** @class */ (function () {
-        function SingleLogMonitorController(doc, config) {
+    class SingleLogController {
+        constructor(doc, config) {
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.view = new SingleLogView(doc, {
                 formatter: config.formatter,
                 value: this.value,
+                viewProps: this.viewProps,
             });
         }
-        return SingleLogMonitorController;
-    }());
+    }
 
-    /**
-     * @hidden
-     */
-    var BooleanMonitorPlugin = {
+    const BooleanMonitorPlugin = {
         id: 'monitor-bool',
-        binding: {
-            accept: function (value, _params) { return (typeof value === 'boolean' ? value : null); },
-            reader: function (_args) { return boolFromUnknown; },
+        type: 'monitor',
+        accept: (value, params) => {
+            if (typeof value !== 'boolean') {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                lineCount: p.optional.number,
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
+        binding: {
+            reader: (_args) => boolFromUnknown,
+        },
+        controller: (args) => {
             var _a;
-            if (args.binding.value.rawValue.length === 1) {
-                return new SingleLogMonitorController(args.document, {
+            if (args.value.rawValue.length === 1) {
+                return new SingleLogController(args.document, {
                     formatter: BooleanFormatter,
-                    value: args.binding.value,
+                    value: args.value,
+                    viewProps: args.viewProps,
                 });
             }
             return new MultiLogController(args.document, {
                 formatter: BooleanFormatter,
                 lineCount: (_a = args.params.lineCount) !== null && _a !== void 0 ? _a : Constants.monitor.defaultLineCount,
-                value: args.binding.value,
+                value: args.value,
+                viewProps: args.viewProps,
             });
         },
     };
 
-    /**
-     * @hidden
-     */
-    var GraphCursor = /** @class */ (function () {
-        function GraphCursor() {
+    class GraphCursor {
+        constructor() {
             this.emitter = new Emitter();
             this.index_ = -1;
         }
-        Object.defineProperty(GraphCursor.prototype, "index", {
-            get: function () {
-                return this.index_;
-            },
-            set: function (index) {
-                var changed = this.index_ !== index;
-                if (changed) {
-                    this.index_ = index;
-                    this.emitter.emit('change', {
-                        index: index,
-                        sender: this,
-                    });
-                }
-            },
-            enumerable: false,
-            configurable: true
-        });
-        return GraphCursor;
-    }());
+        get index() {
+            return this.index_;
+        }
+        set index(index) {
+            const changed = this.index_ !== index;
+            if (changed) {
+                this.index_ = index;
+                this.emitter.emit('change', {
+                    index: index,
+                    sender: this,
+                });
+            }
+        }
+    }
 
-    var className$o = ClassName('grl');
-    /**
-     * @hidden
-     */
-    var GraphLogView = /** @class */ (function () {
-        function GraphLogView(doc, config) {
+    const className = ClassName('grl');
+    class GraphLogView {
+        constructor(doc, config) {
             this.onCursorChange_ = this.onCursorChange_.bind(this);
             this.onValueUpdate_ = this.onValueUpdate_.bind(this);
             this.element = doc.createElement('div');
-            this.element.classList.add(className$o());
+            this.element.classList.add(className());
+            config.viewProps.bindClassModifiers(this.element);
             this.formatter_ = config.formatter;
             this.minValue_ = config.minValue;
             this.maxValue_ = config.maxValue;
             this.cursor_ = config.cursor;
             this.cursor_.emitter.on('change', this.onCursorChange_);
-            var svgElem = doc.createElementNS(SVG_NS, 'svg');
-            svgElem.classList.add(className$o('g'));
-            svgElem.style.height = "calc(var(--unit-size) * " + config.lineCount + ")";
+            const svgElem = doc.createElementNS(SVG_NS, 'svg');
+            svgElem.classList.add(className('g'));
+            svgElem.style.height = `calc(var(--bld-us) * ${config.lineCount})`;
             this.element.appendChild(svgElem);
             this.svgElem_ = svgElem;
-            var lineElem = doc.createElementNS(SVG_NS, 'polyline');
+            const lineElem = doc.createElementNS(SVG_NS, 'polyline');
             this.svgElem_.appendChild(lineElem);
             this.lineElem_ = lineElem;
-            var tooltipElem = doc.createElement('div');
-            tooltipElem.classList.add(className$o('t'));
+            const tooltipElem = doc.createElement('div');
+            tooltipElem.classList.add(className('t'), ClassName('tt')());
             this.element.appendChild(tooltipElem);
             this.tooltipElem_ = tooltipElem;
             config.value.emitter.on('change', this.onValueUpdate_);
             this.value = config.value;
-            this.update();
+            this.update_();
         }
-        Object.defineProperty(GraphLogView.prototype, "graphElement", {
-            get: function () {
-                return this.svgElem_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        GraphLogView.prototype.update = function () {
-            var bounds = this.svgElem_.getBoundingClientRect();
-            // Graph
-            var maxIndex = this.value.rawValue.length - 1;
-            var min = this.minValue_;
-            var max = this.maxValue_;
-            var points = [];
-            this.value.rawValue.forEach(function (v, index) {
+        get graphElement() {
+            return this.svgElem_;
+        }
+        update_() {
+            const bounds = this.svgElem_.getBoundingClientRect();
+            const maxIndex = this.value.rawValue.length - 1;
+            const min = this.minValue_;
+            const max = this.maxValue_;
+            const points = [];
+            this.value.rawValue.forEach((v, index) => {
                 if (v === undefined) {
                     return;
                 }
-                var x = mapRange(index, 0, maxIndex, 0, bounds.width);
-                var y = mapRange(v, min, max, bounds.height, 0);
+                const x = mapRange(index, 0, maxIndex, 0, bounds.width);
+                const y = mapRange(v, min, max, bounds.height, 0);
                 points.push([x, y].join(','));
             });
             this.lineElem_.setAttributeNS(null, 'points', points.join(' '));
-            // Cursor
-            var tooltipElem = this.tooltipElem_;
-            var value = this.value.rawValue[this.cursor_.index];
+            const tooltipElem = this.tooltipElem_;
+            const value = this.value.rawValue[this.cursor_.index];
             if (value === undefined) {
-                tooltipElem.classList.remove(className$o('t', 'valid'));
+                tooltipElem.classList.remove(className('t', 'a'));
                 return;
             }
-            tooltipElem.classList.add(className$o('t', 'valid'));
-            var tx = mapRange(this.cursor_.index, 0, maxIndex, 0, bounds.width);
-            var ty = mapRange(value, min, max, bounds.height, 0);
-            tooltipElem.style.left = tx + "px";
-            tooltipElem.style.top = ty + "px";
-            tooltipElem.textContent = "" + this.formatter_(value);
-        };
-        GraphLogView.prototype.onValueUpdate_ = function () {
-            this.update();
-        };
-        GraphLogView.prototype.onCursorChange_ = function () {
-            this.update();
-        };
-        return GraphLogView;
-    }());
+            const tx = mapRange(this.cursor_.index, 0, maxIndex, 0, bounds.width);
+            const ty = mapRange(value, min, max, bounds.height, 0);
+            tooltipElem.style.left = `${tx}px`;
+            tooltipElem.style.top = `${ty}px`;
+            tooltipElem.textContent = `${this.formatter_(value)}`;
+            if (!tooltipElem.classList.contains(className('t', 'a'))) {
+                tooltipElem.classList.add(className('t', 'a'), className('t', 'in'));
+                forceReflow(tooltipElem);
+                tooltipElem.classList.remove(className('t', 'in'));
+            }
+        }
+        onValueUpdate_() {
+            this.update_();
+        }
+        onCursorChange_() {
+            this.update_();
+        }
+    }
 
-    /**
-     * @hidden
-     */
-    var GraphLogController = /** @class */ (function () {
-        function GraphLogController(doc, config) {
-            this.onGraphMouseLeave_ = this.onGraphMouseLeave_.bind(this);
+    class GraphLogController {
+        constructor(doc, config) {
             this.onGraphMouseMove_ = this.onGraphMouseMove_.bind(this);
+            this.onGraphMouseLeave_ = this.onGraphMouseLeave_.bind(this);
+            this.onGraphPointerDown_ = this.onGraphPointerDown_.bind(this);
+            this.onGraphPointerMove_ = this.onGraphPointerMove_.bind(this);
+            this.onGraphPointerUp_ = this.onGraphPointerUp_.bind(this);
             this.value = config.value;
+            this.viewProps = config.viewProps;
             this.cursor_ = new GraphCursor();
             this.view = new GraphLogView(doc, {
                 cursor: this.cursor_,
@@ -119262,105 +119943,790 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
                 maxValue: config.maxValue,
                 minValue: config.minValue,
                 value: this.value,
+                viewProps: this.viewProps,
             });
-            this.view.element.addEventListener('mouseleave', this.onGraphMouseLeave_);
-            this.view.element.addEventListener('mousemove', this.onGraphMouseMove_);
+            if (!supportsTouch(doc)) {
+                this.view.element.addEventListener('mousemove', this.onGraphMouseMove_);
+                this.view.element.addEventListener('mouseleave', this.onGraphMouseLeave_);
+            }
+            else {
+                const ph = new PointerHandler(this.view.element);
+                ph.emitter.on('down', this.onGraphPointerDown_);
+                ph.emitter.on('move', this.onGraphPointerMove_);
+                ph.emitter.on('up', this.onGraphPointerUp_);
+            }
         }
-        GraphLogController.prototype.onGraphMouseLeave_ = function () {
+        onGraphMouseLeave_() {
             this.cursor_.index = -1;
-        };
-        GraphLogController.prototype.onGraphMouseMove_ = function (e) {
-            var bounds = this.view.graphElement.getBoundingClientRect();
-            var x = e.offsetX;
-            this.cursor_.index = Math.floor(mapRange(x, 0, bounds.width, 0, this.value.rawValue.length));
-        };
-        return GraphLogController;
-    }());
-
-    function createFormatter() {
-        // TODO: formatter precision
-        return createNumberFormatter(2);
+        }
+        onGraphMouseMove_(ev) {
+            const bounds = this.view.element.getBoundingClientRect();
+            this.cursor_.index = Math.floor(mapRange(ev.offsetX, 0, bounds.width, 0, this.value.rawValue.length));
+        }
+        onGraphPointerDown_(ev) {
+            this.onGraphPointerMove_(ev);
+        }
+        onGraphPointerMove_(ev) {
+            if (!ev.data.point) {
+                this.cursor_.index = -1;
+                return;
+            }
+            this.cursor_.index = Math.floor(mapRange(ev.data.point.x, 0, ev.data.bounds.width, 0, this.value.rawValue.length));
+        }
+        onGraphPointerUp_() {
+            this.cursor_.index = -1;
+        }
     }
-    function createTextMonitor(document, binding, params) {
+
+    function createFormatter(params) {
+        return 'format' in params && !isEmpty(params.format)
+            ? params.format
+            : createNumberFormatter(2);
+    }
+    function createTextMonitor(args) {
         var _a;
-        if (binding.value.rawValue.length === 1) {
-            return new SingleLogMonitorController(document, {
-                formatter: createFormatter(),
-                value: binding.value,
+        if (args.value.rawValue.length === 1) {
+            return new SingleLogController(args.document, {
+                formatter: createFormatter(args.params),
+                value: args.value,
+                viewProps: args.viewProps,
             });
         }
-        return new MultiLogController(document, {
-            formatter: createFormatter(),
-            lineCount: (_a = params.lineCount) !== null && _a !== void 0 ? _a : Constants.monitor.defaultLineCount,
-            value: binding.value,
+        return new MultiLogController(args.document, {
+            formatter: createFormatter(args.params),
+            lineCount: (_a = args.params.lineCount) !== null && _a !== void 0 ? _a : Constants.monitor.defaultLineCount,
+            value: args.value,
+            viewProps: args.viewProps,
         });
     }
-    function createGraphMonitor(_a) {
-        var _b, _c, _d;
-        var document = _a.document, binding = _a.binding, params = _a.params;
-        return new GraphLogController(document, {
-            formatter: createFormatter(),
-            lineCount: (_b = params.lineCount) !== null && _b !== void 0 ? _b : Constants.monitor.defaultLineCount,
-            maxValue: (_c = ('max' in params ? params.max : null)) !== null && _c !== void 0 ? _c : 100,
-            minValue: (_d = ('min' in params ? params.min : null)) !== null && _d !== void 0 ? _d : 0,
-            value: binding.value,
+    function createGraphMonitor(args) {
+        var _a, _b, _c;
+        return new GraphLogController(args.document, {
+            formatter: createFormatter(args.params),
+            lineCount: (_a = args.params.lineCount) !== null && _a !== void 0 ? _a : Constants.monitor.defaultLineCount,
+            maxValue: (_b = ('max' in args.params ? args.params.max : null)) !== null && _b !== void 0 ? _b : 100,
+            minValue: (_c = ('min' in args.params ? args.params.min : null)) !== null && _c !== void 0 ? _c : 0,
+            value: args.value,
+            viewProps: args.viewProps,
         });
     }
     function shouldShowGraph(params) {
         return 'view' in params && params.view === 'graph';
     }
-    /**
-     * @hidden
-     */
-    var NumberMonitorPlugin = {
+    const NumberMonitorPlugin = {
         id: 'monitor-number',
-        binding: {
-            accept: function (value, _params) { return (typeof value === 'number' ? value : null); },
-            defaultBufferSize: function (params) { return (shouldShowGraph(params) ? 64 : 1); },
-            reader: function (_args) { return numberFromUnknown; },
-        },
-        controller: function (args) {
-            if (shouldShowGraph(args.params)) {
-                return createGraphMonitor({
-                    document: args.document,
-                    binding: args.binding,
-                    params: args.params,
-                });
+        type: 'monitor',
+        accept: (value, params) => {
+            if (typeof value !== 'number') {
+                return null;
             }
-            return createTextMonitor(args.document, args.binding, args.params);
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                format: p.optional.function,
+                lineCount: p.optional.number,
+                max: p.optional.number,
+                min: p.optional.number,
+                view: p.optional.string,
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
+        },
+        binding: {
+            defaultBufferSize: (params) => (shouldShowGraph(params) ? 64 : 1),
+            reader: (_args) => numberFromUnknown,
+        },
+        controller: (args) => {
+            if (shouldShowGraph(args.params)) {
+                return createGraphMonitor(args);
+            }
+            return createTextMonitor(args);
         },
     };
 
-    /**
-     * @hidden
-     */
-    var StringMonitorPlugin = {
+    const StringMonitorPlugin = {
         id: 'monitor-string',
-        binding: {
-            accept: function (value, _params) { return (typeof value === 'string' ? value : null); },
-            reader: function (_args) { return stringFromUnknown; },
+        type: 'monitor',
+        accept: (value, params) => {
+            if (typeof value !== 'string') {
+                return null;
+            }
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                lineCount: p.optional.number,
+                multiline: p.optional.boolean,
+            });
+            return result
+                ? {
+                    initialValue: value,
+                    params: result,
+                }
+                : null;
         },
-        controller: function (args) {
+        binding: {
+            reader: (_args) => stringFromUnknown,
+        },
+        controller: (args) => {
             var _a;
-            var value = args.binding.value;
-            var multiline = value.rawValue.length > 1 ||
+            const value = args.value;
+            const multiline = value.rawValue.length > 1 ||
                 ('multiline' in args.params && args.params.multiline);
             if (multiline) {
                 return new MultiLogController(args.document, {
                     formatter: formatString,
                     lineCount: (_a = args.params.lineCount) !== null && _a !== void 0 ? _a : Constants.monitor.defaultLineCount,
                     value: value,
+                    viewProps: args.viewProps,
                 });
             }
-            return new SingleLogMonitorController(args.document, {
+            return new SingleLogController(args.document, {
                 formatter: formatString,
                 value: value,
+                viewProps: args.viewProps,
             });
         },
     };
 
+    class InputBinding {
+        constructor(config) {
+            this.onValueChange_ = this.onValueChange_.bind(this);
+            this.reader = config.reader;
+            this.writer = config.writer;
+            this.emitter = new Emitter();
+            this.value = config.value;
+            this.value.emitter.on('change', this.onValueChange_);
+            this.target = config.target;
+            this.read();
+        }
+        read() {
+            const targetValue = this.target.read();
+            if (targetValue !== undefined) {
+                this.value.rawValue = this.reader(targetValue);
+            }
+        }
+        write_(rawValue) {
+            this.writer(this.target, rawValue);
+        }
+        onValueChange_(ev) {
+            this.write_(ev.rawValue);
+            this.emitter.emit('change', {
+                options: ev.options,
+                rawValue: ev.rawValue,
+                sender: this,
+            });
+        }
+    }
+
+    function createInputBindingController(plugin, args) {
+        const result = plugin.accept(args.target.read(), args.params);
+        if (isEmpty(result)) {
+            return null;
+        }
+        const p = ParamsParsers;
+        const valueArgs = {
+            target: args.target,
+            initialValue: result.initialValue,
+            params: result.params,
+        };
+        const reader = plugin.binding.reader(valueArgs);
+        const constraint = plugin.binding.constraint
+            ? plugin.binding.constraint(valueArgs)
+            : undefined;
+        const value = createValue(reader(result.initialValue), {
+            constraint: constraint,
+            equals: plugin.binding.equals,
+        });
+        const binding = new InputBinding({
+            reader: reader,
+            target: args.target,
+            value: value,
+            writer: plugin.binding.writer(valueArgs),
+        });
+        const disabled = p.optional.boolean(args.params.disabled).value;
+        const hidden = p.optional.boolean(args.params.hidden).value;
+        const controller = plugin.controller({
+            constraint: constraint,
+            document: args.document,
+            initialValue: result.initialValue,
+            params: result.params,
+            value: binding.value,
+            viewProps: ViewProps.create({
+                disabled: disabled,
+                hidden: hidden,
+            }),
+        });
+        const label = p.optional.string(args.params.label).value;
+        return new InputBindingController(args.document, {
+            binding: binding,
+            blade: createBlade(),
+            props: ValueMap.fromObject({
+                label: label || args.target.key,
+            }),
+            valueController: controller,
+        });
+    }
+
+    class MonitorBinding {
+        constructor(config) {
+            this.onTick_ = this.onTick_.bind(this);
+            this.reader_ = config.reader;
+            this.target = config.target;
+            this.emitter = new Emitter();
+            this.value = config.value;
+            this.ticker = config.ticker;
+            this.ticker.emitter.on('tick', this.onTick_);
+            this.read();
+        }
+        dispose() {
+            this.ticker.dispose();
+        }
+        read() {
+            const targetValue = this.target.read();
+            if (targetValue === undefined) {
+                return;
+            }
+            const buffer = this.value.rawValue;
+            const newValue = this.reader_(targetValue);
+            this.value.rawValue = createPushedBuffer(buffer, newValue);
+            this.emitter.emit('update', {
+                rawValue: newValue,
+                sender: this,
+            });
+        }
+        onTick_(_) {
+            this.read();
+        }
+    }
+
+    function createTicker(document, interval) {
+        return interval === 0
+            ? new ManualTicker()
+            : new IntervalTicker(document, interval !== null && interval !== void 0 ? interval : Constants.monitor.defaultInterval);
+    }
+    function createMonitorBindingController(plugin, args) {
+        var _a, _b, _c;
+        const P = ParamsParsers;
+        const result = plugin.accept(args.target.read(), args.params);
+        if (isEmpty(result)) {
+            return null;
+        }
+        const bindingArgs = {
+            target: args.target,
+            initialValue: result.initialValue,
+            params: result.params,
+        };
+        const reader = plugin.binding.reader(bindingArgs);
+        const bufferSize = (_b = (_a = P.optional.number(args.params.bufferSize).value) !== null && _a !== void 0 ? _a : (plugin.binding.defaultBufferSize &&
+            plugin.binding.defaultBufferSize(result.params))) !== null && _b !== void 0 ? _b : 1;
+        const interval = P.optional.number(args.params.interval).value;
+        const binding = new MonitorBinding({
+            reader: reader,
+            target: args.target,
+            ticker: createTicker(args.document, interval),
+            value: initializeBuffer(bufferSize),
+        });
+        const disabled = P.optional.boolean(args.params.disabled).value;
+        const hidden = P.optional.boolean(args.params.hidden).value;
+        const controller = plugin.controller({
+            document: args.document,
+            params: result.params,
+            value: binding.value,
+            viewProps: ViewProps.create({
+                disabled: disabled,
+                hidden: hidden,
+            }),
+        });
+        const label = (_c = P.optional.string(args.params.label).value) !== null && _c !== void 0 ? _c : args.target.key;
+        return new MonitorBindingController(args.document, {
+            binding: binding,
+            blade: createBlade(),
+            props: ValueMap.fromObject({
+                label: label,
+            }),
+            valueController: controller,
+        });
+    }
+
+    class PluginPool {
+        constructor() {
+            this.pluginsMap_ = {
+                blades: [],
+                inputs: [],
+                monitors: [],
+            };
+        }
+        getAll() {
+            return [
+                ...this.pluginsMap_.blades,
+                ...this.pluginsMap_.inputs,
+                ...this.pluginsMap_.monitors,
+            ];
+        }
+        register(r) {
+            if (r.type === 'blade') {
+                this.pluginsMap_.blades.unshift(r);
+            }
+            else if (r.type === 'input') {
+                this.pluginsMap_.inputs.unshift(r);
+            }
+            else if (r.type === 'monitor') {
+                this.pluginsMap_.monitors.unshift(r);
+            }
+        }
+        createInput(document, target, params) {
+            const initialValue = target.read();
+            if (isEmpty(initialValue)) {
+                throw new TpError({
+                    context: {
+                        key: target.key,
+                    },
+                    type: 'nomatchingcontroller',
+                });
+            }
+            const bc = this.pluginsMap_.inputs.reduce((result, plugin) => result ||
+                createInputBindingController(plugin, {
+                    document: document,
+                    target: target,
+                    params: params,
+                }), null);
+            if (bc) {
+                return bc;
+            }
+            throw new TpError({
+                context: {
+                    key: target.key,
+                },
+                type: 'nomatchingcontroller',
+            });
+        }
+        createMonitor(document, target, params) {
+            const bc = this.pluginsMap_.monitors.reduce((result, plugin) => result ||
+                createMonitorBindingController(plugin, {
+                    document: document,
+                    params: params,
+                    target: target,
+                }), null);
+            if (bc) {
+                return bc;
+            }
+            throw new TpError({
+                context: {
+                    key: target.key,
+                },
+                type: 'nomatchingcontroller',
+            });
+        }
+        createBlade(document, params) {
+            const bc = this.pluginsMap_.blades.reduce((result, plugin) => result ||
+                createBladeController(plugin, {
+                    document: document,
+                    params: params,
+                }), null);
+            if (!bc) {
+                throw new TpError({
+                    type: 'nomatchingview',
+                    context: {
+                        params: params,
+                    },
+                });
+            }
+            return bc;
+        }
+        createBladeApi(bc) {
+            if (bc instanceof InputBindingController) {
+                return new InputBindingApi(bc);
+            }
+            if (bc instanceof MonitorBindingController) {
+                return new MonitorBindingApi(bc);
+            }
+            if (bc instanceof RackController) {
+                return new RackApi(bc, this);
+            }
+            const api = this.pluginsMap_.blades.reduce((result, plugin) => result ||
+                plugin.api({
+                    controller: bc,
+                    pool: this,
+                }), null);
+            if (!api) {
+                throw TpError.shouldNeverHappen();
+            }
+            return api;
+        }
+    }
+
+    function createDefaultPluginPool() {
+        const pool = new PluginPool();
+        [
+            Point2dInputPlugin,
+            Point3dInputPlugin,
+            Point4dInputPlugin,
+            StringInputPlugin,
+            NumberInputPlugin,
+            StringColorInputPlugin,
+            ObjectColorInputPlugin,
+            NumberColorInputPlugin,
+            BooleanInputPlugin,
+            BooleanMonitorPlugin,
+            StringMonitorPlugin,
+            NumberMonitorPlugin,
+            ButtonBladePlugin,
+            FolderBladePlugin,
+            SeparatorBladePlugin,
+            TabBladePlugin,
+        ].forEach((p) => {
+            pool.register(p);
+        });
+        return pool;
+    }
+
+    class ListApi extends BladeApi {
+        constructor(controller) {
+            super(controller);
+            this.emitter_ = new Emitter();
+            this.controller_.valueController.value.emitter.on('change', (ev) => {
+                this.emitter_.emit('change', {
+                    event: new TpChangeEvent(this, ev.rawValue),
+                });
+            });
+        }
+        get label() {
+            return this.controller_.props.get('label');
+        }
+        set label(label) {
+            this.controller_.props.set('label', label);
+        }
+        get options() {
+            return this.controller_.valueController.props.get('options');
+        }
+        set options(options) {
+            this.controller_.valueController.props.set('options', options);
+        }
+        get value() {
+            return this.controller_.valueController.value.rawValue;
+        }
+        set value(value) {
+            this.controller_.valueController.value.rawValue = value;
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
+            });
+            return this;
+        }
+    }
+
+    class SliderApi extends BladeApi {
+        constructor(controller) {
+            super(controller);
+            this.emitter_ = new Emitter();
+            this.controller_.valueController.value.emitter.on('change', (ev) => {
+                this.emitter_.emit('change', {
+                    event: new TpChangeEvent(this, ev.rawValue),
+                });
+            });
+        }
+        get label() {
+            return this.controller_.props.get('label');
+        }
+        set label(label) {
+            this.controller_.props.set('label', label);
+        }
+        get maxValue() {
+            return this.controller_.valueController.sliderController.props.get('maxValue');
+        }
+        set maxValue(maxValue) {
+            this.controller_.valueController.sliderController.props.set('maxValue', maxValue);
+        }
+        get minValue() {
+            return this.controller_.valueController.sliderController.props.get('minValue');
+        }
+        set minValue(minValue) {
+            this.controller_.valueController.sliderController.props.set('minValue', minValue);
+        }
+        get value() {
+            return this.controller_.valueController.value.rawValue;
+        }
+        set value(value) {
+            this.controller_.valueController.value.rawValue = value;
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
+            });
+            return this;
+        }
+    }
+
+    class TextApi extends BladeApi {
+        constructor(controller) {
+            super(controller);
+            this.emitter_ = new Emitter();
+            this.controller_.valueController.value.emitter.on('change', (ev) => {
+                this.emitter_.emit('change', {
+                    event: new TpChangeEvent(this, ev.rawValue),
+                });
+            });
+        }
+        get label() {
+            return this.controller_.props.get('label');
+        }
+        set label(label) {
+            this.controller_.props.set('label', label);
+        }
+        get formatter() {
+            return this.controller_.valueController.props.get('formatter');
+        }
+        set formatter(formatter) {
+            this.controller_.valueController.props.set('formatter', formatter);
+        }
+        get value() {
+            return this.controller_.valueController.value.rawValue;
+        }
+        set value(value) {
+            this.controller_.valueController.value.rawValue = value;
+        }
+        on(eventName, handler) {
+            const bh = handler.bind(this);
+            this.emitter_.on(eventName, (ev) => {
+                bh(ev.event);
+            });
+            return this;
+        }
+    }
+
+    const ListBladePlugin = (function () {
+        return {
+            id: 'list',
+            type: 'blade',
+            accept(params) {
+                const p = ParamsParsers;
+                const result = parseParams(params, {
+                    options: p.required.custom(parseListOptions),
+                    value: p.required.raw,
+                    view: p.required.constant('list'),
+                    label: p.optional.string,
+                });
+                return result ? { params: result } : null;
+            },
+            controller(args) {
+                const ic = new ListController(args.document, {
+                    props: ValueMap.fromObject({
+                        options: normalizeListOptions(args.params.options),
+                    }),
+                    value: createValue(args.params.value),
+                    viewProps: args.viewProps,
+                });
+                return new LabeledValueController(args.document, {
+                    blade: args.blade,
+                    props: ValueMap.fromObject({
+                        label: args.params.label,
+                    }),
+                    valueController: ic,
+                });
+            },
+            api(args) {
+                if (!(args.controller instanceof LabeledValueController)) {
+                    return null;
+                }
+                if (!(args.controller.valueController instanceof ListController)) {
+                    return null;
+                }
+                return new ListApi(args.controller);
+            },
+        };
+    })();
+
+    /**
+     * @hidden
+     */
+    function exportPresetJson(targets) {
+        return targets.reduce((result, target) => {
+            return Object.assign(result, {
+                [target.presetKey]: target.read(),
+            });
+        }, {});
+    }
+    /**
+     * @hidden
+     */
+    function importPresetJson(targets, preset) {
+        targets.forEach((target) => {
+            const value = preset[target.presetKey];
+            if (value !== undefined) {
+                target.write(value);
+            }
+        });
+    }
+
+    class RootApi extends FolderApi {
+        /**
+         * @hidden
+         */
+        constructor(controller, pool) {
+            super(controller, pool);
+        }
+        get element() {
+            return this.controller_.view.element;
+        }
+        /**
+         * Imports a preset of all inputs.
+         * @param preset The preset object to import.
+         */
+        importPreset(preset) {
+            const targets = this.controller_.rackController.rack
+                .find(InputBindingController)
+                .map((ibc) => {
+                return ibc.binding.target;
+            });
+            importPresetJson(targets, preset);
+            this.refresh();
+        }
+        /**
+         * Exports a preset of all inputs.
+         * @return An exported preset object.
+         */
+        exportPreset() {
+            const targets = this.controller_.rackController.rack
+                .find(InputBindingController)
+                .map((ibc) => {
+                return ibc.binding.target;
+            });
+            return exportPresetJson(targets);
+        }
+        /**
+         * Refreshes all bindings of the pane.
+         */
+        refresh() {
+            // Force-read all input bindings
+            this.controller_.rackController.rack
+                .find(InputBindingController)
+                .forEach((ibc) => {
+                ibc.binding.read();
+            });
+            // Force-read all monitor bindings
+            this.controller_.rackController.rack
+                .find(MonitorBindingController)
+                .forEach((mbc) => {
+                mbc.binding.read();
+            });
+        }
+    }
+
+    class RootController extends FolderController {
+        constructor(doc, config) {
+            super(doc, {
+                expanded: config.expanded,
+                blade: config.blade,
+                props: config.props,
+                root: true,
+                viewProps: config.viewProps,
+            });
+        }
+    }
+
+    const SliderBladePlugin = {
+        id: 'slider',
+        type: 'blade',
+        accept(params) {
+            const p = ParamsParsers;
+            const result = parseParams(params, {
+                max: p.required.number,
+                min: p.required.number,
+                view: p.required.constant('slider'),
+                format: p.optional.function,
+                label: p.optional.string,
+                value: p.optional.number,
+            });
+            return result ? { params: result } : null;
+        },
+        controller(args) {
+            var _a, _b;
+            const v = (_a = args.params.value) !== null && _a !== void 0 ? _a : 0;
+            const vc = new SliderTextController(args.document, {
+                baseStep: 1,
+                parser: parseNumber,
+                sliderProps: ValueMap.fromObject({
+                    maxValue: args.params.max,
+                    minValue: args.params.min,
+                }),
+                textProps: ValueMap.fromObject({
+                    draggingScale: getSuitableDraggingScale(undefined, v),
+                    formatter: (_b = args.params.format) !== null && _b !== void 0 ? _b : numberToString,
+                }),
+                value: createValue(v),
+                viewProps: args.viewProps,
+            });
+            return new LabeledValueController(args.document, {
+                blade: args.blade,
+                props: ValueMap.fromObject({
+                    label: args.params.label,
+                }),
+                valueController: vc,
+            });
+        },
+        api(args) {
+            if (!(args.controller instanceof LabeledValueController)) {
+                return null;
+            }
+            if (!(args.controller.valueController instanceof SliderTextController)) {
+                return null;
+            }
+            return new SliderApi(args.controller);
+        },
+    };
+
+    const TextBladePlugin = (function () {
+        return {
+            id: 'text',
+            type: 'blade',
+            accept(params) {
+                const p = ParamsParsers;
+                const result = parseParams(params, {
+                    parse: p.required.function,
+                    value: p.required.raw,
+                    view: p.required.constant('text'),
+                    format: p.optional.function,
+                    label: p.optional.string,
+                });
+                return result ? { params: result } : null;
+            },
+            controller(args) {
+                var _a;
+                const ic = new TextController(args.document, {
+                    parser: args.params.parse,
+                    props: ValueMap.fromObject({
+                        formatter: (_a = args.params.format) !== null && _a !== void 0 ? _a : ((v) => String(v)),
+                    }),
+                    value: createValue(args.params.value),
+                    viewProps: args.viewProps,
+                });
+                return new LabeledValueController(args.document, {
+                    blade: args.blade,
+                    props: ValueMap.fromObject({
+                        label: args.params.label,
+                    }),
+                    valueController: ic,
+                });
+            },
+            api(args) {
+                if (!(args.controller instanceof LabeledValueController)) {
+                    return null;
+                }
+                if (!(args.controller.valueController instanceof TextController)) {
+                    return null;
+                }
+                return new TextApi(args.controller);
+            },
+        };
+    })();
+
     function createDefaultWrapperElement(doc) {
-        var elem = doc.createElement('div');
+        const elem = doc.createElement('div');
         elem.classList.add(ClassName('dfw')());
         if (doc.body) {
             doc.body.appendChild(elem);
@@ -119368,95 +120734,111 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
         return elem;
     }
     function embedStyle(doc, id, css) {
-        if (doc.querySelector("style[data-tp-style=" + id + "]")) {
+        if (doc.querySelector(`style[data-tp-style=${id}]`)) {
             return;
         }
-        var styleElem = doc.createElement('style');
+        const styleElem = doc.createElement('style');
         styleElem.dataset.tpStyle = id;
         styleElem.textContent = css;
         doc.head.appendChild(styleElem);
     }
-    function embedDefaultStyleIfNeeded(doc) {
-        embedStyle(doc, 'default', '.tp-btnv_b,.tp-lstv_s,.tp-p2dpadtxtv_b,.tp-fldv_t,.tp-rotv_t,.tp-cctxtsv_i,.tp-cswv_sw,.tp-p2dpadv_p,.tp-p2dtxtv_i,.tp-p3dtxtv_i,.tp-txtv_i,.tp-grlv_g,.tp-sglv_i,.tp-mllv_i,.tp-ckbv_i,.tp-cctxtsv_ms{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border-width:0;font-family:inherit;font-size:inherit;font-weight:inherit;margin:0;outline:none;padding:0}.tp-btnv_b,.tp-lstv_s,.tp-p2dpadtxtv_b{background-color:var(--button-background-color);border-radius:2px;color:var(--button-foreground-color);cursor:pointer;display:block;font-weight:bold;height:var(--unit-size);line-height:var(--unit-size);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tp-btnv_b:hover,.tp-lstv_s:hover,.tp-p2dpadtxtv_b:hover{background-color:var(--button-background-color-hover)}.tp-btnv_b:focus,.tp-lstv_s:focus,.tp-p2dpadtxtv_b:focus{background-color:var(--button-background-color-focus)}.tp-btnv_b:active,.tp-lstv_s:active,.tp-p2dpadtxtv_b:active{background-color:var(--button-background-color-active)}.tp-fldv_t,.tp-rotv_t{background-color:var(--folder-background-color);color:var(--folder-foreground-color);cursor:pointer;display:block;height:calc(var(--unit-size) + 4px);line-height:calc(var(--unit-size) + 4px);overflow:hidden;padding-left:28px;position:relative;text-align:left;text-overflow:ellipsis;white-space:nowrap;width:100%;transition:border-radius .2s ease-in-out .2s}.tp-fldv_t:hover,.tp-rotv_t:hover{background-color:var(--folder-background-color-hover)}.tp-fldv_t:focus,.tp-rotv_t:focus{background-color:var(--folder-background-color-focus)}.tp-fldv_t:active,.tp-rotv_t:active{background-color:var(--folder-background-color-active)}.tp-fldv_m,.tp-rotv_m{background:linear-gradient(to left, var(--folder-foreground-color), var(--folder-foreground-color) 2px, transparent 2px, transparent 4px, var(--folder-foreground-color) 4px);border-radius:2px;bottom:0;content:\'\';display:block;height:6px;left:13px;margin:auto;opacity:0.5;position:absolute;top:0;transform:rotate(90deg);transition:transform .2s ease-in-out;width:6px}.tp-fldv.tp-fldv-expanded>.tp-fldv_t>.tp-fldv_m,.tp-rotv.tp-rotv-expanded .tp-rotv_m{transform:none}.tp-fldv_c,.tp-rotv_c{box-sizing:border-box;height:0;opacity:0;overflow:hidden;padding-bottom:0;padding-top:0;position:relative;transition:height .2s ease-in-out,opacity .2s linear,padding .2s ease-in-out}.tp-fldv_c>.tp-fldv.tp-v-first,.tp-rotv_c>.tp-fldv.tp-v-first{margin-top:-4px}.tp-fldv_c>.tp-fldv.tp-v-last,.tp-rotv_c>.tp-fldv.tp-v-last{margin-bottom:-4px}.tp-fldv_c>*:not(.tp-v-first),.tp-rotv_c>*:not(.tp-v-first){margin-top:4px}.tp-fldv_c>.tp-fldv:not(.tp-v-hidden)+.tp-fldv,.tp-rotv_c>.tp-fldv:not(.tp-v-hidden)+.tp-fldv{margin-top:0}.tp-fldv_c>.tp-sptv:not(.tp-v-hidden)+.tp-sptv,.tp-rotv_c>.tp-sptv:not(.tp-v-hidden)+.tp-sptv{margin-top:0}.tp-fldv.tp-fldv-expanded>.tp-fldv_c,.tp-rotv.tp-rotv-expanded .tp-rotv_c{opacity:1;padding-bottom:4px;padding-top:4px;transform:none;overflow:visible;transition:height .2s ease-in-out,opacity .2s linear .2s,padding .2s ease-in-out}.tp-cctxtsv_i,.tp-cswv_sw,.tp-p2dpadv_p,.tp-p2dtxtv_i,.tp-p3dtxtv_i,.tp-txtv_i{background-color:var(--input-background-color);border-radius:2px;box-sizing:border-box;color:var(--input-foreground-color);font-family:inherit;height:var(--unit-size);line-height:var(--unit-size);min-width:0;width:100%}.tp-cctxtsv_i:hover,.tp-cswv_sw:hover,.tp-p2dpadv_p:hover,.tp-p2dtxtv_i:hover,.tp-p3dtxtv_i:hover,.tp-txtv_i:hover{background-color:var(--input-background-color-hover)}.tp-cctxtsv_i:focus,.tp-cswv_sw:focus,.tp-p2dpadv_p:focus,.tp-p2dtxtv_i:focus,.tp-p3dtxtv_i:focus,.tp-txtv_i:focus{background-color:var(--input-background-color-focus)}.tp-cctxtsv_i:active,.tp-cswv_sw:active,.tp-p2dpadv_p:active,.tp-p2dtxtv_i:active,.tp-p3dtxtv_i:active,.tp-txtv_i:active{background-color:var(--input-background-color-active)}.tp-grlv_g,.tp-sglv_i,.tp-mllv_i{background-color:var(--monitor-background-color);border-radius:2px;box-sizing:border-box;color:var(--monitor-foreground-color);height:var(--unit-size);width:100%}.tp-btnv{padding:0 4px}.tp-btnv_b{width:100%}.tp-ckbv_l{display:block;position:relative}.tp-ckbv_i{left:0;opacity:0;position:absolute;top:0}.tp-ckbv_m{background-color:var(--input-background-color);border-radius:2px;cursor:pointer;display:block;height:var(--unit-size);position:relative;width:var(--unit-size)}.tp-ckbv_m::before{background-color:var(--input-foreground-color);border-radius:2px;bottom:4px;content:\'\';display:block;left:4px;opacity:0;position:absolute;right:4px;top:4px}.tp-ckbv_i:hover+.tp-ckbv_m{background-color:var(--input-background-color-hover)}.tp-ckbv_i:focus+.tp-ckbv_m{background-color:var(--input-background-color-focus)}.tp-ckbv_i:active+.tp-ckbv_m{background-color:var(--input-background-color-active)}.tp-ckbv_i:checked+.tp-ckbv_m::before{opacity:1}.tp-cctxtsv{display:flex;width:100%}.tp-cctxtsv_m{margin-right:4px;position:relative}.tp-cctxtsv_ms{border-radius:2px;color:var(--label-foreground-color);cursor:pointer;height:var(--unit-size);line-height:var(--unit-size);padding:0 18px 0 4px}.tp-cctxtsv_ms:hover{background-color:var(--input-background-color-hover)}.tp-cctxtsv_ms:focus{background-color:var(--input-background-color-focus)}.tp-cctxtsv_ms:active{background-color:var(--input-background-color-active)}.tp-cctxtsv_mm{border-color:var(--label-foreground-color) transparent transparent;border-style:solid;border-width:3px;box-sizing:border-box;height:6px;pointer-events:none;width:6px;bottom:0;margin:auto;position:absolute;right:6px;top:3px}.tp-cctxtsv_w{display:flex;flex:1}.tp-cctxtsv_i{border-radius:0;flex:1;padding:0 4px}.tp-cctxtsv_i:first-child{border-bottom-left-radius:2px;border-top-left-radius:2px}.tp-cctxtsv_i:last-child{border-bottom-right-radius:2px;border-top-right-radius:2px}.tp-cctxtsv_i+.tp-cctxtsv_i{margin-left:2px}.tp-clpv{background-color:var(--base-background-color);border-radius:6px;box-shadow:0 2px 4px var(--base-shadow-color);display:none;padding:4px;position:relative;visibility:hidden;z-index:1000}.tp-clpv.tp-clpv-expanded{display:block;visibility:visible}.tp-clpv_h,.tp-clpv_ap{margin-left:6px;margin-right:6px}.tp-clpv_h{margin-top:4px}.tp-clpv_rgb{display:flex;margin-top:4px;width:100%}.tp-clpv_a{display:flex;margin-top:4px;padding-top:8px;position:relative}.tp-clpv_a:before{background-color:var(--separator-color);content:\'\';height:4px;left:-4px;position:absolute;right:-4px;top:0}.tp-clpv_ap{align-items:center;display:flex;flex:3}.tp-clpv_at{flex:1;margin-left:4px}.tp-svpv{border-radius:2px;outline:none;overflow:hidden;position:relative}.tp-svpv_c{cursor:crosshair;display:block;height:80px;width:100%}.tp-svpv_m{border-radius:100%;border:rgba(255,255,255,0.75) solid 2px;box-sizing:border-box;filter:drop-shadow(0 0 1px rgba(0,0,0,0.3));height:12px;margin-left:-6px;margin-top:-6px;pointer-events:none;position:absolute;width:12px}.tp-svpv:focus .tp-svpv_m{border-color:#fff}.tp-hplv{cursor:pointer;height:var(--unit-size);outline:none;position:relative}.tp-hplv_c{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAABCAYAAABubagXAAAAQ0lEQVQoU2P8z8Dwn0GCgQEDi2OK/RBgYHjBgIpfovFh8j8YBIgzFGQxuqEgPhaDOT5gOhPkdCxOZeBg+IDFZZiGAgCaSSMYtcRHLgAAAABJRU5ErkJggg==);background-position:left top;background-repeat:no-repeat;background-size:100% 100%;border-radius:2px;display:block;height:4px;left:0;margin-top:-2px;position:absolute;top:50%;width:100%}.tp-hplv_m{border-radius:2px;border:rgba(255,255,255,0.75) solid 2px;box-shadow:0 0 2px rgba(0,0,0,0.1);box-sizing:border-box;height:12px;left:50%;margin-left:-6px;margin-top:-6px;pointer-events:none;position:absolute;top:50%;width:12px}.tp-hplv:focus .tp-hplv_m{border-color:#fff}.tp-aplv{cursor:pointer;height:var(--unit-size);outline:none;position:relative;width:100%}.tp-aplv_b{background-color:#fff;background-image:linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%),linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%);background-size:4px 4px;background-position:0 0,2px 2px;border-radius:2px;display:block;height:4px;left:0;margin-top:-2px;overflow:hidden;position:absolute;top:50%;width:100%}.tp-aplv_c{bottom:0;left:0;position:absolute;right:0;top:0}.tp-aplv_m{background-color:#fff;background-image:linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%),linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%);background-size:12px 12px;background-position:0 0,6px 6px;border-radius:2px;box-shadow:0 0 2px rgba(0,0,0,0.1);height:12px;left:50%;margin-left:-6px;margin-top:-6px;overflow:hidden;pointer-events:none;position:absolute;top:50%;width:12px}.tp-aplv_p{border-radius:2px;border:rgba(255,255,255,0.75) solid 2px;box-sizing:border-box;bottom:0;left:0;position:absolute;right:0;top:0}.tp-aplv:focus .tp-aplv_p{border-color:#fff}.tp-cswv{background-color:#fff;background-image:linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%),linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%);background-size:10px 10px;background-position:0 0,5px 5px;border-radius:2px}.tp-cswv_b{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border-width:0;cursor:pointer;display:block;height:var(--unit-size);left:0;margin:0;outline:none;padding:0;position:absolute;top:0;width:var(--unit-size)}.tp-cswv_b:focus::after{border:rgba(255,255,255,0.75) solid 2px;border-radius:2px;bottom:0;content:\'\';display:block;left:0;position:absolute;right:0;top:0}.tp-cswv_p{left:-4px;position:absolute;right:-4px;top:var(--unit-size)}.tp-cswtxtv{display:flex;position:relative}.tp-cswtxtv_s{flex-grow:0;flex-shrink:0;width:var(--unit-size)}.tp-cswtxtv_t{flex:1;margin-left:4px}.tp-dfwv{position:absolute;top:8px;right:8px;width:256px}.tp-fldv.tp-fldv-expanded .tp-fldv_t{transition:border-radius 0s}.tp-fldv_c{border-left:var(--folder-background-color) solid 4px}.tp-fldv_t:hover+.tp-fldv_c{border-left-color:var(--folder-background-color-hover)}.tp-fldv_t:focus+.tp-fldv_c{border-left-color:var(--folder-background-color-focus)}.tp-fldv_t:active+.tp-fldv_c{border-left-color:var(--folder-background-color-active)}.tp-fldv_c>.tp-fldv{margin-left:4px}.tp-fldv_c>.tp-fldv>.tp-fldv_t{border-top-left-radius:2px;border-bottom-left-radius:2px}.tp-fldv_c>.tp-fldv.tp-fldv-expanded>.tp-fldv_t{border-bottom-left-radius:0}.tp-fldv_c .tp-fldv>.tp-fldv_c{border-bottom-left-radius:2px}.tp-grlv{position:relative}.tp-grlv_g{display:block;height:calc(var(--unit-size) * 3)}.tp-grlv_g polyline{fill:none;stroke:var(--monitor-foreground-color);stroke-linejoin:round}.tp-grlv_t{color:var(--monitor-foreground-color);font-size:0.9em;left:0;pointer-events:none;position:absolute;text-indent:4px;top:0;visibility:hidden}.tp-grlv_t.tp-grlv_t-valid{visibility:visible}.tp-grlv_t::before{background-color:var(--monitor-foreground-color);border-radius:100%;content:\'\';display:block;height:4px;left:-2px;position:absolute;top:-2px;width:4px}.tp-lblv{align-items:center;display:flex;line-height:1.3;padding-left:4px;padding-right:4px}.tp-lblv_l{color:var(--label-foreground-color);flex:1;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;padding-left:4px;padding-right:16px}.tp-lblv_v{align-self:flex-start;flex-grow:0;flex-shrink:0;width:160px}.tp-lstv{position:relative}.tp-lstv_s{padding:0 18px 0 4px;width:100%}.tp-lstv_m{border-color:var(--button-foreground-color) transparent transparent;border-style:solid;border-width:3px;box-sizing:border-box;height:6px;pointer-events:none;width:6px;bottom:0;margin:auto;position:absolute;right:6px;top:3px}.tp-sglv_i{padding:0 4px}.tp-mllv_i{display:block;height:calc(var(--unit-size) * 3);line-height:var(--unit-size);padding:0 4px;resize:none;white-space:pre}.tp-p2dpadv{background-color:var(--base-background-color);border-radius:6px;box-shadow:0 2px 4px var(--base-shadow-color);display:none;padding:4px 4px 4px calc(4px * 2 + var(--unit-size));position:relative;visibility:hidden;z-index:1000}.tp-p2dpadv.tp-p2dpadv-expanded{display:block;visibility:visible}.tp-p2dpadv_p{cursor:crosshair;height:0;overflow:hidden;padding-bottom:100%;position:relative}.tp-p2dpadv_g{display:block;height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%}.tp-p2dpadv_ax{stroke:var(--input-guide-color)}.tp-p2dpadv_l{stroke:var(--input-foreground-color);stroke-linecap:round;stroke-dasharray:1px 3px}.tp-p2dpadv_m{fill:var(--input-foreground-color)}.tp-p2dpadtxtv{display:flex;position:relative}.tp-p2dpadtxtv_b{height:var(--unit-size);position:relative;width:var(--unit-size)}.tp-p2dpadtxtv_b svg{display:block;height:16px;left:50%;margin-left:-8px;margin-top:-8px;position:absolute;top:50%;width:16px}.tp-p2dpadtxtv_p{left:-4px;position:absolute;right:-4px;top:var(--unit-size)}.tp-p2dpadtxtv_t{margin-left:4px}.tp-p2dtxtv{display:flex}.tp-p2dtxtv_w{align-items:center;display:flex}.tp-p2dtxtv_w+.tp-p2dtxtv_w{margin-left:2px}.tp-p2dtxtv_i{padding:0 4px;width:100%}.tp-p2dtxtv_w:nth-child(1) .tp-p2dtxtv_i{border-top-right-radius:0;border-bottom-right-radius:0}.tp-p2dtxtv_w:nth-child(2) .tp-p2dtxtv_i{border-top-left-radius:0;border-bottom-left-radius:0}.tp-p3dtxtv{display:flex}.tp-p3dtxtv_w{align-items:center;display:flex}.tp-p3dtxtv_w+.tp-p3dtxtv_w{margin-left:2px}.tp-p3dtxtv_i{padding:0 4px;width:100%}.tp-p3dtxtv_w:first-child .tp-p3dtxtv_i{border-top-right-radius:0;border-bottom-right-radius:0}.tp-p3dtxtv_w:not(:first-child):not(:last-child) .tp-p3dtxtv_i{border-radius:0}.tp-p3dtxtv_w:last-child .tp-p3dtxtv_i{border-top-left-radius:0;border-bottom-left-radius:0}.tp-rotv{--font-family: var(--tp-font-family, Roboto Mono,Source Code Pro,Menlo,Courier,monospace);--unit-size: var(--tp-unit-size, 20px);--base-background-color: var(--tp-base-background-color, #2f3137);--base-shadow-color: var(--tp-base-shadow-color, rgba(0,0,0,0.2));--button-background-color: var(--tp-button-background-color, #adafb8);--button-background-color-active: var(--tp-button-background-color-active, #d6d7db);--button-background-color-focus: var(--tp-button-background-color-focus, #c8cad0);--button-background-color-hover: var(--tp-button-background-color-hover, #bbbcc4);--button-foreground-color: var(--tp-button-foreground-color, #2f3137);--folder-background-color: var(--tp-folder-background-color, rgba(200,202,208,0.1));--folder-background-color-active: var(--tp-folder-background-color-active, rgba(200,202,208,0.25));--folder-background-color-focus: var(--tp-folder-background-color-focus, rgba(200,202,208,0.2));--folder-background-color-hover: var(--tp-folder-background-color-hover, rgba(200,202,208,0.15));--folder-foreground-color: var(--tp-folder-foreground-color, #c8cad0);--input-background-color: var(--tp-input-background-color, rgba(200,202,208,0.1));--input-background-color-active: var(--tp-input-background-color-active, rgba(200,202,208,0.25));--input-background-color-focus: var(--tp-input-background-color-focus, rgba(200,202,208,0.2));--input-background-color-hover: var(--tp-input-background-color-hover, rgba(200,202,208,0.15));--input-foreground-color: var(--tp-input-foreground-color, #c8cad0);--input-guide-color: var(--tp-input-guide-color, rgba(47,49,55,0.5));--label-foreground-color: var(--tp-label-foreground-color, rgba(200,202,208,0.7));--monitor-background-color: var(--tp-monitor-background-color, #26272c);--monitor-foreground-color: var(--tp-monitor-foreground-color, rgba(200,202,208,0.7));--separator-color: var(--tp-separator-color, #26272c)}.tp-rotv{background-color:var(--base-background-color);border-radius:6px;box-shadow:0 2px 4px var(--base-shadow-color);font-family:var(--font-family);font-size:11px;font-weight:500;line-height:1;text-align:left}.tp-rotv_t{border-bottom-left-radius:6px;border-bottom-right-radius:6px;border-top-left-radius:6px;border-top-right-radius:6px}.tp-rotv.tp-rotv-expanded .tp-rotv_t{border-bottom-left-radius:0;border-bottom-right-radius:0}.tp-rotv_m{transition:none}.tp-rotv_c>.tp-fldv:last-child>.tp-fldv_c{border-bottom-left-radius:6px;border-bottom-right-radius:6px}.tp-rotv_c>.tp-fldv:last-child:not(.tp-fldv-expanded)>.tp-fldv_t{border-bottom-left-radius:6px;border-bottom-right-radius:6px}.tp-rotv_c>.tp-fldv:first-child>.tp-fldv_t{border-top-left-radius:6px;border-top-right-radius:6px}.tp-sptv_r{background-color:var(--separator-color);border-width:0;display:block;height:4px;margin:0;width:100%}.tp-sldv_o{box-sizing:border-box;cursor:pointer;height:var(--unit-size);margin:0 6px;outline:none;position:relative}.tp-sldv_o::before{background-color:var(--input-background-color);border-radius:1px;bottom:0;content:\'\';display:block;height:2px;left:0;margin:auto;position:absolute;right:0;top:0}.tp-sldv_i{height:100%;left:0;position:absolute;top:0}.tp-sldv_i::before{background-color:var(--button-background-color);border-radius:2px;bottom:0;content:\'\';display:block;height:12px;margin:auto;position:absolute;right:-6px;top:0;width:12px}.tp-sldv_o:hover .tp-sldv_i::before{background-color:var(--button-background-color-hover)}.tp-sldv_o:focus .tp-sldv_i::before{background-color:var(--button-background-color-focus)}.tp-sldv_o:active .tp-sldv_i::before{background-color:var(--button-background-color-active)}.tp-sldtxtv{display:flex}.tp-sldtxtv_s{flex:2}.tp-sldtxtv_t{flex:1;margin-left:4px}.tp-txtv_i{padding:0 4px}.tp-v-hidden{display:none}');
-        getAllPlugins().forEach(function (plugin) {
-            if (plugin.css) {
-                embedStyle(doc, "plugin-" + plugin.id, plugin.css);
-            }
-        });
-    }
-    var Tweakpane = /** @class */ (function (_super) {
-        __extends(Tweakpane, _super);
-        function Tweakpane(opt_config) {
+    /**
+     * The root pane of Tweakpane.
+     */
+    class Pane extends RootApi {
+        constructor(opt_config) {
             var _a;
-            var _this = this;
-            var config = opt_config || {};
-            var doc = (_a = config.document) !== null && _a !== void 0 ? _a : getWindowDocument();
-            var rootController = new RootController(doc, {
+            const config = opt_config || {};
+            const doc = (_a = config.document) !== null && _a !== void 0 ? _a : getWindowDocument();
+            const pool = createDefaultPluginPool();
+            const rootController = new RootController(doc, {
                 expanded: config.expanded,
-                blade: new Blade(),
-                title: config.title,
+                blade: createBlade(),
+                props: ValueMap.fromObject({
+                    title: config.title,
+                }),
+                viewProps: ViewProps.create(),
             });
-            _this = _super.call(this, rootController) || this;
-            _this.containerElem_ = config.container || createDefaultWrapperElement(doc);
-            _this.containerElem_.appendChild(_this.element);
-            _this.doc_ = doc;
-            _this.usesDefaultWrapper_ = !config.container;
-            embedDefaultStyleIfNeeded(_this.document);
-            return _this;
+            super(rootController, pool);
+            this.pool_ = pool;
+            this.containerElem_ = config.container || createDefaultWrapperElement(doc);
+            this.containerElem_.appendChild(this.element);
+            this.doc_ = doc;
+            this.usesDefaultWrapper_ = !config.container;
+            this.setUpDefaultPlugins_();
         }
-        Object.defineProperty(Tweakpane.prototype, "document", {
-            get: function () {
-                if (!this.doc_) {
-                    throw TpError.alreadyDisposed();
-                }
-                return this.doc_;
-            },
-            enumerable: false,
-            configurable: true
-        });
-        Tweakpane.prototype.dispose = function () {
-            var containerElem = this.containerElem_;
+        get document() {
+            if (!this.doc_) {
+                throw TpError.alreadyDisposed();
+            }
+            return this.doc_;
+        }
+        dispose() {
+            const containerElem = this.containerElem_;
             if (!containerElem) {
                 throw TpError.alreadyDisposed();
             }
             if (this.usesDefaultWrapper_) {
-                var parentElem = containerElem.parentElement;
+                const parentElem = containerElem.parentElement;
                 if (parentElem) {
                     parentElem.removeChild(containerElem);
                 }
             }
             this.containerElem_ = null;
             this.doc_ = null;
-            _super.prototype.dispose.call(this);
-        };
-        return Tweakpane;
-    }(RootApi));
-    function registerDefaultPlugins() {
-        [
-            Point2dInputPlugin,
-            Point3dInputPlugin,
-            StringInputPlugin,
-            NumberInputPlugin,
-            StringColorInputPlugin,
-            ObjectColorInputPlugin,
-            NumberColorInputPlugin,
-            BooleanInputPlugin,
-        ].forEach(function (p) {
-            RootApi.registerPlugin({
-                type: 'input',
-                plugin: p,
+            super.dispose();
+        }
+        registerPlugin(bundle) {
+            const plugins = 'plugin' in bundle
+                ? [bundle.plugin]
+                : 'plugins' in bundle
+                    ? bundle.plugins
+                    : [];
+            plugins.forEach((p) => {
+                this.pool_.register(p);
+                this.embedPluginStyle_(p);
             });
-        });
-        [BooleanMonitorPlugin, StringMonitorPlugin, NumberMonitorPlugin].forEach(function (p) {
-            RootApi.registerPlugin({
-                type: 'monitor',
-                plugin: p,
+        }
+        embedPluginStyle_(plugin) {
+            if (plugin.css) {
+                embedStyle(this.document, `plugin-${plugin.id}`, plugin.css);
+            }
+        }
+        setUpDefaultPlugins_() {
+            // NOTE: This string literal will be replaced with the default CSS by Rollup at the compilation time
+            embedStyle(this.document, 'default', '.tp-lstv_s,.tp-btnv_b,.tp-p2dv_b,.tp-colswv_sw,.tp-p2dpv_p,.tp-txtv_i,.tp-grlv_g,.tp-sglv_i,.tp-mllv_i,.tp-fldv_b,.tp-rotv_b,.tp-ckbv_i,.tp-coltxtv_ms,.tp-tbiv_b{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border-width:0;font-family:inherit;font-size:inherit;font-weight:inherit;margin:0;outline:none;padding:0}.tp-lstv_s,.tp-btnv_b,.tp-p2dv_b{background-color:var(--btn-bg);border-radius:var(--elm-br);color:var(--btn-fg);cursor:pointer;display:block;font-weight:bold;height:var(--bld-us);line-height:var(--bld-us);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.tp-lstv_s:hover,.tp-btnv_b:hover,.tp-p2dv_b:hover{background-color:var(--btn-bg-h)}.tp-lstv_s:focus,.tp-btnv_b:focus,.tp-p2dv_b:focus{background-color:var(--btn-bg-f)}.tp-lstv_s:active,.tp-btnv_b:active,.tp-p2dv_b:active{background-color:var(--btn-bg-a)}.tp-lstv_s:disabled,.tp-btnv_b:disabled,.tp-p2dv_b:disabled{opacity:0.5}.tp-colswv_sw,.tp-p2dpv_p,.tp-txtv_i{background-color:var(--in-bg);border-radius:var(--elm-br);box-sizing:border-box;color:var(--in-fg);font-family:inherit;height:var(--bld-us);line-height:var(--bld-us);min-width:0;width:100%}.tp-colswv_sw:hover,.tp-p2dpv_p:hover,.tp-txtv_i:hover{background-color:var(--in-bg-h)}.tp-colswv_sw:focus,.tp-p2dpv_p:focus,.tp-txtv_i:focus{background-color:var(--in-bg-f)}.tp-colswv_sw:active,.tp-p2dpv_p:active,.tp-txtv_i:active{background-color:var(--in-bg-a)}.tp-colswv_sw:disabled,.tp-p2dpv_p:disabled,.tp-txtv_i:disabled{opacity:0.5}.tp-grlv_g,.tp-sglv_i,.tp-mllv_i{background-color:var(--mo-bg);border-radius:var(--elm-br);box-sizing:border-box;color:var(--mo-fg);height:var(--bld-us);width:100%}.tp-rotv{--font-family: var(--tp-font-family, Roboto Mono,Source Code Pro,Menlo,Courier,monospace);--bs-br: var(--tp-base-border-radius, 6px);--cnt-h-p: var(--tp-container-horizontal-padding, 4px);--cnt-v-p: var(--tp-container-vertical-padding, 4px);--elm-br: var(--tp-element-border-radius, 2px);--bld-s: var(--tp-blade-spacing, 4px);--bld-us: var(--tp-blade-unit-size, 20px);--bs-bg: var(--tp-base-background-color, #2f3137);--bs-sh: var(--tp-base-shadow-color, rgba(0,0,0,0.2));--btn-bg: var(--tp-button-background-color, #adafb8);--btn-bg-a: var(--tp-button-background-color-active, #d6d7db);--btn-bg-f: var(--tp-button-background-color-focus, #c8cad0);--btn-bg-h: var(--tp-button-background-color-hover, #bbbcc4);--btn-fg: var(--tp-button-foreground-color, #2f3137);--cnt-bg: var(--tp-container-background-color, rgba(187,188,196,0.1));--cnt-bg-a: var(--tp-container-background-color-active, rgba(187,188,196,0.25));--cnt-bg-f: var(--tp-container-background-color-focus, rgba(187,188,196,0.2));--cnt-bg-h: var(--tp-container-background-color-hover, rgba(187,188,196,0.15));--cnt-fg: var(--tp-container-foreground-color, #bbbcc4);--in-bg: var(--tp-input-background-color, rgba(0,0,0,0.2));--in-bg-a: var(--tp-input-background-color-active, rgba(0,0,0,0.35));--in-bg-f: var(--tp-input-background-color-focus, rgba(0,0,0,0.3));--in-bg-h: var(--tp-input-background-color-hover, rgba(0,0,0,0.25));--in-fg: var(--tp-input-foreground-color, #bbbcc4);--lbl-fg: var(--tp-label-foreground-color, rgba(187,188,196,0.7));--mo-bg: var(--tp-monitor-background-color, rgba(0,0,0,0.2));--mo-fg: var(--tp-monitor-foreground-color, rgba(187,188,196,0.7));--grv-fg: var(--tp-groove-foreground-color, rgba(0,0,0,0.2))}.tp-fldv_c>.tp-cntv.tp-v-lst,.tp-tabv_c .tp-brkv>.tp-cntv.tp-v-lst,.tp-rotv_c>.tp-cntv.tp-v-lst{margin-bottom:calc(-1 * var(--cnt-v-p))}.tp-fldv_c>.tp-fldv.tp-v-lst .tp-fldv_c,.tp-tabv_c .tp-brkv>.tp-fldv.tp-v-lst .tp-fldv_c,.tp-rotv_c>.tp-fldv.tp-v-lst .tp-fldv_c{border-bottom-left-radius:0}.tp-fldv_c>.tp-fldv.tp-v-lst .tp-fldv_b,.tp-tabv_c .tp-brkv>.tp-fldv.tp-v-lst .tp-fldv_b,.tp-rotv_c>.tp-fldv.tp-v-lst .tp-fldv_b{border-bottom-left-radius:0}.tp-fldv_c>*:not(.tp-v-fst),.tp-tabv_c .tp-brkv>*:not(.tp-v-fst),.tp-rotv_c>*:not(.tp-v-fst){margin-top:var(--bld-s)}.tp-fldv_c>.tp-sprv:not(.tp-v-fst),.tp-tabv_c .tp-brkv>.tp-sprv:not(.tp-v-fst),.tp-rotv_c>.tp-sprv:not(.tp-v-fst),.tp-fldv_c>.tp-cntv:not(.tp-v-fst),.tp-tabv_c .tp-brkv>.tp-cntv:not(.tp-v-fst),.tp-rotv_c>.tp-cntv:not(.tp-v-fst){margin-top:var(--cnt-v-p)}.tp-fldv_c>.tp-sprv+*:not(.tp-v-hidden),.tp-tabv_c .tp-brkv>.tp-sprv+*:not(.tp-v-hidden),.tp-rotv_c>.tp-sprv+*:not(.tp-v-hidden),.tp-fldv_c>.tp-cntv+*:not(.tp-v-hidden),.tp-tabv_c .tp-brkv>.tp-cntv+*:not(.tp-v-hidden),.tp-rotv_c>.tp-cntv+*:not(.tp-v-hidden){margin-top:var(--cnt-v-p)}.tp-fldv_c>.tp-sprv:not(.tp-v-hidden)+.tp-sprv,.tp-tabv_c .tp-brkv>.tp-sprv:not(.tp-v-hidden)+.tp-sprv,.tp-rotv_c>.tp-sprv:not(.tp-v-hidden)+.tp-sprv,.tp-fldv_c>.tp-cntv:not(.tp-v-hidden)+.tp-cntv,.tp-tabv_c .tp-brkv>.tp-cntv:not(.tp-v-hidden)+.tp-cntv,.tp-rotv_c>.tp-cntv:not(.tp-v-hidden)+.tp-cntv{margin-top:0}.tp-fldv_c>.tp-cntv,.tp-tabv_c .tp-brkv>.tp-cntv{margin-left:4px}.tp-fldv_c>.tp-fldv>.tp-fldv_b,.tp-tabv_c .tp-brkv>.tp-fldv>.tp-fldv_b{border-top-left-radius:var(--elm-br);border-bottom-left-radius:var(--elm-br)}.tp-fldv_c>.tp-fldv.tp-fldv-expanded>.tp-fldv_b,.tp-tabv_c .tp-brkv>.tp-fldv.tp-fldv-expanded>.tp-fldv_b{border-bottom-left-radius:0}.tp-fldv_c .tp-fldv>.tp-fldv_c,.tp-tabv_c .tp-brkv .tp-fldv>.tp-fldv_c{border-bottom-left-radius:var(--elm-br)}.tp-fldv_c>.tp-tabv>.tp-tabv_i,.tp-tabv_c .tp-brkv>.tp-tabv>.tp-tabv_i{border-top-left-radius:var(--elm-br)}.tp-fldv_c .tp-tabv>.tp-tabv_c,.tp-tabv_c .tp-brkv .tp-tabv>.tp-tabv_c{border-bottom-left-radius:var(--elm-br)}.tp-fldv_b,.tp-rotv_b{background-color:var(--cnt-bg);color:var(--cnt-fg);cursor:pointer;display:block;height:calc(var(--bld-us) + 4px);line-height:calc(var(--bld-us) + 4px);overflow:hidden;padding-left:calc(var(--cnt-h-p) + 8px);padding-right:calc(2px * 2 + var(--bld-us) + var(--cnt-h-p));position:relative;text-align:left;text-overflow:ellipsis;white-space:nowrap;width:100%;transition:border-radius .2s ease-in-out .2s}.tp-fldv_b:hover,.tp-rotv_b:hover{background-color:var(--cnt-bg-h)}.tp-fldv_b:focus,.tp-rotv_b:focus{background-color:var(--cnt-bg-f)}.tp-fldv_b:active,.tp-rotv_b:active{background-color:var(--cnt-bg-a)}.tp-fldv_b:disabled,.tp-rotv_b:disabled{opacity:0.5}.tp-fldv_m,.tp-rotv_m{background:linear-gradient(to left, var(--cnt-fg), var(--cnt-fg) 2px, transparent 2px, transparent 4px, var(--cnt-fg) 4px);border-radius:2px;bottom:0;content:\'\';display:block;height:6px;right:calc(var(--cnt-h-p) + (var(--bld-us) + 4px - 6px) / 2 - 2px);margin:auto;opacity:0.5;position:absolute;top:0;transform:rotate(90deg);transition:transform .2s ease-in-out;width:6px}.tp-fldv.tp-fldv-expanded>.tp-fldv_b>.tp-fldv_m,.tp-rotv.tp-rotv-expanded .tp-rotv_m{transform:none}.tp-fldv_c,.tp-rotv_c{box-sizing:border-box;height:0;opacity:0;overflow:hidden;padding-bottom:0;padding-top:0;position:relative;transition:height .2s ease-in-out,opacity .2s linear,padding .2s ease-in-out}.tp-fldv.tp-fldv-cpl:not(.tp-fldv-expanded)>.tp-fldv_c,.tp-rotv.tp-rotv-cpl:not(.tp-rotv-expanded) .tp-rotv_c{display:none}.tp-fldv.tp-fldv-expanded>.tp-fldv_c,.tp-rotv.tp-rotv-expanded .tp-rotv_c{opacity:1;padding-bottom:var(--cnt-v-p);padding-top:var(--cnt-v-p);transform:none;overflow:visible;transition:height .2s ease-in-out,opacity .2s linear .2s,padding .2s ease-in-out}.tp-coltxtv_m,.tp-lstv{position:relative}.tp-lstv_s{padding:0 20px 0 4px;width:100%}.tp-coltxtv_mm,.tp-lstv_m{bottom:0;margin:auto;pointer-events:none;position:absolute;right:2px;top:0}.tp-coltxtv_mm svg,.tp-lstv_m svg{bottom:0;height:16px;margin:auto;position:absolute;right:0;top:0;width:16px}.tp-coltxtv_mm svg path,.tp-lstv_m svg path{fill:currentColor}.tp-coltxtv_w,.tp-pndtxtv{display:flex}.tp-coltxtv_c,.tp-pndtxtv_a{width:100%}.tp-coltxtv_c+.tp-coltxtv_c,.tp-pndtxtv_a+.tp-coltxtv_c,.tp-coltxtv_c+.tp-pndtxtv_a,.tp-pndtxtv_a+.tp-pndtxtv_a{margin-left:2px}.tp-btnv_b{width:100%}.tp-btnv_t{text-align:center}.tp-ckbv_l{display:block;position:relative}.tp-ckbv_i{left:0;opacity:0;position:absolute;top:0}.tp-ckbv_w{background-color:var(--in-bg);border-radius:var(--elm-br);cursor:pointer;display:block;height:var(--bld-us);position:relative;width:var(--bld-us)}.tp-ckbv_w svg{bottom:0;display:block;height:16px;left:0;margin:auto;opacity:0;position:absolute;right:0;top:0;width:16px}.tp-ckbv_w svg path{fill:none;stroke:var(--in-fg);stroke-width:2}.tp-ckbv_i:hover+.tp-ckbv_w{background-color:var(--in-bg-h)}.tp-ckbv_i:focus+.tp-ckbv_w{background-color:var(--in-bg-f)}.tp-ckbv_i:active+.tp-ckbv_w{background-color:var(--in-bg-a)}.tp-ckbv_i:checked+.tp-ckbv_w svg{opacity:1}.tp-ckbv.tp-v-disabled .tp-ckbv_w{opacity:0.5}.tp-colv{position:relative}.tp-colv_h{display:flex}.tp-colv_s{flex-grow:0;flex-shrink:0;width:var(--bld-us)}.tp-colv_t{flex:1;margin-left:4px}.tp-colv_p{height:0;margin-top:0;opacity:0;overflow:hidden;transition:height .2s ease-in-out,opacity .2s linear,margin .2s ease-in-out}.tp-colv.tp-colv-cpl .tp-colv_p{overflow:visible}.tp-colv.tp-colv-expanded .tp-colv_p{margin-top:var(--bld-s);opacity:1}.tp-colv .tp-popv{left:calc(-1 * var(--cnt-h-p));right:calc(-1 * var(--cnt-h-p));top:var(--bld-us)}.tp-colpv_h,.tp-colpv_ap{margin-left:6px;margin-right:6px}.tp-colpv_h{margin-top:var(--bld-s)}.tp-colpv_rgb{display:flex;margin-top:var(--bld-s);width:100%}.tp-colpv_a{display:flex;margin-top:var(--cnt-v-p);padding-top:calc(var(--cnt-v-p) + 2px);position:relative}.tp-colpv_a:before{background-color:var(--grv-fg);content:\'\';height:2px;left:calc(-1 * var(--cnt-h-p));position:absolute;right:calc(-1 * var(--cnt-h-p));top:0}.tp-colpv_ap{align-items:center;display:flex;flex:3}.tp-colpv_at{flex:1;margin-left:4px}.tp-svpv{border-radius:var(--elm-br);outline:none;overflow:hidden;position:relative}.tp-svpv_c{cursor:crosshair;display:block;height:calc(var(--bld-us) * 4);width:100%}.tp-svpv_m{border-radius:100%;border:rgba(255,255,255,0.75) solid 2px;box-sizing:border-box;filter:drop-shadow(0 0 1px rgba(0,0,0,0.3));height:12px;margin-left:-6px;margin-top:-6px;pointer-events:none;position:absolute;width:12px}.tp-svpv:focus .tp-svpv_m{border-color:#fff}.tp-hplv{cursor:pointer;height:var(--bld-us);outline:none;position:relative}.tp-hplv_c{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAABCAYAAABubagXAAAAQ0lEQVQoU2P8z8Dwn0GCgQEDi2OK/RBgYHjBgIpfovFh8j8YBIgzFGQxuqEgPhaDOT5gOhPkdCxOZeBg+IDFZZiGAgCaSSMYtcRHLgAAAABJRU5ErkJggg==);background-position:left top;background-repeat:no-repeat;background-size:100% 100%;border-radius:2px;display:block;height:4px;left:0;margin-top:-2px;position:absolute;top:50%;width:100%}.tp-hplv_m{border-radius:var(--elm-br);border:rgba(255,255,255,0.75) solid 2px;box-shadow:0 0 2px rgba(0,0,0,0.1);box-sizing:border-box;height:12px;left:50%;margin-left:-6px;margin-top:-6px;pointer-events:none;position:absolute;top:50%;width:12px}.tp-hplv:focus .tp-hplv_m{border-color:#fff}.tp-aplv{cursor:pointer;height:var(--bld-us);outline:none;position:relative;width:100%}.tp-aplv_b{background-color:#fff;background-image:linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%),linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%);background-size:4px 4px;background-position:0 0,2px 2px;border-radius:2px;display:block;height:4px;left:0;margin-top:-2px;overflow:hidden;position:absolute;top:50%;width:100%}.tp-aplv_c{bottom:0;left:0;position:absolute;right:0;top:0}.tp-aplv_m{background-color:#fff;background-image:linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%),linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%);background-size:12px 12px;background-position:0 0,6px 6px;border-radius:var(--elm-br);box-shadow:0 0 2px rgba(0,0,0,0.1);height:12px;left:50%;margin-left:-6px;margin-top:-6px;overflow:hidden;pointer-events:none;position:absolute;top:50%;width:12px}.tp-aplv_p{border-radius:var(--elm-br);border:rgba(255,255,255,0.75) solid 2px;box-sizing:border-box;bottom:0;left:0;position:absolute;right:0;top:0}.tp-aplv:focus .tp-aplv_p{border-color:#fff}.tp-colswv{background-color:#fff;background-image:linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%),linear-gradient(to top right, #ddd 25%, transparent 25%, transparent 75%, #ddd 75%);background-size:10px 10px;background-position:0 0,5px 5px;border-radius:var(--elm-br)}.tp-colswv.tp-v-disabled{opacity:0.5}.tp-colswv_b{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:transparent;border-width:0;cursor:pointer;display:block;height:var(--bld-us);left:0;margin:0;outline:none;padding:0;position:absolute;top:0;width:var(--bld-us)}.tp-colswv_b:focus::after{border:rgba(255,255,255,0.75) solid 2px;border-radius:var(--elm-br);bottom:0;content:\'\';display:block;left:0;position:absolute;right:0;top:0}.tp-coltxtv{display:flex;width:100%}.tp-coltxtv_m{margin-right:4px}.tp-coltxtv_ms{border-radius:var(--elm-br);color:var(--lbl-fg);cursor:pointer;height:var(--bld-us);line-height:var(--bld-us);padding:0 18px 0 4px}.tp-coltxtv_ms:hover{background-color:var(--in-bg-h)}.tp-coltxtv_ms:focus{background-color:var(--in-bg-f)}.tp-coltxtv_ms:active{background-color:var(--in-bg-a)}.tp-coltxtv_mm{color:var(--lbl-fg)}.tp-coltxtv_w{flex:1}.tp-dfwv{position:absolute;top:8px;right:8px;width:256px}.tp-fldv.tp-fldv-not .tp-fldv_b{display:none}.tp-fldv_c{border-left:var(--cnt-bg) solid 4px}.tp-fldv_b:hover+.tp-fldv_c{border-left-color:var(--cnt-bg-h)}.tp-fldv_b:focus+.tp-fldv_c{border-left-color:var(--cnt-bg-f)}.tp-fldv_b:active+.tp-fldv_c{border-left-color:var(--cnt-bg-a)}.tp-grlv{position:relative}.tp-grlv_g{display:block;height:calc(var(--bld-us) * 3)}.tp-grlv_g polyline{fill:none;stroke:var(--mo-fg);stroke-linejoin:round}.tp-grlv_t{margin-top:-4px;transition:left 0.05s, top 0.05s;visibility:hidden}.tp-grlv_t.tp-grlv_t-a{visibility:visible}.tp-grlv_t.tp-grlv_t-in{transition:none}.tp-grlv.tp-v-disabled .tp-grlv_g{opacity:0.5}.tp-grlv .tp-ttv{background-color:var(--mo-fg)}.tp-grlv .tp-ttv::before{border-top-color:var(--mo-fg)}.tp-lblv{align-items:center;display:flex;line-height:1.3;padding-left:var(--cnt-h-p);padding-right:var(--cnt-h-p)}.tp-lblv.tp-lblv-nol{display:block}.tp-lblv_l{color:var(--lbl-fg);flex:1;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto;overflow:hidden;padding-left:4px;padding-right:16px}.tp-lblv.tp-v-disabled .tp-lblv_l{opacity:0.5}.tp-lblv.tp-lblv-nol .tp-lblv_l{display:none}.tp-lblv_v{align-self:flex-start;flex-grow:0;flex-shrink:0;width:160px}.tp-lblv.tp-lblv-nol .tp-lblv_v{width:100%}.tp-lstv_s{padding:0 20px 0 4px;width:100%}.tp-lstv_m{color:var(--btn-fg)}.tp-sglv_i{padding:0 4px}.tp-sglv.tp-v-disabled .tp-sglv_i{opacity:0.5}.tp-mllv_i{display:block;height:calc(var(--bld-us) * 3);line-height:var(--bld-us);padding:0 4px;resize:none;white-space:pre}.tp-mllv.tp-v-disabled .tp-mllv_i{opacity:0.5}.tp-p2dv{position:relative}.tp-p2dv_h{display:flex}.tp-p2dv_b{height:var(--bld-us);margin-right:4px;position:relative;width:var(--bld-us)}.tp-p2dv_b svg{display:block;height:16px;left:50%;margin-left:-8px;margin-top:-8px;position:absolute;top:50%;width:16px}.tp-p2dv_b svg path{stroke:currentColor;stroke-width:2}.tp-p2dv_b svg circle{fill:currentColor}.tp-p2dv_t{flex:1}.tp-p2dv_p{height:0;margin-top:0;opacity:0;overflow:hidden;transition:height .2s ease-in-out,opacity .2s linear,margin .2s ease-in-out}.tp-p2dv.tp-p2dv-expanded .tp-p2dv_p{margin-top:var(--bld-s);opacity:1}.tp-p2dv .tp-popv{left:calc(-1 * var(--cnt-h-p));right:calc(-1 * var(--cnt-h-p));top:var(--bld-us)}.tp-p2dpv{padding-left:calc(var(--bld-us) + 4px)}.tp-p2dpv_p{cursor:crosshair;height:0;overflow:hidden;padding-bottom:100%;position:relative}.tp-p2dpv_g{display:block;height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%}.tp-p2dpv_ax{opacity:0.1;stroke:var(--in-fg);stroke-dasharray:1}.tp-p2dpv_l{opacity:0.5;stroke:var(--in-fg);stroke-dasharray:1}.tp-p2dpv_m{border:var(--in-fg) solid 1px;border-radius:50%;box-sizing:border-box;height:4px;margin-left:-2px;margin-top:-2px;position:absolute;width:4px}.tp-p2dpv_p:focus .tp-p2dpv_m{background-color:var(--in-fg);border-width:0}.tp-popv{background-color:var(--bs-bg);border-radius:6px;box-shadow:0 2px 4px var(--bs-sh);display:none;max-width:168px;padding:var(--cnt-v-p) var(--cnt-h-p);position:absolute;visibility:hidden;z-index:1000}.tp-popv.tp-popv-v{display:block;visibility:visible}.tp-sprv_r{background-color:var(--grv-fg);border-width:0;display:block;height:2px;margin:0;width:100%}.tp-sldv.tp-v-disabled{opacity:0.5}.tp-sldv_t{box-sizing:border-box;cursor:pointer;height:var(--bld-us);margin:0 6px;outline:none;position:relative}.tp-sldv_t::before{background-color:var(--in-bg);border-radius:1px;bottom:0;content:\'\';display:block;height:2px;left:0;margin:auto;position:absolute;right:0;top:0}.tp-sldv_k{height:100%;left:0;position:absolute;top:0}.tp-sldv_k::before{background-color:var(--in-fg);border-radius:1px;bottom:0;content:\'\';display:block;height:2px;left:0;margin-bottom:auto;margin-top:auto;position:absolute;right:0;top:0}.tp-sldv_k::after{background-color:var(--btn-bg);border-radius:var(--elm-br);bottom:0;content:\'\';display:block;height:12px;margin-bottom:auto;margin-top:auto;position:absolute;right:-6px;top:0;width:12px}.tp-sldv_t:hover .tp-sldv_k::after{background-color:var(--btn-bg-h)}.tp-sldv_t:focus .tp-sldv_k::after{background-color:var(--btn-bg-f)}.tp-sldv_t:active .tp-sldv_k::after{background-color:var(--btn-bg-a)}.tp-sldtxtv{display:flex}.tp-sldtxtv_s{flex:2}.tp-sldtxtv_t{flex:1;margin-left:4px}.tp-tabv.tp-v-disabled{opacity:0.5}.tp-tabv_i{align-items:flex-end;display:flex;overflow:hidden}.tp-tabv.tp-tabv-nop .tp-tabv_i{height:calc(var(--bld-us) + 4px);position:relative}.tp-tabv.tp-tabv-nop .tp-tabv_i::before{background-color:var(--cnt-bg);bottom:0;content:\'\';height:2px;left:0;position:absolute;right:0}.tp-tabv_c{border-left:var(--cnt-bg) solid 4px;padding-bottom:var(--cnt-v-p);padding-top:var(--cnt-v-p)}.tp-tbiv{flex:1;min-width:0;position:relative}.tp-tbiv+.tp-tbiv{margin-left:2px}.tp-tbiv+.tp-tbiv::before{background-color:var(--cnt-bg);bottom:0;content:\'\';height:2px;left:-2px;position:absolute;width:2px}.tp-tbiv_b{background-color:var(--cnt-bg);display:block;padding-left:calc(var(--cnt-h-p) + 4px);padding-right:calc(var(--cnt-h-p) + 4px);width:100%}.tp-tbiv_b:hover{background-color:var(--cnt-bg-h)}.tp-tbiv_b:focus{background-color:var(--cnt-bg-f)}.tp-tbiv_b:active{background-color:var(--cnt-bg-a)}.tp-tbiv_b:disabled{opacity:0.5}.tp-tbiv_t{color:var(--cnt-fg);height:calc(var(--bld-us) + 4px);line-height:calc(var(--bld-us) + 4px);opacity:0.5;overflow:hidden;text-overflow:ellipsis}.tp-tbiv.tp-tbiv-sel .tp-tbiv_t{opacity:1}.tp-txtv{position:relative}.tp-txtv_i{padding:0 4px}.tp-txtv.tp-txtv-fst .tp-txtv_i{border-bottom-right-radius:0;border-top-right-radius:0}.tp-txtv.tp-txtv-mid .tp-txtv_i{border-radius:0}.tp-txtv.tp-txtv-lst .tp-txtv_i{border-bottom-left-radius:0;border-top-left-radius:0}.tp-txtv.tp-txtv-num .tp-txtv_i{text-align:right}.tp-txtv.tp-txtv-drg .tp-txtv_i{opacity:0.3}.tp-txtv_k{cursor:pointer;height:100%;left:-3px;position:absolute;top:0;width:12px}.tp-txtv_k::before{background-color:var(--in-fg);border-radius:1px;bottom:0;content:\'\';height:calc(var(--bld-us) - 4px);left:50%;margin-bottom:auto;margin-left:-1px;margin-top:auto;opacity:0.1;position:absolute;top:0;transition:border-radius 0.1s, height 0.1s, transform 0.1s, width 0.1s;width:2px}.tp-txtv_k:hover::before,.tp-txtv.tp-txtv-drg .tp-txtv_k::before{opacity:1}.tp-txtv.tp-txtv-drg .tp-txtv_k::before{border-radius:50%;height:4px;transform:translateX(-1px);width:4px}.tp-txtv_g{bottom:0;display:block;height:8px;left:50%;margin:auto;overflow:visible;pointer-events:none;position:absolute;top:0;visibility:hidden;width:100%}.tp-txtv.tp-txtv-drg .tp-txtv_g{visibility:visible}.tp-txtv_gb{fill:none;stroke:var(--in-fg);stroke-dasharray:1}.tp-txtv_gh{fill:none;stroke:var(--in-fg)}.tp-txtv .tp-ttv{margin-left:6px;visibility:hidden}.tp-txtv.tp-txtv-drg .tp-ttv{visibility:visible}.tp-ttv{background-color:var(--in-fg);border-radius:var(--elm-br);color:var(--bs-bg);padding:2px 4px;pointer-events:none;position:absolute;transform:translate(-50%, -100%)}.tp-ttv::before{border-color:var(--in-fg) transparent transparent transparent;border-style:solid;border-width:2px;box-sizing:border-box;content:\'\';font-size:0.9em;height:4px;left:50%;margin-left:-2px;position:absolute;top:100%;width:4px}.tp-rotv{background-color:var(--bs-bg);border-radius:var(--bs-br);box-shadow:0 2px 4px var(--bs-sh);font-family:var(--font-family);font-size:11px;font-weight:500;line-height:1;text-align:left}.tp-rotv_b{border-bottom-left-radius:var(--bs-br);border-bottom-right-radius:var(--bs-br);border-top-left-radius:var(--bs-br);border-top-right-radius:var(--bs-br);padding-left:calc(2px * 2 + var(--bld-us) + var(--cnt-h-p));text-align:center}.tp-rotv.tp-rotv-expanded .tp-rotv_b{border-bottom-left-radius:0;border-bottom-right-radius:0}.tp-rotv.tp-rotv-not .tp-rotv_b{display:none}.tp-rotv_c>.tp-fldv.tp-v-lst>.tp-fldv_c,.tp-rotv_c>.tp-tabv.tp-v-lst>.tp-tabv_c{border-bottom-left-radius:var(--bs-br);border-bottom-right-radius:var(--bs-br)}.tp-rotv_c>.tp-fldv.tp-v-lst:not(.tp-fldv-expanded)>.tp-fldv_b{border-bottom-left-radius:var(--bs-br);border-bottom-right-radius:var(--bs-br)}.tp-rotv_c .tp-fldv.tp-v-vlst:not(.tp-fldv-expanded)>.tp-fldv_b{border-bottom-right-radius:var(--bs-br)}.tp-rotv.tp-rotv-not .tp-rotv_c>.tp-fldv.tp-v-fst{margin-top:calc(-1 * var(--cnt-v-p))}.tp-rotv.tp-rotv-not .tp-rotv_c>.tp-fldv.tp-v-fst>.tp-fldv_b{border-top-left-radius:var(--bs-br);border-top-right-radius:var(--bs-br)}.tp-rotv.tp-rotv-not .tp-rotv_c>.tp-tabv.tp-v-fst{margin-top:calc(-1 * var(--cnt-v-p))}.tp-rotv.tp-rotv-not .tp-rotv_c>.tp-tabv.tp-v-fst>.tp-tabv_i{border-top-left-radius:var(--bs-br);border-top-right-radius:var(--bs-br)}.tp-rotv.tp-v-disabled,.tp-rotv .tp-v-disabled{pointer-events:none}.tp-rotv.tp-v-hidden,.tp-rotv .tp-v-hidden{display:none}');
+            this.pool_.getAll().forEach((plugin) => {
+                this.embedPluginStyle_(plugin);
             });
-        });
+            this.registerPlugin({
+                plugins: [
+                    SliderBladePlugin,
+                    ListBladePlugin,
+                    TabBladePlugin,
+                    TextBladePlugin,
+                ],
+            });
+        }
     }
-    registerDefaultPlugins();
 
-    return Tweakpane;
+    const VERSION = new Semver('3.0.4');
+
+    exports.BladeApi = BladeApi;
+    exports.ButtonApi = ButtonApi;
+    exports.FolderApi = FolderApi;
+    exports.InputBindingApi = InputBindingApi;
+    exports.ListApi = ListApi;
+    exports.MonitorBindingApi = MonitorBindingApi;
+    exports.Pane = Pane;
+    exports.SeparatorApi = SeparatorApi;
+    exports.SliderApi = SliderApi;
+    exports.TabApi = TabApi;
+    exports.TabPageApi = TabPageApi;
+    exports.TextApi = TextApi;
+    exports.TpChangeEvent = TpChangeEvent;
+    exports.VERSION = VERSION;
+
+    Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
 
@@ -119489,18 +120871,18 @@ var EffectComposer = function ( renderer, renderTarget ) {
 	if ( renderTarget === undefined ) {
 
 		var parameters = {
-			minFilter: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["m" /* LinearFilter */],
-			magFilter: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["m" /* LinearFilter */],
-			format: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["z" /* RGBAFormat */],
+			minFilter: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["o" /* LinearFilter */],
+			magFilter: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["o" /* LinearFilter */],
+			format: __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["B" /* RGBAFormat */],
 			stencilBuffer: false
 		};
 
-		var size = renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* Vector2 */]() );
+		var size = renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* Vector2 */]() );
 		this._pixelRatio = renderer.getPixelRatio();
 		this._width = size.width;
 		this._height = size.height;
 
-		renderTarget = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* WebGLRenderTarget */]( this._width * this._pixelRatio, this._height * this._pixelRatio, parameters );
+		renderTarget = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["M" /* WebGLRenderTarget */]( this._width * this._pixelRatio, this._height * this._pixelRatio, parameters );
 		renderTarget.texture.name = 'EffectComposer.rt1';
 
 	} else {
@@ -119538,7 +120920,7 @@ var EffectComposer = function ( renderer, renderTarget ) {
 
 	this.copyPass = new __WEBPACK_IMPORTED_MODULE_2__postprocessing_ShaderPass_js__["a" /* ShaderPass */]( __WEBPACK_IMPORTED_MODULE_1__shaders_CopyShader_js__["a" /* CopyShader */] );
 
-	this.clock = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["f" /* Clock */]();
+	this.clock = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["g" /* Clock */]();
 
 };
 
@@ -119556,7 +120938,7 @@ Object.assign( EffectComposer.prototype, {
 
 		this.passes.push( pass );
 
-		var size = this.renderer.getDrawingBufferSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* Vector2 */]() );
+		var size = this.renderer.getDrawingBufferSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* Vector2 */]() );
 		pass.setSize( size.width, size.height );
 
 	},
@@ -119650,7 +121032,7 @@ Object.assign( EffectComposer.prototype, {
 
 		if ( renderTarget === undefined ) {
 
-			var size = this.renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["I" /* Vector2 */]() );
+			var size = this.renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* Vector2 */]() );
 			this._pixelRatio = this.renderer.getPixelRatio();
 			this._width = size.width;
 			this._height = size.height;
@@ -119731,12 +121113,12 @@ Object.assign( Pass.prototype, {
 // Helper for passes that need to fill the viewport with a single quad.
 Pass.FullScreenQuad = ( function () {
 
-	var camera = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["s" /* OrthographicCamera */]( - 1, 1, 1, - 1, 0, 1 );
-	var geometry = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["u" /* PlaneBufferGeometry */]( 2, 2 );
+	var camera = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["u" /* OrthographicCamera */]( - 1, 1, 1, - 1, 0, 1 );
+	var geometry = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["w" /* PlaneBufferGeometry */]( 2, 2 );
 
 	var FullScreenQuad = function ( material ) {
 
-		this._mesh = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["o" /* Mesh */]( geometry, material );
+		this._mesh = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["q" /* Mesh */]( geometry, material );
 
 	};
 
@@ -119852,7 +121234,7 @@ var ShaderPass = function ( shader, textureID ) {
 
 	this.textureID = ( textureID !== undefined ) ? textureID : "tDiffuse";
 
-	if ( shader instanceof __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["D" /* ShaderMaterial */] ) {
+	if ( shader instanceof __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* ShaderMaterial */] ) {
 
 		this.uniforms = shader.uniforms;
 
@@ -119860,9 +121242,9 @@ var ShaderPass = function ( shader, textureID ) {
 
 	} else if ( shader ) {
 
-		this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["H" /* UniformsUtils */].clone( shader.uniforms );
+		this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["J" /* UniformsUtils */].clone( shader.uniforms );
 
-		this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["D" /* ShaderMaterial */]( {
+		this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* ShaderMaterial */]( {
 
 			defines: Object.assign( {}, shader.defines ),
 			uniforms: this.uniforms,
@@ -120018,7 +121400,7 @@ var GlitchPass = function ( dt_size ) {
 	if ( __WEBPACK_IMPORTED_MODULE_2__shaders_DigitalGlitch_js__["a" /* DigitalGlitch */] === undefined ) console.error( "GlitchPass relies on DigitalGlitch" );
 
 	var shader = __WEBPACK_IMPORTED_MODULE_2__shaders_DigitalGlitch_js__["a" /* DigitalGlitch */];
-	this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["H" /* UniformsUtils */].clone( shader.uniforms );
+	this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["J" /* UniformsUtils */].clone( shader.uniforms );
 
 	if ( dt_size == undefined ) dt_size = 64;
 
@@ -120026,7 +121408,7 @@ var GlitchPass = function ( dt_size ) {
 	this.uniforms[ "tDisp" ].value = this.generateHeightmap( dt_size );
 
 
-	this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["D" /* ShaderMaterial */]( {
+	this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* ShaderMaterial */]( {
 		uniforms: this.uniforms,
 		vertexShader: shader.vertexShader,
 		fragmentShader: shader.fragmentShader
@@ -120053,22 +121435,22 @@ GlitchPass.prototype = Object.assign( Object.create( __WEBPACK_IMPORTED_MODULE_1
 		if ( this.curF % this.randX == 0 || this.goWild == true ) {
 
 			this.uniforms[ 'amount' ].value = Math.random() / 30;
-			this.uniforms[ 'angle' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( - Math.PI, Math.PI );
-			this.uniforms[ 'seed_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( - 1, 1 );
-			this.uniforms[ 'seed_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( - 1, 1 );
-			this.uniforms[ 'distortion_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( 0, 1 );
-			this.uniforms[ 'distortion_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( 0, 1 );
+			this.uniforms[ 'angle' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( - Math.PI, Math.PI );
+			this.uniforms[ 'seed_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( - 1, 1 );
+			this.uniforms[ 'seed_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( - 1, 1 );
+			this.uniforms[ 'distortion_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( 0, 1 );
+			this.uniforms[ 'distortion_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( 0, 1 );
 			this.curF = 0;
 			this.generateTrigger();
 
 		} else if ( this.curF % this.randX < this.randX / 5 ) {
 
 			this.uniforms[ 'amount' ].value = Math.random() / 90;
-			this.uniforms[ 'angle' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( - Math.PI, Math.PI );
-			this.uniforms[ 'distortion_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( 0, 1 );
-			this.uniforms[ 'distortion_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( 0, 1 );
-			this.uniforms[ 'seed_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( - 0.3, 0.3 );
-			this.uniforms[ 'seed_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( - 0.3, 0.3 );
+			this.uniforms[ 'angle' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( - Math.PI, Math.PI );
+			this.uniforms[ 'distortion_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( 0, 1 );
+			this.uniforms[ 'distortion_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( 0, 1 );
+			this.uniforms[ 'seed_x' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( - 0.3, 0.3 );
+			this.uniforms[ 'seed_y' ].value = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( - 0.3, 0.3 );
 
 		} else if ( this.goWild == false ) {
 
@@ -120095,7 +121477,7 @@ GlitchPass.prototype = Object.assign( Object.create( __WEBPACK_IMPORTED_MODULE_1
 
 	generateTrigger: function () {
 
-		this.randX = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randInt( 120, 240 );
+		this.randX = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randInt( 120, 240 );
 
 	},
 
@@ -120106,14 +121488,14 @@ GlitchPass.prototype = Object.assign( Object.create( __WEBPACK_IMPORTED_MODULE_1
 
 		for ( var i = 0; i < length; i ++ ) {
 
-			var val = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["n" /* Math */].randFloat( 0, 1 );
+			var val = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["p" /* Math */].randFloat( 0, 1 );
 			data_arr[ i * 3 + 0 ] = val;
 			data_arr[ i * 3 + 1 ] = val;
 			data_arr[ i * 3 + 2 ] = val;
 
 		}
 
-		var texture = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["h" /* DataTexture */]( data_arr, dt_size, dt_size, __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["A" /* RGBFormat */], __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["j" /* FloatType */] );
+		var texture = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["j" /* DataTexture */]( data_arr, dt_size, dt_size, __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["C" /* RGBFormat */], __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["l" /* FloatType */] );
 		texture.needsUpdate = true;
 		return texture;
 
@@ -120262,7 +121644,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
   function _Class(options) {
     var axesHelper;
     this.options = options;
-    axesHelper = new __WEBPACK_IMPORTED_MODULE_0_three__["b" /* AxesHelper */](1000);
+    axesHelper = new __WEBPACK_IMPORTED_MODULE_0_three__["c" /* AxesHelper */](1000);
     this.options.scene.add(axesHelper);
   }
 
@@ -120293,9 +121675,9 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   function _Class(options) {
     this.options = options;
-    this.main = new __WEBPACK_IMPORTED_MODULE_0_three__["a" /* AmbientLight */](0xffffff, .5);
+    this.main = new __WEBPACK_IMPORTED_MODULE_0_three__["b" /* AmbientLight */](0xffffff, .5);
     this.options.scene.add(this.main);
-    this.point = new __WEBPACK_IMPORTED_MODULE_0_three__["v" /* PointLight */](0xffffff, .5);
+    this.point = new __WEBPACK_IMPORTED_MODULE_0_three__["x" /* PointLight */](0xffffff, .5);
     this.point.position.set(2, 5, 5);
     this.options.scene.add(this.point);
     this.createPointLightHelper(this.point);
@@ -120306,7 +121688,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     if (size == null) {
       size = 1;
     }
-    helper = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PointLightHelper */](light, size);
+    helper = new __WEBPACK_IMPORTED_MODULE_0_three__["y" /* PointLightHelper */](light, size);
     return this.options.scene.add(helper);
   };
 
@@ -120345,9 +121727,9 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     metalnessTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/door/metalness.jpg");
     normalTexture = this.options.loaders.texture.load("./build/img/door/normal.jpg");
     roughnessTexture = this.options.loaders.texture.load("./buscripts/tools/Scene/texturesipts/tools/Scene/textureslg/door/roughness.jpg");
-    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](3, 3, 100, 100);
-    this.geometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](this.geometry.attributes.uv.array, 2));
-    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]();
+    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](3, 3, 100, 100);
+    this.geometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](this.geometry.attributes.uv.array, 2));
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]();
     this.material.map = colorTexture;
     this.material.aoMap = ambientOcclusionTexture;
     this.material.aoMapIntensity = 1.09;
@@ -120358,7 +121740,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     this.material.normalMap = normalTexture;
     this.material.alphaMap = alphaTexture;
     this.material.transparent = true;
-    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](this.geometry, this.material);
+    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](this.geometry, this.material);
     this.options.scene.add(this.mesh);
     this.debug();
   }
@@ -120423,7 +121805,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     console.log(matcap);
     this.options.loaders.font.load("./scripts/tools/Scene/fonts/helvetiker_regular.typeface.json", (function(_this) {
       return function(font) {
-        _this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["F" /* TextBufferGeometry */]("Jerome", {
+        _this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* TextBufferGeometry */]("Jerome", {
           font: font,
           size: 1.5,
           height: 0.8,
@@ -120435,10 +121817,10 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
           bevelSegments: 8
         });
         _this.geometry.center();
-        _this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* MeshMatcapMaterial */]({
+        _this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["s" /* MeshMatcapMaterial */]({
           matcap: matcap
         });
-        _this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](_this.geometry, _this.material);
+        _this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](_this.geometry, _this.material);
         _this.options.scene.add(_this.mesh);
         return _this.debug();
       };
@@ -120483,23 +121865,23 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     this.options = options;
     bakedShadow = this.options.loaders.texture.load("./scripts/tools/Scene/textures/shadows/simpleShadow.jpg");
     console.log(bakedShadow);
-    this.main = new __WEBPACK_IMPORTED_MODULE_0_three__["a" /* AmbientLight */](0xffffff, .5);
+    this.main = new __WEBPACK_IMPORTED_MODULE_0_three__["b" /* AmbientLight */](0xffffff, .5);
     this.options.scene.add(this.main);
-    this.point = new __WEBPACK_IMPORTED_MODULE_0_three__["i" /* DirectionalLight */](0xffffff, .5);
+    this.point = new __WEBPACK_IMPORTED_MODULE_0_three__["k" /* DirectionalLight */](0xffffff, .5);
     this.point.position.set(2, 2, -1);
     this.options.scene.add(this.point);
-    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]();
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]();
     this.material.metalness = 0;
     this.material.roughness = 0.7;
-    objectGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* SphereBufferGeometry */](1, 32, 32);
-    this.object = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](objectGeometry, this.material);
+    objectGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* SphereBufferGeometry */](1, 32, 32);
+    this.object = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](objectGeometry, this.material);
     this.options.scene.add(this.object);
-    planeGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](8, 8);
-    this.plane = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](planeGeometry, this.material);
+    planeGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](8, 8);
+    this.plane = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](planeGeometry, this.material);
     this.plane.position.y = -1;
     this.plane.rotation.x = -Math.PI * .5;
     this.options.scene.add(this.plane);
-    this.objectShadow = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](3, 3), new __WEBPACK_IMPORTED_MODULE_0_three__["p" /* MeshBasicMaterial */]({
+    this.objectShadow = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](3, 3), new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshBasicMaterial */]({
       color: 0x000000,
       transparent: true,
       alphaMap: bakedShadow
@@ -120663,14 +122045,14 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   _Class.prototype.createHouse = function() {
     var bricksAmbientOcclusionTexture, bricksColorTexture, bricksNormalTexture, bricksRoughnessTexture, bushGeometry, bushMaterial, doorAlphaTexture, doorAmbientOcclusionTexture, doorColorTexture, doorGeometry, doorHeightTexture, doorMaterial, doorMetalnessTexture, doorNormalTexture, doorRoughnessTexture, house, roofGeometry, roofMaterial, wallsGeometry, wallsMaterial;
-    house = new __WEBPACK_IMPORTED_MODULE_0_three__["l" /* Group */]();
+    house = new __WEBPACK_IMPORTED_MODULE_0_three__["n" /* Group */]();
     bricksAmbientOcclusionTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/bricks/ambientOcclusion.jpg");
     bricksColorTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/bricks/color.jpg");
     bricksNormalTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/bricks/normal.jpg");
     bricksRoughnessTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/bricks/roughness.jpg");
-    wallsGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["c" /* BoxBufferGeometry */](4, 2.5, 4);
-    wallsGeometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](wallsGeometry.attributes.uv.array, 2));
-    wallsMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
+    wallsGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BoxBufferGeometry */](4, 2.5, 4);
+    wallsGeometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](wallsGeometry.attributes.uv.array, 2));
+    wallsMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       shininess: 0,
       metalness: 0,
       map: bricksColorTexture,
@@ -120678,17 +122060,17 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
       normalMap: bricksNormalTexture,
       roughnessMap: bricksRoughnessTexture
     });
-    this.walls = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](wallsGeometry, wallsMaterial);
+    this.walls = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](wallsGeometry, wallsMaterial);
     this.walls.position.y = 2.5 / 2;
     this.walls.castShadow = true;
     house.add(this.walls);
-    roofGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["g" /* ConeBufferGeometry */](4, 1, 4);
-    roofMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
+    roofGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["i" /* ConeBufferGeometry */](4, 1, 4);
+    roofMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       color: "#b35f45",
       shininess: 0,
       metalness: 0
     });
-    this.roof = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](roofGeometry, roofMaterial);
+    this.roof = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](roofGeometry, roofMaterial);
     this.roof.position.y = 2.5 + 0.5;
     this.roof.rotation.y = Math.PI / 4;
     this.roof.castShadow = true;
@@ -120700,9 +122082,9 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     doorMetalnessTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/door/metalness.jpg");
     doorNormalTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/door/normal.jpg");
     doorRoughnessTexture = this.options.loaders.texture.load("./scripts/tools/Scene/textures/haunted-house/door/roughness.jpg");
-    doorGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](2.2, 2.2, 100, 100);
-    doorGeometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](doorGeometry.attributes.uv.array, 2));
-    doorMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
+    doorGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](2.2, 2.2, 100, 100);
+    doorGeometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](doorGeometry.attributes.uv.array, 2));
+    doorMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       shininess: 0,
       map: doorColorTexture,
       alphaMap: doorAlphaTexture,
@@ -120714,32 +122096,32 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
       metalnessMap: doorMetalnessTexture,
       roughnessMap: doorRoughnessTexture
     });
-    this.door = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](doorGeometry, doorMaterial);
+    this.door = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](doorGeometry, doorMaterial);
     this.door.position.y = 2 / 2;
     this.door.position.z = (4 / 2) + 0.01;
     house.add(this.door);
-    bushGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* SphereBufferGeometry */](1, 16, 16);
-    bushMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
+    bushGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* SphereBufferGeometry */](1, 16, 16);
+    bushMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       color: "#89c854",
       shininess: 0,
       metalness: 0
     });
-    this.bush1 = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](bushGeometry, bushMaterial);
+    this.bush1 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](bushGeometry, bushMaterial);
     this.bush1.scale.set(.5, .5, .5);
     this.bush1.position.set(1.1, .2, 2.2);
     this.bush1.castShadow = true;
     house.add(this.bush1);
-    this.bush2 = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](bushGeometry, bushMaterial);
+    this.bush2 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](bushGeometry, bushMaterial);
     this.bush2.scale.set(.25, .25, .25);
     this.bush2.position.set(1.5, .1, 2.1);
     this.bush2.castShadow = true;
     house.add(this.bush2);
-    this.bush3 = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](bushGeometry, bushMaterial);
+    this.bush3 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](bushGeometry, bushMaterial);
     this.bush3.scale.set(.4, .4, .4);
     this.bush3.position.set(-.8, .1, 2.2);
     this.bush3.castShadow = true;
     house.add(this.bush3);
-    this.bush4 = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](bushGeometry, bushMaterial);
+    this.bush4 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](bushGeometry, bushMaterial);
     this.bush4.scale.set(.15, .15, .15);
     this.bush4.position.set(-1, .05, 2.6);
     this.bush4.castShadow = true;
@@ -120749,9 +122131,9 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   _Class.prototype.createGraves = function() {
     var angle, grave, graveGeometry, graveMaterial, graves, i, j, radius, x, z;
-    graves = new __WEBPACK_IMPORTED_MODULE_0_three__["l" /* Group */]();
-    graveGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["c" /* BoxBufferGeometry */](.6, .8, .2);
-    graveMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
+    graves = new __WEBPACK_IMPORTED_MODULE_0_three__["n" /* Group */]();
+    graveGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BoxBufferGeometry */](.6, .8, .2);
+    graveMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       color: "#b2b6b1"
     });
     for (i = j = 0; j < 50; i = ++j) {
@@ -120759,7 +122141,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
       radius = 4 + Math.random() * 5;
       x = Math.sin(angle) * radius;
       z = Math.cos(angle) * radius;
-      grave = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](graveGeometry, graveMaterial);
+      grave = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](graveGeometry, graveMaterial);
       grave.position.set(x, .3, z);
       grave.rotation.y = (Math.random() - .5) * .4;
       grave.rotation.z = (Math.random() - .5) * .4;
@@ -120780,17 +122162,17 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     grassColorTexture.repeat.set(repeat, repeat);
     grassNormalTexture.repeat.set(repeat, repeat);
     grassRoughnessTexture.repeat.set(repeat, repeat);
-    grassAmbientOcclusionTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassAmbientOcclusionTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassColorTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassColorTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassNormalTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassNormalTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassRoughnessTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    grassRoughnessTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["B" /* RepeatWrapping */];
-    geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](60, 60);
-    geometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](geometry.attributes.uv.array, 2));
-    material = new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshStandardMaterial */]({
+    grassAmbientOcclusionTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassAmbientOcclusionTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassColorTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassColorTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassNormalTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassNormalTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassRoughnessTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassRoughnessTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](60, 60);
+    geometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](geometry.attributes.uv.array, 2));
+    material = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       shininess: 0,
       metalness: 0,
       map: grassColorTexture,
@@ -120798,7 +122180,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
       normalMap: grassNormalTexture,
       roughnessMap: grassRoughnessTexture
     });
-    ground = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](geometry, material);
+    ground = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](geometry, material);
     ground.receiveShadow = true;
     ground.rotation.x = -Math.PI / 2;
     return ground;
@@ -120812,20 +122194,20 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     if (distance == null) {
       distance = 3;
     }
-    ghost = new __WEBPACK_IMPORTED_MODULE_0_three__["v" /* PointLight */](color, intensity, distance);
+    ghost = new __WEBPACK_IMPORTED_MODULE_0_three__["x" /* PointLight */](color, intensity, distance);
     ghost.castShadow = true;
     return ghost;
   };
 
   _Class.prototype.createMainLight = function() {
     var light;
-    light = new __WEBPACK_IMPORTED_MODULE_0_three__["a" /* AmbientLight */]("#b9d4ff", .12);
+    light = new __WEBPACK_IMPORTED_MODULE_0_three__["b" /* AmbientLight */]("#b9d4ff", .12);
     return light;
   };
 
   _Class.prototype.createSecondaryLight = function() {
     var light;
-    light = new __WEBPACK_IMPORTED_MODULE_0_three__["i" /* DirectionalLight */]("#b9d4ff", .5);
+    light = new __WEBPACK_IMPORTED_MODULE_0_three__["k" /* DirectionalLight */]("#b9d4ff", .5);
     light.position.set(4, 5, -2);
     light.castShadow = true;
     return light;
@@ -120833,7 +122215,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   _Class.prototype.createDoorLight = function() {
     var light;
-    light = new __WEBPACK_IMPORTED_MODULE_0_three__["v" /* PointLight */]("#ff7d46", 1, 7);
+    light = new __WEBPACK_IMPORTED_MODULE_0_three__["x" /* PointLight */]("#ff7d46", 1, 7);
     light.position.set(0, 2.2, 2.7);
     light.castShadow = true;
     return light;
@@ -120877,13 +122259,13 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 
-/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+/* unused harmony default export */ var _unused_webpack_default_export = ((function(superClass) {
   extend(_Class, superClass);
 
   function _Class(options) {
     var colors, i, j, positions, ref;
     this.options = options;
-    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferGeometry */]();
+    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["f" /* BufferGeometry */]();
     this.count = 5000;
     positions = new Float32Array(this.count * 3);
     colors = new Float32Array(this.count * 3);
@@ -120891,9 +122273,9 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
       positions[i] = (Math.random() - .5) * 20;
       colors[i] = Math.random();
     }
-    this.geometry.addAttribute("position", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](positions, 3));
-    this.geometry.addAttribute("color", new __WEBPACK_IMPORTED_MODULE_0_three__["d" /* BufferAttribute */](colors, 3));
-    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["y" /* PointsMaterial */]({
+    this.geometry.addAttribute("position", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](positions, 3));
+    this.geometry.addAttribute("color", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](colors, 3));
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["A" /* PointsMaterial */]({
       size: 0.2,
       sizeAttenuation: true,
       transparent: true,
@@ -120902,7 +122284,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
       vertexColors: true
     });
     this.material.color.setHSL(1.0, 0.4, 0.7);
-    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["x" /* Points */](this.geometry, this.material);
+    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["z" /* Points */](this.geometry, this.material);
     this.options.scene.add(this.mesh);
     this.debug();
   }
@@ -120936,8 +122318,200 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DomController_coffee__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Item_coffee__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__ = __webpack_require__(2);
+var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+  hasProp = {}.hasOwnProperty;
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+  extend(_Class, superClass);
+
+  function _Class(options) {
+    this.options = options;
+    this.config = {
+      count: 100000,
+      size: 0.01,
+      radius: 5,
+      branches: 3,
+      spin: 1,
+      randomness: 0.2,
+      randomnessPower: 3,
+      insideColor: "#ff6030",
+      outsideColor: "#1b3984"
+    };
+    this.geometry = null;
+    this.material = null;
+    this.points = null;
+    this.generate();
+    this.debug();
+  }
+
+  _Class.prototype.debug = function() {
+    var folder;
+    folder = this.options.debug.addFolder({
+      title: "Galaxy",
+      expanded: true
+    });
+    folder.addInput(this.config, "count", {
+      min: 100,
+      max: 1000000,
+      step: 100
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "size", {
+      min: .001,
+      max: .1,
+      step: .001
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "radius", {
+      min: .01,
+      max: 20,
+      step: .01
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "branches", {
+      min: 2,
+      max: 20,
+      step: 1
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "spin", {
+      min: -5,
+      max: 5,
+      step: .001
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "randomness", {
+      min: 0,
+      max: 2,
+      step: .001
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "randomnessPower", {
+      min: 1,
+      max: 20,
+      step: .001
+    }).on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    folder.addInput(this.config, "insideColor").on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+    return folder.addInput(this.config, "outsideColor").on("change", (function(_this) {
+      return function(e) {
+        if (e.last) {
+          return _this.generate();
+        }
+      };
+    })(this));
+  };
+
+  _Class.prototype.destroy = function() {
+    this.geometry.dispose();
+    this.material.dispose();
+    return this.options.scene.remove(this.points);
+  };
+
+  _Class.prototype.generate = function() {
+    var branchAngle, colorInside, colorOutside, colors, i, i3, j, mixedColor, positions, radius, randomX, randomY, randomZ, ref, spinAngle;
+    if (this.points !== null) {
+      this.destroy();
+    }
+    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["f" /* BufferGeometry */]();
+    positions = new Float32Array(this.config.count * 3);
+    colors = new Float32Array(this.config.count * 3);
+    colorInside = new __WEBPACK_IMPORTED_MODULE_0_three__["h" /* Color */](this.config.insideColor);
+    colorOutside = new __WEBPACK_IMPORTED_MODULE_0_three__["h" /* Color */](this.config.outsideColor);
+    for (i = j = 0, ref = this.config.count; 0 <= ref ? j < ref : j > ref; i = 0 <= ref ? ++j : --j) {
+      i3 = i * 3;
+      radius = Math.random() * this.config.radius;
+      spinAngle = radius * this.config.spin;
+      branchAngle = (i % this.config.branches) / this.config.branches * Math.PI * 2;
+      randomX = Math.pow(Math.random(), this.config.randomnessPower) * (Math.random() < .5 ? 1 : -1);
+      randomY = Math.pow(Math.random(), this.config.randomnessPower) * (Math.random() < .5 ? 1 : -1);
+      randomZ = Math.pow(Math.random(), this.config.randomnessPower) * (Math.random() < .5 ? 1 : -1);
+      positions[i3 + 0] = Math.cos(branchAngle + spinAngle) * radius + randomX;
+      positions[i3 + 1] = randomY;
+      positions[i3 + 2] = Math.sin(branchAngle + spinAngle) * radius + randomZ;
+      mixedColor = colorInside.clone();
+      mixedColor.lerp(colorOutside, radius / this.config.radius);
+      colors[i3 + 0] = mixedColor.r;
+      colors[i3 + 1] = mixedColor.g;
+      colors[i3 + 2] = mixedColor.b;
+    }
+    this.geometry.addAttribute("position", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](positions, 3));
+    this.geometry.addAttribute("color", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](colors, 3));
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["A" /* PointsMaterial */]({
+      size: this.config.size,
+      sizeAttenuation: true,
+      depthWrite: false,
+      blending: __WEBPACK_IMPORTED_MODULE_0_three__["a" /* AdditiveBlending */],
+      vertexColors: true
+    });
+    this.points = new __WEBPACK_IMPORTED_MODULE_0_three__["z" /* Points */](this.geometry, this.material);
+    return this.options.scene.add(this.points);
+  };
+
+  _Class.prototype.onUpdate = function(elapsedTime) {};
+
+  return _Class;
+
+})(__WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__["a" /* default */]));
+
+
+/***/ }),
+/* 32 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DomController_coffee__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Item_coffee__ = __webpack_require__(34);
 var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
@@ -120970,7 +122544,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -121102,15 +122676,15 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DomItem_coffee__ = __webpack_require__(34);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DomItem_coffee__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__ = __webpack_require__(37);
 var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
@@ -121132,8 +122706,8 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
   }
 
   _Class.prototype.beforeRender = function() {
-    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["u" /* PlaneBufferGeometry */](1, 1, 1, 1);
-    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["D" /* ShaderMaterial */]({
+    this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](1, 1, 1, 1);
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["F" /* ShaderMaterial */]({
       transparent: false,
       vertexShader: __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__["a" /* default */],
       fragmentShader: __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__["a" /* default */],
@@ -121148,7 +122722,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
         }
       }
     });
-    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["o" /* Mesh */](this.geometry, this.material);
+    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](this.geometry, this.material);
     return this.options.scene.add(this.mesh);
   };
 
@@ -121176,7 +122750,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -121360,28 +122934,28 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("#define GLSLIFY 1\nvarying vec2 vUv;\n\nvoid main() {\n    vUv = uv;\n\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}");
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("#ifdef GL_ES\nprecision highp float;\n#define GLSLIFY 1\n#endif\n\nvarying vec2 vUv;\n\nuniform float uTime;\nuniform float uProgress;\n\nvoid main() {\n\n    vec4 color = vec4(vUv.x, vUv.y, 0.0, 1.0);\n    gl_FragColor = color;\n}");
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_gsap_ScrollTrigger__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_gsap_ScrollTrigger__ = __webpack_require__(39);
 
 
 
@@ -121396,14 +122970,14 @@ __WEBPACK_IMPORTED_MODULE_1_gsap__["a" /* default */].registerPlugin(__WEBPACK_I
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export ScrollTrigger */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScrollTrigger; });
 /*!
- * ScrollTrigger 3.7.0
+ * ScrollTrigger 3.7.1
  * https://greensock.com
  *
  * @license Copyright 2008-2021, GreenSock. All rights reserved.
@@ -121856,12 +123430,15 @@ _revertRecorded = function _revertRecorded(media) {
   media && _revertRecorded(media);
   media || _dispatch("revert");
 },
+    _refreshingAll,
     _refreshAll = function _refreshAll(force, skipRevert) {
   if (_lastScrollTime && !force) {
     _addListener(ScrollTrigger, "scrollEnd", _softRefresh);
 
     return;
   }
+
+  _refreshingAll = true;
 
   var refreshInits = _dispatch("refreshInit");
 
@@ -121884,45 +123461,49 @@ _revertRecorded = function _revertRecorded(media) {
 
   _resizeDelay.pause();
 
+  _refreshingAll = false;
+
   _dispatch("refresh");
 },
     _lastScroll = 0,
     _direction = 1,
     _updateAll = function _updateAll() {
-  var l = _triggers.length,
-      time = _getTime(),
-      recordVelocity = time - _time1 >= 50,
-      scroll = l && _triggers[0].scroll();
+  if (!_refreshingAll) {
+    var l = _triggers.length,
+        time = _getTime(),
+        recordVelocity = time - _time1 >= 50,
+        scroll = l && _triggers[0].scroll();
 
-  _direction = _lastScroll > scroll ? -1 : 1;
-  _lastScroll = scroll;
+    _direction = _lastScroll > scroll ? -1 : 1;
+    _lastScroll = scroll;
 
-  if (recordVelocity) {
-    if (_lastScrollTime && !_pointerIsDown && time - _lastScrollTime > 200) {
-      _lastScrollTime = 0;
+    if (recordVelocity) {
+      if (_lastScrollTime && !_pointerIsDown && time - _lastScrollTime > 200) {
+        _lastScrollTime = 0;
 
-      _dispatch("scrollEnd");
+        _dispatch("scrollEnd");
+      }
+
+      _time2 = _time1;
+      _time1 = time;
     }
 
-    _time2 = _time1;
-    _time1 = time;
+    if (_direction < 0) {
+      _i = l;
+
+      while (_i-- > 0) {
+        _triggers[_i] && _triggers[_i].update(0, recordVelocity);
+      }
+
+      _direction = 1;
+    } else {
+      for (_i = 0; _i < l; _i++) {
+        _triggers[_i] && _triggers[_i].update(0, recordVelocity);
+      }
+    }
+
+    _request = 0;
   }
-
-  if (_direction < 0) {
-    _i = l;
-
-    while (_i-- > 0) {
-      _triggers[_i] && _triggers[_i].update(0, recordVelocity);
-    }
-
-    _direction = 1;
-  } else {
-    for (_i = 0; _i < l; _i++) {
-      _triggers[_i] && _triggers[_i].update(0, recordVelocity);
-    }
-  }
-
-  _request = 0;
 },
     _propNamesToCopy = [_left, _top, _bottom, _right, _margin + _Bottom, _margin + _Right, _margin + _Top, _margin + _Left, "display", "flexShrink", "float", "zIndex", "grid-column-start", "grid-column-end", "grid-row-start", "grid-row-end", "grid-area", "justify-self", "align-self", "place-self"],
     _stateProps = _propNamesToCopy.concat([_width, _height, "boxSizing", "max" + _Width, "max" + _Height, "position", _margin, _padding, _padding + _Top, _padding + _Right, _padding + _Bottom, _padding + _Left]),
@@ -122144,6 +123725,8 @@ _getTweenCreator = function _getTweenCreator(scroller, direction) {
   scroller[prop] = getScroll;
   scroller.addEventListener("wheel", function () {
     return getTween.tween && getTween.tween.kill() && (getTween.tween = 0);
+  }, {
+    passive: true
   }); // Windows machines handle mousewheel scrolling in chunks (like "3 lines per scroll") meaning the typical strategy for cancelling the scroll isn't as sensitive. It's much more likely to match one of the previous 2 scroll event positions. So we kill any snapping as soon as there's a wheel event.
 
   return getTween;
@@ -122276,9 +123859,12 @@ var ScrollTrigger = /*#__PURE__*/function () {
     _triggers.push(self);
 
     if (snap) {
-      _isObject(snap) || (snap = {
-        snapTo: snap
-      });
+      if (!_isObject(snap) || snap.push) {
+        snap = {
+          snapTo: snap
+        };
+      }
+
       "scrollBehavior" in _body.style && gsap.set(isViewport ? [_body, _docEl] : scroller, {
         scrollBehavior: "auto"
       }); // smooth scrolling doesn't work with snap.
@@ -122798,6 +124384,15 @@ var ScrollTrigger = /*#__PURE__*/function () {
       _triggers.splice(i, 1);
 
       i === _i && _direction > 0 && _i--; // if we're in the middle of a refresh() or update(), splicing would cause skips in the index, so adjust...
+      // if no other ScrollTrigger instances of the same scroller are found, wipe out any recorded scroll position. Otherwise, in a single page application, for example, it could maintain scroll position when it really shouldn't.
+
+      i = 0;
+
+      _triggers.forEach(function (t) {
+        return t.scroller === self.scroller && (i = 1);
+      });
+
+      i || (self.scroll.rec = 0);
 
       if (animation) {
         animation.scrollTrigger = null;
@@ -122992,11 +124587,24 @@ var ScrollTrigger = /*#__PURE__*/function () {
     query || (_media.length = 0);
     query = _media.indexOf(query);
     query >= 0 && _media.splice(query, 4);
-  };
+  } // static isInViewport(element, ratio, horizontal) {
+  // 	let bounds = (_isString(element) ? _toArray(element)[0] : element).getBoundingClientRect(),
+  // 		offset = bounds[horizontal ? "width" : "height"] * ratio || 0;
+  // 	return horizontal ? bounds.right - offset > 0 && bounds.left + offset < _win.innerWidth : bounds.bottom - offset > 0 && bounds.top + offset < _win.innerHeight;
+  // }
+  //
+  // static positionInViewport(element, referencePoint, horizontal) {
+  // 	_isString(element) && (element = _toArray(element)[0]);
+  // 	let bounds = element.getBoundingClientRect(),
+  // 		size = bounds[horizontal ? "width" : "height"],
+  // 		offset = referencePoint == null ? size / 2 : ((referencePoint in _keywords) ? _keywords[referencePoint] * size : ~referencePoint.indexOf("%") ? parseFloat(referencePoint) * size / 100 : parseFloat(referencePoint) || 0);
+  // 	return horizontal ? (bounds.left + offset) / _win.innerWidth : (bounds.top + offset) / _win.innerHeight;
+  // }
+  ;
 
   return ScrollTrigger;
 }();
-ScrollTrigger.version = "3.7.0";
+ScrollTrigger.version = "3.7.1";
 
 ScrollTrigger.saveStyles = function (targets) {
   return targets ? _toArray(targets).forEach(function (target) {
@@ -123114,13 +124722,13 @@ _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "../build/html/home.html";

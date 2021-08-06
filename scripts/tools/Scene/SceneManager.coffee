@@ -1,7 +1,7 @@
 import * as THREE         from "three"
 import TrackballControls  from "three-trackballcontrols"
 import * as Stats         from "stats.js"
-import Tweakpane          from "tweakpane"
+import { Pane }           from "tweakpane"
 
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js'
 import { RenderPass }     from 'three/examples/jsm/postprocessing/RenderPass.js'
@@ -14,6 +14,7 @@ import Font               from "./Components/Font.coffee"
 import Shadows            from "./Components/Shadows.coffee"
 import HauntedHouse       from "./Components/HauntedHouse.coffee"
 import Particles          from "./Components/Particles.coffee"
+import Galaxy             from "./Components/Galaxy.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -105,7 +106,8 @@ export default class
             # font:       new Font(options)
             # shadows:    new Shadows(options)
             # hauntedHouse: new HauntedHouse(options)
-            particles: new Particles(options)
+            # particles: new Particles(options)
+            galaxy: new Galaxy(options)
 
             # example:    new ExampleController(options)
         }
@@ -127,7 +129,7 @@ export default class
     createDebug: ->
         unless @options.debug then return false
 
-        debug = new Tweakpane({ title: "CONTROLS", expanded: true })
+        debug = new Pane({ title: "CONTROLS", expanded: true })
         debug.addSeparator()
 
         camera = debug.addFolder({ title: "Camera", expanded: false })
