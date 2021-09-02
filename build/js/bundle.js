@@ -388,20 +388,20 @@
 /* unused harmony export RGB_S3TC_DXT1_Format */
 /* unused harmony export RawShaderMaterial */
 /* unused harmony export Ray */
-/* unused harmony export Raycaster */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return Raycaster; });
 /* unused harmony export RectAreaLight */
 /* unused harmony export RectAreaLightHelper */
 /* unused harmony export RedFormat */
 /* unused harmony export ReinhardToneMapping */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "D", function() { return RepeatWrapping; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return RepeatWrapping; });
 /* unused harmony export ReverseSubtractEquation */
 /* unused harmony export RingBufferGeometry */
 /* unused harmony export RingGeometry */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "E", function() { return Scene; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return Scene; });
 /* unused harmony export SceneUtils */
 /* unused harmony export ShaderChunk */
 /* unused harmony export ShaderLib */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "F", function() { return ShaderMaterial; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return ShaderMaterial; });
 /* unused harmony export ShadowMaterial */
 /* unused harmony export Shape */
 /* unused harmony export ShapeBufferGeometry */
@@ -414,7 +414,7 @@
 /* unused harmony export SkinnedMesh */
 /* unused harmony export SmoothShading */
 /* unused harmony export Sphere */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "G", function() { return SphereBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return SphereBufferGeometry; });
 /* unused harmony export SphereGeometry */
 /* unused harmony export Spherical */
 /* unused harmony export SphericalHarmonics3 */
@@ -437,10 +437,10 @@
 /* unused harmony export TangentSpaceNormalMap */
 /* unused harmony export TetrahedronBufferGeometry */
 /* unused harmony export TetrahedronGeometry */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "H", function() { return TextBufferGeometry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return TextBufferGeometry; });
 /* unused harmony export TextGeometry */
 /* unused harmony export Texture */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "I", function() { return TextureLoader; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return TextureLoader; });
 /* unused harmony export TorusBufferGeometry */
 /* unused harmony export TorusGeometry */
 /* unused harmony export TorusKnotBufferGeometry */
@@ -463,7 +463,7 @@
 /* unused harmony export Uncharted2ToneMapping */
 /* unused harmony export Uniform */
 /* unused harmony export UniformsLib */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "J", function() { return UniformsUtils; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return UniformsUtils; });
 /* unused harmony export UnsignedByteType */
 /* unused harmony export UnsignedInt248Type */
 /* unused harmony export UnsignedIntType */
@@ -471,8 +471,8 @@
 /* unused harmony export UnsignedShort5551Type */
 /* unused harmony export UnsignedShort565Type */
 /* unused harmony export UnsignedShortType */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "K", function() { return Vector2; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return Vector3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "L", function() { return Vector2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return Vector3; });
 /* unused harmony export Vector4 */
 /* unused harmony export VectorKeyframeTrack */
 /* unused harmony export Vertex */
@@ -480,9 +480,9 @@
 /* unused harmony export VertexNormalsHelper */
 /* unused harmony export VideoTexture */
 /* unused harmony export WebGLMultisampleRenderTarget */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "M", function() { return WebGLRenderTarget; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return WebGLRenderTarget; });
 /* unused harmony export WebGLRenderTargetCube */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "N", function() { return WebGLRenderer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "O", function() { return WebGLRenderer; });
 /* unused harmony export WebGLUtils */
 /* unused harmony export WireframeGeometry */
 /* unused harmony export WireframeHelper */
@@ -68680,7 +68680,10 @@ module.exports = g;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__Components_HauntedHouse_coffee__ = __webpack_require__(29);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__Components_Particles_coffee__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__Components_Galaxy_coffee__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Components_Dom_Example_Controller_coffee__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__Components_Raycaster_coffee__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__Components_Dom_Example_Controller_coffee__ = __webpack_require__(32);
+
+
 
 
 
@@ -68747,7 +68750,7 @@ module.exports = g;
 
   _Class.prototype.createScene = function() {
     var scene;
-    scene = new __WEBPACK_IMPORTED_MODULE_0_three__["E" /* Scene */]();
+    scene = new __WEBPACK_IMPORTED_MODULE_0_three__["F" /* Scene */]();
     return scene;
   };
 
@@ -68758,14 +68761,14 @@ module.exports = g;
     nearPlane = 0.1;
     farPlane = 100;
     camera = new __WEBPACK_IMPORTED_MODULE_0_three__["v" /* PerspectiveCamera */](fieldOfView, aspectRatio, nearPlane, farPlane);
-    camera.position.set(6.5, 2.6, 6.5);
-    camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["L" /* Vector3 */](0, 0, 0));
+    camera.position.set(0, 2, 7);
+    camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["M" /* Vector3 */](0, 0, 0));
     return camera;
   };
 
   _Class.prototype.createRenderer = function() {
     var renderer;
-    renderer = new __WEBPACK_IMPORTED_MODULE_0_three__["N" /* WebGLRenderer */]({
+    renderer = new __WEBPACK_IMPORTED_MODULE_0_three__["O" /* WebGLRenderer */]({
       antialias: true,
       alpha: true
     });
@@ -68789,7 +68792,7 @@ module.exports = g;
       renderer: this.renderer
     };
     components = {
-      galaxy: new __WEBPACK_IMPORTED_MODULE_14__Components_Galaxy_coffee__["a" /* default */](options)
+      raycaster: new __WEBPACK_IMPORTED_MODULE_15__Components_Raycaster_coffee__["a" /* default */](options)
     };
     return components;
   };
@@ -68856,7 +68859,7 @@ module.exports = g;
   _Class.prototype.createLoaders = function() {
     var loaders;
     loaders = {};
-    loaders["texture"] = new __WEBPACK_IMPORTED_MODULE_0_three__["I" /* TextureLoader */]();
+    loaders["texture"] = new __WEBPACK_IMPORTED_MODULE_0_three__["J" /* TextureLoader */]();
     loaders["font"] = new __WEBPACK_IMPORTED_MODULE_0_three__["m" /* FontLoader */]();
     return loaders;
   };
@@ -120877,12 +120880,12 @@ var EffectComposer = function ( renderer, renderTarget ) {
 			stencilBuffer: false
 		};
 
-		var size = renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* Vector2 */]() );
+		var size = renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["L" /* Vector2 */]() );
 		this._pixelRatio = renderer.getPixelRatio();
 		this._width = size.width;
 		this._height = size.height;
 
-		renderTarget = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["M" /* WebGLRenderTarget */]( this._width * this._pixelRatio, this._height * this._pixelRatio, parameters );
+		renderTarget = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["N" /* WebGLRenderTarget */]( this._width * this._pixelRatio, this._height * this._pixelRatio, parameters );
 		renderTarget.texture.name = 'EffectComposer.rt1';
 
 	} else {
@@ -120938,7 +120941,7 @@ Object.assign( EffectComposer.prototype, {
 
 		this.passes.push( pass );
 
-		var size = this.renderer.getDrawingBufferSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* Vector2 */]() );
+		var size = this.renderer.getDrawingBufferSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["L" /* Vector2 */]() );
 		pass.setSize( size.width, size.height );
 
 	},
@@ -121032,7 +121035,7 @@ Object.assign( EffectComposer.prototype, {
 
 		if ( renderTarget === undefined ) {
 
-			var size = this.renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* Vector2 */]() );
+			var size = this.renderer.getSize( new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["L" /* Vector2 */]() );
 			this._pixelRatio = this.renderer.getPixelRatio();
 			this._width = size.width;
 			this._height = size.height;
@@ -121234,7 +121237,7 @@ var ShaderPass = function ( shader, textureID ) {
 
 	this.textureID = ( textureID !== undefined ) ? textureID : "tDiffuse";
 
-	if ( shader instanceof __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* ShaderMaterial */] ) {
+	if ( shader instanceof __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["G" /* ShaderMaterial */] ) {
 
 		this.uniforms = shader.uniforms;
 
@@ -121242,9 +121245,9 @@ var ShaderPass = function ( shader, textureID ) {
 
 	} else if ( shader ) {
 
-		this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["J" /* UniformsUtils */].clone( shader.uniforms );
+		this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* UniformsUtils */].clone( shader.uniforms );
 
-		this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* ShaderMaterial */]( {
+		this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["G" /* ShaderMaterial */]( {
 
 			defines: Object.assign( {}, shader.defines ),
 			uniforms: this.uniforms,
@@ -121400,7 +121403,7 @@ var GlitchPass = function ( dt_size ) {
 	if ( __WEBPACK_IMPORTED_MODULE_2__shaders_DigitalGlitch_js__["a" /* DigitalGlitch */] === undefined ) console.error( "GlitchPass relies on DigitalGlitch" );
 
 	var shader = __WEBPACK_IMPORTED_MODULE_2__shaders_DigitalGlitch_js__["a" /* DigitalGlitch */];
-	this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["J" /* UniformsUtils */].clone( shader.uniforms );
+	this.uniforms = __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["K" /* UniformsUtils */].clone( shader.uniforms );
 
 	if ( dt_size == undefined ) dt_size = 64;
 
@@ -121408,7 +121411,7 @@ var GlitchPass = function ( dt_size ) {
 	this.uniforms[ "tDisp" ].value = this.generateHeightmap( dt_size );
 
 
-	this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["F" /* ShaderMaterial */]( {
+	this.material = new __WEBPACK_IMPORTED_MODULE_0__build_three_module_js__["G" /* ShaderMaterial */]( {
 		uniforms: this.uniforms,
 		vertexShader: shader.vertexShader,
 		fragmentShader: shader.fragmentShader
@@ -121805,7 +121808,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     console.log(matcap);
     this.options.loaders.font.load("./scripts/tools/Scene/fonts/helvetiker_regular.typeface.json", (function(_this) {
       return function(font) {
-        _this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* TextBufferGeometry */]("Jerome", {
+        _this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["I" /* TextBufferGeometry */]("Jerome", {
           font: font,
           size: 1.5,
           height: 0.8,
@@ -121873,7 +121876,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]();
     this.material.metalness = 0;
     this.material.roughness = 0.7;
-    objectGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* SphereBufferGeometry */](1, 32, 32);
+    objectGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* SphereBufferGeometry */](1, 32, 32);
     this.object = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](objectGeometry, this.material);
     this.options.scene.add(this.object);
     planeGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](8, 8);
@@ -122100,7 +122103,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     this.door.position.y = 2 / 2;
     this.door.position.z = (4 / 2) + 0.01;
     house.add(this.door);
-    bushGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* SphereBufferGeometry */](1, 16, 16);
+    bushGeometry = new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* SphereBufferGeometry */](1, 16, 16);
     bushMaterial = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
       color: "#89c854",
       shininess: 0,
@@ -122162,14 +122165,14 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
     grassColorTexture.repeat.set(repeat, repeat);
     grassNormalTexture.repeat.set(repeat, repeat);
     grassRoughnessTexture.repeat.set(repeat, repeat);
-    grassAmbientOcclusionTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassAmbientOcclusionTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassColorTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassColorTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassNormalTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassNormalTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassRoughnessTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
-    grassRoughnessTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["D" /* RepeatWrapping */];
+    grassAmbientOcclusionTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassAmbientOcclusionTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassColorTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassColorTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassNormalTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassNormalTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassRoughnessTexture.wrapS = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
+    grassRoughnessTexture.wrapT = __WEBPACK_IMPORTED_MODULE_0_three__["E" /* RepeatWrapping */];
     geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](60, 60);
     geometry.addAttribute("uv2", new __WEBPACK_IMPORTED_MODULE_0_three__["e" /* BufferAttribute */](geometry.attributes.uv.array, 2));
     material = new __WEBPACK_IMPORTED_MODULE_0_three__["t" /* MeshStandardMaterial */]({
@@ -122329,7 +122332,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 
-/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+/* unused harmony default export */ var _unused_webpack_default_export = ((function(superClass) {
   extend(_Class, superClass);
 
   function _Class(options) {
@@ -122707,7 +122710,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
   _Class.prototype.beforeRender = function() {
     this.geometry = new __WEBPACK_IMPORTED_MODULE_0_three__["w" /* PlaneBufferGeometry */](1, 1, 1, 1);
-    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["F" /* ShaderMaterial */]({
+    this.material = new __WEBPACK_IMPORTED_MODULE_0_three__["G" /* ShaderMaterial */]({
       transparent: false,
       vertexShader: __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__["a" /* default */],
       fragmentShader: __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__["a" /* default */],
@@ -124732,6 +124735,83 @@ _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "../build/html/home.html";
+
+/***/ }),
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__ = __webpack_require__(2);
+var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+  hasProp = {}.hasOwnProperty;
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+  extend(_Class, superClass);
+
+  function _Class(options) {
+    this.options = options;
+    this.object1 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* SphereBufferGeometry */](0.5, 16, 16), new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshBasicMaterial */]({
+      color: "#ff0000"
+    }));
+    this.object1.position.x = -2;
+    this.options.scene.add(this.object1);
+    this.object2 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* SphereBufferGeometry */](0.5, 16, 16), new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshBasicMaterial */]({
+      color: "#ff0000"
+    }));
+    this.options.scene.add(this.object2);
+    this.object3 = new __WEBPACK_IMPORTED_MODULE_0_three__["q" /* Mesh */](new __WEBPACK_IMPORTED_MODULE_0_three__["H" /* SphereBufferGeometry */](0.5, 16, 16), new __WEBPACK_IMPORTED_MODULE_0_three__["r" /* MeshBasicMaterial */]({
+      color: "#ff0000"
+    }));
+    this.object3.position.x = 2;
+    this.options.scene.add(this.object3);
+    this.raycaster = new __WEBPACK_IMPORTED_MODULE_0_three__["D" /* Raycaster */]();
+    this.mouse = new __WEBPACK_IMPORTED_MODULE_0_three__["L" /* Vector2 */]();
+    this.debug();
+  }
+
+  _Class.prototype.debug = function() {};
+
+  _Class.prototype.onUpdate = function(elapsedTime) {
+    var i, intersects, j, len, len1, obj, objectsToTest, results;
+    this.object1.position.y = Math.sin(elapsedTime * 1.43);
+    this.object2.position.y = Math.sin(elapsedTime * 1.30);
+    this.object3.position.y = Math.sin(elapsedTime * 1.32);
+    this.raycaster.setFromCamera(this.mouse, this.options.camera);
+    objectsToTest = [this.object1, this.object2, this.object3];
+    intersects = this.raycaster.intersectObjects(objectsToTest);
+    for (i = 0, len = objectsToTest.length; i < len; i++) {
+      obj = objectsToTest[i];
+      obj.material.color.set("#ff0000");
+    }
+    results = [];
+    for (j = 0, len1 = intersects.length; j < len1; j++) {
+      obj = intersects[j];
+      results.push(obj.object.material.color.set("#0000ff"));
+    }
+    return results;
+  };
+
+  _Class.prototype.onMouseMove = function(e) {
+    this.mouse.x = e.clientX / window.innerWidth * 2 - 1;
+    return this.mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+  };
+
+  return _Class;
+
+})(__WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__["a" /* default */]));
+
 
 /***/ })
 /******/ ]);
