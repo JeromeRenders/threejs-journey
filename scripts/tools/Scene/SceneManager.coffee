@@ -16,6 +16,7 @@ import HauntedHouse       from "./Components/HauntedHouse.coffee"
 import Particles          from "./Components/Particles.coffee"
 import Galaxy             from "./Components/Galaxy.coffee"
 import Raycaster          from "./Components/Raycaster.coffee"
+import Physics             from "./Components/Physics.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -63,7 +64,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(0, 2, 7) # Default
+        camera.position.set(-5, 5, 5) # Default
         # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
@@ -77,8 +78,8 @@ export default class
         # renderer.setClearColor("#262837") # HauntedHouse
 
         # Shadows setup
-        # renderer.shadowMap.enabled = true
-        # renderer.shadowMap.type = THREE.PCFSoftShadowMap
+        renderer.shadowMap.enabled = true
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap
 
         @options.container.appendChild(renderer.domElement)
 
@@ -109,7 +110,8 @@ export default class
             # hauntedHouse: new HauntedHouse(options)
             # particles: new Particles(options)
             # galaxy: new Galaxy(options)
-            raycaster: new Raycaster(options)
+            # raycaster: new Raycaster(options)
+            physics: new Physics(options)
 
             # example:    new ExampleController(options)
         }
