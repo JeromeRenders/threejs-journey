@@ -16,7 +16,7 @@ import HauntedHouse       from "./Components/HauntedHouse.coffee"
 import Particles          from "./Components/Particles.coffee"
 import Galaxy             from "./Components/Galaxy.coffee"
 import Raycaster          from "./Components/Raycaster.coffee"
-import Physics             from "./Components/Physics.coffee"
+import Physics            from "./Components/Physics.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 

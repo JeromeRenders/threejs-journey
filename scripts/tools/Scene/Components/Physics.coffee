@@ -13,55 +13,157 @@ export default class extends BaseComponent
 
     constructor: (@options) ->
 
-        @oldElapsedTime = 0
+        @oldElapsedTime  = 0
+        @objectsToUpdate = []
+        @sounds =
+            hit: new Audio("./scripts/tools/Scene/sounds/hit.mp3")
 
-        @world = new CANNON.World()
-        @world.gravity.set(0, -9.82, 0)
+        @setupWorld()
+        @setupMeshes()
 
-        @defaultMaterial = new CANNON.Material("default")
-
-        @defaultContactMaterial = new CANNON.ContactMaterial(@defaultMaterial, @defaultMaterial, {
-            friction: .1
-            restitution: .9
-        })
-        @world.addContactMaterial(@defaultContactMaterial)
-
-        @createSphere()
         @createFloor()
         @createLights()
 
         @debug()
 
-        # tuto time 53:45
-
 
     # ==================================================
-    # > CREATE START
+    # > DEBUG
     # ==================================================
-    createSphere: ->
+    debug: ->
 
-        # CANNON.JS
-        sphereShape = new CANNON.Sphere(.5)
-        @sphereBody = new CANNON.Body({
-            mass:     1
-            position: new CANNON.Vec3(0, 3, 0)
-            shape:    sphereShape
-            material: @defaultMaterial
-        })
-        @sphereBody.applyLocalForce(new CANNON.Vec3(150, 0, 0), new CANNON.Vec3(0, 0, 0))
-        @world.addBody(@sphereBody)
+        folder = @options.debug.addFolder({ title: "Physics", expanded: true })
 
-        # THREE.JS
-        @sphere = new THREE.Mesh(
-            new THREE.SphereGeometry(.5, 32, 32)
-            new THREE.MeshStandardMaterial({
-                metalness: .3
-                roughness: .4
+        folder.addButton({ title: "Create sphere", label: "createSphere" }).on("click", =>
+            @createSphere(Math.random() * 0.5, {
+                x: (Math.random() - 0.5) * 3,
+                y: 3,
+                z: (Math.random() - 0.5) * 3
             })
         )
-        @sphere.castShadow = true
-        @sphere.position.y = .5
-        @options.scene.add(@sphere)
+        folder.addButton({ title: "Create box", label: "createBox" }).on("click", =>
+            @createBox(Math.random(), Math.random(), Math.random(), {
+                x: (Math.random() - 0.5) * 3,
+                y: 3,
+                z: (Math.random() - 0.5) * 3
+            })
+        )
+        folder.addButton({ title: "Reset", label: "reset" }).on("click", =>
+            @reset()
+        )
+
+
+    # ==================================================
+    # > UTILS
+    # ==================================================
+    playHitSound: (collision) ->
+        impactStrength = collision.contact.getImpactVelocityAlongNormal()
+        if impactStrength > 1.5
+            @sounds.hit.volume = Math.random()
+            @sounds.hit.currentTime = 0
+            @sounds.hit.play()
+
+    reset: ->
+        for obj in @objectsToUpdate
+            obj.body.removeEventListener "collide", (e) => @playHitSound(e)
+            @world.removeBody(obj.body)
+
+            @options.scene.remove obj.mesh
+
+
+    # ==================================================
+    # > SETUP BASE
+    # ==================================================
+    setupWorld: ->
+
+        # Create the world
+        @world = new CANNON.World()
+        @world.gravity.set(0, -9.82, 0)
+
+        # Optimisation - Avoid objects checking all other objects
+        @world.broadphase = new CANNON.SAPBroadphase(@world)
+        # Optimisation - Allow objects to sleep when not moving
+        @world.allowSleep = true
+
+        # Create a default material
+        @defaultMaterial = new CANNON.Material("default")
+        @world.addContactMaterial(new CANNON.ContactMaterial(@defaultMaterial, @defaultMaterial, {
+            friction: .1
+            restitution: .9
+        }))
+
+    setupMeshes: ->
+        # Sphere components
+        @sphereGeometry = new THREE.SphereBufferGeometry(1, 20, 20)
+        @sphereMaterial = new THREE.MeshStandardMaterial({
+            metalness: .3
+            roughness: .4
+        })
+
+        # Box components
+        @boxGeometry = new THREE.BoxBufferGeometry(1, 1, 1)
+        @boxMaterial = new THREE.MeshStandardMaterial({
+            metalness: .3
+            roughness: .4
+        })
+
+
+    # ==================================================
+    # > CREATE COMPONENTS
+    # ==================================================
+    createSphere: (radius, position) ->
+
+        # THREE.JS
+        mesh = new THREE.Mesh(@sphereGeometry, @sphereMaterial)
+        mesh.scale.set(radius, radius, radius)
+        mesh.castShadow = true
+        mesh.position.copy(position)
+        @options.scene.add(mesh)
+
+        # CANNON.JS
+        shape = new CANNON.Sphere(radius)
+        body = new CANNON.Body({
+            mass:     1
+            position: new CANNON.Vec3(0, 3, 0)
+            shape:    shape
+            material: @defaultMaterial
+        })
+        body.position.copy(position)
+        body.addEventListener "collide", (e) => @playHitSound(e)
+        @world.addBody(body)
+
+        # Save the objects to update
+        @objectsToUpdate.push({
+            mesh: mesh
+            body: body
+        })
+
+    createBox: (width, height, depth, position) ->
+
+        # THREE.JS
+        mesh = new THREE.Mesh(@boxGeometry, @boxMaterial)
+        mesh.scale.set(width, height, depth)
+        mesh.castShadow = true
+        mesh.position.copy(position)
+        @options.scene.add(mesh)
+
+        # CANNON.JS
+        shape = new CANNON.Box(new CANNON.Vec3(width * 0.5, height * 0.5, depth * 0.5))
+        body = new CANNON.Body({
+            mass:     1
+            position: new CANNON.Vec3(0, 3, 0)
+            shape:    shape
+            material: @defaultMaterial
+        })
+        body.position.copy(position)
+        body.addEventListener "collide", (e) => @playHitSound(e)
+        @world.addBody(body)
+
+        # Save the objects to update
+        @objectsToUpdate.push({
+            mesh: mesh
+            body: body
+        })
 
     createFloor: ->
 
@@ -113,11 +215,10 @@ export default class extends BaseComponent
         deltaTime = elapsedTime - @oldElapsedTime
         @oldElapsedTime = elapsedTime
 
-        # Wind
-        @sphereBody.applyForce(new CANNON.Vec3(-.5, 0, 0), @sphereBody.position)
-
         # Update the Cannon.js world
         @world.step(1 / 60, deltaTime, 3)
 
         # Update the Three.js components from the Cannon.js world
-        @sphere.position.copy(@sphereBody.position)
+        for obj in @objectsToUpdate
+            obj.mesh.position.copy(obj.body.position)
+            obj.mesh.quaternion.copy(obj.body.quaternion)
