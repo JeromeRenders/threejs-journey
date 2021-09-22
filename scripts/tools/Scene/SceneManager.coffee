@@ -2,10 +2,12 @@ import * as THREE         from "three"
 import TrackballControls  from "three-trackballcontrols"
 import * as Stats         from "stats.js"
 import { Pane }           from "tweakpane"
+import { GLTFLoader }     from "three/examples/jsm/loaders/GLTFLoader.js"
+import { DRACOLoader }    from "three/examples/jsm/loaders/DRACOLoader.js"
 
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js'
-import { RenderPass }     from 'three/examples/jsm/postprocessing/RenderPass.js'
-import { GlitchPass }     from 'three/examples/jsm/postprocessing/GlitchPass.js'
+import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js"
+import { RenderPass }     from "three/examples/jsm/postprocessing/RenderPass.js"
+import { GlitchPass }     from "three/examples/jsm/postprocessing/GlitchPass.js"
 
 import AxesHelper         from "./Components/AxesHelper.coffee"
 import Lights             from "./Components/Lights.coffee"
@@ -17,6 +19,7 @@ import Particles          from "./Components/Particles.coffee"
 import Galaxy             from "./Components/Galaxy.coffee"
 import Raycaster          from "./Components/Raycaster.coffee"
 import Physics            from "./Components/Physics.coffee"
+import ImportedModels     from "./Components/ImportedModels.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -64,7 +67,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(-5, 5, 5) # Default
+        camera.position.set(-8, 5, 8) # Default
         # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
@@ -111,7 +114,8 @@ export default class
             # particles: new Particles(options)
             # galaxy: new Galaxy(options)
             # raycaster: new Raycaster(options)
-            physics: new Physics(options)
+            # physics: new Physics(options)
+            importedModels: new ImportedModels(options)
 
             # example:    new ExampleController(options)
         }
@@ -172,6 +176,14 @@ export default class
 
         loaders["texture"] = new THREE.TextureLoader()
         loaders["font"]    = new THREE.FontLoader()
+
+        gltfLoader = new GLTFLoader()
+        dracoLoader = new DRACOLoader()
+        console.log dracoLoader
+        dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
+        gltfLoader.setDRACOLoader(dracoLoader)
+
+        loaders["gltf"]    = gltfLoader
 
         return loaders
 
