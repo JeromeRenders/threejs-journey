@@ -67,7 +67,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(-8, 5, 8) # Default
+        camera.position.set(6, 3, 6) # Default
         # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
@@ -177,10 +177,10 @@ export default class
         loaders["texture"] = new THREE.TextureLoader()
         loaders["font"]    = new THREE.FontLoader()
 
-        gltfLoader = new GLTFLoader()
         dracoLoader = new DRACOLoader()
-        console.log dracoLoader
         dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
+        
+        gltfLoader  = new GLTFLoader()
         gltfLoader.setDRACOLoader(dracoLoader)
 
         loaders["gltf"]    = gltfLoader

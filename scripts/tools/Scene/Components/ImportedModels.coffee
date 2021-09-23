@@ -12,12 +12,15 @@ export default class extends BaseComponent
 
     constructor: (@options) ->
 
+        @previousTime = 0
+
         floor = new THREE.Mesh(
             new THREE.PlaneGeometry(10, 10),
             new THREE.MeshStandardMaterial({
                 color: "#444444",
                 metalness: 0,
-                roughness: 0.5
+                roughness: 0.5,
+                side: THREE.DoubleSide
             })
         )
         floor.receiveShadow = true
@@ -26,9 +29,16 @@ export default class extends BaseComponent
 
         @createLights()
 
-        @options.loaders.gltf.load("./scripts/tools/Scene/models/Duck/glTF-Draco/Duck.gltf", ((gltf) =>
+        @mixer = null
+        @options.loaders.gltf.load("./scripts/tools/Scene/models/Fox/glTF/Fox.gltf", ((gltf) =>
+                
+                @animations = gltf.animations
+                @mixer = new THREE.AnimationMixer(gltf.scene)
 
+                gltf.scene.scale.set(0.025, 0.025, 0.025)
                 @options.scene.add gltf.scene
+
+                if @options.debug then @debug()
 
             ), (() ->
                 # console.log "progress"
@@ -37,7 +47,6 @@ export default class extends BaseComponent
             )
         )
 
-        @debug()
 
 
     # ==================================================
@@ -46,6 +55,25 @@ export default class extends BaseComponent
     debug: ->
 
         folder = @options.debug.addFolder({ title: "Imported models", expanded: true })
+
+        folder.addButton({ title: "Stop" }).on("click", (e) =>
+            if @action then @action.stop()
+        )
+        folder.addButton({ title: "Idle" }).on("click", (e) =>
+            if @action then @action.stop()
+            @action = @mixer.clipAction(@animations[0])
+            @action.play()
+        )
+        folder.addButton({ title: "Walk" }).on("click", (e) =>
+            if @action then @action.stop()
+            @action = @mixer.clipAction(@animations[1])
+            @action.play()
+        )
+        folder.addButton({ title: "Run" }).on("click", (e) =>
+            if @action then @action.stop()
+            @action = @mixer.clipAction(@animations[2])
+            @action.play()
+        )
 
 
     # ==================================================
@@ -71,3 +99,8 @@ export default class extends BaseComponent
     # > EVENTS
     # ==================================================
     onUpdate: (elapsedTime) ->
+
+        deltaTime = elapsedTime - @previousTime
+        @previousTime = elapsedTime
+
+        if @mixer then @mixer.update(deltaTime)
