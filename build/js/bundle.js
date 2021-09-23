@@ -59,6 +59,17 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
+/******/ 	// webpack-livereload-plugin
+/******/ 	(function() {
+/******/ 	  if (typeof window === "undefined") { return };
+/******/ 	  var id = "webpack-livereload-plugin-script";
+/******/ 	  if (document.getElementById(id)) { return; }
+/******/ 	  var el = document.createElement("script");
+/******/ 	  el.id = id;
+/******/ 	  el.async = true;
+/******/ 	  el.src = "http://localhost:35729/livereload.js";
+/******/ 	  document.getElementsByTagName("head")[0].appendChild(el);
+/******/ 	}());
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
@@ -66715,8 +66726,8 @@ Object.assign( ClearMaskPass.prototype, {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
-__webpack_require__(46);
-module.exports = __webpack_require__(47);
+__webpack_require__(47);
+module.exports = __webpack_require__(48);
 
 
 /***/ }),
@@ -66739,7 +66750,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_locomotive_scroll__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tools_Scene_SceneManager_coffee__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_ScrollAnimations_coffee__ = __webpack_require__(44);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__tools_ScrollAnimations_coffee__ = __webpack_require__(45);
 
 
 
@@ -70900,7 +70911,10 @@ module.exports = g;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__Components_Raycaster_coffee__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__Components_Physics_coffee__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__Components_ImportedModels_coffee__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__Components_Dom_Example_Controller_coffee__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__Components_Shaders_coffee__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__Components_Dom_Example_Controller_coffee__ = __webpack_require__(39);
+
+
 
 
 
@@ -70988,7 +71002,7 @@ module.exports = g;
     nearPlane = 0.1;
     farPlane = 100;
     camera = new __WEBPACK_IMPORTED_MODULE_0_three__["_2" /* PerspectiveCamera */](fieldOfView, aspectRatio, nearPlane, farPlane);
-    camera.position.set(6, 3, 6);
+    camera.position.set(0, 0, 2);
     camera.lookAt(new __WEBPACK_IMPORTED_MODULE_0_three__["_29" /* Vector3 */](0, 0, 0));
     return camera;
   };
@@ -71021,7 +71035,7 @@ module.exports = g;
       renderer: this.renderer
     };
     components = {
-      importedModels: new __WEBPACK_IMPORTED_MODULE_19__Components_ImportedModels_coffee__["a" /* default */](options)
+      shaders: new __WEBPACK_IMPORTED_MODULE_20__Components_Shaders_coffee__["a" /* default */](options)
     };
     return components;
   };
@@ -143388,7 +143402,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 
-/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+/* unused harmony default export */ var _unused_webpack_default_export = ((function(superClass) {
   extend(_Class, superClass);
 
   function _Class(options) {
@@ -143507,8 +143521,64 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DomController_coffee__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Item_coffee__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_shaders_vertex_vert__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_shaders_fragment_frag__ = __webpack_require__(54);
+var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
+  hasProp = {}.hasOwnProperty;
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["a"] = ((function(superClass) {
+  extend(_Class, superClass);
+
+  function _Class(options) {
+    this.options = options;
+    this.mesh = new __WEBPACK_IMPORTED_MODULE_0_three__["P" /* Mesh */](new __WEBPACK_IMPORTED_MODULE_0_three__["_3" /* PlaneBufferGeometry */](1, 1, 32, 32), new __WEBPACK_IMPORTED_MODULE_0_three__["_16" /* ShaderMaterial */]({
+      uniforms: {},
+      vertexShader: __WEBPACK_IMPORTED_MODULE_3__shaders_shaders_vertex_vert__["a" /* default */],
+      fragmentShader: __WEBPACK_IMPORTED_MODULE_4__shaders_shaders_fragment_frag__["a" /* default */],
+      wireframe: false
+    }));
+    this.options.scene.add(this.mesh);
+    if (this.options.debug) {
+      this.debug();
+    }
+    console.log(this);
+  }
+
+  _Class.prototype.debug = function() {
+    var folder;
+    return folder = this.options.debug.addFolder({
+      title: "Shaders",
+      expanded: true
+    });
+  };
+
+  _Class.prototype.onUpdate = function(elapsedTime) {};
+
+  return _Class;
+
+})(__WEBPACK_IMPORTED_MODULE_2__BaseComponent_coffee__["a" /* default */]));
+
+
+/***/ }),
+/* 39 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__DomController_coffee__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Item_coffee__ = __webpack_require__(41);
 var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
@@ -143541,7 +143611,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143673,15 +143743,15 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_three__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DomItem_coffee__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__DomItem_coffee__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shaders_vertex_vert__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shaders_fragment_frag__ = __webpack_require__(44);
 var extend = function(child, parent) { for (var key in parent) { if (hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor(); child.__super__ = parent.prototype; return child; },
   hasProp = {}.hasOwnProperty;
 
@@ -143747,7 +143817,7 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -143931,28 +144001,28 @@ var extend = function(child, parent) { for (var key in parent) { if (hasProp.cal
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("#define GLSLIFY 1\nvarying vec2 vUv;\n\nvoid main() {\n    vUv = uv;\n\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}");
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = ("#ifdef GL_ES\nprecision highp float;\n#define GLSLIFY 1\n#endif\n\nvarying vec2 vUv;\n\nuniform float uTime;\nuniform float uProgress;\n\nvoid main() {\n\n    vec4 color = vec4(vUv.x, vUv.y, 0.0, 1.0);\n    gl_FragColor = color;\n}");
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_jquery___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_jquery__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_gsap__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_gsap_ScrollTrigger__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_gsap_ScrollTrigger__ = __webpack_require__(46);
 
 
 
@@ -143967,7 +144037,7 @@ __WEBPACK_IMPORTED_MODULE_1_gsap__["a" /* default */].registerPlugin(__WEBPACK_I
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -145719,16 +145789,34 @@ _getGSAP() && gsap.registerPlugin(ScrollTrigger);
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "../build/html/home.html";
+
+/***/ }),
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("#define GLSLIFY 1\nvarying vec2 vUv;\n\nvoid main() {\n    vUv = uv;\n\n    gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n}");
+
+/***/ }),
+/* 54 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony default export */ __webpack_exports__["a"] = ("#ifdef GL_ES\nprecision highp float;\n#define GLSLIFY 1\n#endif\n\nvarying vec2 vUv;\n\nvoid main() {\n\n    vec2 uv = vUv;\n    vec4 color = vec4(uv.x, uv.y, 0.0, 1.0);\n\n    gl_FragColor = vec4(color);\n}\n");
 
 /***/ })
 /******/ ]);

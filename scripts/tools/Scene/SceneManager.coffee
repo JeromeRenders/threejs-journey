@@ -20,6 +20,7 @@ import Galaxy             from "./Components/Galaxy.coffee"
 import Raycaster          from "./Components/Raycaster.coffee"
 import Physics            from "./Components/Physics.coffee"
 import ImportedModels     from "./Components/ImportedModels.coffee"
+import Shaders            from "./Components/Shaders.coffee"
 import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -67,7 +68,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(6, 3, 6) # Default
+        camera.position.set(0, 0, 2) # Default
         # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
@@ -115,7 +116,8 @@ export default class
             # galaxy: new Galaxy(options)
             # raycaster: new Raycaster(options)
             # physics: new Physics(options)
-            importedModels: new ImportedModels(options)
+            # importedModels: new ImportedModels(options)
+            shaders: new Shaders(options)
 
             # example:    new ExampleController(options)
         }
