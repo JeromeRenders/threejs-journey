@@ -14,6 +14,7 @@ import fragment from "../shaders/shaders/fragment.frag"
 export default class extends BaseComponent
 
     constructor: (@options) ->
+        super()
         
         @mesh = new THREE.Mesh(
             new THREE.PlaneBufferGeometry(1, 1, 32, 32),
@@ -32,7 +33,7 @@ export default class extends BaseComponent
 
         # Start at 39:58
 
-        console.log @
+        # console.log @
 
 
 

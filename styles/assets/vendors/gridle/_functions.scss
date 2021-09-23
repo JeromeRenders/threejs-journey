@@ -63,11 +63,11 @@
 	@warn "$index: #{quote($index)} is not a number for `remove-nth`.";
   }
 
-  @else if $index == 0 {
+  @elseif $index == 0 {
 	@warn "List index 0 must be a non-zero integer for `remove-nth`.";
   }
 
-  @else if abs($index) > length($list) {
+  @elseif abs($index) > length($list) {
 	@warn "List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.";
   }
 
@@ -444,7 +444,7 @@
 	@if $gutter-right and $gutter-left {
 		// calculate the gutter-width
 		$settings : map-set($settings, gutter-width, $gutter-left + $gutter-right);
-	} @else if $gutter-width {
+	} @elseif $gutter-width {
 		// calculate the gutter-left and right
 		$settings : map-set($settings, gutter-left, $gutter-width * .5);
 		$settings : map-set($settings, gutter-right, $gutter-width * .5);
@@ -452,7 +452,7 @@
 	@if $gutter-top and $gutter-bottom {
 		// calculate the gutter-height
 		$settings : map-set($settings, gutter-height, $gutter-bottom + $gutter-top);
-	} @else if $gutter-height {
+	} @elseif $gutter-height {
 		// calculate the gutter-bottom and top
 		$settings : map-set($settings, gutter-bottom, $gutter-height * .5);
 		$settings : map-set($settings, gutter-top, $gutter-height * .5);
@@ -477,7 +477,7 @@
 	@if $has-state and $has-extend-state {
 		// we do nothing if this is nested existing states
 		@return $state;
-	} @else if $has-extend-state {
+	} @elseif $has-extend-state {
 		// if the base state is a registered one
 		// keep the extend state and extend it with the wanted state
 		@return map-merge($extend-state, $state);
@@ -507,14 +507,14 @@
 				$map : map-set($map, $side, 0);
 			}
 		}
-	} @else if type-of($side-or-size) == number {
+	} @elseif type-of($side-or-size) == number {
 		$map : (
 			top : 0,
 			right : $side-or-size * .5,
 			bottom : 0,
 			left : $side-or-size * .5
 		);
-	} @else if type-of($side-or-size) == list or type-of($side-or-size) == string {
+	} @elseif type-of($side-or-size) == list or type-of($side-or-size) == string {
 
 		// check if is a full number list	
 		$list-number : true;
@@ -535,7 +535,7 @@
 					bottom : $val1,
 					left : $val2
 				)
-			} @else if length($side-or-size) == 4 {
+			} @elseif length($side-or-size) == 4 {
 				$map : (
 					top : nth($side-or-size,1),
 					right : nth($side-or-size,2),
@@ -593,11 +593,11 @@
 		@each $stateName in $states {
 			@if $values != null {
 				$sel : append($sel, _gridle_classname($for, $stateName, $values), comma);
-			} @else if index($pattern, '%column') {
+			} @elseif index($pattern, '%column') {
 				@each $columnName, $column in gridle_get_columns() {
 					$sel : append($sel, _gridle_classname($for, $stateName, $columnName), comma);
 				}
-			} @else if index($pattern, '%column-count') {
+			} @elseif index($pattern, '%column-count') {
 				@for $i from 0 through length(gridle_get_columns()) {
 					$sel : append($sel, _gridle_classname($for, $stateName, $i), comma);
 				}
@@ -605,24 +605,24 @@
 					$sel : append($sel, _gridle_classname($for, $stateName, first), comma);
 					$sel : append($sel, _gridle_classname($for, $stateName, last), comma);
 				}
-			} @else if index($pattern, '%align') {
+			} @elseif index($pattern, '%align') {
 				@each $a in map-get($_gridle-names-tokens, align) {
 					$sel : append($sel, _gridle_classname($for, $stateName, $a), comma);
 				}
-			} @else if index($pattern, '%count') and $for == clear-each {
+			} @elseif index($pattern, '%count') and $for == clear-each {
 				@each $idx, $clearEach in $_gridle_clear_classes {
 					$count : map-get($clearEach, clearEach);
 					$sel : append($sel, _gridle_classname($for, $stateName, $count), comma);
 				}
-			} @else if index($pattern, '%side') {
+			} @elseif index($pattern, '%side') {
 				@each $side in map-get($_gridle-names-tokens, side) {
 					$sel : append($sel, _gridle_classname($for, $stateName, $side), comma);
 				}
-			} @else if index($pattern, '%float') {
+			} @elseif index($pattern, '%float') {
 				@each $float in map-get($_gridle-names-tokens, float) {
 					$sel : append($sel, _gridle_classname($for, $stateName, $float), comma);
 				}
-			} @else if index($pattern, '%reverse') {
+			} @elseif index($pattern, '%reverse') {
 				@each $reverse in map-get($_gridle-names-tokens, reverse) {
 					$sel : append($sel, _gridle_classname($for, $stateName, $reverse), comma);
 				}
@@ -675,14 +675,14 @@
 				$pattern : set-nth($pattern, $i, null);
 			}
 			$removeSeparator : false;
-		} @else if $var == "%state" {
+		} @elseif $var == "%state" {
 			@if $state == null {
 				$pattern : set-nth($pattern, $i, null);
 				$removeSeparator : true;
 			} @else {
 				$pattern : set-nth($pattern, $i, $state);
 			}
-		} @else if $var and str-index($var, '%') == 1 {
+		} @elseif $var and str-index($var, '%') == 1 {
 			$token : str-slice($var, 2);
 			// check that the value is part of the token
 			$tokens : map-get($_gridle-names-tokens, $token);
@@ -958,7 +958,7 @@
 	{
 		$state : gridle_get_state($state-or-settings);
 	}
-	@else if $state-or-settings == null
+	@elseif $state-or-settings == null
 	{
 		$state : $_gridle-settings;
 	}
@@ -981,15 +981,15 @@
 		{
 			@return $query;
 		} 
-		@else if $min-width and $max-width
+		@elseif $min-width and $max-width
 		{
 			@return "screen and (min-width: #{$min-width}) and (max-width: #{$max-width})";
 		}
-		@else if $min-width
+		@elseif $min-width
 		{
 			@return "screen and (min-width: #{$min-width})";
 		}
-		@else if $max-width
+		@elseif $max-width
 		{
 			@return "screen and (max-width: #{$max-width})";
 		}

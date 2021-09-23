@@ -9,14 +9,14 @@
 // ========== COLORS ========== //
 // Ex: .color-primary
 @each $color, $value in $colors
-    .color-#{$color}
+    .color-#{"" + $color}
         &, *
             color: $value !important
 
 // ========== FONT FAMILIES ========== //
 //: Ex:  .font-light
 @each $slug, $stack in $fonts-stacks
-    .font-#{$slug}
+    .font-#{"" + $slug}
         font-family: $stack
 
 

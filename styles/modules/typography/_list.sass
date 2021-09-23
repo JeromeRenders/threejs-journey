@@ -37,7 +37,7 @@
     // =============================================================================
     // ========== COLORS ========== //
     @each $slug, $value in $colors
-        .list--bullets-#{$slug} > li::before
+        .list--bullets-#{"" + $slug} > li::before
             color: $value !important
 
     // ========== NUMBERS / OL ========== //

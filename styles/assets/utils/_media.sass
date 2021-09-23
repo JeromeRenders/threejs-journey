@@ -20,17 +20,17 @@
             @content
 
     // Min width
-    @else if $compare == "+"
+    @elseif $compare == "+"
         @media screen and (min-#{$dim}: $bp)
             @content
 
     // Between
-    @else
-        @if map-has-key($responsive, $compare)
-            $compare: breakpoint($compare)
+    // @else
+    //     @if map-has-key($responsive, $compare)
+    //         $compare: breakpoint($compare)
 
-        @media screen and (min-#{$dim}: $bp) and (max-#{$dim}: $compare)
-            @content
+    //     @media screen and (min-#{$dim}: $bp) and (max-#{$dim}: $compare)
+    //         @content
 
 
 

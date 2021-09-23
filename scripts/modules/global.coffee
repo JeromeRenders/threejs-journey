@@ -1,27 +1,27 @@
 import $                from "jquery"
 import gsap             from "gsap"
-import LocomotiveScroll from "locomotive-scroll"
+# import LocomotiveScroll from "locomotive-scroll"
 
 import SceneManager     from "../tools/Scene/SceneManager.coffee"
-import ScrollAnimations from "../tools/ScrollAnimations.coffee"
+# import ScrollAnimations from "../tools/ScrollAnimations.coffee"
 
 $ ->
 
-    # ==================================================
-    # > CUSTOM SCROLL (LOCOMOTIVE)
-    # ==================================================
-    scroller = new LocomotiveScroll({
-        el:           document.querySelector(".site")
-        smooth:       true
-        smoothMobile: true
-        getSpeed:     true
-        getDirection: true
-    })
+    # # ==================================================
+    # # > CUSTOM SCROLL (LOCOMOTIVE)
+    # # ==================================================
+    # scroller = new LocomotiveScroll({
+    #     el:           document.querySelector(".site")
+    #     smooth:       true
+    #     smoothMobile: true
+    #     getSpeed:     true
+    #     getDirection: true
+    # })
 
-    # ==================================================
-    # > SCROLL ANIMATIONS (GSAP)
-    # ==================================================
-    ScrollAnimations.init()
+    # # ==================================================
+    # # > SCROLL ANIMATIONS (GSAP)
+    # # ==================================================
+    # ScrollAnimations.init()
 
 
     # ==================================================
@@ -33,9 +33,7 @@ $ ->
         controls:  true
         stats:     true
         composer:  false
-        scroller:  scroller
     })
-
 
 
     # ==================================================

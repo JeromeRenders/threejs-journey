@@ -23,7 +23,7 @@ html(lang="en")
         meta(name="description" content="")
         meta(name="robots" content="noindex")
 
-        link(href="build/css/bundle.css?v="+version, rel="stylesheet")
+        link(href=baseurl+"build/css/bundle.css?v="+version rel="stylesheet")
 
         block head
 
@@ -68,8 +68,8 @@ html(lang="en")
                 //- > CURSOR
                 //- ==================================================
                 block cursor
-                    .site-cursor.site-cursor--point
-                    .site-cursor.site-cursor--circle
+                    //- .site-cursor.site-cursor--point
+                    //- .site-cursor.site-cursor--circle
 
 
-        script(src="build/js/bundle.js?v="+version type="text/javascript")
+        script(src=baseurl+"build/js/bundle.js?v="+version type="text/javascript")

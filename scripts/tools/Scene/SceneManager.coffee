@@ -1,27 +1,23 @@
-import * as THREE         from "three"
-import TrackballControls  from "three-trackballcontrols"
-import * as Stats         from "stats.js"
-import { Pane }           from "tweakpane"
-import { GLTFLoader }     from "three/examples/jsm/loaders/GLTFLoader.js"
-import { DRACOLoader }    from "three/examples/jsm/loaders/DRACOLoader.js"
+import * as THREE            from "three"
+import { TrackballControls } from "three/examples/jsm/controls/TrackballControls.js"
+import { GLTFLoader }        from "three/examples/jsm/loaders/GLTFLoader.js"
+import { DRACOLoader }       from "three/examples/jsm/loaders/DRACOLoader.js"
+import * as Stats            from "stats.js"
+import { Pane }              from "tweakpane"
 
-import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer.js"
-import { RenderPass }     from "three/examples/jsm/postprocessing/RenderPass.js"
-import { GlitchPass }     from "three/examples/jsm/postprocessing/GlitchPass.js"
-
-import AxesHelper         from "./Components/AxesHelper.coffee"
-import Lights             from "./Components/Lights.coffee"
-import Door               from "./Components/Door.coffee"
-import Font               from "./Components/Font.coffee"
-import Shadows            from "./Components/Shadows.coffee"
-import HauntedHouse       from "./Components/HauntedHouse.coffee"
-import Particles          from "./Components/Particles.coffee"
-import Galaxy             from "./Components/Galaxy.coffee"
-import Raycaster          from "./Components/Raycaster.coffee"
-import Physics            from "./Components/Physics.coffee"
-import ImportedModels     from "./Components/ImportedModels.coffee"
+# import AxesHelper         from "./Components/AxesHelper.coffee"
+# import Lights             from "./Components/Lights.coffee"
+# import Door               from "./Components/Door.coffee"
+# import Font               from "./Components/Font.coffee"
+# import Shadows            from "./Components/Shadows.coffee"
+# import HauntedHouse       from "./Components/HauntedHouse.coffee"
+# import Particles          from "./Components/Particles.coffee"
+# import Galaxy             from "./Components/Galaxy.coffee"
+# import Raycaster          from "./Components/Raycaster.coffee"
+# import Physics            from "./Components/Physics.coffee"
+# import ImportedModels     from "./Components/ImportedModels.coffee"
 import Shaders            from "./Components/Shaders.coffee"
-import ExampleController  from "./Components/Dom/Example/Controller.coffee"
+# import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
 export default class
@@ -42,12 +38,12 @@ export default class
 
         @components = @createComponents()
 
-        @options.scroller.on("scroll", (e)       => @onScroll(e) )
+        # @options.scroller.on("scroll", (e)       => @onScroll(e) )
         window.addEventListener("resize", (e)    => @onResize(e) )
         window.addEventListener("mousemove", (e) => @onMouseMove(e) )
 
         @onUpdate()
-
+        
         console.log @
 
 

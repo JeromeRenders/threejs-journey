@@ -21,21 +21,21 @@
         margin-top: 0 - round( $size / 2.5 )
 
     // up
-    @else if $direction == up
+    @elseif $direction == up
         border-left: $size solid transparent
         border-right: $size solid transparent
         border-bottom: $size solid $color
         margin-bottom: 0 - round( $size / 2.5 )
 
     // right
-    @else if $direction == right
+    @elseif $direction == right
         border-top: $size solid transparent
         border-bottom: $size solid transparent
         border-left: $size solid $color
         margin-right: -$size
 
     // left
-    @else if  $direction == left
+    @elseif  $direction == left
         border-top: $size solid transparent
         border-bottom: $size solid transparent
         border-right: $size solid $color

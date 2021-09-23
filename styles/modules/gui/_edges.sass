@@ -10,7 +10,7 @@ $edge-height: 100px
     // ==================================================
     // > TOP
     // ==================================================
-    &-top,
+    &-top
 
         &--in-ascending,
         &--in-descending,
@@ -23,7 +23,8 @@ $edge-height: 100px
                 +absolute(left 0)
                 z-index: 1000
                 pointer-events: none
-
+                
+    &-top
         &--in-ascending::before,
         &--in-descending::before
             top: 0
@@ -81,8 +82,8 @@ $edge-height: 100px
 // > COLORS
 // ==================================================
 @each $color, $value in $colors
-    .bg-#{$color},
-    .has-edge-top--#{$color}
+    .bg-#{"" + $color},
+    .has-edge-top--#{"" + $color}
         &.has-edge-top
             &--in-ascending::before,
             &--in-descending::before
@@ -92,8 +93,8 @@ $edge-height: 100px
             &--out-descending::before
                 border-bottom-color: $value
 
-    .bg-#{$color},
-    .has-edge-bottom--#{$color}
+    .bg-#{"" + $color},
+    .has-edge-bottom--#{"" + $color}
         &.has-edge-bottom
             &--in-ascending::after,
             &--in-descending::after

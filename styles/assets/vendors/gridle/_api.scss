@@ -182,125 +182,125 @@
 				@if $sv == true {
 					@include gridle_container();
 				}
-			} @else if $sn == grid {
+			} @elseif $sn == grid {
 				@if length($sv) == 2 {
 					@include gridle_grid(nth($sv,1), nth($sv,2));
-				} @else if type-of($sv) == list and length($sv) == 1 {
+				} @elseif type-of($sv) == list and length($sv) == 1 {
 					@include gridle_grid(nth($sv,1));
 				} @else {
 					@include gridle_grid($sv);
 				}
-			} @else if $sn == grid-grow {
+			} @elseif $sn == grid-grow {
 				@if $sv == true {
 					@include gridle_grid_grow();
 				}
-			} @else if $sn == grid-adapt {
+			} @elseif $sn == grid-adapt {
 				@if $sv == true {
 					@include gridle_grid_adapt();
 				}
-			} @else if $sn == grid-table {
+			} @elseif $sn == grid-table {
 				@if $sv == true {
 					@include gridle_grid_table();
 				}
-			} @else if $sn == push {
+			} @elseif $sn == push {
 				@if length($sv) == 2 {
 					@include gridle_push(nth($sv,1), nth($sv,2));
 				} @else {
 					@include gridle_push($sv);
 				}
-			} @else if $sn == pull {
+			} @elseif $sn == pull {
 				@if length($sv) == 2 {
 					@include gridle_pull(nth($sv,1), nth($sv,2));
 				} @else {
 					@include gridle_pull($sv);
 				}
-			} @else if $sn == prefix {
+			} @elseif $sn == prefix {
 				@if length($sv) == 2 {
 					@include gridle_prefix(nth($sv,1), nth($sv,2));
 				} @else {
 					@include gridle_prefix($sv);
 				}
-			} @else if $sn == suffix {
+			} @elseif $sn == suffix {
 				@if length($sv) == 2 {
 					@include gridle_suffix(nth($sv,1), nth($sv,2));
 				} @else {
 					@include gridle_suffix($sv);
 				}
-			} @else if $sn == clear-each {
+			} @elseif $sn == clear-each {
 				@if length($sv) == 2 {
 					@include gridle_clear_each(nth($sv,1), nth($sv,2));
 				} @else {
 					@include gridle_clear_each($sv);
 				}
-			} @else if $sn == grid-centered and $sv == true {
+			} @elseif $sn == grid-centered and $sv == true {
 				@include gridle_grid_centered();
-			} @else if $sn == row and $sv == true {
+			} @elseif $sn == row and $sv == true {
 				@include gridle_row();
-			} @else if $sn == row-full and $sv == true {
+			} @elseif $sn == row-full and $sv == true {
 				@include gridle_row_full();
-			} @else if $sn == col and $sv == true {
+			} @elseif $sn == col and $sv == true {
 				@include gridle_col();
-			} @else if $sn == row-align {
+			} @elseif $sn == row-align {
 				@include gridle_row_align($sv);
-			} @else if $sn == nowrap {
+			} @elseif $sn == nowrap {
 				@if $sv == true {
 					@include gridle_nowrap();
 				} @else {
 					@include gridle_wrap();
 				}
-			} @else if $sn == wrap {
+			} @elseif $sn == wrap {
 				@if $sv == true {
 					@include gridle_wrap();
 				} @else {
 					@include gridle_nowrap();
 				}
-			} @else if $sn == order {
+			} @elseif $sn == order {
 				@include gridle_order($sv);
-			} @else if $sn == hide {
+			} @elseif $sn == hide {
 				@if $sv == true {
 					@include gridle_hide();
 				} @else {
 					@include gridle_show();
 				}
-			} @else if $sn == show {
+			} @elseif $sn == show {
 				@if $sv == true {
 					@include gridle_show();
 				} @else {
 					@include gridle_hide();
 				}
-			} @else if $sn == visible {
+			} @elseif $sn == visible {
 				@if $sv == true {
 					@include gridle_visible();
 				} @else {
 					@include gridle_not_visible();
 				}
-			} @else if $sn == not-visible {
+			} @elseif $sn == not-visible {
 				@if $sv == true {
 					@include gridle_not_visible();
 				} @else {
 					@include gridle_visible();
 				}
-			} @else if $sn == show-inline {
+			} @elseif $sn == show-inline {
 				@if $sv == true {
 					@include gridle_show_inline();
 				} @else {
 					@include gridle_hide();
 				}
-			} @else if $sn == float {
+			} @elseif $sn == float {
 				@include gridle_float($sv);
-			} @else if $sn == clear {
+			} @elseif $sn == clear {
 				@if $sv == true {
 					@include gridle_clear();
 				} @else {
 					@include gridle_clear($sv);
 				}
-			} @else if $sn == no-gutter {
+			} @elseif $sn == no-gutter {
 				@if $sv == true {
 					@include gridle_no_gutter();
 				} @else {
 					@include gridle_no_gutter($sv);
 				}
-			} @else if $sn == gutter or $sn == gutter-width {
+			} @elseif $sn == gutter or $sn == gutter-width {
 				@if $sv == true {
 					@include gridle_gutter();
 				} @else {
