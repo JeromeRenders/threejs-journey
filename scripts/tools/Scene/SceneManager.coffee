@@ -16,7 +16,8 @@ import { Pane }              from "tweakpane"
 # import Raycaster          from "./Components/Raycaster.coffee"
 # import Physics            from "./Components/Physics.coffee"
 # import ImportedModels     from "./Components/ImportedModels.coffee"
-import Shaders            from "./Components/Shaders.coffee"
+import Burger             from "./Components/Burger.coffee"
+# import Shaders            from "./Components/Shaders.coffee"
 # import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -43,7 +44,7 @@ export default class
         window.addEventListener("mousemove", (e) => @onMouseMove(e) )
 
         @onUpdate()
-        
+
         console.log @
 
 
@@ -64,7 +65,8 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(0, 0, 2) # Default
+        # camera.position.set(0, 0, 2) # Default
+        camera.position.set(5, 3, 5) # Burger
         # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
@@ -113,7 +115,8 @@ export default class
             # raycaster: new Raycaster(options)
             # physics: new Physics(options)
             # importedModels: new ImportedModels(options)
-            shaders: new Shaders(options)
+            burger: new Burger(options)
+            # shaders: new Shaders(options)
 
             # example:    new ExampleController(options)
         }
@@ -177,7 +180,7 @@ export default class
 
         dracoLoader = new DRACOLoader()
         dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
-        
+
         gltfLoader  = new GLTFLoader()
         gltfLoader.setDRACOLoader(dracoLoader)
 
