@@ -13,10 +13,14 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @config = {
+            envMapIntensity: 4.6
+        }
+
         @createLights()
 
         cubeTextureLoader = new THREE.CubeTextureLoader()
-        environmentMap = cubeTextureLoader.load([
+        @environmentMap = cubeTextureLoader.load([
             "./scripts/tools/Scene/textures/environmentMaps/0/px.jpg",
             "./scripts/tools/Scene/textures/environmentMaps/0/nx.jpg",
             "./scripts/tools/Scene/textures/environmentMaps/0/py.jpg",
@@ -25,16 +29,20 @@ export default class extends BaseComponent
             "./scripts/tools/Scene/textures/environmentMaps/0/nz.jpg"
         ])
 
-        @options.scene.background = environmentMap
+        @environmentMap.encoding = THREE.sRGBEncoding
+        @options.scene.background  = @environmentMap
+        @options.scene.environment = @environmentMap
 
 
-        @options.loaders.gltf.load("./scripts/tools/Scene/models/FlightHelmet/glTF/FlightHelmet.gltf", ((gltf) =>
+        @options.loaders.gltf.load("./scripts/tools/Scene/models/Burger/glTF/hamburger.glb", ((gltf) =>
 
                 @helmet = gltf.scene
                 @helmet.scale.set(10, 10, 10)
                 @helmet.position.set(0, -4, 0)
                 @helmet.rotation.y = Math.PI * 0.5
                 @options.scene.add @helmet
+
+                @updateAllMaterials()
 
                 if @options.debug then @debug()
 
@@ -43,6 +51,14 @@ export default class extends BaseComponent
 
         # Start at 22:50
 
+
+    updateAllMaterials: ->
+        @options.scene.traverse (child) =>
+            if child instanceof THREE.Mesh && child.material instanceof THREE.MeshStandardMaterial
+                child.material.envMapIntensity = @config.envMapIntensity
+                child.material.needsUpdate = true
+                child.castShadow = true
+                child.receiveShadow = true
 
 
     # ==================================================
@@ -60,6 +76,7 @@ export default class extends BaseComponent
 
         helmet = @debugFolder.addFolder({ title: "Helmet", expanded: false })
         helmet.addInput(@helmet.rotation, "y", { min: -Math.PI, max: Math.PI, step: 0.001, label: "rotationY" })
+        helmet.addInput(@config, "envMapIntensity", { min: 0, max: 20, step: 0.1 }).on("change", (v) => @updateAllMaterials())
 
 
 
@@ -70,7 +87,13 @@ export default class extends BaseComponent
 
         @directionalLight = new THREE.DirectionalLight(0xffffff, 1)
         @directionalLight.position.set(0.25, 3, -2.25)
+        @directionalLight.castShadow = true
+        @directionalLight.shadow.camera.far = 15
+        @directionalLight.shadow.mapSize.set(1024, 1024)
         @options.scene.add(@directionalLight)
+
+        # directionalLightHelper = new THREE.CameraHelper(@directionalLight.shadow.camera)
+        # @options.scene.add(directionalLightHelper)
 
 
     # ==================================================

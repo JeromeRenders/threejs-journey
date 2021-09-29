@@ -84,6 +84,10 @@ export default class
         renderer.shadowMap.enabled = true
         renderer.shadowMap.type = THREE.PCFSoftShadowMap
 
+        # Realistic render
+        renderer.outputEncoding = THREE.sRGBEncoding
+        renderer.toneMapping = THREE.ReinhardToneMapping
+
         @options.container.appendChild(renderer.domElement)
 
         renderer.domElement.style.position      = "fixed"
