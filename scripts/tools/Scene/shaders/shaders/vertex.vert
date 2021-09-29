@@ -1,15 +1,24 @@
 attribute float aRandom;
 
+uniform float uTime;
+uniform vec2 uFrequency;
+
 varying vec2 vUv;
 varying float vRandom;
+varying float vElevation;
 
 void main() {
-    vUv = uv;
-    vRandom = aRandom;
 
     vec3 pos = position;
-    // pos.z = sin(pos.x * 10.0) * 0.1;
-    pos.z += aRandom * 0.1;
+
+    float elevation = sin(pos.x * uFrequency.x - uTime) * 0.1;
+    elevation += sin(pos.y * uFrequency.y - uTime) * 0.1;
+
+    pos.z += elevation;
 
     gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
+
+    vUv = uv;
+    vRandom = aRandom;
+    vElevation = elevation;
 }

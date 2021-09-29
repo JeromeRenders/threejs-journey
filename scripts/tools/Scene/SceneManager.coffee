@@ -17,8 +17,8 @@ import { Pane }              from "tweakpane"
 # import Physics            from "./Components/Physics.coffee"
 # import ImportedModels     from "./Components/ImportedModels.coffee"
 # import Burger             from "./Components/Burger.coffee"
-import RealisticRender      from "./Components/RealisticRender.coffee"
-# import Shaders            from "./Components/Shaders.coffee"
+# import RealisticRender    from "./Components/RealisticRender.coffee"
+import Shaders            from "./Components/Shaders.coffee"
 # import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -66,7 +66,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(4, 1, -4) # Default
+        camera.position.set(0, 0, 2) # Default
         # camera.position.set(5, 3, 5) # Burger
         # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
         camera.lookAt new THREE.Vector3(0, 0, 0)
@@ -81,12 +81,12 @@ export default class
         # renderer.setClearColor("#262837") # HauntedHouse
 
         # Shadows setup
-        renderer.shadowMap.enabled = true
-        renderer.shadowMap.type = THREE.PCFSoftShadowMap
+        # renderer.shadowMap.enabled = true
+        # renderer.shadowMap.type = THREE.PCFSoftShadowMap
 
         # Realistic render
-        renderer.outputEncoding = THREE.sRGBEncoding
-        renderer.toneMapping = THREE.ReinhardToneMapping
+        # renderer.outputEncoding = THREE.sRGBEncoding
+        # renderer.toneMapping = THREE.ReinhardToneMapping
 
         @options.container.appendChild(renderer.domElement)
 
@@ -108,23 +108,23 @@ export default class
         }
 
         components = {
-            # axesHelper: new AxesHelper(options)
+            # axesHelper:      new AxesHelper(options)
 
-            # lights:     new Lights(options)
-            # door:       new Door(options)
-            # font:       new Font(options)
-            # shadows:    new Shadows(options)
-            # hauntedHouse: new HauntedHouse(options)
-            # particles: new Particles(options)
-            # galaxy: new Galaxy(options)
-            # raycaster: new Raycaster(options)
-            # physics: new Physics(options)
-            # importedModels: new ImportedModels(options)
-            # burger: new Burger(options)
-            realisticRender: new RealisticRender(options)
-            # shaders: new Shaders(options)
+            # lights:          new Lights(options)
+            # door:            new Door(options)
+            # font:            new Font(options)
+            # shadows:         new Shadows(options)
+            # hauntedHouse:    new HauntedHouse(options)
+            # particles:       new Particles(options)
+            # galaxy:          new Galaxy(options)
+            # raycaster:       new Raycaster(options)
+            # physics:         new Physics(options)
+            # importedModels:  new ImportedModels(options)
+            # burger:          new Burger(options)
+            # realisticRender: new RealisticRender(options)
+            shaders:         new Shaders(options)
 
-            # example:    new ExampleController(options)
+            # example:         new ExampleController(options)
         }
 
         return components
