@@ -18,7 +18,8 @@ import { Pane }              from "tweakpane"
 # import ImportedModels     from "./Components/ImportedModels.coffee"
 # import Burger             from "./Components/Burger.coffee"
 # import RealisticRender    from "./Components/RealisticRender.coffee"
-import Shaders            from "./Components/Shaders.coffee"
+# import Shaders            from "./Components/Shaders.coffee"
+import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
 # import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
@@ -122,7 +123,8 @@ export default class
             # importedModels:  new ImportedModels(options)
             # burger:          new Burger(options)
             # realisticRender: new RealisticRender(options)
-            shaders:         new Shaders(options)
+            # shaders:         new Shaders(options)
+            shadersPatterns: new ShadersPatterns(options)
 
             # example:         new ExampleController(options)
         }
