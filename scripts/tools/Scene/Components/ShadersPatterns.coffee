@@ -49,4 +49,4 @@ export default class extends BaseComponent
     # > EVENTS
     # ==================================================
     onUpdate: (elapsedTime) ->
-        @mesh.material.uniforms.uTime.value = elapsedTime
+        @mesh.material.uniforms.uTime.value += 0.01
