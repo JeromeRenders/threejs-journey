@@ -11,10 +11,9 @@ import BaseComponent from "./BaseComponent.coffee"
 export default class extends BaseComponent
 
     constructor: (@options) ->
+        super()
 
         bakedShadow = @options.loaders.texture.load("./scripts/tools/Scene/textures/shadows/simpleShadow.jpg")
-
-        console.log bakedShadow
         
         @main = new THREE.AmbientLight(0xffffff, .5)
         @options.scene.add(@main)

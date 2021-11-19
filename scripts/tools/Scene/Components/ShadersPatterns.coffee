@@ -16,10 +16,23 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
-        geometry = new THREE.PlaneBufferGeometry(1, 1, 32, 32)
-        material = new THREE.ShaderMaterial(
+        @config = {
+            pattern: 0.2
+        }
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+
+        @geometry = new THREE.PlaneBufferGeometry(1, 1, 32, 32)
+        @material = new THREE.ShaderMaterial(
             uniforms: {
-                uTime:      { value: 0 }
+                uTime:    { value: 0 }
+                uPattern: { value: @config.pattern }
             }
             vertexShader: vertex
             fragmentShader: fragment
@@ -27,13 +40,8 @@ export default class extends BaseComponent
             side: THREE.DoubleSide
         )
 
-        @mesh = new THREE.Mesh(geometry, material)
+        @mesh = new THREE.Mesh(@geometry, @material)
         @options.scene.add(@mesh)
-
-        if @options.debug then @debug()
-
-        # console.log @
-
 
 
     # ==================================================
@@ -41,7 +49,22 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "Shaders Patterns", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: "Shaders Patterns", expanded: false })
+        
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
+
+        @debugFolder.addInput(@config, "pattern", {
+            options: {
+                checkboard: 0,
+                stars:      0.1,
+                noise:      0.2,
+            }
+        }).on("change", (val) =>
+            @material.uniforms.uPattern.value = @config.pattern
+        )
+
 
 
 
@@ -49,4 +72,7 @@ export default class extends BaseComponent
     # > EVENTS
     # ==================================================
     onUpdate: (elapsedTime) ->
+        
+        unless @mesh then return
+
         @mesh.material.uniforms.uTime.value += 0.01

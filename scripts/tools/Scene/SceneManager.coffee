@@ -6,7 +6,6 @@ import * as Stats            from "stats.js"
 import { Pane }              from "tweakpane"
 
 # import AxesHelper         from "./Components/AxesHelper.coffee"
-# import Lights             from "./Components/Lights.coffee"
 # import Door               from "./Components/Door.coffee"
 # import Font               from "./Components/Font.coffee"
 # import Shadows            from "./Components/Shadows.coffee"
@@ -18,7 +17,7 @@ import { Pane }              from "tweakpane"
 # import ImportedModels     from "./Components/ImportedModels.coffee"
 # import Burger             from "./Components/Burger.coffee"
 # import RealisticRender    from "./Components/RealisticRender.coffee"
-# import Shaders            from "./Components/Shaders.coffee"
+import Shaders            from "./Components/Shaders.coffee"
 import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
 # import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
@@ -111,7 +110,6 @@ export default class
         components = {
             # axesHelper:      new AxesHelper(options)
 
-            # lights:          new Lights(options)
             # door:            new Door(options)
             # font:            new Font(options)
             # shadows:         new Shadows(options)
@@ -123,7 +121,7 @@ export default class
             # importedModels:  new ImportedModels(options)
             # burger:          new Burger(options)
             # realisticRender: new RealisticRender(options)
-            # shaders:         new Shaders(options)
+            shaders:         new Shaders(options)
             shadersPatterns: new ShadersPatterns(options)
 
             # example:         new ExampleController(options)
