@@ -19,6 +19,19 @@ export default class
 
 
     # ==================================================
+    # > UTILS
+    # ==================================================
+    updateCameraPosition: (pos) ->
+        gsap.to(@options.camera.position, {
+            x: pos.x,
+            y: pos.y,
+            z: pos.z,
+            duration: 0.4,
+            onComplete: => @options.debug.refresh()
+        })
+
+
+    # ==================================================
     # > EVENTS (SHADOW)
     # ==================================================
     _onScroll: (e) ->

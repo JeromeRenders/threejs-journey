@@ -28,6 +28,8 @@ export default class extends BaseComponent
     # ==================================================
     init: ->
 
+        @updateCameraPosition({ x: 0, y: 0, z: 2 })
+
         @geometry = new THREE.PlaneBufferGeometry(1, 1, 32, 32)
         @material = new THREE.ShaderMaterial(
             uniforms: {
@@ -49,7 +51,7 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "Shaders Patterns", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: "8. Shaders Patterns", expanded: false })
         
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
@@ -64,8 +66,6 @@ export default class extends BaseComponent
         }).on("change", (val) =>
             @material.uniforms.uPattern.value = @config.pattern
         )
-
-
 
 
     # ==================================================

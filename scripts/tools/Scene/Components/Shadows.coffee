@@ -13,40 +13,66 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @config = {
+            ambientLight: {
+                "intensity": 0.5
+            },
+            directionalLight: {
+                intensity: 0.5,
+                pos: {
+                    x: 2,
+                    y: 2,
+                    z: -1
+                }
+            },
+            material: {
+                metalness: 0
+                roughness: 0.7
+            }
+        }
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+        @mesh = new THREE.Group()
+
+        @updateCameraPosition({ x: 1.5, y: 2, z: 6 })
+
         bakedShadow = @options.loaders.texture.load("./scripts/tools/Scene/textures/shadows/simpleShadow.jpg")
         
-        @main = new THREE.AmbientLight(0xffffff, .5)
-        @options.scene.add(@main)
+        # Main light
+        @main = new THREE.AmbientLight(0xffffff, @config.ambientLight.intensity)
+        @mesh.add(@main)
 
-        @point = new THREE.DirectionalLight(0xffffff, .5)
-        @point.position.set(2, 2, -1)
-        # @point.castShadow = true
-        # @point.shadow.mapSize.width = 1024
-        # @point.shadow.mapSize.height = 1024
-        # @point.shadow.camera.near = 1
-        # @point.shadow.camera.far = 15
-        # # @point.shadow.radius = 10
-        # # @pointCameraHelper = new THREE.CameraHelper(@point.shadow.camera)
-        # # @options.scene.add @pointCameraHelper
-        @options.scene.add(@point)
+        # Directionnal light
+        @point = new THREE.DirectionalLight(0xffffff, @config.directionalLight.intensity)
+        @point.position.set(@config.directionalLight.pos.x, @config.directionalLight.pos.y, @config.directionalLight.pos.z)
+        @mesh.add(@point)
 
 
+        # Material of objects
         @material = new THREE.MeshStandardMaterial()
-        @material.metalness = 0
-        @material.roughness = 0.7
+        @material.metalness = @config.material.metalness
+        @material.roughness = @config.material.roughness
         
+        # Sphere
         objectGeometry = new THREE.SphereBufferGeometry(1, 32, 32)
         @object = new THREE.Mesh(objectGeometry, @material)
-        # @object.castShadow = true
-        @options.scene.add @object
+        @mesh.add @object
 
+        # Plane
         planeGeometry = new THREE.PlaneBufferGeometry(8, 8)
         @plane = new THREE.Mesh(planeGeometry, @material)
-        # @object.receiveShadow = true
         @plane.position.y = -1
         @plane.rotation.x = -Math.PI * .5
-        @options.scene.add @plane
-
+        @plane.material.side = THREE.DoubleSide
+        @mesh.add @plane
+        
+        # Sphere shadow
         @objectShadow = new THREE.Mesh(new THREE.PlaneBufferGeometry(3, 3), new THREE.MeshBasicMaterial({
             color: 0x000000
             transparent: true
@@ -54,34 +80,59 @@ export default class extends BaseComponent
         }))
         @objectShadow.position.y = @plane.position.y + .01
         @objectShadow.rotation.x = -Math.PI * .5
-        @options.scene.add @objectShadow
-    
-        @debug()
+        @mesh.add @objectShadow
 
+        @options.scene.add(@mesh)
+
+
+    # ==================================================
+    # > DEBUG
+    # ==================================================
     debug: ->
-        folder = @options.debug.addFolder({ title: "Shadows", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: "2. Shadows", expanded: false })
 
-        ambientLight = folder.addFolder({ title: "Ambient light", expanded: false })
-        ambientLight.addInput(@main, "intensity", { min: 0, max: 1, step: .01 })
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
 
-        light = folder.addFolder({ title: "Light", expanded: false })
-        light.addInput(@point, "intensity", { min: 0, max: 1, step: .01 })
-        light.addInput(@point.position, "x", { min: -5, max: 15, step: .01 })
-        light.addInput(@point.position, "y", { min: -5, max: 15, step: .01 })
-        light.addInput(@point.position, "z", { min: -5, max: 15, step: .01 })
+        ambientLight = @debugFolder.addFolder({ title: "Ambient light", expanded: false })
+        ambientLight.addInput(@config.ambientLight, "intensity", { min: 0, max: 1, step: .01 }).on("change", (val) =>
+            if @main then @main.intensity = @config.ambientLight.intensity
+        )
 
-        material = folder.addFolder({ title: "Material", expanded: false })
-        material.addInput(@material, "metalness", { min: 0, max: 1, step: .01 })
-        material.addInput(@material, "roughness", { min: 0, max: 1, step: .01 })
+        light = @debugFolder.addFolder({ title: "Light", expanded: false })
+        light.addInput(@config.directionalLight, "intensity", { min: 0, max: 1, step: .01 }).on("change", (val) =>
+            if @point then @point.intensity = @config.directionalLight.intensity
+        )
+        light.addInput(@config.directionalLight.pos, "x", { min: -5, max: 15, step: .01 }).on("change", (val) =>
+            if @point then @point.position.x = @config.directionalLight.pos.x
+        )
+        light.addInput(@config.directionalLight.pos, "y", { min: -5, max: 15, step: .01 }).on("change", (val) =>
+            if @point then @point.position.y = @config.directionalLight.pos.y
+        )
+        light.addInput(@config.directionalLight.pos, "z", { min: -5, max: 15, step: .01 }).on("change", (val) =>
+            if @point then @point.position.z = @config.directionalLight.pos.z
+        )
+
+        material = @debugFolder.addFolder({ title: "Material", expanded: false })
+        material.addInput(@config.material, "metalness", { min: 0, max: 1, step: .01 }).on("change", (val) =>
+            if @material then @material.metalness = @config.material.metalness
+        )
+        material.addInput(@config.material, "roughness", { min: 0, max: 1, step: .01 }).on("change", (val) =>
+            if @material then @material.roughness = @config.material.roughness
+        )
 
 
-
+    # ==================================================
+    # > EVENTS
+    # ==================================================
     onUpdate: (elapsedTime) ->
-        @object.position.x = Math.cos elapsedTime * 2
-        @object.position.z = Math.sin elapsedTime * 2
-        @object.position.y = Math.abs Math.sin elapsedTime * 3.5
+        if @object
+            @object.position.x = Math.cos elapsedTime * 2
+            @object.position.z = Math.sin elapsedTime * 2
+            @object.position.y = Math.abs Math.sin elapsedTime * 3.5
 
-        @objectShadow.position.x = @object.position.x
-        @objectShadow.position.z = @object.position.z
-        @objectShadow.material.opacity = (1 - @object.position.y) * .8
+            @objectShadow.position.x = @object.position.x
+            @objectShadow.position.z = @object.position.z
+            @objectShadow.material.opacity = (1 - @object.position.y) * .8
         

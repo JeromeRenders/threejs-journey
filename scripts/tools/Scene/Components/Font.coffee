@@ -11,12 +11,23 @@ import BaseComponent from "./BaseComponent.coffee"
 export default class extends BaseComponent
 
     constructor: (@options) ->
+        super()
+
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+        
+        @updateCameraPosition({ x: 0, y: 0, z: 10 })
 
         matcap = @options.loaders.texture.load("./scripts/tools/Scene/textures/matcaps/1.png")
-        console.log matcap
 
         @options.loaders.font.load "./scripts/tools/Scene/fonts/helvetiker_regular.typeface.json", (font) =>
-            @geometry = new THREE.TextBufferGeometry("Jerome", {
+            @geometry = new THREE.TextBufferGeometry("Abcdef123", {
                 font:           font
                 size:           1.5
                 height:         0.8
@@ -39,15 +50,12 @@ export default class extends BaseComponent
             @debug()
 
     
+    # ==================================================
+    # > DEBUG
+    # ==================================================
     debug: ->
-        folder = @options.debug.addFolder({ title: "Font", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: "1. Font", expanded: false })
 
-    #     folder.addInput(@material, "metalness", { min: 0, max: 1, step: .01 })
-    #     folder.addInput(@material, "roughness", { min: 0, max: 1, step: .01 })
-    #     folder.addInput(@material, "aoMapIntensity", { min: 0, max: 10, step: .01 })
-    #     folder.addInput(@material, "displacementScale", { min: 0, max: 1, step: .01 })
-
-    
-    # onUpdate: (elapsedTime) ->
-    #     @mesh.rotation.x = elapsedTime * .4
-    #     @mesh.rotation.y = elapsedTime * .4
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()

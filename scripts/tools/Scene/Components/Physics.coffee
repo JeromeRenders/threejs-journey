@@ -13,10 +13,25 @@ export default class extends BaseComponent
 
     constructor: (@options) ->
 
+        super()
+
         @oldElapsedTime  = 0
         @objectsToUpdate = []
-        @sounds =
+        @sounds = {
             hit: new Audio("./scripts/tools/Scene/sounds/hit.mp3")
+        }
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+
+        @updateCameraPosition({ x: 0, y: 3, z: 6 })
+
+        @mesh = new THREE.Group()
 
         @setupWorld()
         @setupMeshes()
@@ -24,7 +39,7 @@ export default class extends BaseComponent
         @createFloor()
         @createLights()
 
-        @debug()
+        @options.scene.add(@mesh)
 
 
     # ==================================================
@@ -32,23 +47,27 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        folder = @options.debug.addFolder({ title: "Physics", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: "6. Physics", expanded: false })
 
-        folder.addButton({ title: "Create sphere", label: "createSphere" }).on("click", =>
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
+
+        @debugFolder.addButton({ title: "Create sphere" }).on("click", =>
             @createSphere(Math.random() * 0.5, {
                 x: (Math.random() - 0.5) * 3,
                 y: 3,
                 z: (Math.random() - 0.5) * 3
             })
         )
-        folder.addButton({ title: "Create box", label: "createBox" }).on("click", =>
+        @debugFolder.addButton({ title: "Create box" }).on("click", =>
             @createBox(Math.random(), Math.random(), Math.random(), {
                 x: (Math.random() - 0.5) * 3,
                 y: 3,
                 z: (Math.random() - 0.5) * 3
             })
         )
-        folder.addButton({ title: "Reset", label: "reset" }).on("click", =>
+        @debugFolder.addButton({ title: "Reset playground" }).on("click", =>
             @reset()
         )
 
@@ -68,7 +87,7 @@ export default class extends BaseComponent
             obj.body.removeEventListener "collide", (e) => @playHitSound(e)
             @world.removeBody(obj.body)
 
-            @options.scene.remove obj.mesh
+            @mesh.remove obj.mesh
 
 
     # ==================================================
@@ -118,7 +137,7 @@ export default class extends BaseComponent
         mesh.scale.set(radius, radius, radius)
         mesh.castShadow = true
         mesh.position.copy(position)
-        @options.scene.add(mesh)
+        @mesh.add(mesh)
 
         # CANNON.JS
         shape = new CANNON.Sphere(radius)
@@ -145,7 +164,7 @@ export default class extends BaseComponent
         mesh.scale.set(width, height, depth)
         mesh.castShadow = true
         mesh.position.copy(position)
-        @options.scene.add(mesh)
+        @mesh.add(mesh)
 
         # CANNON.JS
         shape = new CANNON.Box(new CANNON.Vec3(width * 0.5, height * 0.5, depth * 0.5))
@@ -179,7 +198,7 @@ export default class extends BaseComponent
 
         # THREE.JS
         @floor = new THREE.Mesh(
-            new THREE.PlaneGeometry(10, 10)
+            new THREE.PlaneGeometry(20, 20)
             new THREE.MeshStandardMaterial({
                 color: "#777777"
                 metalness: .3
@@ -188,11 +207,11 @@ export default class extends BaseComponent
         )
         @floor.receiveShadow = true
         @floor.rotation.x = -Math.PI * .5
-        @options.scene.add(@floor)
+        @mesh.add(@floor)
 
     createLights: ->
         ambientLight = new THREE.AmbientLight(0xffffff, .7)
-        @options.scene.add(ambientLight)
+        @mesh.add(ambientLight)
 
         directionalLight = new THREE.DirectionalLight(0xffffff, .2)
         directionalLight.castShadow = true
@@ -203,7 +222,16 @@ export default class extends BaseComponent
         directionalLight.shadow.camera.right = 7
         directionalLight.shadow.camera.bottom = -7
         directionalLight.position.set(5, 5, 5)
-        @options.scene.add(directionalLight)
+        @mesh.add(directionalLight)
+
+
+    # ==================================================
+    # > LOAD / UNLOAD
+    # ==================================================
+    unload: ->
+        @reset()
+
+        @options.scene.remove(@mesh)
 
 
     # ==================================================
@@ -216,9 +244,11 @@ export default class extends BaseComponent
         @oldElapsedTime = elapsedTime
 
         # Update the Cannon.js world
-        @world.step(1 / 60, deltaTime, 3)
+        if @world
+            @world.step(1 / 60, deltaTime, 3)
 
         # Update the Three.js components from the Cannon.js world
-        for obj in @objectsToUpdate
-            obj.mesh.position.copy(obj.body.position)
-            obj.mesh.quaternion.copy(obj.body.quaternion)
+        if @objectsToUpdate
+            for obj in @objectsToUpdate
+                obj.mesh.position.copy(obj.body.position)
+                obj.mesh.quaternion.copy(obj.body.quaternion)

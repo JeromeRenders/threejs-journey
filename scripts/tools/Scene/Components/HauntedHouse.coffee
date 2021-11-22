@@ -12,6 +12,8 @@ export default class extends BaseComponent
 
     constructor: (@options) ->
 
+        super()
+
         # Main light
         @mainLight = @createMainLight()
         @options.scene.add(@mainLight)

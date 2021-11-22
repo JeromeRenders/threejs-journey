@@ -29,6 +29,8 @@ export default class extends BaseComponent
     # ==================================================
     init: ->
 
+        @updateCameraPosition({ x: 0, y: 0, z: 2 })
+
         @geometry = new THREE.PlaneBufferGeometry(1, 1, 32, 32)
         @material = new THREE.ShaderMaterial(
             uniforms: {
@@ -48,14 +50,12 @@ export default class extends BaseComponent
         @options.scene.add(@mesh)
 
 
-
-
     # ==================================================
     # > DEBUG
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "Shaders", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: "7. Shaders", expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
@@ -67,7 +67,6 @@ export default class extends BaseComponent
         @debugFolder.addInput(@config, "frequencyY", { min: 0, max: 20, step: 0.01 }).on("change", (val) =>
             @mesh.material.uniforms.uFrequency.value.y = @config.frequencyY
         )
-
 
 
     # ==================================================

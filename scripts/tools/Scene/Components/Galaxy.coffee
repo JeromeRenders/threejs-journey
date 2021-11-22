@@ -12,16 +12,29 @@ export default class extends BaseComponent
 
     constructor: (@options) ->
 
-        @config =
+        super()
+
+        @config = {
             count: 100000
             size: 0.01
             radius: 5
-            branches: 3
+            branches: 9
             spin: 1
             randomness: 0.2
             randomnessPower: 3
             insideColor: "#ff6030"
             outsideColor: "#1b3984"
+        }
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+
+        @updateCameraPosition({ x: 0, y: 10, z: 0 })
 
         @geometry = null
         @material = null
@@ -29,24 +42,26 @@ export default class extends BaseComponent
 
         @generate()
 
-        @debug()
-
 
     # ==================================================
     # > DEBUG
     # ==================================================
     debug: ->
-        folder = @options.debug.addFolder({ title: "Galaxy", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: "4. Galaxy", expanded: false })
 
-        folder.addInput(@config, "count", { min: 100, max: 1000000, step: 100 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "size", { min: .001, max: .1, step: .001 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "radius", { min: .01, max: 20, step: .01 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "branches", { min: 2, max: 20, step: 1 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "spin", { min: -5, max: 5, step: .001 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "randomness", { min: 0, max: 2, step: .001 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "randomnessPower", { min: 1, max: 20, step: .001 }).on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "insideColor").on("change", (e) => if e.last then @generate())
-        folder.addInput(@config, "outsideColor").on("change", (e) => if e.last then @generate())
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
+
+        @debugFolder.addInput(@config, "count", { min: 100, max: 1000000, step: 100 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "size", { min: .001, max: .1, step: .001 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "radius", { min: .01, max: 20, step: .01 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "branches", { min: 2, max: 20, step: 1 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "spin", { min: -5, max: 5, step: .001 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "randomness", { min: 0, max: 2, step: .001 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "randomnessPower", { min: 1, max: 20, step: .001 }).on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "insideColor").on("change", (e) => if e.last then @generate())
+        @debugFolder.addInput(@config, "outsideColor").on("change", (e) => if e.last then @generate())
 
 
     # ==================================================
@@ -102,6 +117,13 @@ export default class extends BaseComponent
 
         @points = new THREE.Points(@geometry, @material)
         @options.scene.add(@points)
+
+
+    # ==================================================
+    # > LOAD / UNLOAD
+    # ==================================================
+    unload: ->
+        @destroy()
 
 
     # ==================================================

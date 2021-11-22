@@ -12,6 +12,18 @@ export default class extends BaseComponent
 
     constructor: (@options) ->
 
+        super()
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+
+        @updateCameraPosition({ x: 0, y: 2, z: 5 })
+
         @geometry = new THREE.BufferGeometry()
 
         @count     = 5000
@@ -39,16 +51,28 @@ export default class extends BaseComponent
         @mesh = new THREE.Points(@geometry, @material)
         @options.scene.add @mesh
 
-        @debug()
 
+    # ==================================================
+    # > DEBUG
+    # ==================================================
     debug: ->
-        folder = @options.debug.addFolder({ title: "Particles", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: "3. Particles", expanded: false })
 
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
+
+
+    # ==================================================
+    # > EVENTS
+    # ==================================================
     onUpdate: (elapsedTime) ->
 
-        for i in [0...@count]
-            i3 = i * 3
-            x = @geometry.attributes.position.array[i3 + 0]
-            @geometry.attributes.position.array[i3 + 1] = Math.sin(elapsedTime + x)
+        if @geometry
 
-        @geometry.attributes.position.needsUpdate = true
+            for i in [0...@count]
+                i3 = i * 3
+                x = @geometry.attributes.position.array[i3 + 0]
+                @geometry.attributes.position.array[i3 + 1] = Math.sin(elapsedTime + x)
+
+            @geometry.attributes.position.needsUpdate = true

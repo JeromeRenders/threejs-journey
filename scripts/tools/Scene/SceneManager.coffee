@@ -7,19 +7,18 @@ import { Pane }              from "tweakpane"
 
 # import AxesHelper         from "./Components/AxesHelper.coffee"
 # import Door               from "./Components/Door.coffee"
-# import Font               from "./Components/Font.coffee"
-# import Shadows            from "./Components/Shadows.coffee"
-# import HauntedHouse       from "./Components/HauntedHouse.coffee"
-# import Particles          from "./Components/Particles.coffee"
-# import Galaxy             from "./Components/Galaxy.coffee"
-# import Raycaster          from "./Components/Raycaster.coffee"
-# import Physics            from "./Components/Physics.coffee"
+import Font               from "./Components/Font.coffee"
+import Shadows            from "./Components/Shadows.coffee"
+import HauntedHouse       from "./Components/HauntedHouse.coffee"
+import Particles          from "./Components/Particles.coffee"
+import Galaxy             from "./Components/Galaxy.coffee"
+import Raycaster          from "./Components/Raycaster.coffee"
+import Physics            from "./Components/Physics.coffee"
 # import ImportedModels     from "./Components/ImportedModels.coffee"
 # import Burger             from "./Components/Burger.coffee"
 # import RealisticRender    from "./Components/RealisticRender.coffee"
 import Shaders            from "./Components/Shaders.coffee"
 import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
-# import ExampleController  from "./Components/Dom/Example/Controller.coffee"
 
 
 export default class
@@ -111,20 +110,18 @@ export default class
             # axesHelper:      new AxesHelper(options)
 
             # door:            new Door(options)
-            # font:            new Font(options)
-            # shadows:         new Shadows(options)
+            font:            new Font(options)
+            shadows:         new Shadows(options)
             # hauntedHouse:    new HauntedHouse(options)
-            # particles:       new Particles(options)
-            # galaxy:          new Galaxy(options)
-            # raycaster:       new Raycaster(options)
-            # physics:         new Physics(options)
+            particles:       new Particles(options)
+            galaxy:          new Galaxy(options)
+            raycaster:       new Raycaster(options)
+            physics:         new Physics(options)
             # importedModels:  new ImportedModels(options)
             # burger:          new Burger(options)
             # realisticRender: new RealisticRender(options)
             shaders:         new Shaders(options)
             shadersPatterns: new ShadersPatterns(options)
-
-            # example:         new ExampleController(options)
         }
 
         return components
@@ -151,6 +148,8 @@ export default class
         camera.addInput(@camera.position, "x", { min: -20, max: 20, step: .01 })
         camera.addInput(@camera.position, "y", { min: -20, max: 20, step: .01 })
         camera.addInput(@camera.position, "z", { min: -20, max: 20, step: .01 })
+
+        debug.addSeparator()
 
         return debug
 

@@ -17,6 +17,11 @@ export default class extends BaseComponent
             envMapIntensity: 4.6
         }
 
+        if @options.debug then @debug()
+
+    
+    init: ->
+
         @createLights()
 
         cubeTextureLoader = new THREE.CubeTextureLoader()
@@ -43,9 +48,6 @@ export default class extends BaseComponent
                 @options.scene.add @helmet
 
                 @updateAllMaterials()
-
-                if @options.debug then @debug()
-
             )
         )
 
@@ -68,15 +70,19 @@ export default class extends BaseComponent
 
         @debugFolder = @options.debug.addFolder({ title: "Realistic Render", expanded: true })
 
-        light = @debugFolder.addFolder({ title: "Light", expanded: false })
-        light.addInput(@directionalLight, "intensity", { min: 0, max: 10, step: 0.001 })
-        light.addInput(@directionalLight.position, "x", { min: -5, max: 5, step: 0.001 })
-        light.addInput(@directionalLight.position, "y", { min: -5, max: 5, step: 0.001 })
-        light.addInput(@directionalLight.position, "z", { min: -5, max: 5, step: 0.001 })
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
 
-        helmet = @debugFolder.addFolder({ title: "Helmet", expanded: false })
-        helmet.addInput(@helmet.rotation, "y", { min: -Math.PI, max: Math.PI, step: 0.001, label: "rotationY" })
-        helmet.addInput(@config, "envMapIntensity", { min: 0, max: 20, step: 0.1 }).on("change", (v) => @updateAllMaterials())
+        # light = @debugFolder.addFolder({ title: "Light", expanded: false })
+        # light.addInput(@directionalLight, "intensity", { min: 0, max: 10, step: 0.001 })
+        # light.addInput(@directionalLight.position, "x", { min: -5, max: 5, step: 0.001 })
+        # light.addInput(@directionalLight.position, "y", { min: -5, max: 5, step: 0.001 })
+        # light.addInput(@directionalLight.position, "z", { min: -5, max: 5, step: 0.001 })
+
+        # helmet = @debugFolder.addFolder({ title: "Helmet", expanded: false })
+        # helmet.addInput(@helmet.rotation, "y", { min: -Math.PI, max: Math.PI, step: 0.001, label: "rotationY" })
+        # helmet.addInput(@config, "envMapIntensity", { min: 0, max: 20, step: 0.1 }).on("change", (v) => @updateAllMaterials())
 
 
 
