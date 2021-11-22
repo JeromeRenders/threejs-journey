@@ -19,6 +19,7 @@ import Physics            from "./Components/Physics.coffee"
 # import RealisticRender    from "./Components/RealisticRender.coffee"
 import Shaders            from "./Components/Shaders.coffee"
 import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
+import RagingSea          from "./Components/RagingSea.coffee"
 
 
 export default class
@@ -122,6 +123,7 @@ export default class
             # realisticRender: new RealisticRender(options)
             shaders:         new Shaders(options)
             shadersPatterns: new ShadersPatterns(options)
+            ragingSea:       new RagingSea(options)
         }
 
         return components
@@ -145,9 +147,9 @@ export default class
         debug.addSeparator()
 
         camera = debug.addFolder({ title: "Camera", expanded: false })
-        camera.addInput(@camera.position, "x", { min: -20, max: 20, step: .01 })
-        camera.addInput(@camera.position, "y", { min: -20, max: 20, step: .01 })
-        camera.addInput(@camera.position, "z", { min: -20, max: 20, step: .01 })
+        camera.addInput(@camera.position, "x", { min: -30, max: 30, step: .01 })
+        camera.addInput(@camera.position, "y", { min: -30, max: 30, step: .01 })
+        camera.addInput(@camera.position, "z", { min: -30, max: 30, step: .01 })
 
         debug.addSeparator()
 
