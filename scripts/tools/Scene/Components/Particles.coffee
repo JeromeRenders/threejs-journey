@@ -40,11 +40,10 @@ export default class extends BaseComponent
         @material = new THREE.PointsMaterial({
             size:            0.2
             sizeAttenuation: true
-            # color:           new THREE.Color("#ff99cc")
-            transparent:     true
             map: @options.loaders.texture.load("./scripts/tools/Scene/textures/particles/2.png")
             depthWrite: false
             vertexColors: true
+            blending:       THREE.AdditiveBlending
         })
         @material.color.setHSL(1.0, 0.4, 0.7)
 

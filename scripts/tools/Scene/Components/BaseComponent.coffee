@@ -51,6 +51,7 @@ export default class
     # > LOAD / UNLOAD
     # ==================================================
     load: ->
+        @unload()
         @init()
 
     unload: ->

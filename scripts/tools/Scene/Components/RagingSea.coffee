@@ -17,7 +17,6 @@ export default class extends BaseComponent
         super()
 
         @config = {
-
             default: {
                 smallWaves: {
                     speed: 0.978
@@ -162,7 +161,7 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "9. Raging sea", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: "9. Raging sea", expanded: true })
         
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
