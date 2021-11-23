@@ -53,8 +53,6 @@ export default class
     # > LOAD / UNLOAD
     # ==================================================
     load: ->
-        event = new Event("loadComponent")
-
         @unload()
         @init()
 

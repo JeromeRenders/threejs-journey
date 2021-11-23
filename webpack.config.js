@@ -18,9 +18,9 @@ module.exports = (env, argv) => {
     var config = {
 
         mode: "production",
-        
+
         entry: [
-            path.resolve(__dirname, "scripts/builder.coffee"), 
+            path.resolve(__dirname, "scripts/builder.coffee"),
             path.resolve(__dirname, "styles/builder.sass"),
         ].concat(glob.sync('./views/**/[^_]*.pug')),
 
@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
         },
 
         plugins: [
-            
+
             new MiniCssExtractPlugin({
                 filename: "css/bundle.css",
                 chunkFilename: "[name].css"
@@ -46,7 +46,7 @@ module.exports = (env, argv) => {
             new BrowserSyncPlugin({
                 proxy: "http://localhost/" + project.name
             }),
-                   
+
         ],
 
         module: {
@@ -64,18 +64,18 @@ module.exports = (env, argv) => {
                             version: Date.now(),
                             baseurl: env.production
                                 ? "http://localhost/_lab/threejs-journey/"
-                                : "http://localhost/_lab/threejs-journey/"
+                                : "https://lab.jeromerenders.be/threejs-journey/"
                         } } }
                     ]
                 },
-                
+
                 // Coffee
                 {
                     test: /\.coffee$/,
                     exclude: /node_modules/,
                     loader: 'coffee-loader',
                 },
-                
+
                 // Sass
                 {
                     test: /\.sass$/i,
@@ -86,7 +86,7 @@ module.exports = (env, argv) => {
                         { loader: "sass-loader", options: { sourceMap: true, } }
                     ],
                 },
-                
+
                 // GLSL
                 {
                     test: /\.(glsl|vs|fs|vert|frag)$/,

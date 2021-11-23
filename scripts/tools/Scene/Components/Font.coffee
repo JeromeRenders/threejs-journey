@@ -15,6 +15,10 @@ export default class extends BaseComponent
 
         @title = "1. Font"
 
+        @config = {
+            matcap: 1
+        }
+
         if @options.debug then @debug()
 
 
@@ -50,6 +54,7 @@ export default class extends BaseComponent
             @options.scene.add @mesh
 
 
+
     # ==================================================
     # > DEBUG
     # ==================================================
@@ -59,3 +64,19 @@ export default class extends BaseComponent
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
         @debugFolder.addSeparator()
+
+        @debugFolder.addInput(@config, "matcap", {
+            options: {
+                gold: 1,
+                blue: 2,
+                glass: 3,
+                red_orange: 4,
+                red: 5,
+                skin: 6,
+                green: 7,
+                red_blue: 8
+            }
+        }).on("change", (val) =>
+            if @material then @material.matcap = @options.loaders.texture.load("./scripts/tools/Scene/textures/matcaps/" + val.value + ".png")
+        )
+
