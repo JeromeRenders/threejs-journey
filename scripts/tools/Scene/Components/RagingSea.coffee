@@ -16,6 +16,8 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @title = "9. Raging sea"
+
         @config = {
             default: {
                 smallWaves: {
@@ -159,7 +161,7 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "9. Raging sea", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )

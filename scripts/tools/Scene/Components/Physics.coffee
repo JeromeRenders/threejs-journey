@@ -15,6 +15,8 @@ export default class extends BaseComponent
 
         super()
 
+        @title = "6. Physics"
+
         @oldElapsedTime  = 0
         @objectsToUpdate = []
         @sounds = {
@@ -47,7 +49,7 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "6. Physics", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )

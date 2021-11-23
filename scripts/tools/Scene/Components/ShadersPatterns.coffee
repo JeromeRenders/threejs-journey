@@ -16,6 +16,8 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @title = "8. Shaders Patterns"
+
         @config = {
             pattern: 0.2
         }
@@ -51,7 +53,7 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "8. Shaders Patterns", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )

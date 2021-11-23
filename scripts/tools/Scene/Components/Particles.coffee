@@ -14,6 +14,8 @@ export default class extends BaseComponent
 
         super()
 
+        @title = "3. Particles"
+
         if @options.debug then @debug()
 
 
@@ -55,7 +57,7 @@ export default class extends BaseComponent
     # > DEBUG
     # ==================================================
     debug: ->
-        @debugFolder = @options.debug.addFolder({ title: "3. Particles", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )

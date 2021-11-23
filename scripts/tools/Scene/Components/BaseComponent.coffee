@@ -9,7 +9,7 @@ import gsap          from "gsap"
 export default class
 
     constructor: (@options) ->
-
+        @title = "Choose an experience"
 
 
     # ==================================================
@@ -26,8 +26,10 @@ export default class
             x: pos.x,
             y: pos.y,
             z: pos.z,
-            duration: 0.4,
-            onComplete: => @options.debug.refresh()
+            duration: 0,
+            onComplete: =>
+                @options.debug.refresh()
+                @options.camera.lookAt new THREE.Vector3(0, 0, 0)
         })
 
 
@@ -51,11 +53,17 @@ export default class
     # > LOAD / UNLOAD
     # ==================================================
     load: ->
+        event = new Event("loadComponent")
+
         @unload()
         @init()
 
+        document.querySelector(".home__scene__title").innerHTML = @title
+
     unload: ->
         @options.scene.remove(@mesh)
+
+        document.querySelector(".home__scene__title").innerHTML = "Choose an experience"
 
 
     # ==================================================

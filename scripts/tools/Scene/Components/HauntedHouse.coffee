@@ -14,6 +14,8 @@ export default class extends BaseComponent
 
         super()
 
+        @updateCameraPosition({ x: 6, y: 4, z: 8 })
+
         # Main light
         @mainLight = @createMainLight()
         @options.scene.add(@mainLight)
@@ -44,10 +46,10 @@ export default class extends BaseComponent
         @ghost3 = @createGhost("#ffff00", 2, 3)
         @options.scene.add @ghost1, @ghost2, @ghost3
 
-        @debug()
+        if @options.debug then @debug()
 
     debug: ->
-        folder = @options.debug.addFolder({ title: "Shadows", expanded: true })
+        folder = @options.debug.addFolder({ title: "Haunted House", expanded: true })
 
         ambientLight = folder.addFolder({ title: "Ambient light", expanded: false })
         ambientLight.addInput(@mainLight, "intensity", { min: 0, max: 1, step: .01 })

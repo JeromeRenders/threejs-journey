@@ -7,12 +7,13 @@ import gsap          from "gsap"
 
 import BaseComponent from "./BaseComponent.coffee"
 
- 
+
 export default class extends BaseComponent
 
     constructor: (@options) ->
         super()
 
+        @title = "1. Font"
 
         if @options.debug then @debug()
 
@@ -21,13 +22,13 @@ export default class extends BaseComponent
     # > INIT
     # ==================================================
     init: ->
-        
-        @updateCameraPosition({ x: 0, y: 0, z: 10 })
+
+        @updateCameraPosition({ x: 0, y: 0, z: 15 })
 
         matcap = @options.loaders.texture.load("./scripts/tools/Scene/textures/matcaps/1.png")
 
         @options.loaders.font.load "./scripts/tools/Scene/fonts/helvetiker_regular.typeface.json", (font) =>
-            @geometry = new THREE.TextBufferGeometry("Abcdef123", {
+            @geometry = new THREE.TextBufferGeometry("Hungry Minds RPZ", {
                 font:           font
                 size:           1.5
                 height:         0.8
@@ -47,14 +48,13 @@ export default class extends BaseComponent
             @mesh     = new THREE.Mesh( @geometry, @material )
 
             @options.scene.add @mesh
-            @debug()
 
-    
+
     # ==================================================
     # > DEBUG
     # ==================================================
     debug: ->
-        @debugFolder = @options.debug.addFolder({ title: "1. Font", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )

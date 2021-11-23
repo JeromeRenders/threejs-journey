@@ -6,7 +6,7 @@ import * as Stats            from "stats.js"
 import { Pane }              from "tweakpane"
 
 import AxesHelper         from "./Components/AxesHelper.coffee"
-# import Door               from "./Components/Door.coffee"
+import Door               from "./Components/Door.coffee"
 import Font               from "./Components/Font.coffee"
 import Shadows            from "./Components/Shadows.coffee"
 import HauntedHouse       from "./Components/HauntedHouse.coffee"
@@ -14,9 +14,9 @@ import Particles          from "./Components/Particles.coffee"
 import Galaxy             from "./Components/Galaxy.coffee"
 import Raycaster          from "./Components/Raycaster.coffee"
 import Physics            from "./Components/Physics.coffee"
-# import ImportedModels     from "./Components/ImportedModels.coffee"
-# import Burger             from "./Components/Burger.coffee"
-# import RealisticRender    from "./Components/RealisticRender.coffee"
+import ImportedModels     from "./Components/ImportedModels.coffee"
+import Burger             from "./Components/Burger.coffee"
+import RealisticRender    from "./Components/RealisticRender.coffee"
 import Shaders            from "./Components/Shaders.coffee"
 import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
 import RagingSea          from "./Components/RagingSea.coffee"
@@ -41,7 +41,6 @@ export default class
 
         @components = @createComponents()
 
-        # @options.scroller.on("scroll", (e)       => @onScroll(e) )
         window.addEventListener("resize", (e)    => @onResize(e) )
         window.addEventListener("mousemove", (e) => @onMouseMove(e) )
 
@@ -56,8 +55,6 @@ export default class
     createScene: ->
         scene = new THREE.Scene()
 
-        # scene.fog = new THREE.Fog("#262837", 1, 25) # HauntedHouse
-
         return scene
 
     createCamera: ->
@@ -67,9 +64,7 @@ export default class
         farPlane    = 100
 
         camera = new THREE.PerspectiveCamera(fieldOfView, aspectRatio, nearPlane, farPlane)
-        camera.position.set(0, 0, 2) # Default
-        # camera.position.set(5, 3, 5) # Burger
-        # camera.position.set(6.5, 2.6, 6.5) # HauntedHouse
+        camera.position.set(0, 0, 5)
         camera.lookAt new THREE.Vector3(0, 0, 0)
 
         return camera
@@ -79,15 +74,6 @@ export default class
         renderer.setSize @getViewport().width, @getViewport().height
         renderer.setPixelRatio = Math.min window.devicePixelRatio, 2
         renderer.setClearColor("#000000")
-        # renderer.setClearColor("#262837") # HauntedHouse
-
-        # Shadows setup
-        # renderer.shadowMap.enabled = true
-        # renderer.shadowMap.type = THREE.PCFSoftShadowMap
-
-        # Realistic render
-        # renderer.outputEncoding = THREE.sRGBEncoding
-        # renderer.toneMapping = THREE.ReinhardToneMapping
 
         @options.container.appendChild(renderer.domElement)
 
@@ -109,19 +95,19 @@ export default class
         }
 
         components = {
-            axesHelper:       new AxesHelper(options)
+            axesHelper:        new AxesHelper(options)
 
-            # door:             new Door(options)
+            # door:              new Door(options)
             font:              new Font(options)
             shadows:           new Shadows(options)
-            # hauntedHouse:     new HauntedHouse(options)
+            # hauntedHouse:      new HauntedHouse(options)
             particles:         new Particles(options)
             galaxy:            new Galaxy(options)
             raycaster:         new Raycaster(options)
             physics:           new Physics(options)
-            # importedModels:   new ImportedModels(options)
-            # burger:           new Burger(options)
-            # realisticRender:  new RealisticRender(options)
+            importedModels:    new ImportedModels(options)
+            # burger:            new Burger(options)
+            # realisticRender:   new RealisticRender(options)
             shaders:           new Shaders(options)
             shadersPatterns:   new ShadersPatterns(options)
             ragingSea:         new RagingSea(options)
@@ -185,8 +171,8 @@ export default class
         loaders["texture"] = new THREE.TextureLoader()
         loaders["font"]    = new THREE.FontLoader()
 
-        dracoLoader = new DRACOLoader()
-        dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
+        # dracoLoader = new DRACOLoader()
+        # dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
 
         gltfLoader  = new GLTFLoader()
         # gltfLoader.setDRACOLoader(dracoLoader)
@@ -235,6 +221,3 @@ export default class
         else @renderer.render(@scene, @camera)
 
         requestAnimationFrame(() => @onUpdate())
-
-
-

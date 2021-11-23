@@ -13,34 +13,15 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
-        floor = new THREE.Mesh(
-            new THREE.PlaneGeometry(10, 10),
-            new THREE.MeshStandardMaterial({
-                color: "#444444",
-                metalness: 0,
-                roughness: 0.5,
-                side: THREE.DoubleSide
-            })
-        )
-        floor.receiveShadow = true
-        floor.rotation.x = -Math.PI * 0.5
-        @options.scene.add(floor)
-
         @createLights()
 
-        @options.loaders.gltf.load("./scripts/tools/Scene/models/Burger/glTF/burger.glb", ((gltf) =>
+        @options.loaders.gltf.load("./scripts/tools/Scene/models/Burger/glTF/burger.glb", (gltf) =>
 
-                console.log gltf.scene
+            gltf.scene.scale.set(0.3, 0.3, 0.3)
+            gltf.scene.position.set(0, -1, 0)
+            @options.scene.add gltf.scene
 
-                @options.scene.add gltf.scene
-
-                if @options.debug then @debug()
-
-            ), (() ->
-                # console.log "progress"
-            ), ((e) ->
-                console.log "error", e
-            )
+            # if @options.debug then @debug()
         )
 
 

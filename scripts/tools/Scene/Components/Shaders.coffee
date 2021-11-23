@@ -16,6 +16,8 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @title = "7. Shaders"
+
         @config = {
             frequencyX: 10
             frequencyY: 5
@@ -55,7 +57,7 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "7. Shaders", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )

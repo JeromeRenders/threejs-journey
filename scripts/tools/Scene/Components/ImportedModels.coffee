@@ -11,6 +11,21 @@ import BaseComponent from "./BaseComponent.coffee"
 export default class extends BaseComponent
 
     constructor: (@options) ->
+        super()
+
+        @title = "7. Imported 3D model"
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+
+        @updateCameraPosition({ x: 4, y: 2, z: 4 })
+
+        @mesh = new THREE.Group()
 
         @previousTime = 0
 
@@ -25,27 +40,20 @@ export default class extends BaseComponent
         )
         floor.receiveShadow = true
         floor.rotation.x = -Math.PI * 0.5
-        @options.scene.add(floor)
+        @mesh.add(floor)
 
         @createLights()
 
         @mixer = null
-        @options.loaders.gltf.load("./scripts/tools/Scene/models/Fox/glTF/Fox.gltf", ((gltf) =>
-                
-                @animations = gltf.animations
-                @mixer = new THREE.AnimationMixer(gltf.scene)
+        @options.loaders.gltf.load("./scripts/tools/Scene/models/Fox/glTF/Fox.gltf", (gltf) =>
+            @animations = gltf.animations
+            @mixer = new THREE.AnimationMixer(gltf.scene)
 
-                gltf.scene.scale.set(0.025, 0.025, 0.025)
-                @options.scene.add gltf.scene
-
-                if @options.debug then @debug()
-
-            ), (() ->
-                # console.log "progress"
-            ), ((e) ->
-                console.log "error", e
-            )
+            gltf.scene.scale.set(0.025, 0.025, 0.025)
+            @mesh.add gltf.scene
         )
+
+        @options.scene.add(@mesh)
 
 
 
@@ -54,25 +62,29 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        folder = @options.debug.addFolder({ title: "Imported models", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
-        folder.addButton({ title: "Stop" }).on("click", (e) =>
-            if @action then @action.stop()
-        )
-        folder.addButton({ title: "Idle" }).on("click", (e) =>
+        @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
+        @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
+        @debugFolder.addSeparator()
+
+        @debugFolder.addButton({ title: "Idle" }).on("click", (e) =>
             if @action then @action.stop()
             @action = @mixer.clipAction(@animations[0])
             @action.play()
         )
-        folder.addButton({ title: "Walk" }).on("click", (e) =>
+        @debugFolder.addButton({ title: "Walk" }).on("click", (e) =>
             if @action then @action.stop()
             @action = @mixer.clipAction(@animations[1])
             @action.play()
         )
-        folder.addButton({ title: "Run" }).on("click", (e) =>
+        @debugFolder.addButton({ title: "Run" }).on("click", (e) =>
             if @action then @action.stop()
             @action = @mixer.clipAction(@animations[2])
             @action.play()
+        )
+        @debugFolder.addButton({ title: "Stop" }).on("click", (e) =>
+            if @action then @action.stop()
         )
 
 
@@ -81,7 +93,7 @@ export default class extends BaseComponent
     # ==================================================
     createLights: ->
         ambientLight = new THREE.AmbientLight(0xffffff, 0.8)
-        @options.scene.add(ambientLight)
+        @mesh.add(ambientLight)
 
         directionalLight = new THREE.DirectionalLight(0xffffff, 0.6)
         directionalLight.castShadow = true
@@ -92,7 +104,7 @@ export default class extends BaseComponent
         directionalLight.shadow.camera.right = 7
         directionalLight.shadow.camera.bottom = -7
         directionalLight.position.set(5, 5, 5)
-        @options.scene.add(directionalLight)
+        @mesh.add(directionalLight)
 
 
     # ==================================================

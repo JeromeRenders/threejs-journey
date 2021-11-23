@@ -17,6 +17,8 @@ export default class extends BaseComponent
 
         super()
 
+        @title = "4. Galaxy 👀"
+
         @config = {
             count: 358800
             radius: 11.09
@@ -48,7 +50,7 @@ export default class extends BaseComponent
     # > DEBUG
     # ==================================================
     debug: ->
-        @debugFolder = @options.debug.addFolder({ title: "4. Galaxy", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
@@ -143,7 +145,7 @@ export default class extends BaseComponent
     # > EVENTS
     # ==================================================
     onUpdate: (elapsedTime) ->
-        
+
         unless @material then return
 
         @material.uniforms.uTime.value = elapsedTime

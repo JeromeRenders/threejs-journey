@@ -16,13 +16,13 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @title = "10. Modified Materials"
+
         @config = {
             time: { value: 0 }
             deformation: { value: 0.26 }
             speed: { value: 1 }
         }
-
-        @init()
 
         if @options.debug then @debug()
 
@@ -136,7 +136,7 @@ export default class extends BaseComponent
         @options.loaders.gltf.load("./scripts/tools/Scene/models/LeePerrySmith/LeePerrySmith.glb", ((gltf) =>
 
                 object = gltf.scene.children[0]
-                object.position.set(0, 2, 0)
+                object.position.set(0, 1, 0)
                 object.rotation.y = Math.PI * 0.15
                 object.material = @material
                 object.customDepthMaterial = @depthMaterial
@@ -177,13 +177,13 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "10. Modified materials", expanded: true })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
         @debugFolder.addSeparator()
 
-        @debugFolder.addInput(@config.deformation, "value", { min: 0.01, max: 1, step: 0.01, label: "deformation" })
+        @debugFolder.addInput(@config.deformation, "value", { min: -1, max: 1, step: 0.01, label: "deformation" })
         @debugFolder.addInput(@config.speed, "value", { min: 0.1, max: 5, step: 0.1, label: "speed" })
 
 

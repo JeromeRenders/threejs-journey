@@ -16,7 +16,7 @@ export default class extends BaseComponent
         super()
 
         @axesHelper = new THREE.AxesHelper(1000)
-        @axesHelper.visible = true
+        @axesHelper.visible = false
         @options.scene.add(@axesHelper)
 
         if @options.debug then @debug()

@@ -19,8 +19,10 @@ export default class extends BaseComponent
 
         if @options.debug then @debug()
 
-    
+
     init: ->
+
+        @updateCameraPosition({ x: 8, y: 4, z: 8 })
 
         @createLights()
 
@@ -42,7 +44,7 @@ export default class extends BaseComponent
         @options.loaders.gltf.load("./scripts/tools/Scene/models/Burger/glTF/hamburger.glb", ((gltf) =>
 
                 @helmet = gltf.scene
-                @helmet.scale.set(10, 10, 10)
+                @helmet.scale.set(1, 1, 1)
                 @helmet.position.set(0, -4, 0)
                 @helmet.rotation.y = Math.PI * 0.5
                 @options.scene.add @helmet

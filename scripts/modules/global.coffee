@@ -1,28 +1,8 @@
-import $                from "jquery"
 import gsap             from "gsap"
-# import LocomotiveScroll from "locomotive-scroll"
 
 import SceneManager     from "../tools/Scene/SceneManager.coffee"
-# import ScrollAnimations from "../tools/ScrollAnimations.coffee"
 
-$ ->
-
-    # # ==================================================
-    # # > CUSTOM SCROLL (LOCOMOTIVE)
-    # # ==================================================
-    # scroller = new LocomotiveScroll({
-    #     el:           document.querySelector(".site")
-    #     smooth:       true
-    #     smoothMobile: true
-    #     getSpeed:     true
-    #     getDirection: true
-    # })
-
-    # # ==================================================
-    # # > SCROLL ANIMATIONS (GSAP)
-    # # ==================================================
-    # ScrollAnimations.init()
-
+document.addEventListener("DOMContentLoaded", ->
 
     # ==================================================
     # > THREEJS SCENE
@@ -30,23 +10,9 @@ $ ->
     scene = new SceneManager({
         container: document.querySelector("body")
         debug:     true
-        controls:  true
+        controls:  false
         stats:     true
         composer:  false
     })
 
-
-    # ==================================================
-    # > Custom mouse
-    # ==================================================
-    # $(window).on "mousemove", (e) ->
-    #     gsap.to $(".site-cursor--point"), .3, {
-    #         left: e.clientX
-    #         top: e.clientY
-    #         ease: "Power4.easeOut"
-    #     }
-    #     gsap.to $(".site-cursor--circle"), .6, {
-    #         left: e.clientX
-    #         top: e.clientY
-    #         ease: "Power4.easeOut"
-    #     }
+)

@@ -11,15 +11,20 @@ import BaseComponent from "./BaseComponent.coffee"
 export default class extends BaseComponent
 
     constructor: (@options) ->
+        super()
+
+        light = new THREE.AmbientLight(0xffffff)
+        @options.scene.add(light)
+
         alphaTexture            = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/alpha.jpg")
         ambientOcclusionTexture = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/ambientOcclusion.jpg")
         colorTexture            = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/color.jpg")
         heightTexture           = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/height.jpg")
         metalnessTexture        = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/metalness.jpg")
-        normalTexture           = @options.loaders.texture.load("./build/img/door/normal.jpg")
-        roughnessTexture        = @options.loaders.texture.load("./buscripts/tools/Scene/texturesipts/tools/Scene/textureslg/door/roughness.jpg")
+        normalTexture           = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/normal.jpg")
+        roughnessTexture        = @options.loaders.texture.load("./scripts/tools/Scene/textures/door/roughness.jpg")
 
-        @geometry = new THREE.PlaneBufferGeometry(3, 3, 100, 100)
+        @geometry = new THREE.PlaneBufferGeometry(4, 4, 100, 100)
         @geometry.addAttribute("uv2", new THREE.BufferAttribute(@geometry.attributes.uv.array, 2))
 
         @material = new THREE.MeshStandardMaterial()
@@ -37,9 +42,12 @@ export default class extends BaseComponent
         @mesh     = new THREE.Mesh( @geometry, @material )
 
         @options.scene.add @mesh
-        @debug()
 
-    
+        console.log @mesh
+
+        if @options.debug then @debug()
+
+
     debug: ->
         folder = @options.debug.addFolder({ title: "Door", expanded: true })
 
@@ -48,7 +56,7 @@ export default class extends BaseComponent
         folder.addInput(@material, "aoMapIntensity", { min: 0, max: 10, step: .01 })
         folder.addInput(@material, "displacementScale", { min: 0, max: 1, step: .01 })
 
-    
+
     # onUpdate: (elapsedTime) ->
     #     @mesh.rotation.x = elapsedTime * .4
     #     @mesh.rotation.y = elapsedTime * .4

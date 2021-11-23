@@ -13,6 +13,8 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
+        @title = "2. Shadows"
+
         @config = {
             ambientLight: {
                 "intensity": 0.5
@@ -43,7 +45,7 @@ export default class extends BaseComponent
         @updateCameraPosition({ x: 1.5, y: 2, z: 6 })
 
         bakedShadow = @options.loaders.texture.load("./scripts/tools/Scene/textures/shadows/simpleShadow.jpg")
-        
+
         # Main light
         @main = new THREE.AmbientLight(0xffffff, @config.ambientLight.intensity)
         @mesh.add(@main)
@@ -58,7 +60,7 @@ export default class extends BaseComponent
         @material = new THREE.MeshStandardMaterial()
         @material.metalness = @config.material.metalness
         @material.roughness = @config.material.roughness
-        
+
         # Sphere
         objectGeometry = new THREE.SphereBufferGeometry(1, 32, 32)
         @object = new THREE.Mesh(objectGeometry, @material)
@@ -71,7 +73,7 @@ export default class extends BaseComponent
         @plane.rotation.x = -Math.PI * .5
         @plane.material.side = THREE.DoubleSide
         @mesh.add @plane
-        
+
         # Sphere shadow
         @objectShadow = new THREE.Mesh(new THREE.PlaneBufferGeometry(3, 3), new THREE.MeshBasicMaterial({
             color: 0x000000
@@ -89,7 +91,7 @@ export default class extends BaseComponent
     # > DEBUG
     # ==================================================
     debug: ->
-        @debugFolder = @options.debug.addFolder({ title: "2. Shadows", expanded: false })
+        @debugFolder = @options.debug.addFolder({ title: @title, expanded: false })
 
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
@@ -135,4 +137,3 @@ export default class extends BaseComponent
             @objectShadow.position.x = @object.position.x
             @objectShadow.position.z = @object.position.z
             @objectShadow.material.opacity = (1 - @object.position.y) * .8
-        
