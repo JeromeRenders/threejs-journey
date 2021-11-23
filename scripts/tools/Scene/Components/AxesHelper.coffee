@@ -12,5 +12,25 @@ import BaseComponent from "./BaseComponent.coffee"
 export default class extends BaseComponent
 
     constructor: (@options) ->
-        axesHelper = new THREE.AxesHelper(1000)
-        @options.scene.add axesHelper
+
+        super()
+
+        @axesHelper = new THREE.AxesHelper(1000)
+        @axesHelper.visible = true
+        @options.scene.add(@axesHelper)
+
+        if @options.debug then @debug()
+
+
+    # ==================================================
+    # > DEBUG
+    # ==================================================
+    debug: ->
+
+        @debugFolder = @options.debug.addFolder({ title: "Axes helpers", expanded: false })
+
+        @debugFolder.addButton({ title: "Toggle" }).on("click", (e) =>
+            @axesHelper.visible = if @axesHelper.visible then false else true
+        )
+
+        @options.debug.addSeparator()

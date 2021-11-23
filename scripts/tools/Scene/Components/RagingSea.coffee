@@ -67,12 +67,12 @@ export default class extends BaseComponent
                     elevation: 0.163
                     frequency: { x: 2.609, y: 3.587 }
                     color: {
-                        offset: 0.174 
+                        offset: 0.174
                         multiplier: 2.935
                         surface: "#e8ce37"
                         depth: "#a53511"
                     }
-                } 
+                }
             },
             greenSlug: {
                 smallWaves: {
@@ -91,7 +91,7 @@ export default class extends BaseComponent
                         surface: "#0fe864"
                         depth: "#425c5c"
                     }
-                } 
+                }
             },
             movingSand: {
                 smallWaves: {
@@ -110,11 +110,9 @@ export default class extends BaseComponent
                         surface: "#f4ff3c"
                         depth: "#b87713"
                     }
-                } 
+                }
             }
         }
-
-        @init()
 
         if @options.debug then @debug()
 
@@ -151,7 +149,7 @@ export default class extends BaseComponent
         )
 
         @mesh = new THREE.Mesh(@geometry, @material)
-        @mesh.rotation.x = - Math.PI * 0.5
+        @mesh.rotation.x = -Math.PI * 0.5
 
         @options.scene.add(@mesh)
 
@@ -161,8 +159,8 @@ export default class extends BaseComponent
     # ==================================================
     debug: ->
 
-        @debugFolder = @options.debug.addFolder({ title: "9. Raging sea", expanded: true })
-        
+        @debugFolder = @options.debug.addFolder({ title: "9. Raging sea", expanded: false })
+
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
         @debugFolder.addSeparator()
@@ -263,7 +261,7 @@ export default class extends BaseComponent
     # > EVENTS
     # ==================================================
     onUpdate: (elapsedTime) ->
-        
+
         unless @mesh then return
 
         @mesh.material.uniforms.uTime.value = elapsedTime

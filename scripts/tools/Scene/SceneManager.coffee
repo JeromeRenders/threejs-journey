@@ -5,7 +5,7 @@ import { DRACOLoader }       from "three/examples/jsm/loaders/DRACOLoader.js"
 import * as Stats            from "stats.js"
 import { Pane }              from "tweakpane"
 
-# import AxesHelper         from "./Components/AxesHelper.coffee"
+import AxesHelper         from "./Components/AxesHelper.coffee"
 # import Door               from "./Components/Door.coffee"
 import Font               from "./Components/Font.coffee"
 import Shadows            from "./Components/Shadows.coffee"
@@ -20,6 +20,7 @@ import Physics            from "./Components/Physics.coffee"
 import Shaders            from "./Components/Shaders.coffee"
 import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
 import RagingSea          from "./Components/RagingSea.coffee"
+import ModifiedMaterials  from "./Components/ModifiedMaterials.coffee"
 
 
 export default class
@@ -108,22 +109,23 @@ export default class
         }
 
         components = {
-            # axesHelper:      new AxesHelper(options)
+            axesHelper:       new AxesHelper(options)
 
-            # door:            new Door(options)
-            font:            new Font(options)
-            shadows:         new Shadows(options)
-            # hauntedHouse:    new HauntedHouse(options)
-            particles:       new Particles(options)
-            galaxy:          new Galaxy(options)
-            raycaster:       new Raycaster(options)
-            physics:         new Physics(options)
-            # importedModels:  new ImportedModels(options)
-            # burger:          new Burger(options)
-            # realisticRender: new RealisticRender(options)
-            shaders:         new Shaders(options)
-            shadersPatterns: new ShadersPatterns(options)
-            ragingSea:       new RagingSea(options)
+            # door:             new Door(options)
+            font:              new Font(options)
+            shadows:           new Shadows(options)
+            # hauntedHouse:     new HauntedHouse(options)
+            particles:         new Particles(options)
+            galaxy:            new Galaxy(options)
+            raycaster:         new Raycaster(options)
+            physics:           new Physics(options)
+            # importedModels:   new ImportedModels(options)
+            # burger:           new Burger(options)
+            # realisticRender:  new RealisticRender(options)
+            shaders:           new Shaders(options)
+            shadersPatterns:   new ShadersPatterns(options)
+            ragingSea:         new RagingSea(options)
+            modifiedMaterials: new ModifiedMaterials(options)
         }
 
         return components
@@ -150,8 +152,6 @@ export default class
         camera.addInput(@camera.position, "x", { min: -30, max: 30, step: .01 })
         camera.addInput(@camera.position, "y", { min: -30, max: 30, step: .01 })
         camera.addInput(@camera.position, "z", { min: -30, max: 30, step: .01 })
-
-        debug.addSeparator()
 
         return debug
 

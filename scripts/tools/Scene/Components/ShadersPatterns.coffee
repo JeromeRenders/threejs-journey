@@ -52,7 +52,7 @@ export default class extends BaseComponent
     debug: ->
 
         @debugFolder = @options.debug.addFolder({ title: "8. Shaders Patterns", expanded: false })
-        
+
         @debugFolder.addButton({ title: "Load" }).on("click", (e) => @load() )
         @debugFolder.addButton({ title: "Unload" }).on("click", (e) => @unload() )
         @debugFolder.addSeparator()
@@ -72,7 +72,7 @@ export default class extends BaseComponent
     # > EVENTS
     # ==================================================
     onUpdate: (elapsedTime) ->
-        
+
         unless @mesh then return
 
         @mesh.material.uniforms.uTime.value += 0.01
