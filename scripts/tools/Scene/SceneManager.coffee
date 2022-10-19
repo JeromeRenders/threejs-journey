@@ -21,6 +21,7 @@ import Shaders            from "./Components/Shaders.coffee"
 import ShadersPatterns    from "./Components/ShadersPatterns.coffee"
 import RagingSea          from "./Components/RagingSea.coffee"
 import ModifiedMaterials  from "./Components/ModifiedMaterials.coffee"
+import PortalModel        from "./Components/PortalModel.coffee"
 
 
 export default class
@@ -46,7 +47,7 @@ export default class
 
         @onUpdate()
 
-        console.log @
+        # console.log @
 
 
     # ==================================================
@@ -112,6 +113,7 @@ export default class
             shadersPatterns:   new ShadersPatterns(options)
             ragingSea:         new RagingSea(options)
             modifiedMaterials: new ModifiedMaterials(options)
+            portalModel:       new PortalModel(options)
         }
 
         return components
@@ -171,8 +173,8 @@ export default class
         loaders["texture"] = new THREE.TextureLoader()
         loaders["font"]    = new THREE.FontLoader()
 
-        # dracoLoader = new DRACOLoader()
-        # dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
+        dracoLoader = new DRACOLoader()
+        dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
 
         gltfLoader  = new GLTFLoader()
         # gltfLoader.setDRACOLoader(dracoLoader)

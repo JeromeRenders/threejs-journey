@@ -13,7 +13,7 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
-        @title = "7. Imported 3D model"
+        @title = "7. Animated 3D model"
 
         if @options.debug then @debug()
 
@@ -71,16 +71,19 @@ export default class extends BaseComponent
         @debugFolder.addButton({ title: "Idle" }).on("click", (e) =>
             if @action then @action.stop()
             @action = @mixer.clipAction(@animations[0])
+            @action.setDuration(3)
             @action.play()
         )
         @debugFolder.addButton({ title: "Walk" }).on("click", (e) =>
             if @action then @action.stop()
             @action = @mixer.clipAction(@animations[1])
+            @action.setDuration(1)
             @action.play()
         )
         @debugFolder.addButton({ title: "Run" }).on("click", (e) =>
             if @action then @action.stop()
             @action = @mixer.clipAction(@animations[2])
+            @action.setDuration(.9)
             @action.play()
         )
         @debugFolder.addButton({ title: "Stop" }).on("click", (e) =>

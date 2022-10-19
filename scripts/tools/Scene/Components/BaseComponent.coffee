@@ -60,6 +60,7 @@ export default class
 
     unload: ->
         @options.scene.remove(@mesh)
+        @options.renderer.setClearColor("#000000")
 
         document.querySelector(".home__scene__title").innerHTML = "Choose an experience"
 
