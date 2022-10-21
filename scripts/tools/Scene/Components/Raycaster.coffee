@@ -15,6 +15,7 @@ export default class extends BaseComponent
         super()
 
         @title = "5. Raycaster"
+        @desc  = "Testing a raycaster to merge mouse events with 3D objects"
 
         if @options.debug then @debug()
 

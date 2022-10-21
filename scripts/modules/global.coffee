@@ -7,11 +7,12 @@ document.addEventListener("DOMContentLoaded", ->
     # ==================================================
     # > THREEJS SCENE
     # ==================================================
+    hash = window.location.hash
     scene = new SceneManager({
         container: document.querySelector("body")
-        debug:     true
+        debug:     if hash.includes("debug") then true else false
         controls:  false
-        stats:     true
+        stats:     if hash.includes("debug") then true else false
         composer:  false
     })
 

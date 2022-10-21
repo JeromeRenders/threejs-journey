@@ -17,6 +17,7 @@ export default class extends BaseComponent
         super()
 
         @title = "8. Shaders Patterns"
+        @desc  = "Testing different GLSL patterns"
 
         @config = {
             pattern: 0.2

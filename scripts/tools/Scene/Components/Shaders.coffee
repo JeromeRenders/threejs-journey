@@ -16,7 +16,8 @@ export default class extends BaseComponent
     constructor: (@options) ->
         super()
 
-        @title = "7. Shaders"
+        @title = "7. Flag"
+        @desc  = "Custom flag with GLSL"
 
         @config = {
             frequencyX: 10

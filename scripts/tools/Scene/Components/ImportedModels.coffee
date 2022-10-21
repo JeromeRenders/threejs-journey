@@ -14,6 +14,7 @@ export default class extends BaseComponent
         super()
 
         @title = "7. Animated 3D model"
+        @desc  = "3D model imported and animated"
 
         if @options.debug then @debug()
 

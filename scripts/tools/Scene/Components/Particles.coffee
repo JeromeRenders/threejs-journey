@@ -15,6 +15,7 @@ export default class extends BaseComponent
         super()
 
         @title = "3. Particles"
+        @desc  = "Testing basic particles"
 
         if @options.debug then @debug()
 

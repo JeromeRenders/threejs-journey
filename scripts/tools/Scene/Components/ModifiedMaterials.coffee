@@ -17,6 +17,7 @@ export default class extends BaseComponent
         super()
 
         @title = "10. Modified Materials"
+        @desc  = "Updating a 3D model vertices with vertex shader (GLSL)"
 
         @config = {
             time: { value: 0 }

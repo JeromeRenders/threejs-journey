@@ -14,6 +14,7 @@ export default class extends BaseComponent
         super()
 
         @title = "2. Shadows"
+        @desc  = "Testing lights and shadows"
 
         @config = {
             ambientLight: {

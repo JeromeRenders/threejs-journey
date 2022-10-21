@@ -14,6 +14,7 @@ export default class extends BaseComponent
         super()
 
         @title = "1. Font"
+        @desc  = "3D text with matcap materials"
 
         @config = {
             matcap: 1

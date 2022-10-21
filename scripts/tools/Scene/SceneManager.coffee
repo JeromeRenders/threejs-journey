@@ -4,6 +4,7 @@ import { GLTFLoader }        from "three/examples/jsm/loaders/GLTFLoader.js"
 import { DRACOLoader }       from "three/examples/jsm/loaders/DRACOLoader.js"
 import * as Stats            from "stats.js"
 import { Pane }              from "tweakpane"
+import gsap                  from "gsap"
 
 import AxesHelper         from "./Components/AxesHelper.coffee"
 import Door               from "./Components/Door.coffee"
@@ -23,6 +24,9 @@ import RagingSea          from "./Components/RagingSea.coffee"
 import ModifiedMaterials  from "./Components/ModifiedMaterials.coffee"
 import PortalModel        from "./Components/PortalModel.coffee"
 
+import overlayVertex      from "./shaders/overlay/vertex.vert"
+import overlayFragment    from "./shaders/overlay/fragment.frag"
+
 
 export default class
 
@@ -40,6 +44,8 @@ export default class
         @composer   = @createComposer()
         @loaders    = @createLoaders()
 
+        @init()
+
         @components = @createComponents()
 
         window.addEventListener("resize", (e)    => @onResize(e) )
@@ -48,6 +54,43 @@ export default class
         @onUpdate()
 
         # console.log @
+
+
+    # ==================================================
+    # > INIT
+    # ==================================================
+    init: ->
+        overlayGeometry = new THREE.PlaneBufferGeometry(2, 2, 1, 1)
+        overlayMaterial = new THREE.ShaderMaterial(
+            uniforms: {
+                uProgress: { value: 1.0 }
+            }
+            vertexShader: overlayVertex
+            fragmentShader: overlayFragment
+            wireframe: false
+            transparent: true
+        )
+        @overlay = new THREE.Mesh(overlayGeometry, overlayMaterial)
+
+        @scene.add(@overlay)
+
+    hideOverlay: ->
+        tl = gsap.timeline({
+            onComplete: () -> document.body.classList.add("loaded")
+        })
+
+        tl.to(document.querySelector(".site-loader__progress"), {
+            width: "100%"
+            duration: 1
+        })
+        tl.to(document.querySelector(".site-loader"), {
+            autoAlpha: 0
+            duration: 1
+        })
+        tl.to(@overlay.material.uniforms.uProgress, {
+            value: 0
+            duration: 2
+        }, "-=0.3")
 
 
     # ==================================================
@@ -133,7 +176,7 @@ export default class
     createDebug: ->
         unless @options.debug then return false
 
-        debug = new Pane({ title: "CONTROLS", expanded: true })
+        debug = new Pane({ title: "CONTROLS", expanded: false })
         debug.addSeparator()
 
         camera = debug.addFolder({ title: "Camera", expanded: false })
@@ -170,14 +213,23 @@ export default class
     createLoaders: ->
         loaders = {}
 
-        loaders["texture"] = new THREE.TextureLoader()
+        manager = new THREE.LoadingManager(() =>
+            @hideOverlay()
+        , (itemUrl, itemsLoaded, itemsTotal) ->
+            gsap.to(document.querySelector(".site-loader__progress"), {
+                width: Math.round (itemsLoaded / itemsTotal) * 100 + "%"
+                duration: 1
+            })
+        )
+
+        loaders["texture"] = new THREE.TextureLoader(manager)
         loaders["font"]    = new THREE.FontLoader()
 
         dracoLoader = new DRACOLoader()
         dracoLoader.setDecoderPath("./scripts/tools/Scene/draco/")
 
-        gltfLoader  = new GLTFLoader()
-        # gltfLoader.setDRACOLoader(dracoLoader)
+        gltfLoader  = new GLTFLoader(manager)
+        gltfLoader.setDRACOLoader(dracoLoader)
 
         loaders["gltf"]    = gltfLoader
 

@@ -9,7 +9,8 @@ import gsap          from "gsap"
 export default class
 
     constructor: (@options) ->
-        @title = "Choose an experience"
+        @title = "THREE.JS JOURNEY"
+        @desc  = "Lorem ipsum"
 
 
     # ==================================================
@@ -28,7 +29,7 @@ export default class
             z: pos.z,
             duration: 0,
             onComplete: =>
-                @options.debug.refresh()
+                if @options.debug then @options.debug.refresh()
                 @options.camera.lookAt new THREE.Vector3(0, 0, 0)
         })
 
@@ -56,13 +57,15 @@ export default class
         @unload()
         @init()
 
-        document.querySelector(".home__scene__title").innerHTML = @title
+        document.querySelector(".home__scene__title").innerHTML  = @title
+        document.querySelector(".home__scene__helper").innerHTML = @desc
 
     unload: ->
         @options.scene.remove(@mesh)
         @options.renderer.setClearColor("#000000")
 
-        document.querySelector(".home__scene__title").innerHTML = "Choose an experience"
+        document.querySelector(".home__scene__title").innerHTML  = "THREE.JS JOURNEY"
+        document.querySelector(".home__scene__helper").innerHTML = "Lorem ipsum"
 
 
     # ==================================================

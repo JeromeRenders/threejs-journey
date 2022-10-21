@@ -16,6 +16,7 @@ export default class extends BaseComponent
         super()
 
         @title = "6. Physics"
+        @desc  = "Testing physics with CANNON.js"
 
         @oldElapsedTime  = 0
         @objectsToUpdate = []

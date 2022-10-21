@@ -19,6 +19,7 @@ export default class extends BaseComponent
         super()
 
         @title = "11. Portal Model"
+        @desc  = "Creating a full 3D model in Blender, importing it in THREE.js and adding custom effects with GLSL"
 
         @config = {
             bgColor: "#161616"
@@ -26,6 +27,9 @@ export default class extends BaseComponent
             portalColorA: "#161616"
             portalColorB: "#c8e4ef"
         }
+
+        @init()
+        @load()
 
         if @options.debug then @debug()
 

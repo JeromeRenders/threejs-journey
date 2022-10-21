@@ -18,6 +18,7 @@ export default class extends BaseComponent
         super()
 
         @title = "4. Galaxy 👀"
+        @desc  = "A galaxy made of particles with GLSL"
 
         @config = {
             count: 358800

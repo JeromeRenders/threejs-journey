@@ -17,6 +17,7 @@ export default class extends BaseComponent
         super()
 
         @title = "9. Raging sea"
+        @desc  = "Animating vertex and fragment shader of a plane to create a sea-like effect"
 
         @config = {
             default: {
