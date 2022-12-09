@@ -63,9 +63,9 @@ module.exports = (env, argv) => {
                         { loader: "pug-html-loader", options: {data: {
                             version: Date.now(),
                             baseurl: env.production
-                                ? "http://localhost/_intern/lab/threejs-journey/"
-                                : "http://localhost/_intern/lab/threejs-journey/"
-                                // : "https://lab.jeromerenders.be/threejs-journey/"
+                                ? "https://lab.jeromerenders.be/threejs-journey/"
+                                // : "http://localhost/_intern/lab/threejs-journey/"
+                                : "https://lab.jeromerenders.be/threejs-journey/"
                         } } }
                     ]
                 },

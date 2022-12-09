@@ -22,10 +22,11 @@ export default class extends BaseComponent
         @desc  = "Creating a full 3D model in Blender, importing it in THREE.js and adding custom effects with GLSL"
 
         @config = {
-            bgColor: "#161616"
-            firefliesSize: 12.0
-            portalColorA: "#161616"
-            portalColorB: "#c8e4ef"
+            bgColor: "#151615"
+            firefliesSize: 21.0
+            firefliesColor: "#419251"
+            portalColorA: "#3054a2"
+            portalColorB: "#6f90db"
         }
 
         @init()
@@ -44,7 +45,7 @@ export default class extends BaseComponent
 
         @mesh = new THREE.Group()
 
-        bakedTexture          = @options.loaders.texture.load("./scripts/tools/Scene/models/Portal/baked.jpg")
+        bakedTexture          = @options.loaders.texture.load("./scripts/tools/Scene/models/Portal/baked2.jpg")
         bakedTexture.flipY    = false
         bakedTexture.encoding = THREE.sRGBEncoding
         @options.renderer.outputEncoding = THREE.sRGBEncoding
@@ -62,7 +63,7 @@ export default class extends BaseComponent
             wireframe: false
         )
 
-        @options.loaders.gltf.load("./scripts/tools/Scene/models/Portal/baked.glb", (gltf) =>
+        @options.loaders.gltf.load("./scripts/tools/Scene/models/Portal/baked2.glb", (gltf) =>
             gltf.scene.traverse (child) =>
                 if child.name == "Cube014" || child.name == "Cube018" || child.name == "Cube054"
                     child.material = poleLightMaterial
@@ -93,11 +94,12 @@ export default class extends BaseComponent
                 uTime: { value: 0 }
                 uPixelRatio: { value: Math.min(window.devicePixelRatio, 2) }
                 uSize: { value: @config.firefliesSize }
+                uColor: { value: new THREE.Color(@config.firefliesColor) }
             }
             vertexShader: firefliesVertex
             fragmentShader: firefliesFragment
             wireframe: false
-            transparent: true
+            # transparent: true
             depthWrite: false
             side: THREE.DoubleSide
             blending: THREE.AdditiveBlending
@@ -124,6 +126,9 @@ export default class extends BaseComponent
         )
         @debugFolder.addInput(@config, "firefliesSize", { min: 0, max: 100, step: 1, label: "firefliesSize" }).on("change", (val) =>
             @firefliesMaterial.uniforms.uSize.value = @config.firefliesSize
+        )
+        @debugFolder.addInput(@config, "firefliesColor", { label: "firefliesColor" }).on("change", (val) =>
+            @firefliesMaterial.uniforms.uColor.value = new THREE.Color(@config.firefliesColor)
         )
 
         @debugFolder.addInput(@config, "portalColorA", { label: "portalColorA" }).on("change", (val) =>

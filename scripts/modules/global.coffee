@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", ->
     scene = new SceneManager({
         container: document.querySelector("body")
         debug:     if hash.includes("debug") then true else false
-        controls:  false
+        controls:  if hash.includes("debug") then true else false
         stats:     if hash.includes("debug") then true else false
         composer:  false
     })
